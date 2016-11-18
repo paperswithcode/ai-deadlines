@@ -4,10 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <meta name="author" content="Abhishek Das">
-    <meta name="keywords" content="yoda, abhshkdz, abhishek das, sdslabs, jekyll, hacker, developer, pianist, iit roorkee, abdasuee, deep learning, computer vision, neural networks, virginia tech, machine learning">
-    <link rel="me" href="//plus.google.com/u/0/100610196494221761914/">
-    <link rel="me" href="//facebook.com/abhshkdz">
+    <!-- <meta name="author" content="Abhishek Das"> -->
+    <!-- <meta name="keywords" content="yoda, abhshkdz, abhishek das, sdslabs, jekyll, hacker, developer, pianist, iit roorkee, abdasuee, deep learning, computer vision, neural networks, virginia tech, machine learning"> -->
+    <!-- <link rel="me" href="//plus.google.com/u/0/100610196494221761914/"> -->
+    <!-- <link rel="me" href="//facebook.com/abhshkdz"> -->
 
     <title>{{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
@@ -20,55 +20,64 @@
 
   </head>
   <body>
-    <div class="top-strip"></div>
+    <!-- <div class="top-strip"></div> -->
     <div class="container">
         <div class="page-header">
             <div class="row">
                 <div class="col-xs-12">
-                    <h1>Academic Deadlines</h1>
+                    <h1>AI Conference Deadlines</h1>
                 </div>
             </div>
         </div>
         {% for conf in site.data.conferences %}
-        <div class="row" id="{{conf.id}}">
-            <div class="col-xs-6">
-                <a href="{{conf.link}}"><b>{{conf.name}} {{conf.year}}</b></a>
-                // {{conf.date}}
-                // <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>
-            </div>
-            <div class="col-xs-6">
-              <span class="timer"></span>
-            </div>
-            <div class="col-xs-6 deadline">
-              <div>Submission deadline:
-                <span class="deadline-time"></span>
+        <div id="{{conf.id}}">
+          <div class="row">
+              <div class="col-xs-12 col-sm-6">
+                  <a href="{{conf.link}}"><b>{{conf.name}} {{conf.year}}</b></a>
+                  <div class="meta">
+                    {{conf.date}} // <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>
+                  </div>
               </div>
-            </div>
+              <div class="col-xs-12 col-sm-6">
+                <span class="timer"></span>
+                <div class="deadline">
+                  <div>Deadline:
+                    <span class="deadline-time"></span>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <hr>
         </div>
-        <hr>
         {% endfor %}
-        <footer>
+        <!-- <footer>
           Maintained by <a href="//abhishekdas.com/">@abhshkdz</a>.
-        </footer>
+        </footer> -->
     </div>
     <script type="text/javascript" charset="utf-8">
     $(function() {
         {% for conf in site.data.conferences %}
-        // adjust date according to deadline timezone
-        var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
-        var confDate = moment.tz("{{conf.deadline}}", timezone);
+        {% if conf.deadline == "TBA" %}
+          $('#{{conf.id}} .timer').html("TBA");
+          $('#{{conf.id}} .deadline-time').html("TBA");
+        {% else %}
+          // adjust date according to deadline timezone
+          var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
+          var confDate = moment.tz("{{conf.deadline}}", timezone);
 
-        // render countdown timer
-        $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-        });
-        $('#{{conf.id}} .deadline-time').html(confDate.toString());
+          // render countdown timer
+          $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
+              $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+          });
+          $('#{{conf.id}} .deadline-time').html(confDate.toString());
 
-        // check if date has passed, add 'past' class to it
-        var today = moment();
-        if (today.diff(confDate) > 0)
-          $('#{{conf.id}}').addClass('past');
+          // check if date has passed, add 'past' class to it
+          var today = moment();
+          if (today.diff(confDate) > 0)
+            $('#{{conf.id}}').addClass('past');
+        {% endif %}
         {% endfor %}
+        $(".past").hide();
     });
     </script>
   </body>

@@ -1,4 +1,31 @@
 ---
+- name: AAAI
+  year: 2017
+  id: aaai17
+  link: http://www.aaai.org/Conferences/AAAI/aaai17.php
+  deadline: "2016-09-14 23:59:59"
+  date: February 4-9, 2017
+  place: San Francisco, California
+  sub: ML
+
+- name: AISTATS
+  year: 2017
+  id: aistats17
+  link: http://www.aaai.org/Conferences/AAAI/aaai17.php
+  deadline: "2016-10-13 23:59:59"
+  date: Apr 20-22, 2017
+  place: Fort Lauderdale, Florida
+  sub: ML
+
+- name: ICLR
+  year: 2017
+  id: iclr17
+  link: http://www.iclr.cc/doku.php?id=ICLR2017:main&redirect=1
+  deadline: "2016-11-05"
+  date: April 24 - 26, 2017
+  place: Palais des Congrès Neptune, Toulon, France
+  sub: ML
+
 - name: CVPR
   year: 2017
   id: cvpr17
@@ -8,6 +35,33 @@
   date: July 22-25, 2017
   place: Honolulu, Hawaii
   sub: CV
+
+- name: COLT
+  year: 2017
+  id: colt17
+  link: http://www.learningtheory.org/colt2017/
+  deadline: TBA
+  date: July 7-10, 2017
+  place: University of Amsterdam, The Netherlands
+  sub: ML
+
+- name: ACL
+  year: 2017
+  id: acl17
+  link: http://acl2017.org/
+  deadline: "2017-02-06 23:59:59"
+  date: July 30-August 4, 2017
+  place: Vancouver, Canada
+  sub: NLP
+
+- name: SIGGRAPH
+  year: 2017
+  id: siggraph17
+  link: http://s2017.siggraph.org/
+  deadline: TBA
+  date: 30 July-3 August, 2017
+  place: Los Angeles, California
+  sub: GR
 
 - name: ICML
   year: 2017
@@ -26,3 +80,12 @@
   date: October 22-29, 2017
   place: Venice, Italy
   sub: CV
+
+- name: NIPS
+  year: 2017
+  id: nips17
+  link: https://nips.cc/Conferences/2017
+  deadline: TBA
+  date: December 4-9, 2017
+  place: Long Beach Convention Center, California
+  sub: ML

@@ -1,6 +1,6 @@
-# Conference Timer
+# AI Deadlines
 
-A simple countdown timer to keep track of a bunch of CV/ML/AI conference deadlines.
+Self-updating countdown timers to keep track of a bunch of CV/NLP/ML/AI conference deadlines, because things can quickly get out of hand.
 
 ## License
 
