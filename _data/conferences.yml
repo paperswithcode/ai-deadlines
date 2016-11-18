@@ -8,6 +8,15 @@
   place: San Francisco, California
   sub: ML
 
+- name: ICRA
+  year: 2017
+  id: icra17
+  link: http://www.icra2017.org/
+  deadline: "2016-09-15 23:59:59"
+  date: May 29-June 3, 2017
+  place: Singapore
+  sub: RO
+
 - name: AISTATS
   year: 2017
   id: aistats17
@@ -45,6 +54,16 @@
   place: University of Amsterdam, The Netherlands
   sub: ML
 
+- name: RSS
+  year: 2017
+  id: rss17
+  link: http://www.roboticsconference.org/
+  deadline: "2017-01-30 23:59:59"
+  timezone: America_Hawaii
+  date: July 12-16, 2017
+  place: Boston, Massachusetts
+  sub: RO
+
 - name: ACL
   year: 2017
   id: acl17
@@ -71,6 +90,15 @@
   date: Aug 6-11, 2017
   place: Sydney, Australia
   sub: ML
+
+- name: IROS
+  year: 2017
+  id: iros17
+  link: http://www.iros2017.org/
+  deadline: "2017-03-01 23:59:59"
+  date: September 24–28, 2017
+  place: Vancouver, Canada
+  sub: RO
 
 - name: ICCV
   year: 2017
