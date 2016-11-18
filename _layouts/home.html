@@ -14,9 +14,9 @@
     <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
     <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.css" | prepend:site.baseurl }}" media="screen,projection">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script type="text/javascript" src="/static/js/jquery.countdown.min.js"></script>
-    <script src="static/js/moment.min.js"></script>
-    <script src="static/js/moment-timezone-with-data.min.js"></script>
+    <script type="text/javascript" src="{{ "/static/js/jquery.countdown.min.js" | prepend:site.baseurl }}"></script>
+    <script src="{{ "/static/js/moment.min.js" | prepend:site.baseurl }}"></script>
+    <script src="{{ "/static/js/moment-timezone-with-data.min.js" | prepend:site.baseurl }}"></script>
 
   </head>
   <body>
@@ -30,31 +30,46 @@
             </div>
         </div>
         {% for conf in site.data.conferences %}
-        <div class="row">
+        <div class="row" id="{{conf.id}}">
             <div class="col-xs-6">
                 <a href="{{conf.link}}"><b>{{conf.name}} {{conf.year}}</b></a>
                 // {{conf.date}}
                 // <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>
             </div>
-            <!-- <div class="col-xs-12"> -->
-                <!-- Deadline: {{conf.deadline}} -->
-            <!-- </div> -->
-            <div class="timer col-xs-6" id="{{conf.id}}"></div>
+            <div class="col-xs-6">
+              <span class="timer"></span>
+            </div>
+            <div class="col-xs-6 deadline">
+              <div>Submission deadline:
+                <span class="deadline-time"></span>
+              </div>
+            </div>
         </div>
         <hr>
         {% endfor %}
-        Maintained by <a href="//abhishekdas.com/">@abhshkdz</a>.
+        <footer>
+          Maintained by <a href="//abhishekdas.com/">@abhshkdz</a>.
+        </footer>
     </div>
     <script type="text/javascript" charset="utf-8">
-    {% for conf in site.data.conferences %}
     $(function() {
+        {% for conf in site.data.conferences %}
+        // adjust date according to deadline timezone
         var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
         var confDate = moment.tz("{{conf.deadline}}", timezone);
-        $('#{{conf.id}}').countdown(confDate.toDate(), function(event) {
-            $(this).html(event.strftime('%w weeks %d days %Hh %Mm %Ss'));
+
+        // render countdown timer
+        $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
         });
+        $('#{{conf.id}} .deadline-time').html(confDate.toString());
+
+        // check if date has passed, add 'past' class to it
+        var today = moment();
+        if (today.diff(confDate) > 0)
+          $('#{{conf.id}}').addClass('past');
+        {% endfor %}
     });
-    {% endfor %}
     </script>
   </body>
 </html>

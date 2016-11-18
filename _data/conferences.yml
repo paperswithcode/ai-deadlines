@@ -3,26 +3,26 @@
   year: 2017
   id: cvpr17
   link: http://cvpr2017.thecvf.com/
-  deadline: 2016-11-17 18:00:00
+  deadline: "2016-11-15 18:00:00"
   timezone: America/Los_Angeles
   date: July 22-25, 2017
   place: Honolulu, Hawaii
-  sub: CV
-
-- name: ICCV
-  year: 2017
-  id: iccv17
-  link: http://iccv2017.thecvf.com/
-  deadline: 2017-03-17 23:59:59
-  date: October 22-29, 2017
-  place: Venice, Italy
   sub: CV
 
 - name: ICML
   year: 2017
   id: icml17
   link: http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=53557&copyownerid=90838
-  deadline: 2017-02-24 23:59:59
+  deadline: "2017-02-24 23:59:59"
   date: Aug 6-11, 2017
   place: Sydney, Australia
   sub: ML
+
+- name: ICCV
+  year: 2017
+  id: iccv17
+  link: http://iccv2017.thecvf.com/
+  deadline: "2017-03-17 23:59:59"
+  date: October 22-29, 2017
+  place: Venice, Italy
+  sub: CV
