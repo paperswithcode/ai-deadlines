@@ -1,8 +1,8 @@
-title: Conference Timer (Maintained by @abhshkdz)
+title: Academic Deadlines (Maintained by @abhshkdz)
 email: abhshkdz@vt.edu
 description: Timer to keep track of a bunch of CV/ML/AI conference deadlines, because things can quickly get out of hand.
 
-baseurl: ~/abhshkdz
+baseurl: /~abhshkdz
 url: https://computing.ece.vt.edu
 twitter_username: abhshkdz
 github_username: abhshkdz

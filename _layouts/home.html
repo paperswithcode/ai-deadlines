@@ -1,19 +1,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<meta name="author" content="Abhishek Das">
-	<meta name="keywords" content="yoda, abhshkdz, abhishek das, sdslabs, jekyll, hacker, developer, pianist, iit roorkee, abdasuee, deep learning, computer vision, neural networks, virginia tech, machine learning">
-	<link rel="me" href="//plus.google.com/u/0/100610196494221761914/">
-	<link rel="me" href="//facebook.com/abhshkdz">
+    <meta name="author" content="Abhishek Das">
+    <meta name="keywords" content="yoda, abhshkdz, abhishek das, sdslabs, jekyll, hacker, developer, pianist, iit roorkee, abdasuee, deep learning, computer vision, neural networks, virginia tech, machine learning">
+    <link rel="me" href="//plus.google.com/u/0/100610196494221761914/">
+    <link rel="me" href="//facebook.com/abhshkdz">
 
     <title>{{ site.title }}</title>
-	<meta name="description" content="{{ site.description }}">
-	<!-- <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}"> -->
-	<link rel="stylesheet" type="text/css" href="https://computing.ece.vt.edu/~abhshkdz/static/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/static/css/main.css" media="screen,projection">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.css" | prepend:site.baseurl }}" media="screen,projection">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="/static/js/jquery.countdown.min.js"></script>
     <script src="static/js/moment.min.js"></script>
@@ -21,42 +20,41 @@
 
   </head>
   <body>
-      <div class="top-strip"></div>
-      <div class="container">
-          <div class="page-header">
-              <div class="row">
-                  <div class="col-xs-12">
-                      <h1>Academic Conference Timer</h1>
-                  </div>
-              </div>
-          </div>
-          {% for conf in site.data.conferences %}
-          <div class="row">
-              <div class="col-xs-6">
-                  <!-- <span class="badge">{{conf.sub}}</span> -->
-                  <a href="{{conf.link}}"><b>{{conf.name}} {{conf.year}}</b></a>
-                  // {{conf.date}}
-                  // <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>
-              </div>
-              <!-- <div class="col-xs-12"> -->
-                  <!-- Deadline: {{conf.deadline}} -->
-              <!-- </div> -->
-              <div class="timer col-xs-6" id="{{conf.id}}"></div>
-          </div>
-          <hr>
-          {% endfor %}
-          Maintained by <a href="//abhishekdas.com/">@abhshkdz</a>.
-      </div>
-      <script type="text/javascript" charset="utf-8">
-      {% for conf in site.data.conferences %}
-      $(function() {
-          var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
-          var confDate = moment.tz("{{conf.deadline}}", timezone);
-          $('#{{conf.id}}').countdown(confDate.toDate(), function(event) {
-              $(this).html(event.strftime('%w weeks %d days %Hh %Mm %Ss'));
-          });
-      });
-      {% endfor %}
-      </script>
+    <div class="top-strip"></div>
+    <div class="container">
+        <div class="page-header">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Academic Deadlines</h1>
+                </div>
+            </div>
+        </div>
+        {% for conf in site.data.conferences %}
+        <div class="row">
+            <div class="col-xs-6">
+                <a href="{{conf.link}}"><b>{{conf.name}} {{conf.year}}</b></a>
+                // {{conf.date}}
+                // <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>
+            </div>
+            <!-- <div class="col-xs-12"> -->
+                <!-- Deadline: {{conf.deadline}} -->
+            <!-- </div> -->
+            <div class="timer col-xs-6" id="{{conf.id}}"></div>
+        </div>
+        <hr>
+        {% endfor %}
+        Maintained by <a href="//abhishekdas.com/">@abhshkdz</a>.
+    </div>
+    <script type="text/javascript" charset="utf-8">
+    {% for conf in site.data.conferences %}
+    $(function() {
+        var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
+        var confDate = moment.tz("{{conf.deadline}}", timezone);
+        $('#{{conf.id}}').countdown(confDate.toDate(), function(event) {
+            $(this).html(event.strftime('%w weeks %d days %Hh %Mm %Ss'));
+        });
+    });
+    {% endfor %}
+    </script>
   </body>
 </html>
