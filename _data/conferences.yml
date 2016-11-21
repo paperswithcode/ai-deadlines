@@ -1,4 +1,31 @@
 ---
+- name: NAACL-HLT
+  year: 2016
+  id: naacl16
+  link: http://naacl.org/naacl-hlt-2016/
+  deadline: "2016-01-06 23:59:59"
+  date: June 13–15, 2016
+  place: San Diego, California
+  sub: NLP
+
+- name: EMNLP
+  year: 2016
+  id: emnlp16
+  link: http://www.emnlp2016.net/
+  deadline: "2016-06-03 23:59:59"
+  date: November 2-4, 2016
+  place: Austin, Texas
+  sub: NLP
+
+- name: COLING
+  year: 2016
+  id: coling16
+  link: http://coling2016.anlp.jp/
+  deadline: "2016-07-15 23:59:59"
+  date: December 13-16, 2016
+  place: Osaka, Japan
+  sub: NLP
+
 - name: AAAI
   year: 2017
   id: aaai17
@@ -7,15 +34,6 @@
   date: February 4-9, 2017
   place: San Francisco, California
   sub: ML
-
-- name: ICRA
-  year: 2017
-  id: icra17
-  link: http://www.icra2017.org/
-  deadline: "2016-09-15 23:59:59"
-  date: May 29-June 3, 2017
-  place: Singapore
-  sub: RO
 
 - name: AISTATS
   year: 2017
@@ -35,15 +53,14 @@
   place: Palais des Congrès Neptune, Toulon, France
   sub: ML
 
-- name: CVPR
+- name: ICRA
   year: 2017
-  id: cvpr17
-  link: http://cvpr2017.thecvf.com/
-  deadline: "2016-11-15 18:00:00"
-  timezone: America/Los_Angeles
-  date: July 22-25, 2017
-  place: Honolulu, Hawaii
-  sub: CV
+  id: icra17
+  link: http://www.icra2017.org/
+  deadline: "2016-09-15 23:59:59"
+  date: May 29-June 3, 2017
+  place: Singapore
+  sub: RO
 
 - name: COLT
   year: 2017
@@ -63,6 +80,16 @@
   date: July 12-16, 2017
   place: Boston, Massachusetts
   sub: RO
+
+- name: CVPR
+  year: 2017
+  id: cvpr17
+  link: http://cvpr2017.thecvf.com/
+  deadline: "2016-11-15 18:00:00"
+  timezone: America/Los_Angeles
+  date: July 22-25, 2017
+  place: Honolulu, Hawaii
+  sub: CV
 
 - name: ACL
   year: 2017
