@@ -8,6 +8,15 @@
   place: San Diego, California
   sub: NLP
 
+- name: UAI
+  year: 2016
+  id: uai16
+  link: http://auai.org/uai2016/cfp.php
+  deadline: "2016-03-01 23:59:59"
+  date: June 25-29, 2016
+  place: New York City, USA
+  sub: ML
+
 - name: EMNLP
   year: 2016
   id: emnlp16
