@@ -118,6 +118,15 @@
   place: Sydney, Australia
   sub: ML
 
+- name: IJCAI
+  year: 2017
+  id: ijcai17
+  link: http://ijcai-17.org/
+  deadline: "2017-02-19 23:59:59"
+  date: Aug 19-25, 2017
+  place: Melbourne, Australia
+  sub: ML
+
 - name: IROS
   year: 2017
   id: iros17
