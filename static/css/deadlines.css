@@ -6,7 +6,7 @@ body {
 }
 
 body *::selection {
-  background: #1abc9c;
+  background: #e74c3c;
   color: #fff;
 }
 
