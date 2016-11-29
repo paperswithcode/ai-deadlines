@@ -43,7 +43,7 @@
   link: http://www.kdd.org/kdd2017/
   deadline: "2017-02-17 23:59:59"
   date: Aug 13-17, 2017
-  place: Halifax, Nova Scotia - Canada
+  place: Halifax, Nova Scotia, Canada
   sub: ML
 
 - name: ICML
@@ -73,6 +73,15 @@
   place: Venice, Italy
   sub: CV
 
+- name: ECML-PKDD
+  year: 2017
+  id: ecml17
+  link: http://ecmlpkdd2017.ijs.si/
+  deadline: "2017-04-13 23:59:59"
+  date: September 18-22, 2017
+  place: Skopje, Macedonia
+  sub: RO
+
 - name: NIPS
   year: 2017
   id: nips17
@@ -88,7 +97,7 @@
   link: http://www.conll.org/
   deadline: TBA
   date: August 3-4, 2017
-  place:  Westin Bayshore Hotel, Vancouver
+  place: Vancouver, Canada
   sub: NLP
 
 - name: COLT
