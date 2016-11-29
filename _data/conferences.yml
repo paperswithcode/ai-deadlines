@@ -1,4 +1,124 @@
 ---
+- name: SIGGRAPH
+  year: 2017
+  id: siggraph17
+  link: http://s2017.siggraph.org/
+  deadline: "2017-01-17 23:59:59"
+  date: July 30-August 3, 2017
+  place: Los Angeles, California
+  sub: GR
+
+- name: RSS
+  year: 2017
+  id: rss17
+  link: http://www.roboticsconference.org/
+  deadline: "2017-01-30 23:59:59"
+  timezone: Pacific/Honolulu
+  date: July 12-16, 2017
+  place: Boston, Massachusetts
+  sub: RO
+
+
+- name: ACL
+  year: 2017
+  id: acl17
+  link: http://acl2017.org/
+  deadline: "2017-02-06 23:59:59"
+  date: July 30-August 4, 2017
+  place: Vancouver, Canada
+  sub: NLP
+
+- name: KDD
+  year: 2017
+  id: kdd17
+  link: http://www.kdd.org/kdd2017/
+  deadline: "2017-02-17 23:59:59"
+  date: Aug 13-17, 2017
+  place: Halifax, Nova Scotia, Canada
+  sub: ML
+
+- name: IJCAI
+  year: 2017
+  id: ijcai17
+  link: http://ijcai-17.org/
+  deadline: "2017-02-19 23:59:59"
+  date: Aug 19-25, 2017
+  place: Melbourne, Australia
+  sub: ML
+
+- name: ICML
+  year: 2017
+  id: icml17
+  link: http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=53557&copyownerid=90838
+  deadline: "2017-02-24 23:59:59"
+  date: Aug 6-11, 2017
+  place: Sydney, Australia
+  sub: ML
+
+- name: IROS
+  year: 2017
+  id: iros17
+  link: http://www.iros2017.org/
+  deadline: "2017-03-01 23:59:59"
+  date: September 24–28, 2017
+  place: Vancouver, Canada
+  sub: RO
+
+- name: ICCV
+  year: 2017
+  id: iccv17
+  link: http://iccv2017.thecvf.com/
+  deadline: "2017-03-17 23:59:59"
+  date: October 22-29, 2017
+  place: Venice, Italy
+  sub: CV
+
+- name: ECML-PKDD
+  year: 2017
+  id: ecml17
+  link: http://ecmlpkdd2017.ijs.si/
+  deadline: "2017-04-13 23:59:59"
+  date: September 18-22, 2017
+  place: Skopje, Macedonia
+  sub: RO
+
+- name: NIPS
+  year: 2017
+  id: nips17
+  link: https://nips.cc/Conferences/2017
+  deadline: TBA
+  date: December 4-9, 2017
+  place: Long Beach Convention Center, California
+  sub: ML
+
+- name: CONLL
+  year: 2017
+  id: conll17
+  link: http://www.conll.org/
+  deadline: TBA
+  date: August 3-4, 2017
+  place: Vancouver, Canada
+  sub: NLP
+
+- name: COLT
+  year: 2017
+  id: colt17
+  link: http://www.learningtheory.org/colt2017/
+  deadline: TBA
+  date: July 7-10, 2017
+  place: University of Amsterdam, The Netherlands
+  sub: ML
+
+- name: CVPR
+  year: 2017
+  id: cvpr17
+  link: http://cvpr2017.thecvf.com/
+  deadline: "2016-11-15 18:00:00"
+  timezone: America/Los_Angeles
+  date: July 22-25, 2017
+  place: Honolulu, Hawaii
+  sub: CV
+
 - name: NAACL-HLT
   year: 2016
   id: naacl16
@@ -70,95 +190,3 @@
   date: May 29-June 3, 2017
   place: Singapore
   sub: RO
-
-- name: COLT
-  year: 2017
-  id: colt17
-  link: http://www.learningtheory.org/colt2017/
-  deadline: TBA
-  date: July 7-10, 2017
-  place: University of Amsterdam, The Netherlands
-  sub: ML
-
-- name: RSS
-  year: 2017
-  id: rss17
-  link: http://www.roboticsconference.org/
-  deadline: "2017-01-30 23:59:59"
-  timezone: Pacific/Honolulu
-  date: July 12-16, 2017
-  place: Boston, Massachusetts
-  sub: RO
-
-- name: CVPR
-  year: 2017
-  id: cvpr17
-  link: http://cvpr2017.thecvf.com/
-  deadline: "2016-11-15 18:00:00"
-  timezone: America/Los_Angeles
-  date: July 22-25, 2017
-  place: Honolulu, Hawaii
-  sub: CV
-
-- name: ACL
-  year: 2017
-  id: acl17
-  link: http://acl2017.org/
-  deadline: "2017-02-06 23:59:59"
-  date: July 30-August 4, 2017
-  place: Vancouver, Canada
-  sub: NLP
-
-- name: SIGGRAPH
-  year: 2017
-  id: siggraph17
-  link: http://s2017.siggraph.org/
-  deadline: "2017-01-17 23:59:59"
-  date: July 30-August 3, 2017
-  place: Los Angeles, California
-  sub: GR
-
-- name: ICML
-  year: 2017
-  id: icml17
-  link: http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=53557&copyownerid=90838
-  deadline: "2017-02-24 23:59:59"
-  date: Aug 6-11, 2017
-  place: Sydney, Australia
-  sub: ML
-
-- name: IJCAI
-  year: 2017
-  id: ijcai17
-  link: http://ijcai-17.org/
-  deadline: "2017-02-19 23:59:59"
-  date: Aug 19-25, 2017
-  place: Melbourne, Australia
-  sub: ML
-
-- name: IROS
-  year: 2017
-  id: iros17
-  link: http://www.iros2017.org/
-  deadline: "2017-03-01 23:59:59"
-  date: September 24–28, 2017
-  place: Vancouver, Canada
-  sub: RO
-
-- name: ICCV
-  year: 2017
-  id: iccv17
-  link: http://iccv2017.thecvf.com/
-  deadline: "2017-03-17 23:59:59"
-  date: October 22-29, 2017
-  place: Venice, Italy
-  sub: CV
-
-- name: NIPS
-  year: 2017
-  id: nips17
-  link: https://nips.cc/Conferences/2017
-  deadline: TBA
-  date: December 4-9, 2017
-  place: Long Beach Convention Center, California
-  sub: ML
