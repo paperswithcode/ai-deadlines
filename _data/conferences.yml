@@ -18,7 +18,6 @@
   place: Boston, Massachusetts
   sub: RO
 
-
 - name: ACL
   year: 2017
   id: acl17
@@ -80,7 +79,17 @@
   deadline: "2017-04-13 23:59:59"
   date: September 18-22, 2017
   place: Skopje, Macedonia
-  sub: RO
+  sub: ML
+
+- name: EMNLP
+  year: 2017
+  id: emnlp17
+  link: http://emnlp2017.net/
+  deadline: "2017-04-14 23:59:59"
+  timezone: America/Los_Angeles
+  date: September 7-11, 2017
+  place: Copenhagen, Denmark
+  sub: NLP
 
 - name: NIPS
   year: 2017
