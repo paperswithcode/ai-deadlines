@@ -1,4 +1,14 @@
 ---
+- name: GTC
+  year: 2017
+  id: gtc17
+  link: http://www.gputechconf.com/
+  deadline: "2017-01-15 23:59:59"
+  timezone: Pacific/Honolulu
+  date: May 8-11, 2017
+  place: San Jose, California
+  sub: GR
+
 - name: SIGGRAPH
   year: 2017
   id: siggraph17
