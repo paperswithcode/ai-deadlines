@@ -146,15 +146,6 @@
   place: New York City, USA
   sub: ML
 
-- name: EMNLP
-  year: 2016
-  id: emnlp16
-  link: http://www.emnlp2016.net/
-  deadline: "2016-06-03 23:59:59"
-  date: November 2-4, 2016
-  place: Austin, Texas
-  sub: NLP
-
 - name: COLING
   year: 2016
   id: coling16
