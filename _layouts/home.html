@@ -18,6 +18,7 @@
     <script type="text/javascript" src="{{ "/static/js/jquery.countdown.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/static/js/moment.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/static/js/moment-timezone-with-data.min.js" | prepend:site.baseurl }}"></script>
+    <script src="{{ "/static/js/store.min.js" | prepend:site.baseurl }}"></script>
 
   </head>
   <body>
@@ -36,9 +37,55 @@
                   To add/update a conference, <a target="_blank" href="//github.com/abhshkdz/ai-deadlines">send in a pull request</a>.
                 </div>
             </div>
+            <br>
+            <div class="row">
+              <div class="col-xs-12">
+                <!-- <div class="well"> -->
+                  <form class="form-horizontal">
+                    <div class="form-group">
+                      <div class="col-md-2 col-xs-5">
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox" id="ML-checkbox">Machine Learning
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-xs-5">
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox" id="CV-checkbox">Computer Vision
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-xs-5">
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox" id="NLP-checkbox">Natural Language Processing
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-xs-5">
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox" id="RO-checkbox">Robotics
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-xs-5">
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox" id="GR-checkbox">Graphics
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                <!-- </div> -->
+              </div>
+            </div>
         </div>
         {% for conf in site.data.conferences %}
-        <div id="{{conf.id}}">
+        <div id="{{conf.id}}" class="{{conf.sub}}-conf">
           <div class="row">
               <div class="col-xs-12 col-sm-6">
                   <a href="{{conf.link}}"><b>{{conf.name}} {{conf.year}}</b></a>
@@ -86,7 +133,47 @@
             $('#{{conf.id}}').addClass('past');
         {% endif %}
         {% endfor %}
-        // $(".past").hide();
+
+        // Set checkboxes
+        var all_subs = ['ML', 'CV', 'NLP', 'RO', 'GR'];
+        var subs = store.get('aideadlin.es');
+        if (subs === undefined) {
+          subs = all_subs;
+          for (var i = 0; i < subs.length; i++) {
+            $('#' + subs[i] + '-checkbox').prop('checked', true);
+          }
+        } else {
+          for (var i = 0; i < subs.length; i++) {
+            $('#' + subs[i] + '-checkbox').prop('checked', true);
+          }
+        }
+        // Hide unchecked subs
+        for (var i = 0; i < all_subs.length; i++) {
+          if (subs.indexOf(all_subs[i]) < 0) {
+            $('.' + all_subs[i] + '-conf').hide();
+          }
+        }
+        store.set('aideadlin.es', subs);
+
+        // Event handler on checkbox change
+        $('form :checkbox').change(function(e) {
+          var checked = $(this).is(':checked');
+          var cid = $(this).prop('id');
+          var csub = cid.substring(0, cid.length - 9);
+          if (checked == true) {
+            $('.' + csub + '-conf').show();
+            if (subs.indexOf(csub) < 0)
+              subs.push(csub);
+          }
+          else {
+            $('.' + csub + '-conf').hide();
+            var idx = subs.indexOf(csub);
+            if (idx >= 0)
+              subs.splice(idx, 1);
+          }
+          console.log(subs);
+          store.set('aideadlin.es', subs);
+        });
     });
     <!-- Google analytics -->
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
