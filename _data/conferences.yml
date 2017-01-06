@@ -100,6 +100,16 @@
   place: Copenhagen, Denmark
   sub: NLP
 
+- name: CoRL
+  year: 2017
+  id: corl17
+  link: http://www.robot-learning.org
+  deadline: "2017-06-28 23:59:59"
+  timezone: America/Los_Angeles
+  date: November 13-15, 2017
+  place: Mountain View, California
+  sub: RO
+
 - name: NIPS
   year: 2017
   id: nips17
@@ -190,3 +200,4 @@
   date: May 29-June 3, 2017
   place: Singapore
   sub: RO
+
