@@ -81,6 +81,16 @@
   place: Venice, Italy
   sub: CV
 
+- name: UAI
+  year: 2017
+  id: uai17
+  link: http://auai.org/uai2017/index.php
+  deadline: "2017-03-31 23:59:59"
+  timezone: Pacific/Samoa
+  date: August 11-15, 2017
+  place: Sydney, Australia
+  sub: ML
+
 - name: ECML-PKDD
   year: 2017
   id: ecml17
@@ -146,15 +156,6 @@
   date: June 13–15, 2016
   place: San Diego, California
   sub: NLP
-
-- name: UAI
-  year: 2016
-  id: uai16
-  link: http://auai.org/uai2016/cfp.php
-  deadline: "2016-03-01 23:59:59"
-  date: June 25-29, 2016
-  place: New York City, USA
-  sub: ML
 
 - name: COLING
   year: 2016
