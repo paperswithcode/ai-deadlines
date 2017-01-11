@@ -62,6 +62,15 @@
   date: Aug 6-11, 2017
   place: Sydney, Australia
   sub: ML
+  
+- name: UAI
+  year: 2017
+  id: UAI17
+  link: http://auai.org/uai2017/index.php
+  deadline: "2017-03-30 23:59:59"
+  date: August 11-August 15, 2017
+  place: Sydney, Australia
+  sub: ML
 
 - name: IROS
   year: 2017
