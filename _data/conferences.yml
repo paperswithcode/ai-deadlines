@@ -17,6 +17,15 @@
   date: July 12-16, 2017
   place: Boston, Massachusetts
   sub: RO
+  
+  - name: CogSci
+  year: 2017
+  id: cogsci17
+  link: http://www.cognitivesciencesociety.org/conference/cogsci2017
+  deadline: "2017-02-01 23:59:59"
+  date: July 30-August 3, 2017
+  place: London, Great Britain
+  sub: CogSci
 
 - name: ACL
   year: 2017
