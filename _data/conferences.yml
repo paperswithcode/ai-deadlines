@@ -1,4 +1,13 @@
 ---
+- name: ICARSC
+  year: 2017
+  id: icarsc17
+  link: icarsc2017.isr.uc.pt
+  deadline: "2017-01-31 23:59:59"
+  timezone: Pacific/Honolulu
+  date: April 26-28, 2017
+  place: Coimbra, Portugal
+
 - name: RSS
   year: 2017
   id: rss17
