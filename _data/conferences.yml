@@ -1,13 +1,4 @@
 ---
-- name: SIGGRAPH
-  year: 2017
-  id: siggraph17
-  link: http://s2017.siggraph.org/
-  deadline: "2017-01-17 23:59:59"
-  date: July 30-August 3, 2017
-  place: Los Angeles, California
-  sub: GR
-
 - name: RSS
   year: 2017
   id: rss17
@@ -139,6 +130,15 @@
   place: Vancouver, Canada
   sub: NLP
 
+- name: SIGGRAPH
+  year: 2017
+  id: siggraph17
+  link: http://s2017.siggraph.org/
+  deadline: "2017-01-17 23:59:59"
+  date: July 30-August 3, 2017
+  place: Los Angeles, California
+  sub: GR
+
 - name: CVPR
   year: 2017
   id: cvpr17
@@ -149,31 +149,13 @@
   place: Honolulu, Hawaii
   sub: CV
 
-- name: NAACL-HLT
-  year: 2016
-  id: naacl16
-  link: http://naacl.org/naacl-hlt-2016/
-  deadline: "2016-01-06 23:59:59"
-  date: June 13–15, 2016
-  place: San Diego, California
-  sub: NLP
-
-- name: COLING
-  year: 2016
-  id: coling16
-  link: http://coling2016.anlp.jp/
-  deadline: "2016-07-15 23:59:59"
-  date: December 13-16, 2016
-  place: Osaka, Japan
-  sub: NLP
-
-- name: AAAI
+- name: ICLR
   year: 2017
-  id: aaai17
-  link: http://www.aaai.org/Conferences/AAAI/aaai17.php
-  deadline: "2016-09-14 23:59:59"
-  date: February 4-9, 2017
-  place: San Francisco, California
+  id: iclr17
+  link: http://www.iclr.cc/doku.php?id=ICLR2017:main&redirect=1
+  deadline: "2016-11-05"
+  date: April 24-26, 2017
+  place: Palais des Congrès Neptune, Toulon, France
   sub: ML
 
 - name: AISTATS
@@ -185,15 +167,6 @@
   place: Fort Lauderdale, Florida
   sub: ML
 
-- name: ICLR
-  year: 2017
-  id: iclr17
-  link: http://www.iclr.cc/doku.php?id=ICLR2017:main&redirect=1
-  deadline: "2016-11-05"
-  date: April 24-26, 2017
-  place: Palais des Congrès Neptune, Toulon, France
-  sub: ML
-
 - name: ICRA
   year: 2017
   id: icra17
@@ -202,4 +175,31 @@
   date: May 29-June 3, 2017
   place: Singapore
   sub: RO
+
+- name: AAAI
+  year: 2017
+  id: aaai17
+  link: http://www.aaai.org/Conferences/AAAI/aaai17.php
+  deadline: "2016-09-14 23:59:59"
+  date: February 4-9, 2017
+  place: San Francisco, California
+  sub: ML
+
+- name: COLING
+  year: 2016
+  id: coling16
+  link: http://coling2016.anlp.jp/
+  deadline: "2016-07-15 23:59:59"
+  date: December 13-16, 2016
+  place: Osaka, Japan
+  sub: NLP
+
+- name: NAACL-HLT
+  year: 2016
+  id: naacl16
+  link: http://naacl.org/naacl-hlt-2016/
+  deadline: "2016-01-06 23:59:59"
+  date: June 13–15, 2016
+  place: San Diego, California
+  sub: NLP
 
