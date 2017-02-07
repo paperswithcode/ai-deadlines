@@ -1,23 +1,4 @@
 ---
-- name: RSS
-  year: 2017
-  id: rss17
-  link: http://www.roboticsconference.org/
-  deadline: "2017-01-30 23:59:59"
-  timezone: Pacific/Honolulu
-  date: July 12-16, 2017
-  place: Boston, Massachusetts
-  sub: RO
-
-- name: ACL
-  year: 2017
-  id: acl17
-  link: http://acl2017.org/
-  deadline: "2017-02-06 23:59:59"
-  date: July 30-August 4, 2017
-  place: Vancouver, Canada
-  sub: NLP
-
 - name: COLT
   year: 2017
   id: colt17
@@ -129,6 +110,25 @@
   date: August 3-4, 2017
   place: Vancouver, Canada
   sub: NLP
+
+- name: ACL
+  year: 2017
+  id: acl17
+  link: http://acl2017.org/
+  deadline: "2017-02-06 23:59:59"
+  date: July 30-August 4, 2017
+  place: Vancouver, Canada
+  sub: NLP
+
+- name: RSS
+  year: 2017
+  id: rss17
+  link: http://www.roboticsconference.org/
+  deadline: "2017-01-30 23:59:59"
+  timezone: Pacific/Honolulu
+  date: July 12-16, 2017
+  place: Boston, Massachusetts
+  sub: RO
 
 - name: SIGGRAPH
   year: 2017
