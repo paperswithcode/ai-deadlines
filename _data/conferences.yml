@@ -1,4 +1,5 @@
 ---
+
 - name: COLT
   year: 2017
   id: colt17
@@ -63,6 +64,15 @@
   place: Sydney, Australia
   sub: ML
 
+- name: <span>*</span>SEM
+  year: 2017
+  id: starsem17
+  link: http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=59787&copyownerid=16583
+  deadline: "2017-04-10 23:59:59"
+  date: August 3-4 2017
+  place: Vancouver, Canada
+  sub: NLP
+
 - name: ECML-PKDD
   year: 2017
   id: ecml17
@@ -80,6 +90,15 @@
   timezone: America/Los_Angeles
   date: September 7-11, 2017
   place: Copenhagen, Denmark
+  sub: NLP
+
+- name: RANLP
+  year: 2017
+  id: ranlp17
+  link: http://www.lml.bas.bg/ranlp2017
+  deadline: "2017-04-28 23:59:59"
+  date: September 4-6 2017
+  place: Varna, Bulgaria
   sub: NLP
 
 - name: NIPS
