@@ -1,5 +1,15 @@
 ---
 
+- name: ICARSC
+  year: 2017
+  id: icarsc17
+  link: http://icarsc2017.isr.uc.pt
+  deadline: "2017-02-10 23:59:59"
+  timezone: Pacific/Honolulu
+  date: Apr 26-28, 2017
+  place: Coimbra, Portugal
+  sub: RO
+
 - name: COLT
   year: 2017
   id: colt17
@@ -173,7 +183,7 @@
   id: iclr17
   link: http://www.iclr.cc/doku.php?id=ICLR2017:main&redirect=1
   deadline: "2016-11-05"
-  date: April 24-26, 2017
+  date: Apr 24-26, 2017
   place: Palais des Congrès Neptune, Toulon, France
   sub: ML
 
