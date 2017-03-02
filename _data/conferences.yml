@@ -1,51 +1,5 @@
 ---
 
-- name: ICARSC
-  year: 2017
-  id: icarsc17
-  link: http://icarsc2017.isr.uc.pt
-  deadline: "2017-02-10 23:59:59"
-  timezone: Pacific/Honolulu
-  date: Apr 26-28, 2017
-  place: Coimbra, Portugal
-  sub: RO
-
-- name: COLT
-  year: 2017
-  id: colt17
-  link: http://www.learningtheory.org/colt2017/
-  deadline: "2017-02-17 23:00:00"
-  date: July 7-10, 2017
-  place: University of Amsterdam, The Netherlands
-  sub: ML
-
-- name: KDD
-  year: 2017
-  id: kdd17
-  link: http://www.kdd.org/kdd2017/
-  deadline: "2017-02-18 05:59:59"
-  date: Aug 13-17, 2017
-  place: Halifax, Nova Scotia, Canada
-  sub: ML
-
-- name: IJCAI
-  year: 2017
-  id: ijcai17
-  link: http://ijcai-17.org/
-  deadline: "2017-02-19 23:59:59"
-  date: Aug 19-25, 2017
-  place: Melbourne, Australia
-  sub: ML
-
-- name: ICML
-  year: 2017
-  id: icml17
-  link: http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=53557&copyownerid=90838
-  deadline: "2017-02-24 23:59:59"
-  date: Aug 6-11, 2017
-  place: Sydney, Australia
-  sub: ML
-
 - name: IROS
   year: 2017
   id: iros17
@@ -139,6 +93,52 @@
   timezone: America/Los_Angeles
   date: November 13-15, 2017
   place: Mountain View, California
+  sub: RO
+
+- name: ICML
+  year: 2017
+  id: icml17
+  link: http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=53557&copyownerid=90838
+  deadline: "2017-02-24 23:59:59"
+  date: Aug 6-11, 2017
+  place: Sydney, Australia
+  sub: ML
+
+- name: IJCAI
+  year: 2017
+  id: ijcai17
+  link: http://ijcai-17.org/
+  deadline: "2017-02-19 23:59:59"
+  date: Aug 19-25, 2017
+  place: Melbourne, Australia
+  sub: ML
+
+- name: KDD
+  year: 2017
+  id: kdd17
+  link: http://www.kdd.org/kdd2017/
+  deadline: "2017-02-18 05:59:59"
+  date: Aug 13-17, 2017
+  place: Halifax, Nova Scotia, Canada
+  sub: ML
+
+- name: COLT
+  year: 2017
+  id: colt17
+  link: http://www.learningtheory.org/colt2017/
+  deadline: "2017-02-17 23:00:00"
+  date: July 7-10, 2017
+  place: University of Amsterdam, The Netherlands
+  sub: ML
+
+- name: ICARSC
+  year: 2017
+  id: icarsc17
+  link: http://icarsc2017.isr.uc.pt
+  deadline: "2017-02-10 23:59:59"
+  timezone: Pacific/Honolulu
+  date: Apr 26-28, 2017
+  place: Coimbra, Portugal
   sub: RO
 
 - name: ACL
