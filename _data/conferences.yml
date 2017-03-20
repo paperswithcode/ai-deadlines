@@ -1,5 +1,14 @@
 ---
 
+- name: ICDL-EpiRob
+  year: 2017
+  id: icdlepirob17
+  link: http://www.icdl-epirob.org/
+  deadline: "2017-03-30 23:59:59"
+  date: September 18-21, 2017
+  place: Lisbon, Portugal
+  sub: RO
+
 - name: ICCV
   year: 2017
   id: iccv17
