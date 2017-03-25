@@ -1,15 +1,5 @@
 ---
 
-- name: BMVC
-  year: 2017
-  id: bmvc17
-  link: https://bmvc2017.london/
-  deadline: "2017-05-02 23:59:59"
-  timezone: America/Los_Angeles
-  date: September 4-7, 2017
-  place: London, United Kingdom
-  sub: CV
-
 - name: ICDL-EpiRob
   year: 2017
   id: icdlepirob17
@@ -84,6 +74,16 @@
   date: September 4-6 2017
   place: Varna, Bulgaria
   sub: NLP
+
+- name: BMVC
+  year: 2017
+  id: bmvc17
+  link: https://bmvc2017.london/
+  deadline: "2017-05-02 23:59:59"
+  timezone: America/Los_Angeles
+  date: September 4-7, 2017
+  place: London, United Kingdom
+  sub: CV
 
 - name: NIPS
   year: 2017
