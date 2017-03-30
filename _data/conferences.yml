@@ -105,6 +105,16 @@
   place: Mountain View, California
   sub: RO
 
+- name: 3DV
+  year: 2017
+  id: 3dv17
+  link: http://irc.cs.sdu.edu.cn/3dv/
+  deadline: "2017-07-25 23:59:59"
+  timezone: Asia/Hong_Kong
+  date: October 10-12, 2017
+  place: Qingdao, China
+  sub: CV
+
 - name: ICCV
   year: 2017
   id: iccv17
