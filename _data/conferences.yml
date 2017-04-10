@@ -115,6 +115,15 @@
   place: Qingdao, China
   sub: CV
 
+- name: ICRA
+  year: 2018
+  id: icra18
+  link: http://www.icra2018.org/
+  deadline: "2017-09-15 23:59:59"
+  date: May 21-25, 2018
+  place: Brisbane, Australia
+  sub: RO
+
 - name: ICCV
   year: 2017
   id: iccv17
