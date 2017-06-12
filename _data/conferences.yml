@@ -1,44 +1,5 @@
 ---
 
-- name: CONLL
-  year: 2017
-  id: conll17
-  link: http://www.conll.org/
-  deadline: "2017-04-23 23:59:59"
-  timezone: America/Los_Angeles
-  date: August 3-4, 2017
-  place: Vancouver, Canada
-  sub: NLP
-
-- name: RANLP
-  year: 2017
-  id: ranlp17
-  link: http://www.lml.bas.bg/ranlp2017
-  deadline: "2017-04-28 23:59:59"
-  date: September 4-6 2017
-  place: Varna, Bulgaria
-  sub: NLP
-
-- name: BMVC
-  year: 2017
-  id: bmvc17
-  link: https://bmvc2017.london/
-  deadline: "2017-05-02 23:59:59"
-  timezone: America/Los_Angeles
-  date: September 4-7, 2017
-  place: London, United Kingdom
-  sub: CV
-
-- name: NIPS
-  year: 2017
-  id: nips17
-  link: https://nips.cc/Conferences/2017
-  deadline: "2017-05-19 13:00:00"
-  timezone: America/Los_Angeles
-  date: December 4-9, 2017
-  place: Long Beach Convention Center, California
-  sub: ML
-
 - name: CoRL
   year: 2017
   id: corl17
@@ -67,6 +28,65 @@
   date: May 21-25, 2018
   place: Brisbane, Australia
   sub: RO
+
+- name: CVPR
+  year: 2018
+  id: cvpr18
+  link: http://cvpr2018.thecvf.com/
+  deadline: "2017-11-15 18:00:00"
+  timezone: America/Los_Angeles
+  date: June 18-23, 2018
+  place: Salt Lake City, Utah
+  sub: CV
+
+- name: ECCV
+  year: 2018
+  id: eccv18
+  link: https://eccv2018.org/
+  deadline: "TBA"
+  timezone: GMT
+  date: September 8-14, 2018
+  place: Munich, Germany
+  sub: CV
+
+- name: NIPS
+  year: 2017
+  id: nips17
+  link: https://nips.cc/Conferences/2017
+  deadline: "2017-05-19 13:00:00"
+  timezone: America/Los_Angeles
+  date: December 4-9, 2017
+  place: Long Beach Convention Center, California
+  sub: ML
+
+- name: BMVC
+  year: 2017
+  id: bmvc17
+  link: https://bmvc2017.london/
+  deadline: "2017-05-02 23:59:59"
+  timezone: America/Los_Angeles
+  date: September 4-7, 2017
+  place: London, United Kingdom
+  sub: CV
+
+- name: RANLP
+  year: 2017
+  id: ranlp17
+  link: http://www.lml.bas.bg/ranlp2017
+  deadline: "2017-04-28 23:59:59"
+  date: September 4-6 2017
+  place: Varna, Bulgaria
+  sub: NLP
+
+- name: CONLL
+  year: 2017
+  id: conll17
+  link: http://www.conll.org/
+  deadline: "2017-04-23 23:59:59"
+  timezone: America/Los_Angeles
+  date: August 3-4, 2017
+  place: Vancouver, Canada
+  sub: NLP
 
 - name: ICCV
   year: 2017
@@ -160,16 +180,6 @@
   date: July 30-August 3, 2017
   place: Los Angeles, California
   sub: GR
-
-- name: CVPR
-  year: 2017
-  id: cvpr17
-  link: http://cvpr2017.thecvf.com/
-  deadline: "2016-11-15 18:00:00"
-  timezone: America/Los_Angeles
-  date: July 22-25, 2017
-  place: Honolulu, Hawaii
-  sub: CV
 
 - name: ICLR
   year: 2017
