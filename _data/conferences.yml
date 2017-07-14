@@ -1,5 +1,15 @@
 ---
 
+- name: AAAI
+  year: 2018
+  id: aaai18
+  link: http://www.aaai.org/Conferences/AAAI/aaai18.php
+  deadline: "2016-09-8 23:59:59"
+  timezone: Pacific/Honolulu
+  date: February 2-7, 2018
+  place: New Orleans, Lousiana, USA
+  sub: ML
+
 - name: CoRL
   year: 2017
   id: corl17
