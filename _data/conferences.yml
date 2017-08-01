@@ -1,25 +1,5 @@
 ---
 
-- name: 3DV
-  year: 2017
-  id: 3dv17
-  link: http://irc.cs.sdu.edu.cn/3dv/
-  deadline: "2017-07-25 23:59:59"
-  timezone: Asia/Hong_Kong
-  date: October 10-12, 2017
-  place: Qingdao, China
-  sub: CV
-
-- name: MLDM
-  year: 2018
-  id: mldm18
-  link: http://www.mldm.de/mldm2018.php
-  deadline: "2018-01-15 23:59:59"
-  timezone: America/Los_Angeles
-  date: July 14-19, 2018
-  place: New York City, New York, USA
-  sub: ML
-
 - name: AAAI
   year: 2018
   id: aaai18
@@ -49,6 +29,16 @@
   place: Salt Lake City, Utah
   sub: CV
 
+- name: MLDM
+  year: 2018
+  id: mldm18
+  link: http://www.mldm.de/mldm2018.php
+  deadline: "2018-01-15 23:59:59"
+  timezone: America/Los_Angeles
+  date: July 14-19, 2018
+  place: New York City, New York, USA
+  sub: ML
+
 - name: ECCV
   year: 2018
   id: eccv18
@@ -57,6 +47,16 @@
   timezone: GMT
   date: September 8-14, 2018
   place: Munich, Germany
+  sub: CV
+
+- name: 3DV
+  year: 2017
+  id: 3dv17
+  link: http://irc.cs.sdu.edu.cn/3dv/
+  deadline: "2017-07-25 23:59:59"
+  timezone: Asia/Hong_Kong
+  date: October 10-12, 2017
+  place: Qingdao, China
   sub: CV
 
 - name: CoRL
