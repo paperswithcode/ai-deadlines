@@ -19,16 +19,6 @@
   date: May 16-19, 2018
   place: Reston, Virginia, USA
   sub: ML
-  
-- name: Developer Week
-  year: 2017
-  id: dw18
-  link: http://www.developerweek.com/Austin/conference/apply-to-speak/
-  deadline: "2017-08-11 23:59:59"
-  timezone: America/Los_Angeles
-  date: November 8-9, 2017
-  place: Austin, Texas, USA
-  sub: AI
 
 - name: MLDM
   year: 2018
