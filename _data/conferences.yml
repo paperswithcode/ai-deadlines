@@ -1,5 +1,14 @@
 ---
 
+- name: ICPRAI
+  year: 2018
+  id: icprai18
+  link: http://icprai2018.com/
+  deadline: "2017-11-15 23:59:59"
+  date: May 14-17, 2018
+  place: Montréal, Canada
+  sub: ML
+  
 - name: AAAI
   year: 2018
   id: aaai18
