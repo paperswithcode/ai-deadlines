@@ -1,5 +1,14 @@
 ---
 
+- name: WACV
+  year: 2018
+  id: wacv18
+  link: http://wacv18.uccs.us/
+  deadline: "2017-09-08 23:59:59"
+  date: March 12-15, 2018
+  place: Lake Tahoe, NV, USA
+  sub: CV
+  
 - name: ICPRAI
   year: 2018
   id: icprai18
