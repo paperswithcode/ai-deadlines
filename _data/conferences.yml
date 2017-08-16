@@ -1,5 +1,15 @@
 ---
 
+- name: ACL
+  year: 2018
+  id: acl18
+  link: http://acl2018.org/
+  deadline: "TBA"
+  timezone: GMT
+  date: July 15-20, 2018
+  place: Melbourne, Australia
+  sub: NLP
+  
 - name: AAAI
   year: 2018
   id: aaai18
