@@ -36,6 +36,15 @@
   date: April 30-May 3, 2018
   place: Vancouver Convention Center, Vancouver, Canada
   sub: ML
+
+- name: PAKDD
+  year: 2018
+  id: pakdd18
+  link: http://prada-research.net/pakdd18/
+  deadline: "2017-10-31 24:00:00"
+  date: May 15-May 18, 2018
+  place: Melbourne, Australia
+  sub: DM
   
 - name: CVPR
   year: 2018
