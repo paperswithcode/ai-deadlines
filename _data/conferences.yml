@@ -66,6 +66,16 @@
   place: New York City, New York, USA
   sub: ML
 
+- name: COLING
+  year: 2018
+  id: coling18
+  link: http://coling2018.org/
+  deadline: "2018-03-16 23:59:59"
+  timezone: America/Adak
+  date: August 20-25, 2018
+  place: Santa Fe, New Mexico, USA
+  sub: NLP
+
 - name: ACL
   year: 2018
   id: acl18
