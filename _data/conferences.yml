@@ -1,15 +1,5 @@
 ---
 
-- name: ACL
-  year: 2018
-  id: acl18
-  link: http://acl2018.org/
-  deadline: "TBA"
-  timezone: GMT
-  date: July 15-20, 2018
-  place: Melbourne, Australia
-  sub: NLP
-  
 - name: AAAI
   year: 2018
   id: aaai18
@@ -75,6 +65,16 @@
   date: July 14-19, 2018
   place: New York City, New York, USA
   sub: ML
+
+- name: ACL
+  year: 2018
+  id: acl18
+  link: http://acl2018.org/
+  deadline: "TBA"
+  timezone: GMT
+  date: July 15-20, 2018
+  place: Melbourne, Australia
+  sub: NLP
 
 - name: ECCV
   year: 2018
