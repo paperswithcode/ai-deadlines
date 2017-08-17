@@ -295,3 +295,13 @@
   place: Singapore
   sub: RO
 
+
+- name: ICASSP
+  year: 2018
+  id: icassp18
+  link: https://2018.ieeeicassp.org/
+  deadline: "2017-10-27 23:59:59"
+  date: April 22-27, 2018
+  place: Seoul Korea
+  sub: NLP
+  
