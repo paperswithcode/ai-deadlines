@@ -4,13 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <meta name="author" content="Abhishek Das">
-    <meta name="keywords" content="yoda, abhshkdz, abhishek das, sdslabs, jekyll, hacker, developer, pianist, iit roorkee, abdasuee, deep learning, computer vision, neural networks, virginia tech, machine learning">
-    <link rel="me" href="//plus.google.com/u/0/100610196494221761914/">
-    <link rel="me" href="//facebook.com/abhshkdz">
-
     <title>{{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{{ site.author }}">
     <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
     <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.css" | prepend:site.baseurl }}" media="screen,projection">
     <link rel="shortcut icon" href="{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
@@ -28,56 +24,28 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-8">
                   <h1>
-                    AI Conference Deadlines <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{site.description}} #machinelearning " data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    <iframe src="https://ghbtns.com/github-btn.html?user=abhshkdz&repo=ai-deadlines&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+                    {{ site.title }} <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ site.description }}{% if site.twitter_hashtag %} #{{ site.twitter_hashtag }}{% endif %}" data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_repo }}&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
                   </h1>
                 </div>
                 <div class="meta col-xs-12">
                   {{ site.description }}
-                  To add/update a conference, <a target="_blank" href="//github.com/abhshkdz/ai-deadlines">send in a pull request</a>.
+                  To add/update a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull request</a>.
                 </div>
             </div>
             <br>
             <div class="row">
               <div class="col-xs-12">
                 <!-- <div class="well"> -->
-                  <form class="form-horizontal">
+                  <form class="form-inline">
                     <div class="form-group">
-                      <div class="col-md-2 col-xs-5">
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox" id="ML-checkbox">Machine Learning
-                          </label>
-                        </div>
+                      {% for type in site.data.types %}
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox" id="{{ type.sub }}-checkbox" class=""> {{ type.name }}
+                        </label>
                       </div>
-                      <div class="col-md-2 col-xs-5">
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox" id="CV-checkbox">Computer Vision
-                          </label>
-                        </div>
-                      </div>
-                      <div class="col-md-3 col-xs-5">
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox" id="NLP-checkbox">Natural Language Processing
-                          </label>
-                        </div>
-                      </div>
-                      <div class="col-md-2 col-xs-5">
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox" id="RO-checkbox">Robotics
-                          </label>
-                        </div>
-                      </div>
-                      <div class="col-md-2 col-xs-5">
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox" id="GR-checkbox">Graphics
-                          </label>
-                        </div>
-                      </div>
+                      {% endfor %}
                     </div>
                   </form>
                 <!-- </div> -->
@@ -85,7 +53,7 @@
             </div>
         </div>
         {% for conf in site.data.conferences %}
-        <div id="{{conf.id}}" class="{{conf.sub}}-conf">
+        <div id="{{conf.id}}" class="{% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
           <div class="row">
               <div class="col-xs-12 col-sm-6">
                   <a href="{{conf.link}}"><b>{{conf.name}} {{conf.year}}</b></a>
@@ -106,7 +74,7 @@
         </div>
         {% endfor %}
         <footer>
-          Maintained by <a href="//twitter.com/abhshkdz">@abhshkdz</a>.
+          Maintained by <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.
         </footer>
         <hr>
     </div>
@@ -135,8 +103,12 @@
         {% endfor %}
 
         // Set checkboxes
-        var all_subs = ['ML', 'CV', 'NLP', 'RO', 'GR'];
-        var subs = store.get('aideadlin.es');
+        var conf_type_data = {{ site.data.types | jsonify }};
+        var all_subs = [];
+        for (var i = 0; i < conf_type_data.length; i++) {
+          all_subs[i] = conf_type_data[i]['sub'];
+        }
+        var subs = store.get('{{ site.domain }}');
         if (subs === undefined) {
           subs = all_subs;
           for (var i = 0; i < subs.length; i++) {
@@ -153,7 +125,7 @@
             $('.' + all_subs[i] + '-conf').hide();
           }
         }
-        store.set('aideadlin.es', subs);
+        store.set('{{ site.domain }}', subs);
 
         // Event handler on checkbox change
         $('form :checkbox').change(function(e) {
@@ -172,7 +144,7 @@
               subs.splice(idx, 1);
           }
           console.log(subs);
-          store.set('aideadlin.es', subs);
+          store.set('{{ site.domain }}', subs);
         });
     });
     <!-- Google analytics -->
