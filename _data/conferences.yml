@@ -36,6 +36,15 @@
   date: April 30-May 3, 2018
   place: Vancouver Convention Center, Vancouver, Canada
   sub: ML
+
+- name: NAACL
+  year: 2018
+  id: naacl18
+  link: http://naacl2018.org/
+  deadline: "2017-12-15 23:59:59"
+  date: June 2-4, 2018
+  place: New Orleans, USA
+  sub: NLP
   
 - name: CVPR
   year: 2018
@@ -47,14 +56,13 @@
   place: Salt Lake City, Utah
   sub: CV
 
-- name: NAACL
+- name: ICAPS
   year: 2018
-  id: naacl18
-  link: http://naacl2018.org/
-  deadline: "2017-12-15 23:59:59"
-  date: June 2-4, 2018
-  place: New Orleans, USA
-  sub: NLP
+  id: icaps18
+  link: http://icaps18.icaps-conference.org
+  deadline: "2017-11-21 18:00:00"
+  date: June 24-29, 2018
+  place: Delft, The Netherlands
 
 - name: MLDM
   year: 2018
