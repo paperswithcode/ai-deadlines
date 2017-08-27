@@ -1,5 +1,3 @@
----
-
 - name: AAAI
   year: 2018
   id: aaai18
@@ -18,6 +16,16 @@
   date: May 21-25, 2018
   place: Brisbane, Australia
   sub: RO
+  
+- name: SDM
+  year: 2018
+  id: sdm18
+  link: http://www.siam.org/meetings/sdm18/
+  deadline: "2017-10-06 23:59:59"
+  timezone: Pacific/Honolulu
+  date: May 3-5, 2018
+  place: San Diego, California, USA
+  sub: ML
 
 - name: AISTATS
   year: 2018
@@ -28,6 +36,15 @@
   place: Lanzarote, Spain
   sub: ML
 
+- name: ICASSP
+  year: 2018
+  id: icassp18
+  link: https://2018.ieeeicassp.org/
+  deadline: "2017-10-27 23:59:59"
+  date: April 22-27, 2018
+  place: Seoul Korea
+  sub: NLP
+  
 - name: ICLR
   year: 2018
   id: iclr18
@@ -36,7 +53,17 @@
   date: April 30-May 3, 2018
   place: Vancouver Convention Center, Vancouver, Canada
   sub: ML
+
+- name: PAKDD
+  year: 2018
+  id: pakdd18
+  link: http://prada-research.net/pakdd18/
+  deadline: "2017-10-31 24:00:00"
+  date: May 15-May 18, 2018
+  place: Melbourne, Australia
+  sub: ML
   
+
 - name: CVPR
   year: 2018
   id: cvpr18
@@ -304,4 +331,5 @@
   date: May 29-June 3, 2017
   place: Singapore
   sub: RO
+
 

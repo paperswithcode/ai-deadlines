@@ -2,7 +2,7 @@ title: AI Conference Deadlines # (Maintained by @abhshkdz)
 # email: abhshkdz@vt.edu
 description: Countdowns to top CV/NLP/ML/Robotics/AI conference deadlines.
 
-baseurl: ""
+baseurl: "https://rymc.github.io/ai-deadlines/"
 twitter_username: abhshkdz
 github_username: abhshkdz
 
