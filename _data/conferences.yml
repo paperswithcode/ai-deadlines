@@ -305,3 +305,12 @@
   place: Singapore
   sub: RO
 
+- name: SDM
+  year: 2018
+  id: sdm18
+  link: http://www.siam.org/meetings/sdm18/
+  deadline: "2017-10-06 23:59:59"
+  timezone: Pacific/Honolulu
+  date: May 3-5, 2018
+  place: San Diego, California, USA
+  sub: ML
