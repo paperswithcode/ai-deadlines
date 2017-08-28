@@ -36,7 +36,7 @@
   date: April 30-May 3, 2018
   place: Vancouver Convention Center, Vancouver, Canada
   sub: ML
-  
+
 - name: CVPR
   year: 2018
   id: cvpr18
@@ -45,6 +45,16 @@
   timezone: America/Los_Angeles
   date: June 18-23, 2018
   place: Salt Lake City, Utah
+  sub: CV
+
+- name: WACV
+  year: 2018
+  id: wacv2018
+  link: http://wacv18.uccs.us/
+  deadline: "2017-12-01 23:59:59"
+  timezone: PST
+  date: March 12-14, 2018
+  place: Lake Tahoe, Nevada, USA
   sub: CV
 
 - name: NAACL
@@ -76,26 +86,6 @@
   place: Santa Fe, New Mexico, USA
   sub: NLP
 
-- name: ICML
-  year: 2018
-  id: icml18
-  link: https://2017.icml.cc/Conferences/2018
-  deadline: "TBA"
-  timezone: GMT
-  date: July 10-15, 2018
-  place: Stockholm, Sweden
-  sub: ML
-
-- name: WACV
-  year: 2018
-  id: wacv2018
-  link: http://wacv18.uccs.us/
-  deadline: "2017-12-01 23:59:59"
-  timezone: PST
-  date: March 12-14, 2018
-  place: Lake Tahoe, Nevada, USA
-  sub: CV
-
 - name: ACL
   year: 2018
   id: acl18
@@ -105,6 +95,16 @@
   date: July 15-20, 2018
   place: Melbourne, Australia
   sub: NLP
+
+- name: ICML
+  year: 2018
+  id: icml18
+  link: https://2017.icml.cc/Conferences/2018
+  deadline: "TBA"
+  timezone: GMT
+  date: July 10-15, 2018
+  place: Stockholm, Sweden
+  sub: ML
 
 - name: ECCV
   year: 2018
