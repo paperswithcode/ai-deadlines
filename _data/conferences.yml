@@ -37,6 +37,15 @@
   place: Vancouver Convention Center, Vancouver, Canada
   sub: ML
 
+- name: ICASSP
+  year: 2018
+  id: icassp18
+  link: https://2018.ieeeicassp.org/
+  deadline: "2017-10-27 23:59:59"
+  date: April 22-27, 2018
+  place: Seoul Korea
+  sub: SP
+
 - name: CVPR
   year: 2018
   id: cvpr18
@@ -259,15 +268,6 @@
   place: Boston, Massachusetts
   sub: RO
 
-- name: SIGGRAPH
-  year: 2017
-  id: siggraph17
-  link: http://s2017.siggraph.org/
-  deadline: "2017-01-17 23:59:59"
-  date: July 30-August 3, 2017
-  place: Los Angeles, California
-  sub: GR
-
 - name: ICDL-EpiRob
   year: 2017
   id: icdlepirob17
@@ -325,13 +325,3 @@
   place: Singapore
   sub: RO
 
-
-- name: ICASSP
-  year: 2018
-  id: icassp18
-  link: https://2018.ieeeicassp.org/
-  deadline: "2017-10-27 23:59:59"
-  date: April 22-27, 2018
-  place: Seoul Korea
-  sub: NLP
-  
