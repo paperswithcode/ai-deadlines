@@ -1,6 +1,6 @@
-## AI Deadlines
+## Conference Deadlines
 
-Countdown timers to keep track of a bunch of CV/NLP/ML/AI conference deadlines.
+Countdown timers to keep track of a bunch of conferences of interest to me.
 
 ## Adding/updating a conference
 
