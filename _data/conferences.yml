@@ -26,14 +26,14 @@
   place: New Orleans, Lousiana, USA
   sub: ML
 
-- name: ICRA
+- name: ComplexNetworks
   year: 2018
-  id: icra18
-  link: http://www.icra2018.org/
-  deadline: "2017-09-15 23:59:59"
-  date: May 21-25, 2018
-  place: Brisbane, Australia
-  sub: RO
+  id: complexnetworks18
+  link: http://www.complexnetworks.org/
+  deadline: "2017-09-18 23:59:59"
+  date: November 29 - December 01 2017
+  place: Lyon France 
+  sub: Ml
   
 - name: SDM
   year: 2018
