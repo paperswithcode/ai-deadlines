@@ -1,3 +1,12 @@
+- name: WFIoT
+  year: 2018
+  id: wfiot
+  link: http://wfiot2018.iot.ieee.org/
+  deadline: "2017-09-08 23:59:59"
+  date: February 5-8, 2018
+  place: Singapore 
+  sub: IoT
+
 - name: AAAI
   year: 2018
   id: aaai18
