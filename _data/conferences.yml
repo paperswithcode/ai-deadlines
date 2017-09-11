@@ -85,6 +85,16 @@
   place: New York City, New York, USA
   sub: ML
 
+- name: ECCV
+  year: 2018
+  id: eccv18
+  link: https://eccv2018.org/
+  deadline: "2018-03-14 23:59:59"
+  timezone: GMT
+  date: September 8-14, 2018
+  place: Munich, Germany
+  sub: CV
+
 - name: COLING
   year: 2018
   id: coling18
@@ -114,16 +124,6 @@
   date: July 10-15, 2018
   place: Stockholm, Sweden
   sub: ML
-
-- name: ECCV
-  year: 2018
-  id: eccv18
-  link: https://eccv2018.org/
-  deadline: "2018-03-14 23:59:59"
-  timezone: GMT
-  date: September 8-14, 2018
-  place: Munich, Germany
-  sub: CV
 
 - name: 3DV
   year: 2017
