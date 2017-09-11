@@ -1,5 +1,15 @@
 ---
 
+- name: ICAPS
+  year: 2018
+  id: icaps2018
+  link: http://icaps18.icaps-conference.org/
+  deadline: "2017-11-17 23:59:59"
+  timezone: Pacific/Honolulu
+  date: June 24-29, 2018
+  place: Delft, The Netherlands
+  sub: ML
+  
 - name: AAAI
   year: 2018
   id: aaai18
@@ -324,4 +334,3 @@
   date: May 29-June 3, 2017
   place: Singapore
   sub: RO
-
