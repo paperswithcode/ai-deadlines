@@ -9,6 +9,16 @@
   date: February 2-7, 2018
   place: New Orleans, Lousiana, USA
   sub: ML
+  
+  - name: WACV
+  year: 2018
+  id: wacv
+  link: http://wacv18.uccs.us/
+  deadline: "2017-12-01 11:59:59"
+  timezone: Pacific/Honolulu
+  date: March 12-15, 2018
+  place: Lake Tahoe, Nevada, USA
+  sub: CV, ML
 
 - name: ICRA
   year: 2018
