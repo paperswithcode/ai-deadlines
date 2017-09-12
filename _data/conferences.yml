@@ -1,15 +1,5 @@
 ---
 
-- name: AAAI
-  year: 2018
-  id: aaai18
-  link: http://www.aaai.org/Conferences/AAAI/aaai18.php
-  deadline: "2017-09-11 23:59:59"
-  timezone: Pacific/Honolulu
-  date: February 2-7, 2018
-  place: New Orleans, Lousiana, USA
-  sub: ML
-
 - name: ICRA
   year: 2018
   id: icra18
@@ -123,6 +113,16 @@
   timezone: GMT
   date: July 10-15, 2018
   place: Stockholm, Sweden
+  sub: ML
+
+- name: AAAI
+  year: 2018
+  id: aaai18
+  link: http://www.aaai.org/Conferences/AAAI/aaai18.php
+  deadline: "2017-09-11 23:59:59"
+  timezone: Pacific/Honolulu
+  date: February 2-7, 2018
+  place: New Orleans, Lousiana, USA
   sub: ML
 
 - name: 3DV
