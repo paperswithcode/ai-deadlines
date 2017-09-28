@@ -1,5 +1,14 @@
 ---
 
+- name: SSP
+  year: 2018
+  id: ssp18
+  link: https://ssp2018.org
+  deadline: "2018-01-26 23:59:59"
+  date: June 10-13, 2018
+  place:  Freiburg, Germany
+  sub: SP
+
 - name: ICRA
   year: 2018
   id: icra18
