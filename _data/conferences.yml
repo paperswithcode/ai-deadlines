@@ -36,6 +36,16 @@
   place: Seoul Korea
   sub: SP
 
+- name: AAMAS
+  year: 2018
+  id: aamas18
+  link: http://celweb.vuse.vanderbilt.edu/aamas18
+  deadline: "2017-11-14 23:59:00"
+  timezone: UTC-12
+  date: July 11-13, 2018
+  place: Stockholm, Sweden
+  sub: RO
+
 - name: CVPR
   year: 2018
   id: cvpr18
