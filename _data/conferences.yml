@@ -1,5 +1,14 @@
 ---
 
+- name: AIES
+  year: 2018
+  id: aies18
+  link: http://www.aies-conference.com/
+  deadline: "2017-10-31 23:59:59"
+  date: February 2-3, 2018
+  place: New Orleans, USA
+  sub: AI
+  
 - name: ICRA
   year: 2018
   id: icra18
