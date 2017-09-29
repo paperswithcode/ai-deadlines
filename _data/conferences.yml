@@ -75,6 +75,16 @@
   place: New York City, New York, USA
   sub: ML
 
+- name: IROS
+  year: 2018
+  id: iros2018
+  link: https://www.iros2018.org/
+  deadline: "2018-03-01 23:59:59"
+  timezone: CET
+  date: October 1-5, 2018
+  place: Madrid, Spain
+  sub: RO
+
 - name: ECCV
   year: 2018
   id: eccv18
