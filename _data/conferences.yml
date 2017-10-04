@@ -26,6 +26,16 @@
   date: April 30-May 3, 2018
   place: Vancouver Convention Center, Vancouver, Canada
   sub: ML
+  
+- name: AAMAS
+  year: 2018
+  id: aamas18
+  link: http://celweb.vuse.vanderbilt.edu/aamas18/
+  deadline: "2017-11-10 23:59:59"
+  timezone: UCT
+  date: July 11-13, 2018
+  place: Stockholm Sweden
+  sub: ML
 
 - name: ICASSP
   year: 2018
