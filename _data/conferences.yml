@@ -1,14 +1,5 @@
 ---
 
-- name: ICRA
-  year: 2018
-  id: icra18
-  link: http://www.icra2018.org/
-  deadline: "2017-09-15 23:59:59"
-  date: May 21-25, 2018
-  place: Brisbane, Australia
-  sub: RO
-
 - name: AISTATS
   year: 2018
   id: aistats18
@@ -33,7 +24,7 @@
   link: https://2018.ieeeicassp.org/
   deadline: "2017-10-27 23:59:59"
   date: April 22-27, 2018
-  place: Seoul Korea
+  place: Seoul, Korea
   sub: SP
 
 - name: CVPR
@@ -125,6 +116,15 @@
   place: Stockholm, Sweden
   sub: ML
 
+- name: ICRA
+  year: 2018
+  id: icra18
+  link: http://www.icra2018.org/
+  deadline: "2017-09-15 23:59:59"
+  date: May 21-25, 2018
+  place: Brisbane, Australia
+  sub: RO
+
 - name: AAAI
   year: 2018
   id: aaai18
@@ -134,16 +134,6 @@
   date: February 2-7, 2018
   place: New Orleans, Lousiana, USA
   sub: ML
-
-- name: 3DV
-  year: 2017
-  id: 3dv17
-  link: http://irc.cs.sdu.edu.cn/3dv/
-  deadline: "2017-07-25 23:59:59"
-  timezone: Asia/Hong_Kong
-  date: October 10-12, 2017
-  place: Qingdao, China
-  sub: CV
 
 - name: CoRL
   year: 2017
@@ -165,35 +155,6 @@
   place: Long Beach Convention Center, California
   sub: ML
 
-- name: BMVC
-  year: 2017
-  id: bmvc17
-  link: https://bmvc2017.london/
-  deadline: "2017-05-02 23:59:59"
-  timezone: America/Los_Angeles
-  date: September 4-7, 2017
-  place: London, United Kingdom
-  sub: CV
-
-- name: RANLP
-  year: 2017
-  id: ranlp17
-  link: http://www.lml.bas.bg/ranlp2017
-  deadline: "2017-04-28 23:59:59"
-  date: September 4-6 2017
-  place: Varna, Bulgaria
-  sub: NLP
-
-- name: CONLL
-  year: 2017
-  id: conll17
-  link: http://www.conll.org/
-  deadline: "2017-04-23 23:59:59"
-  timezone: America/Los_Angeles
-  date: August 3-4, 2017
-  place: Vancouver, Canada
-  sub: NLP
-
 - name: ICCV
   year: 2017
   id: iccv17
@@ -203,135 +164,3 @@
   date: October 22-29, 2017
   place: Venice, Italy
   sub: CV
-
-- name: IROS
-  year: 2017
-  id: iros17
-  link: http://www.iros2017.org/
-  deadline: "2017-03-01 23:59:59"
-  date: September 24–28, 2017
-  place: Vancouver, Canada
-  sub: RO
-
-- name: ICML
-  year: 2017
-  id: icml17
-  link: http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=53557&copyownerid=90838
-  deadline: "2017-02-24 23:59:59"
-  date: Aug 6-11, 2017
-  place: Sydney, Australia
-  sub: ML
-
-- name: IJCAI
-  year: 2017
-  id: ijcai17
-  link: http://ijcai-17.org/
-  deadline: "2017-02-19 23:59:59"
-  date: Aug 19-25, 2017
-  place: Melbourne, Australia
-  sub: ML
-
-- name: KDD
-  year: 2017
-  id: kdd17
-  link: http://www.kdd.org/kdd2017/
-  deadline: "2017-02-18 05:59:59"
-  date: Aug 13-17, 2017
-  place: Halifax, Nova Scotia, Canada
-  sub: ML
-
-- name: COLT
-  year: 2017
-  id: colt17
-  link: http://www.learningtheory.org/colt2017/
-  deadline: "2017-02-17 23:00:00"
-  date: July 7-10, 2017
-  place: University of Amsterdam, The Netherlands
-  sub: ML
-
-- name: ICARSC
-  year: 2017
-  id: icarsc17
-  link: http://icarsc2017.isr.uc.pt
-  deadline: "2017-02-10 23:59:59"
-  timezone: Pacific/Honolulu
-  date: Apr 26-28, 2017
-  place: Coimbra, Portugal
-  sub: RO
-
-- name: ACL
-  year: 2017
-  id: acl17
-  link: http://acl2017.org/
-  deadline: "2017-02-06 23:59:59"
-  date: July 30-August 4, 2017
-  place: Vancouver, Canada
-  sub: NLP
-
-- name: RSS
-  year: 2017
-  id: rss17
-  link: http://www.roboticsconference.org/
-  deadline: "2017-01-30 23:59:59"
-  timezone: Pacific/Honolulu
-  date: July 12-16, 2017
-  place: Boston, Massachusetts
-  sub: RO
-
-- name: ICDL-EpiRob
-  year: 2017
-  id: icdlepirob17
-  link: http://www.icdl-epirob.org/
-  deadline: "2017-03-30 23:59:59"
-  date: September 18-21, 2017
-  place: Lisbon, Portugal
-  sub: RO
-
-- name: UAI
-  year: 2017
-  id: uai17
-  link: http://auai.org/uai2017/index.php
-  deadline: "2017-03-31 23:59:59"
-  timezone: Pacific/Samoa
-  date: August 11-15, 2017
-  place: Sydney, Australia
-  sub: ML
-
-- name: FSR
-  year: 2017
-  id: fsr2017
-  link: https://www.fsr.ethz.ch/
-  deadline: "2017-04-01 23:59:59"
-  date: Sept 12–15, 2017
-  place: ETH Zurich,Switzerland
-  sub: RO
-
-- name: ECML-PKDD
-  year: 2017
-  id: ecml17
-  link: http://ecmlpkdd2017.ijs.si/
-  deadline: "2017-04-13 23:59:59"
-  date: September 18-22, 2017
-  place: Skopje, Macedonia
-  sub: ML
-
-- name: EMNLP
-  year: 2017
-  id: emnlp17
-  link: http://emnlp2017.net/
-  deadline: "2017-04-14 23:59:59"
-  timezone: America/Los_Angeles
-  date: September 7-11, 2017
-  place: Copenhagen, Denmark
-  sub: NLP
-
-
-- name: ICRA
-  year: 2017
-  id: icra17
-  link: http://www.icra2017.org/
-  deadline: "2016-09-15 23:59:59"
-  date: May 29-June 3, 2017
-  place: Singapore
-  sub: RO
-
