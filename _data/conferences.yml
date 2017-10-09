@@ -110,8 +110,8 @@
   year: 2018
   id: acl18
   link: http://acl2018.org/
-  deadline: "TBA"
-  timezone: GMT
+  deadline: "2018-02-22 23:59:59"
+  timezone: UTC-12
   date: July 15-20, 2018
   place: Melbourne, Australia
   sub: NLP
