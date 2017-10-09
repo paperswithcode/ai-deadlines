@@ -23,8 +23,8 @@
   id: icassp18
   link: https://2018.ieeeicassp.org/
   deadline: "2017-10-27 23:59:59"
-  date: April 22-27, 2018
-  place: Seoul, Korea
+  date: April 15-20, 2018
+  place: Calgary, Alberta, Canada
   sub: SP
 
 - name: AAMAS
@@ -76,6 +76,16 @@
   place: New York City, New York, USA
   sub: ML
 
+- name: ACL
+  year: 2018
+  id: acl18
+  link: http://acl2018.org/
+  deadline: "2018-02-22 23:59:59"
+  timezone: Etc/GMT+12
+  date: July 15-20, 2018
+  place: Melbourne, Australia
+  sub: NLP
+
 - name: IROS
   year: 2018
   id: iros2018
@@ -104,16 +114,6 @@
   timezone: America/Adak
   date: August 20-25, 2018
   place: Santa Fe, New Mexico, USA
-  sub: NLP
-
-- name: ACL
-  year: 2018
-  id: acl18
-  link: http://acl2018.org/
-  deadline: "TBA"
-  timezone: GMT
-  date: July 15-20, 2018
-  place: Melbourne, Australia
   sub: NLP
 
 - name: ICML
