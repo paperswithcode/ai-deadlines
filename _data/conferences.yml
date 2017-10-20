@@ -1,5 +1,15 @@
 ---
 
+- name: Interspeech
+  year: 2018
+  id: interspeech18
+  link: http://interspeech2018.org/
+  deadline: "2018-03-23 23:59:59"
+  timezone: Etc/GMT
+  date: September 2-6, 2018
+  place: Hyderabad, India
+  sub: SP
+
 - name: AISTATS
   year: 2018
   id: aistats18
