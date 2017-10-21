@@ -77,6 +77,16 @@
   place: New York City, New York, USA
   sub: ML
 
+- name: RSS
+  year: 2018
+  id: rss18
+  link: http://www.roboticsconference.org/
+  deadline: "2018-02-01 23:59:59"
+  timezone: IDLW
+  date: June 26-30, 2018
+  place: Pittsburgh, Pennsylvania, USA
+  sub: RO
+
 - name: ACL
   year: 2018
   id: acl18
