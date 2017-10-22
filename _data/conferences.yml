@@ -1,15 +1,5 @@
 ---
 
-- name: AISTATS
-  year: 2018
-  id: aistats18
-  link: http://www.aistats.org/
-  deadline: "2017-10-13 23:59:59"
-  timezone: Etc/GMT
-  date: April 9-11, 2018
-  place: Lanzarote, Spain
-  sub: ML
-
 - name: ICLR
   year: 2018
   id: iclr18
@@ -145,6 +135,16 @@
   timezone: GMT
   date: July 10-15, 2018
   place: Stockholm, Sweden
+  sub: ML
+
+- name: AISTATS
+  year: 2018
+  id: aistats18
+  link: http://www.aistats.org/
+  deadline: "2017-10-13 23:59:59"
+  timezone: Etc/GMT
+  date: April 9-11, 2018
+  place: Lanzarote, Spain
   sub: ML
 
 - name: ICRA
