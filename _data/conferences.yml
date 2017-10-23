@@ -67,6 +67,27 @@
   place: New York City, New York, USA
   sub: ML
 
+- name: SIGGRAPH
+  year: 2018
+  id: siggraph18
+  link: http://s2018.siggraph.org/
+  deadline: "2018-01-23 21:59:59"
+  timezone: GMT
+  date: August 12-16, 2018
+  place: Vancouver, Canada
+  sub: GR
+
+- name: IJCAI
+  year: 2018
+  id: ijcai18
+  link: https://www.ijcai-18.org/
+  deadline: "2018-01-31 23:59:59"
+  timezone: Etc/GMT+12
+  date: July 13-19, 2018
+  place: Stockholm, Sweden
+  sub: ML
+
+
 - name: RSS
   year: 2018
   id: rss18
