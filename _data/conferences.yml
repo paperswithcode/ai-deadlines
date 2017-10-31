@@ -98,6 +98,16 @@
   place: Pittsburgh, Pennsylvania, USA
   sub: RO
 
+- name: ICML
+  year: 2018
+  id: icml18
+  link: https://2017.icml.cc/Conferences/2018
+  deadline: "2018-02-09 19:59:59"
+  timezone: EST
+  date: July 10-15, 2018
+  place: Stockholm, Sweden
+  sub: ML
+
 - name: ACL
   year: 2018
   id: acl18
@@ -147,16 +157,6 @@
   date: September 2-6, 2018
   place: Hyderabad, India
   sub: SP
-
-- name: ICML
-  year: 2018
-  id: icml18
-  link: https://2017.icml.cc/Conferences/2018
-  deadline: "2018-02-09 19:59:59"
-  timezone: EST
-  date: July 10-15, 2018
-  place: Stockholm, Sweden
-  sub: ML
 
 - name: AISTATS
   year: 2018
