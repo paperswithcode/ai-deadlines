@@ -1,23 +1,5 @@
 ---
 
-- name: ICLR
-  year: 2018
-  id: iclr18
-  link: http://iclr.cc/
-  deadline: "2017-10-27 17:00:00"
-  date: April 30-May 3, 2018
-  place: Vancouver Convention Center, Vancouver, Canada
-  sub: ML
-
-- name: ICASSP
-  year: 2018
-  id: icassp18
-  link: https://2018.ieeeicassp.org/
-  deadline: "2017-10-27 23:59:59"
-  date: April 15-20, 2018
-  place: Calgary, Alberta, Canada
-  sub: SP
-
 - name: AAMAS
   year: 2018
   id: aamas18
@@ -32,7 +14,7 @@
   year: 2018
   id: cvpr18
   link: http://cvpr2018.thecvf.com/
-  deadline: "2017-11-15 18:00:00"
+  deadline: "2017-11-15 23:59:59"
   timezone: America/Los_Angeles
   date: June 18-23, 2018
   place: Salt Lake City, Utah
@@ -157,6 +139,24 @@
   date: September 2-6, 2018
   place: Hyderabad, India
   sub: SP
+
+- name: ICASSP
+  year: 2018
+  id: icassp18
+  link: https://2018.ieeeicassp.org/
+  deadline: "2017-10-27 23:59:59"
+  date: April 15-20, 2018
+  place: Calgary, Alberta, Canada
+  sub: SP
+
+- name: ICLR
+  year: 2018
+  id: iclr18
+  link: http://iclr.cc/
+  deadline: "2017-10-27 17:00:00"
+  date: April 30-May 3, 2018
+  place: Vancouver Convention Center, Vancouver, Canada
+  sub: ML
 
 - name: AISTATS
   year: 2018
