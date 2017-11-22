@@ -20,9 +20,10 @@
   place: Salt Lake City, Utah
   sub: CV
   
-- name: BMVC
+
+- name: WACV
   year: 2018
-  id: bmvc2018
+  id: wacv2018
   link: http://wacv18.uccs.us/
   deadline: "2017-12-01 23:59:59"
   timezone: PST
@@ -30,9 +31,9 @@
   place: Lake Tahoe, Nevada, USA
   sub: CV
 
-- name: WACV
+- name: BMVC
   year: 2018
-  id: wacv2018
+  id: bmvc2018
   link: http://bmvc2018.org/
   deadline: "2017-04-30 23:59:59"
   timezone: PST
