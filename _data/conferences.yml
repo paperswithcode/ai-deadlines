@@ -19,15 +19,25 @@
   date: June 18-23, 2018
   place: Salt Lake City, Utah
   sub: CV
-
-- name: WACV
+  
+- name: BMVC
   year: 2018
-  id: wacv2018
+  id: bmvc2018
   link: http://wacv18.uccs.us/
   deadline: "2017-12-01 23:59:59"
   timezone: PST
   date: March 12-14, 2018
   place: Lake Tahoe, Nevada, USA
+  sub: CV
+
+- name: WACV
+  year: 2018
+  id: wacv2018
+  link: http://bmvc2018.org/
+  deadline: "2017-04-30 23:59:59"
+  timezone: PST
+  date: September 03-06, 2018
+  place: New Castle upon Tyne
   sub: CV
 
 - name: NAACL
