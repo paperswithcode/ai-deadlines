@@ -70,6 +70,16 @@
   place: Stockholm, Sweden
   sub: ML
 
+- name: KDD
+  year: 2018
+  id: kdd18
+  link: http://www.kdd.org/kdd2018/
+  deadline: "2018-02-11 23:59:59"
+  timezone: PST
+  date: August 19-23, 2018
+  place: London, United Kingdom
+  sub: ML
+
 - name: ACL
   year: 2018
   id: acl18
