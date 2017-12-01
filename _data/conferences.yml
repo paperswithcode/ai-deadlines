@@ -10,6 +10,16 @@
   place: Lake Tahoe, Nevada, USA
   sub: CV
 
+- name: ICPR
+  year: 2018
+  id: icpr2018
+  link: http://www.icpr2018.org/
+  deadline: "2018-01-05 23:59:59"
+  timezone: UTC
+  date: August 20-24, 2018
+  place: Beijing, China
+  sub: ML
+
 - name: NAACL
   year: 2018
   id: naacl18
