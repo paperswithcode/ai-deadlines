@@ -9,6 +9,16 @@
   date: March 12-14, 2018
   place: Lake Tahoe, Nevada, USA
   sub: CV
+  
+- name: SDSS
+  year: 2018
+  id: sdss18
+  link: http://ww2.amstat.org/meetings/sdss/2018/
+  deadline: "2018-02-01 23:59:59"
+  timezone: America/Los_Angeles
+  date: May 16-19, 2018
+  place: Reston, Virginia, USA
+  sub: ML
 
 - name: NAACL
   year: 2018
