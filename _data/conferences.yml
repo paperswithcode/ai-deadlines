@@ -140,6 +140,16 @@
   place: Newcastle upon Tyne
   sub: CV
 
+- name: AMLD
+  year: 2018
+  id: amld18
+  link: https://www.appliedmldays.org/
+  deadline: "2017-11-28 23:59:59"
+  timezone: CET
+  date: January 27-30, 2018
+  place: Lausanne, Switzerland
+  sub: ML
+
 - name: CVPR
   year: 2018
   id: cvpr18
