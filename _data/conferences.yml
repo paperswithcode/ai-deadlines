@@ -1,15 +1,5 @@
 ---
 
-- name: UAI
-  year: 2018
-  id: uai18
-  link: http://auai.org/uai2018/index.php
-  deadline: "2018-03-09 23:59:59"
-  timezone: SST/GMT+14
-  date: August 06-10, 2018
-  place: Monterey, California, USA
-  sub: ML
-
 - name: MLDM
   year: 2018
   id: mldm18
@@ -90,6 +80,16 @@
   date: October 1-5, 2018
   place: Madrid, Spain
   sub: RO
+
+- name: UAI
+  year: 2018
+  id: uai18
+  link: http://auai.org/uai2018/index.php
+  deadline: "2018-03-09 23:59:59"
+  timezone: Etc/GMT+11
+  date: August 06-10, 2018
+  place: Monterey, California, USA
+  sub: ML
 
 - name: ECCV
   year: 2018
