@@ -229,13 +229,13 @@
   sub: RO
 
 - name: NIPS
-  year: 2017
-  id: nips17
-  link: https://nips.cc/Conferences/2017
-  deadline: "2017-05-19 13:00:00"
+  year: 2018
+  id: nips18
+  link: https://nips.cc/Conferences/2018
+  deadline: "2018-05-31 16:00:00"
   timezone: America/Los_Angeles
-  date: December 4-9, 2017
-  place: Long Beach Convention Center, California
+  date: December 3-8, 2018
+  place: Palais des Congrès de Montréal, Canada
   sub: ML
 
 - name: ICCV
