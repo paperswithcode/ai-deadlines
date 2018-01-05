@@ -1,5 +1,25 @@
 ---
 
+- name: WCCI
+  year: 2018
+  id: wcci18
+  link: http://www.ecomp.poli.br/~wcci2018
+  deadline: "2018-01-15 23:59:59"
+  timezone: America/Los_Angeles
+  date: July 8-13, 2018
+  place: Rio de Janeiro, Rio de Janeiro, Brazil
+  sub: ML
+
+- name: IJCNN
+  year: 2018
+  id: ijcnn18
+  link: http://www.ecomp.poli.br/~wcci2018
+  deadline: "2018-01-15 23:59:59"
+  timezone: America/Los_Angeles
+  date: July 8-13, 2018
+  place: Rio de Janeiro, Rio de Janeiro, Brazil
+  sub: ML
+
 - name: MLDM
   year: 2018
   id: mldm18
