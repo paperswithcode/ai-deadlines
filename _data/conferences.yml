@@ -30,7 +30,6 @@
   place: Stockholm, Sweden
   sub: ML
 
-
 - name: RSS
   year: 2018
   id: rss18
@@ -131,6 +130,16 @@
   place: Newcastle upon Tyne
   sub: CV
 
+- name: NIPS
+  year: 2018
+  id: nips18
+  link: https://nips.cc/Conferences/2018
+  deadline: "2018-05-31 16:00:00"
+  timezone: America/Los_Angeles
+  date: December 3-8, 2018
+  place: Palais des Congrès de Montréal, Canada
+  sub: ML
+
 - name: NAACL
   year: 2018
   id: naacl18
@@ -217,33 +226,3 @@
   date: February 2-7, 2018
   place: New Orleans, Lousiana, USA
   sub: ML
-
-- name: CoRL
-  year: 2017
-  id: corl17
-  link: http://www.robot-learning.org
-  deadline: "2017-06-28 23:59:59"
-  timezone: America/Los_Angeles
-  date: November 13-15, 2017
-  place: Mountain View, California
-  sub: RO
-
-- name: NIPS
-  year: 2018
-  id: nips18
-  link: https://nips.cc/Conferences/2018
-  deadline: "2018-05-31 16:00:00"
-  timezone: America/Los_Angeles
-  date: December 3-8, 2018
-  place: Palais des Congrès de Montréal, Canada
-  sub: ML
-
-- name: ICCV
-  year: 2017
-  id: iccv17
-  link: http://iccv2017.thecvf.com/
-  deadline: "2017-03-17 23:59:59"
-  timezone: GMT
-  date: October 22-29, 2017
-  place: Venice, Italy
-  sub: CV
