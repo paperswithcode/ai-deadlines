@@ -1,15 +1,5 @@
 ---
 
-- name: MLDM
-  year: 2018
-  id: mldm18
-  link: http://www.mldm.de/mldm2018.php
-  deadline: "2018-01-15 23:59:59"
-  timezone: America/Los_Angeles
-  date: July 14-19, 2018
-  place: New York City, New York, USA
-  sub: ML
-
 - name: SIGGRAPH
   year: 2018
   id: siggraph18
@@ -148,6 +138,16 @@
   timezone: America/Los_Angeles
   date: December 3-8, 2018
   place: Palais des Congrès de Montréal, Canada
+  sub: ML
+
+- name: MLDM
+  year: 2018
+  id: mldm18
+  link: http://www.mldm.de/mldm2018.php
+  deadline: "2018-01-15 23:59:59"
+  timezone: America/Los_Angeles
+  date: July 14-19, 2018
+  place: New York City, New York, USA
   sub: ML
 
 - name: NAACL
