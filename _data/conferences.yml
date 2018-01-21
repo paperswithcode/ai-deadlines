@@ -60,6 +60,16 @@
   place: London, United Kingdom
   sub: ML
 
+- name: COLT
+  year: 2018
+  id: colt18
+  link: http://www.learningtheory.org/colt2018/
+  deadline: "2018-02-16 22:59:59"
+  timezone: EST
+  date: July 5-9, 2018
+  place: Stockholm, Sweden
+  sub: ML
+
 - name: ACL
   year: 2018
   id: acl18
