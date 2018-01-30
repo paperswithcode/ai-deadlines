@@ -25,7 +25,7 @@
   id: rss18
   link: http://www.roboticsconference.org/
   deadline: "2018-02-01 23:59:59"
-  timezone: AoE
+  timezone: Etc/GMT+12
   date: June 26-30, 2018
   place: Pittsburgh, Pennsylvania, USA
   sub: RO
@@ -45,7 +45,7 @@
   id: kdd18
   link: http://www.kdd.org/kdd2018/
   deadline: "2018-02-11 23:59:59"
-  timezone: PST
+  timezone: America/Los_Angeles
   date: August 19-23, 2018
   place: London, United Kingdom
   sub: ML
@@ -125,7 +125,7 @@
   id: bmvc2018
   link: http://bmvc2018.org/
   deadline: "2018-04-30 23:59:59"
-  timezone: PST
+  timezone: America/Los_Angeles
   date: September 03-06, 2018
   place: Newcastle upon Tyne
   sub: CV
@@ -165,7 +165,7 @@
   id: wacv2018
   link: http://wacv18.uccs.us/
   deadline: "2017-12-01 23:59:59"
-  timezone: PST
+  timezone: America/Los_Angeles
   date: March 12-14, 2018
   place: Lake Tahoe, Nevada, USA
   sub: CV

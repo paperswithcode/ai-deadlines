@@ -15,6 +15,7 @@
     <script src="{{ "/static/js/moment.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/static/js/moment-timezone-with-data.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/static/js/store.min.js" | prepend:site.baseurl }}"></script>
+    <script src="{{ "/static/js/ouical.min.js" | prepend:site.baseurl }}"></script>
 
   </head>
   <body>
@@ -70,6 +71,7 @@
                     <span class="deadline-time"></span>
                   </div>
                 </div>
+                <div class="calendar"></div>
               </div>
           </div>
           <hr>
@@ -93,9 +95,30 @@
 
           // render countdown timer
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
-              $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           });
           $('#{{conf.id}} .deadline-time').html(confDate.toString());
+
+          // add calendar button
+          var myCalendar = createCalendar({
+            options: {
+              class: 'calendar-obj',
+
+              // You can pass an ID. If you don't, one will be generated for you
+              id: '{{conf.id}}'
+            },
+            data: {
+              // Event title
+              title: '{{conf.name}} {{conf.year}} deadline',
+
+              // Event start date
+              start: confDate.toDate(), // new Date('June 15, 2013 19:00'),
+
+              // Event duration
+              duration: 60,
+            }
+          });
+          document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
 
           // check if date has passed, add 'past' class to it
           var today = moment();
