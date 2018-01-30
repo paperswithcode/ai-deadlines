@@ -1,15 +1,5 @@
 ---
 
-- name: SIGGRAPH
-  year: 2018
-  id: siggraph18
-  link: http://s2018.siggraph.org/
-  deadline: "2018-01-23 21:59:59"
-  timezone: GMT
-  date: August 12-16, 2018
-  place: Vancouver, Canada
-  sub: GR
-
 - name: IJCAI
   year: 2018
   id: ijcai18
@@ -139,6 +129,16 @@
   date: December 3-8, 2018
   place: Palais des Congrès de Montréal, Canada
   sub: ML
+
+- name: SIGGRAPH
+  year: 2018
+  id: siggraph18
+  link: http://s2018.siggraph.org/
+  deadline: "2018-01-23 21:59:59"
+  timezone: GMT
+  date: August 12-16, 2018
+  place: Vancouver, Canada
+  sub: GR
 
 - name: MLDM
   year: 2018
