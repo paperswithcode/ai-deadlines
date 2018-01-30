@@ -236,3 +236,13 @@
   date: February 2-7, 2018
   place: New Orleans, Lousiana, USA
   sub: ML
+  
+- name: ICMI
+  year: 2018
+  id: icmi18
+  link: https://icmi.acm.org/2018/
+  deadline: "2018-05-01 23:59:59"
+  timezone: Pacific/Honolulu
+  date: October 16-20, 2018
+  place: Boulder, Colorado, USA
+  sub: SP
