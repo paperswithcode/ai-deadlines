@@ -110,6 +110,16 @@
   place: Hyderabad, India
   sub: SP
 
+- name: MLHC
+  year: 2018
+  id: mlhc2018
+  link: https://www.mlforhc.org/
+  deadline: "2018-04-20 23:59:59"
+  timezone: America/Los_Angeles
+  date: August 17-18, 2018
+  place: Stanford, CA
+  sub: HC
+
 - name: BMVC
   year: 2018
   id: bmvc2018
