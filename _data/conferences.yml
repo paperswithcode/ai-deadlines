@@ -236,3 +236,13 @@
   date: February 2-7, 2018
   place: New Orleans, Lousiana, USA
   sub: ML
+
+- name: EMNLP
+  year: 2018
+  id: emnlp18
+  link: emnlp2018.org
+  deadline: "2018-05-22 23:59:59"
+  timezone: Pacific
+  date: November 2-4, 2018
+  place: Brussels, Belgium
+  sub: NLP
