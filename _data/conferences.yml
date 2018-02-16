@@ -1,45 +1,5 @@
 ---
 
-- name: IJCAI
-  year: 2018
-  id: ijcai18
-  link: https://www.ijcai-18.org/
-  deadline: "2018-01-31 23:59:59"
-  timezone: Etc/GMT+12
-  date: July 13-19, 2018
-  place: Stockholm, Sweden
-  sub: ML
-
-- name: RSS
-  year: 2018
-  id: rss18
-  link: http://www.roboticsconference.org/
-  deadline: "2018-02-01 23:59:59"
-  timezone: Etc/GMT+12
-  date: June 26-30, 2018
-  place: Pittsburgh, Pennsylvania, USA
-  sub: RO
-
-- name: ICML
-  year: 2018
-  id: icml18
-  link: https://icml.cc/Conferences/2018
-  deadline: "2018-02-09 18:59:59"
-  timezone: EST
-  date: July 10-15, 2018
-  place: Stockholm, Sweden
-  sub: ML
-
-- name: KDD
-  year: 2018
-  id: kdd18
-  link: http://www.kdd.org/kdd2018/
-  deadline: "2018-02-11 23:59:59"
-  timezone: America/Los_Angeles
-  date: August 19-23, 2018
-  place: London, United Kingdom
-  sub: ML
-
 - name: COLT
   year: 2018
   id: colt18
@@ -120,6 +80,16 @@
   place: Newcastle upon Tyne
   sub: CV
 
+- name: EMNLP
+  year: 2018
+  id: emnlp18
+  link: http://emnlp2018.org
+  deadline: "2018-05-22 23:59:59"
+  timezone: America/Los_Angeles
+  date: November 2-4, 2018
+  place: Brussels, Belgium
+  sub: NLP
+
 - name: NIPS
   year: 2018
   id: nips18
@@ -128,6 +98,46 @@
   timezone: America/Los_Angeles
   date: December 3-8, 2018
   place: Palais des Congrès de Montréal, Canada
+  sub: ML
+
+- name: KDD
+  year: 2018
+  id: kdd18
+  link: http://www.kdd.org/kdd2018/
+  deadline: "2018-02-11 23:59:59"
+  timezone: America/Los_Angeles
+  date: August 19-23, 2018
+  place: London, United Kingdom
+  sub: ML
+
+- name: ICML
+  year: 2018
+  id: icml18
+  link: https://icml.cc/Conferences/2018
+  deadline: "2018-02-09 18:59:59"
+  timezone: EST
+  date: July 10-15, 2018
+  place: Stockholm, Sweden
+  sub: ML
+
+- name: RSS
+  year: 2018
+  id: rss18
+  link: http://www.roboticsconference.org/
+  deadline: "2018-02-01 23:59:59"
+  timezone: Etc/GMT+12
+  date: June 26-30, 2018
+  place: Pittsburgh, Pennsylvania, USA
+  sub: RO
+
+- name: IJCAI
+  year: 2018
+  id: ijcai18
+  link: https://www.ijcai-18.org/
+  deadline: "2018-01-31 23:59:59"
+  timezone: Etc/GMT+12
+  date: July 13-19, 2018
+  place: Stockholm, Sweden
   sub: ML
 
 - name: SIGGRAPH
@@ -236,13 +246,3 @@
   date: February 2-7, 2018
   place: New Orleans, Lousiana, USA
   sub: ML
-
-- name: EMNLP
-  year: 2018
-  id: emnlp18
-  link: emnlp2018.org
-  deadline: "2018-05-22 23:59:59"
-  timezone: Pacific
-  date: November 2-4, 2018
-  place: Brussels, Belgium
-  sub: NLP
