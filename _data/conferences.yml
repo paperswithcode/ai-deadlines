@@ -246,3 +246,13 @@
   date: February 2-7, 2018
   place: New Orleans, Lousiana, USA
   sub: ML
+
+- name: LOD
+  year: 2018
+  id: lod18
+  link: https://lod2018.icas.xyz/
+  deadline: "2018-03-31 23:59:59"
+  timezone: Rome/Italy
+  date: September 13-16, 2018
+  place: Volterra, Tuscany, Italy
+  sub: ML
