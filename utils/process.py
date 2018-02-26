@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
+# coding: utf-8
+
+# Sort and Clean conference data.
+# It writes to `sorted_data.yml` and `cleaned_data.yml`, copy those to the conference.yml after screening.
 
 import yaml
 import datetime
 import sys
 from shutil import copyfile
 from builtins import input
+import pytz
+
 
 try:
     # for python newer than 2.7
@@ -47,10 +53,9 @@ def ordered_dump(data, stream=None, Dumper=yaml.Dumper, **kwds):
 dateformat = '%Y-%m-%d %H:%M:%S'
 tba_words = ["tba","tbd"]
 
-right_now = datetime.datetime.now().replace(microsecond=0).strftime(dateformat)
+right_now = datetime.datetime.utcnow().replace(microsecond=0).strftime(dateformat)
 
-
-
+# Helper function for yes no questions
 def query_yes_no(question, default="no"):
     """Ask a yes/no question via input() and return their answer.
 
@@ -83,6 +88,9 @@ def query_yes_no(question, default="no"):
             sys.stdout.write("Please respond with 'yes' or 'no' "
                              "(or 'y' or 'n').\n")
 
+
+# Sort:
+
 with open("../_data/conferences.yml", 'r') as stream:
     try:
         data = yaml.load(stream, Loader=Loader)
@@ -93,13 +101,15 @@ with open("../_data/conferences.yml", 'r') as stream:
         conf = [x for x in data if x['deadline'].lower() not in tba_words]
         tba  = [x for x in data if x['deadline'].lower() in tba_words]
         
+        
+        
         # just sort:
-        conf.sort(key=lambda x: datetime.datetime.strptime(x['deadline'], dateformat))
+        conf.sort(key=lambda x: pytz.utc.normalize(datetime.datetime.strptime(x['deadline'], dateformat).replace(tzinfo=pytz.timezone(x['timezone']))))
         print("Date Sorting:")
         for q in conf+tba:
             print(q["deadline"]," - ",q["name"])
         print("\n\n")
-        conf.sort(key=lambda x: datetime.datetime.strptime(x['deadline'], dateformat).strftime(dateformat) < right_now)
+        conf.sort(key=lambda x: pytz.utc.normalize(datetime.datetime.strptime(x['deadline'], dateformat).replace(tzinfo=pytz.timezone(x['timezone']))).strftime(dateformat) < right_now)
         print("Date and Passed Deadline Sorting with tba:")
         for q in conf+tba:
             print(q["deadline"]," - ",q["name"])
@@ -112,8 +122,16 @@ with open("../_data/conferences.yml", 'r') as stream:
     except yaml.YAMLError as exc:
         print(exc)
 
+
+# Overwrite?:
+
+
 if query_yes_no("Did you check the sorted data and would like to replace the original data?"):
     copyfile('sorted_data.yml','../_data/conferences.yml')
+
+
+# Clean:
+
 
 with open('sorted_data.yml', 'r') as stream:
     try:
@@ -125,7 +143,11 @@ with open('sorted_data.yml', 'r') as stream:
         clean_conf = []
         for q in conf:
             dates,year=q["date"].split(",")
-            start_date = dates.strip().split(" ")[0].strip()+" "+dates.split("-")[1].strip()+" "+year.strip()
+            try:
+                start_date = dates.strip().split(" ")[0].strip()+" "+dates.split("-")[1].strip()+" "+year.strip()
+            except IndexError:
+                month,day=dates.strip().split(" ")
+                start_date = month.strip()+" "+day.strip()+" "+year.strip()
             try:
                 datetime.datetime.strptime(start_date, "%B %d %Y").strftime(dateformat)
             except ValueError:
@@ -145,5 +167,12 @@ with open('sorted_data.yml', 'r') as stream:
     except yaml.YAMLError as exc:
         print(exc)
 
+
+# Overwrite?:
+
+
 if query_yes_no("Did you check the cleaned data and would like to replace the original data?"):
     copyfile('cleaned_data.yml','../_data/conferences.yml')
+
+
+# Thanks to https://gist.github.com/oglops/c70fb69eef42d40bed06
