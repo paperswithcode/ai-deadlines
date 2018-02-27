@@ -100,9 +100,9 @@ with open("../_data/conferences.yml", 'r') as stream:
         print("\n\n")
         conf = [x for x in data if x['deadline'].lower() not in tba_words]
         tba  = [x for x in data if x['deadline'].lower() in tba_words]
-        
-        
-        
+
+
+
         # just sort:
         conf.sort(key=lambda x: pytz.utc.normalize(datetime.datetime.strptime(x['deadline'], dateformat).replace(tzinfo=pytz.timezone(x['timezone']))))
         print("Date Sorting:")
@@ -113,8 +113,8 @@ with open("../_data/conferences.yml", 'r') as stream:
         print("Date and Passed Deadline Sorting with tba:")
         for q in conf+tba:
             print(q["deadline"]," - ",q["name"])
-        print("\n\n")     
-        
+        print("\n\n")
+
         with open('sorted_data.yml', 'w') as outfile:
             for line in ordered_dump(conf+tba, Dumper=yaml.SafeDumper, default_flow_style=False, explicit_start=True).replace('\'', '"').splitlines():
                 outfile.write('\n')
@@ -139,7 +139,7 @@ with open('sorted_data.yml', 'r') as stream:
         print("Initial Data:")
         for q in conf:
             print(q["deadline"]," - ",q["name"])
-        print("\n\n")   
+        print("\n\n")
         clean_conf = []
         for q in conf:
             dates,year=q["date"].split(",")
