@@ -141,6 +141,14 @@
   place: Salt Lake City, Utah
   sub: CV
 
+- name: ICAPS
+  year: 2018
+  id: icaps18
+  link: http://icaps18.icaps-conference.org
+  deadline: "2017-11-21 18:00:00"
+  date: June 24-29, 2018
+  place: Delft, The Netherlands
+
 - name: NAACL
   year: 2018
   id: naacl18
