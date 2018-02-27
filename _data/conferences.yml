@@ -141,16 +141,6 @@
   place: Salt Lake City, Utah
   sub: CV
 
-- name: WACV
-  year: 2018
-  id: wacv2018
-  link: http://wacv18.uccs.us/
-  deadline: "2017-12-01 23:59:59"
-  timezone: America/Los_Angeles
-  date: March 12-14, 2018
-  place: Lake Tahoe, Nevada, USA
-  sub: CV
-
 - name: NAACL
   year: 2018
   id: naacl18
@@ -160,16 +150,6 @@
   date: June 2-4, 2018
   place: New Orleans, USA
   sub: NLP
-
-- name: MLDM
-  year: 2018
-  id: mldm18
-  link: http://www.mldm.de/mldm2018.php
-  deadline: "2018-01-15 23:59:59"
-  timezone: America/Los_Angeles
-  date: July 14-19, 2018
-  place: New York City, New York, USA
-  sub: ML
 
 - name: SIGGRAPH
   year: 2018
