@@ -90,6 +90,15 @@
   date: May 21-25, 2018
   place: Brisbane, Australia
   sub: RO
+  
+- name: PAKDD
+  year: 2018
+  id: pakdd18
+  link: http://prada-research.net/pakdd18/
+  deadline: "2017-10-30 23:59:59"
+  date: May 15-18, 2018
+  place: Melbourne, Australia
+  sub: ML
 
 - name: AISTATS
   year: 2018
