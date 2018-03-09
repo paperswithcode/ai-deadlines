@@ -1,16 +1,6 @@
 
 ---
 
-- name: IROS
-  year: 2018
-  id: iros2018
-  link: https://www.iros2018.org/
-  deadline: "2018-03-01 23:59:59"
-  timezone: CET
-  date: October 1-5, 2018
-  place: Madrid, Spain
-  sub: RO
-
 - name: UAI
   year: 2018
   id: uai18
@@ -80,6 +70,16 @@
   date: November 2-4, 2018
   place: Brussels, Belgium
   sub: NLP
+
+- name: 3DV
+  year: 2018
+  id: threedv18
+  link: http://3dv18.uniud.it
+  deadline: "2018-05-25 23:59:59"
+  timezone: America/Los_Angeles
+  date: September 5-8, 2018
+  place: Verona, Italy
+  sub: CV
 
 - name: ICRA
   year: 2018
@@ -211,22 +211,12 @@
   place: Stockholm, Sweden
   sub: ML
 
-- name: ACL
+- name: IROS
   year: 2018
-  id: acl18
-  link: http://acl2018.org/
-  deadline: "2018-02-22 23:59:59"
-  timezone: Etc/GMT+12
-  date: July 15-20, 2018
-  place: Melbourne, Australia
-  sub: NLP
-
-  name: 3DV
-  year: 2018
-  id: 3dv18
-  link: http://3dv18.uniud.it
-  deadline: "2018-05-25 23:59:59"
-  timezone: PCT
-  date: September 5-8, 2018
-  place: Verona, Italy
-  sub: CV
+  id: iros2018
+  link: https://www.iros2018.org/
+  deadline: "2018-03-01 23:59:59"
+  timezone: CET
+  date: October 1-5, 2018
+  place: Madrid, Spain
+  sub: RO
