@@ -60,6 +60,16 @@
   date: December 3-8, 2018
   place: "Palais des Congr\xC3\xA8s de Montr\xC3\xA9al, Canada"
   sub: ML
+  
+- name: CoNLL
+  year: 2018
+  id: conll18
+  link: http://www.conll.org/
+  deadline: "2018-06-01 23:59:59"
+  timezone: Etc/GMT-12
+  date: October 31 - November 1, 2018
+  place: Brussels, Belgium
+  sub: NLP
 
 - name: EMNLP
   year: 2018
