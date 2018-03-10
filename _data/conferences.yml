@@ -1,16 +1,6 @@
 
 ---
 
-- name: UAI
-  year: 2018
-  id: uai18
-  link: http://auai.org/uai2018/index.php
-  deadline: "2018-03-09 23:59:59"
-  timezone: Etc/GMT+11
-  date: August 06-10, 2018
-  place: Monterey, California, USA
-  sub: ML
-
 - name: ECCV
   year: 2018
   id: eccv18
@@ -60,16 +50,6 @@
   date: December 3-8, 2018
   place: "Palais des Congr\xC3\xA8s de Montr\xC3\xA9al, Canada"
   sub: ML
-  
-- name: CoNLL
-  year: 2018
-  id: conll18
-  link: http://www.conll.org/
-  deadline: "2018-06-01 23:59:59"
-  timezone: Etc/GMT-12
-  date: October 31 - November 1, 2018
-  place: Brussels, Belgium
-  sub: NLP
 
 - name: EMNLP
   year: 2018
@@ -90,6 +70,16 @@
   date: September 5-8, 2018
   place: Verona, Italy
   sub: CV
+
+- name: CoNLL
+  year: 2018
+  id: conll18
+  link: http://www.conll.org/
+  deadline: "2018-06-01 23:59:59"
+  timezone: Etc/GMT-12
+  date: October 31 - November 1, 2018
+  place: Brussels, Belgium
+  sub: NLP
 
 - name: ICRA
   year: 2018
@@ -230,3 +220,13 @@
   date: October 1-5, 2018
   place: Madrid, Spain
   sub: RO
+
+- name: UAI
+  year: 2018
+  id: uai18
+  link: http://auai.org/uai2018/index.php
+  deadline: "2018-03-09 23:59:59"
+  timezone: Etc/GMT+11
+  date: August 06-10, 2018
+  place: Monterey, California, USA
+  sub: ML
