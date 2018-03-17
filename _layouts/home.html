@@ -133,7 +133,16 @@
         for (var i = 0; i < conf_type_data.length; i++) {
           all_subs[i] = conf_type_data[i]['sub'];
         }
-        var subs = store.get('{{ site.domain }}');
+
+        // Get subjects from URL
+        var url = new URL(window.location);
+        var subs = url.searchParams.get('sub');
+        if (subs == undefined) {
+           subs = store.get('{{ site.domain }}');
+        } else {
+           subs = subs.split(',');
+        }
+        // Get subjects from browser cache
         if (subs === undefined) {
           subs = all_subs;
           for (var i = 0; i < subs.length; i++) {
@@ -151,6 +160,7 @@
           }
         }
         store.set('{{ site.domain }}', subs);
+        window.history.pushState('', '', '/?sub=' + subs.join());
 
         // Event handler on checkbox change
         $('form :checkbox').change(function(e) {
@@ -170,6 +180,7 @@
           }
           console.log(subs);
           store.set('{{ site.domain }}', subs);
+          window.history.pushState('', '', '/?sub=' + subs.join());
         });
     });
     <!-- Google analytics -->
