@@ -140,7 +140,7 @@
         if (subs == undefined) {
            subs = store.get('{{ site.domain }}');
         } else {
-           subs = subs.split(',');
+           subs = subs.toUpperCase().split(',');
         }
         // Get subjects from browser cache
         if (subs === undefined) {

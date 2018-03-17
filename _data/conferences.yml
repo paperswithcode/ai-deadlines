@@ -1,26 +1,6 @@
 
 ---
 
-- name: ECCV
-  year: 2018
-  id: eccv18
-  link: https://eccv2018.org/
-  deadline: "2018-03-14 15:59:00"
-  timezone: America/Los_Angeles
-  date: September 8-14, 2018
-  place: Munich, Germany
-  sub: CV
-
-- name: COLING
-  year: 2018
-  id: coling18
-  link: http://coling2018.org/
-  deadline: "2018-03-16 23:59:59"
-  timezone: America/Adak
-  date: August 20-25, 2018
-  place: Santa Fe, New Mexico, USA
-  sub: NLP
-
 - name: Interspeech
   year: 2018
   id: interspeech18
@@ -48,7 +28,7 @@
   deadline: "2018-05-18 13:00:00"
   timezone: America/Los_Angeles
   date: December 3-8, 2018
-  place: "Palais des Congr\xC3\xA8s de Montr\xC3\xA9al, Canada"
+  place: "Palais des Congr\xE8s de Montr\xE9al, Montr\xE9al, Canada"
   sub: ML
 
 - name: EMNLP
@@ -230,3 +210,23 @@
   date: August 06-10, 2018
   place: Monterey, California, USA
   sub: ML
+
+- name: ECCV
+  year: 2018
+  id: eccv18
+  link: https://eccv2018.org/
+  deadline: "2018-03-14 15:59:00"
+  timezone: America/Los_Angeles
+  date: September 8-14, 2018
+  place: Munich, Germany
+  sub: CV
+
+- name: COLING
+  year: 2018
+  id: coling18
+  link: http://coling2018.org/
+  deadline: "2018-03-16 23:59:59"
+  timezone: America/Adak
+  date: August 20-25, 2018
+  place: Santa Fe, New Mexico, USA
+  sub: NLP
