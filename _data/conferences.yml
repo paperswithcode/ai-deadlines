@@ -21,6 +21,36 @@
   place: Newcastle upon Tyne
   sub: CV
 
+- name: ISER
+  year: 2018
+  id: iser18
+  link: http://www.iser2018.org/
+  deadline: "2018-05-01 23:59:59"
+  timezone: Etc/GMT-12
+  date: November 5-8, 2018
+  place: Buenos Aires, Argentina
+  sub: RO
+
+- name: CORL
+  year: 2018
+  id: corl18
+  link: http://www.robot-learning.org/
+  deadline: "2018-06-15 23:59:59"
+  timezone: Etc/GMT-12
+  date: October 29-31, 2018
+  place: Zürich, Switzerland
+  sub: RO
+
+- name: WAFR
+  year: 2018
+  id: wafr18
+  link: https://parasol.tamu.edu/wafr/wafr2018/
+  deadline: "2018-06-28 23:59:59"
+  timezone: Etc/GMT-12
+  date: December 9-11, 2018
+  place: Universidad Politécnica de Yucatán, Mérida, México, 
+  sub: RO
+
 - name: NIPS
   year: 2018
   id: nips18
