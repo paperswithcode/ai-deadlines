@@ -1,6 +1,16 @@
 
 ---
 
+- name: ICDM
+  year: 2018
+  id: icdm2018
+  link: http://icdm2018.org/
+  deadline: "2018-06-05 23:59:59"
+  timezone: Etc/GMT-7
+  date: November 17-20, 2018
+  place: Singapore
+  sub: ML
+
 - name: Interspeech
   year: 2018
   id: interspeech18
