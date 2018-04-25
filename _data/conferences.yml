@@ -1,6 +1,16 @@
 
 ---
 
+name: AAAI
+  year: 2019
+  id: aaai19
+  link: https://aaai.org/Conferences/AAAI-19/
+  deadline: "2018-09-05 23:59:59"
+  timezone: UTC-10
+  date: January 27 - February 1, 2019
+  place: "Hilton Hawaiian Village, Honolulu, Hawaii, USA"
+  sub: ML
+
 - name: BMVC
   year: 2018
   id: bmvc2018
