@@ -1,16 +1,6 @@
 
 ---
 
-name: AAAI
-  year: 2019
-  id: aaai19
-  link: https://aaai.org/Conferences/AAAI-19/
-  deadline: "2018-09-05 23:59:59"
-  timezone: UTC-10
-  date: January 27 - February 1, 2019
-  place: "Hilton Hawaiian Village, Honolulu, Hawaii, USA"
-  sub: ML
-
 - name: BMVC
   year: 2018
   id: bmvc2018
@@ -101,6 +91,16 @@ name: AAAI
   place: Perth, Western Australia
   sub: CV
 
+- name: AAAI
+  year: 2019
+  id: aaai19
+  link: https://aaai.org/Conferences/AAAI-19/
+  deadline: "2018-09-05 23:59:59"
+  timezone: Etc/GMT+10
+  date: January 27 - February 1, 2019
+  place: Hilton Hawaiian Village, Honolulu, Hawaii, USA
+  sub: ML
+
 - name: ICRA
   year: 2018
   id: icra18
@@ -120,16 +120,6 @@ name: AAAI
   date: April 30-May 3, 2018
   place: Vancouver Convention Center, Vancouver, Canada
   sub: ML
-
-- name: ICASSP
-  year: 2018
-  id: icassp18
-  link: https://2018.ieeeicassp.org/
-  deadline: "2017-10-27 23:59:59"
-  timezone: America/Los_Angeles
-  date: April 15-20, 2018
-  place: Calgary, Alberta, Canada
-  sub: SP
 
 - name: AAMAS
   year: 2018
