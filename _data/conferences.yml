@@ -260,3 +260,14 @@
   date: September 2-6, 2018
   place: Hyderabad, India
   sub: SP
+
+
+- name: DARS
+  year: 2018
+  id: dars18
+  link: http://www.roboticmaterials.com/dars2018/
+  deadline: "2018-05-15 23:59:59"
+  timezone: Etc/GMT-07
+  date: October 15-17, 2018
+  place: Boulder, Colarado, USA
+  sub: RO
