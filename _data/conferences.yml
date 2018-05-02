@@ -91,6 +91,16 @@
   place: Perth, Western Australia
   sub: CV
 
+- name: WSDM
+  year: 2019
+  id: wsdm19
+  link: http://www.wsdm-conference.org/2019/
+  deadline: "2018-08-15 23:59:59"
+  timezone: Etc/GMT-12
+  date: February 11-15, 2019
+  place: Melbourne, Australia
+  sub: IR
+  
 - name: AAAI
   year: 2019
   id: aaai19
