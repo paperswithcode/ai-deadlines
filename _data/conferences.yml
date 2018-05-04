@@ -260,3 +260,33 @@
   date: September 2-6, 2018
   place: Hyderabad, India
   sub: SP
+
+- name: BRACIS
+  year: 2018
+  id: bracis18
+  link: https://bracis2018.mybluemix.net/index.html
+  deadline: "2018-05-20 23:59:59"
+  timezone: Etc/GMT-3 
+  date: October 22-25, 2018
+  place: São Paulo, Brazil
+  sub: ML,CV,NLP,RO,SP,GR
+
+- name: ENIAC
+  year: 2018
+  id: eniac18
+  link: https://bracis2018.mybluemix.net/ENIAC.html
+  deadline: "2018-06-29 23:59:59"
+  timezone: Etc/GMT-3 
+  date: October 22-25, 2018
+  place: São Paulo, Brazil
+  sub: ML,CV,NLP,RO,SP,GR
+
+- name: KDMILE
+  year: 2018
+  id: kdmile18
+  link: https://bracis2018.mybluemix.net/KDMILE.html
+  deadline: "2018-07-01 23:59:59"
+  timezone: Etc/GMT-3 
+  date: October 22-25, 2018
+  place: São Paulo, Brazil
+  sub: ML
