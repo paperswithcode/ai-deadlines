@@ -80,6 +80,16 @@
   date: January 8-11, 2019
   place: Waikoloa Village, Hawaii
   sub: CV
+  
+- name: SLT
+  year: 2018
+  id: slt2018
+  link: http://slt2018.org/
+  deadline: "2018-07-02 23:59:59"
+  timezone: Etc/GMT
+  date: December 18-21, 2019
+  place: Athens, Greece
+  sub: SP
 
 - name: ACCV
   year: 2018
@@ -100,6 +110,16 @@
   date: January 27 - February 1, 2019
   place: Hilton Hawaiian Village, Honolulu, Hawaii, USA
   sub: ML
+  
+- name: ICASSP
+  year: 2019
+  id: icassp2019
+  link: http://icassp2019.com/
+  deadline: "2018-10-29 23:59:59"
+  timezone: Etc/GMT
+  date: May 12-17, 2019
+  place: Brighton, UK
+  sub: SP
 
 - name: ICRA
   year: 2018
@@ -120,6 +140,8 @@
   date: April 30-May 3, 2018
   place: Vancouver Convention Center, Vancouver, Canada
   sub: ML
+  
+
 
 - name: AAMAS
   year: 2018
