@@ -80,7 +80,7 @@
   date: January 8-11, 2019
   place: Waikoloa Village, Hawaii
   sub: CV
-  
+
 - name: SLT
   year: 2018
   id: slt2018
@@ -110,7 +110,7 @@
   date: January 27 - February 1, 2019
   place: Hilton Hawaiian Village, Honolulu, Hawaii, USA
   sub: ML
-  
+
 - name: ICASSP
   year: 2019
   id: icassp2019
@@ -130,18 +130,6 @@
   date: May 21-25, 2018
   place: Brisbane, Australia
   sub: RO
-
-- name: ICLR
-  year: 2018
-  id: iclr18
-  link: http://iclr.cc/
-  deadline: "2017-10-27 17:00:00"
-  timezone: America/Los_Angeles
-  date: April 30-May 3, 2018
-  place: Vancouver Convention Center, Vancouver, Canada
-  sub: ML
-  
-
 
 - name: AAMAS
   year: 2018
