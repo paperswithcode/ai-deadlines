@@ -11,6 +11,16 @@
   place: Newcastle upon Tyne
   sub: CV
 
+- name: ISER
+  year: 2018
+  id: iser2018
+  link: http://www.iser2018.org/
+  deadline: "2018-05-01 23:59:59"
+  timezone: Etc/GMT+12
+  date: November 5-8, 2018
+  place: Buenos Aires, Argentina
+  sub: RO
+
 - name: NIPS
   year: 2018
   id: nips18
