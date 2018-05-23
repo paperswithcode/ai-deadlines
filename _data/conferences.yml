@@ -1,6 +1,16 @@
 
 ---
 
+- name: SAREC
+  year: 2018
+  id: sarec2018
+  link: http://sarec2018.org/
+  deadline: "2018-08-07 23:59:59"
+  timezone: Singapore/Maylasia
+  date: November 17-20, 2018
+  place: Singapore
+  sub: ML
+
 - name: BMVC
   year: 2018
   id: bmvc2018
