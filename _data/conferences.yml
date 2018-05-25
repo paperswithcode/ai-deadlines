@@ -1,36 +1,6 @@
 
 ---
 
-- name: BMVC
-  year: 2018
-  id: bmvc2018
-  link: http://bmvc2018.org/
-  deadline: "2018-05-07 23:59:59"
-  timezone: America/Los_Angeles
-  date: September 03-06, 2018
-  place: Newcastle upon Tyne
-  sub: CV
-
-- name: NIPS
-  year: 2018
-  id: nips18
-  link: https://nips.cc/Conferences/2018
-  deadline: "2018-05-18 13:00:00"
-  timezone: America/Los_Angeles
-  date: December 3-8, 2018
-  place: "Palais des Congr\xE8s de Montr\xE9al, Montr\xE9al, Canada"
-  sub: ML
-
-- name: EMNLP
-  year: 2018
-  id: emnlp18
-  link: http://emnlp2018.org
-  deadline: "2018-05-22 23:59:59"
-  timezone: America/Los_Angeles
-  date: November 2-4, 2018
-  place: Brussels, Belgium
-  sub: NLP
-
 - name: 3DV
   year: 2018
   id: threedv18
@@ -46,7 +16,7 @@
   id: conll18
   link: http://www.conll.org/
   deadline: "2018-06-01 23:59:59"
-  timezone: Etc/GMT-12
+  timezone: Etc/GMT+12
   date: October 31 - November 1, 2018
   place: Brussels, Belgium
   sub: NLP
@@ -120,16 +90,6 @@
   date: May 12-17, 2019
   place: Brighton, UK
   sub: SP
-
-- name: ICRA
-  year: 2018
-  id: icra18
-  link: http://www.icra2018.org/
-  deadline: "2017-09-15 23:59:59"
-  timezone: America/Los_Angeles
-  date: May 21-25, 2018
-  place: Brisbane, Australia
-  sub: RO
 
 - name: AAMAS
   year: 2018
@@ -270,3 +230,33 @@
   date: September 2-6, 2018
   place: Hyderabad, India
   sub: SP
+
+- name: BMVC
+  year: 2018
+  id: bmvc2018
+  link: http://bmvc2018.org/
+  deadline: "2018-05-07 23:59:59"
+  timezone: America/Los_Angeles
+  date: September 03-06, 2018
+  place: Newcastle upon Tyne
+  sub: CV
+
+- name: NIPS
+  year: 2018
+  id: nips18
+  link: https://nips.cc/Conferences/2018
+  deadline: "2018-05-18 13:00:00"
+  timezone: America/Los_Angeles
+  date: December 3-8, 2018
+  place: "Palais des Congr\xE8s de Montr\xE9al, Montr\xE9al, Canada"
+  sub: ML
+
+- name: EMNLP
+  year: 2018
+  id: emnlp18
+  link: http://emnlp2018.org
+  deadline: "2018-05-22 23:59:59"
+  timezone: America/Los_Angeles
+  date: November 2-4, 2018
+  place: Brussels, Belgium
+  sub: NLP
