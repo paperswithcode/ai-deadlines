@@ -1,46 +1,6 @@
 
 ---
 
-- name: 3DV
-  year: 2018
-  id: threedv18
-  link: http://3dv18.uniud.it
-  deadline: "2018-05-25 23:59:59"
-  timezone: America/Los_Angeles
-  date: September 5-8, 2018
-  place: Verona, Italy
-  sub: CV
-
-- name: CoNLL
-  year: 2018
-  id: conll18
-  link: http://www.conll.org/
-  deadline: "2018-06-01 23:59:59"
-  timezone: Etc/GMT+12
-  date: October 31 - November 1, 2018
-  place: Brussels, Belgium
-  sub: NLP
-
-- name: ICDM
-  year: 2018
-  id: icdm2018
-  link: http://icdm2018.org/
-  deadline: "2018-06-05 23:59:59"
-  timezone: Etc/GMT-7
-  date: November 17-20, 2018
-  place: Singapore
-  sub: ML
-
-- name: CoRL
-  year: 2018
-  id: corl2018
-  link: http://www.robot-learning.org/
-  deadline: "2018-06-15 17:00:00"
-  timezone: America/Los_Angeles
-  date: October 29-31, 2018
-  place: Zurich, Switzerland
-  sub: RO
-
 - name: WACV
   year: 2019
   id: wacv19
@@ -81,6 +41,16 @@
   place: Hilton Hawaiian Village, Honolulu, Hawaii, USA
   sub: ML
 
+- name: ICRA
+  year: 2019
+  id: icra2019
+  link: https://icra2019.org//
+  deadline: "2018-9-15 23:59:59"
+  timezone: Etc/GMT
+  date: May 20-24, 2019
+  place: Montreal, Canada
+  sub: RO
+
 - name: ICASSP
   year: 2019
   id: icassp2019
@@ -110,16 +80,6 @@
   date: June 18-23, 2018
   place: Salt Lake City, Utah
   sub: CV
-
-- name: NAACL
-  year: 2018
-  id: naacl18
-  link: http://naacl2018.org/
-  deadline: "2017-12-15 23:59:59"
-  timezone: Etc/GMT+12
-  date: June 2-4, 2018
-  place: New Orleans, USA
-  sub: NLP
 
 - name: SIGGRAPH
   year: 2018
@@ -260,3 +220,43 @@
   date: November 2-4, 2018
   place: Brussels, Belgium
   sub: NLP
+
+- name: 3DV
+  year: 2018
+  id: threedv18
+  link: http://3dv18.uniud.it
+  deadline: "2018-05-25 23:59:59"
+  timezone: America/Los_Angeles
+  date: September 5-8, 2018
+  place: Verona, Italy
+  sub: CV
+
+- name: CoNLL
+  year: 2018
+  id: conll18
+  link: http://www.conll.org/
+  deadline: "2018-06-01 23:59:59"
+  timezone: Etc/GMT+12
+  date: October 31 - November 1, 2018
+  place: Brussels, Belgium
+  sub: NLP
+
+- name: ICDM
+  year: 2018
+  id: icdm2018
+  link: http://icdm2018.org/
+  deadline: "2018-06-05 23:59:59"
+  timezone: Etc/GMT-7
+  date: November 17-20, 2018
+  place: Singapore
+  sub: ML
+
+- name: CoRL
+  year: 2018
+  id: corl2018
+  link: http://www.robot-learning.org/
+  deadline: "2018-06-15 17:00:00"
+  timezone: America/Los_Angeles
+  date: October 29-31, 2018
+  place: Zurich, Switzerland
+  sub: RO
