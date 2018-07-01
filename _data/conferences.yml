@@ -1,16 +1,6 @@
 
 ---
 
-- name: WACV
-  year: 2019
-  id: wacv19
-  link: http://wacv19.uccs.us/
-  deadline: "2018-07-03 23:59:59"
-  timezone: America/Los_Angeles
-  date: January 8-11, 2019
-  place: Waikoloa Village, Hawaii
-  sub: CV
-
 - name: SLT
   year: 2018
   id: slt2018
@@ -20,6 +10,16 @@
   date: December 18-21, 2019
   place: Athens, Greece
   sub: SP
+
+- name: WACV
+  year: 2019
+  id: wacv19
+  link: http://wacv19.uccs.us/
+  deadline: "2018-07-03 23:59:59"
+  timezone: America/Los_Angeles
+  date: January 8-11, 2019
+  place: Waikoloa Village, Hawaii
+  sub: CV
 
 - name: ACCV
   year: 2018
