@@ -81,6 +81,16 @@
   place: Salt Lake City, Utah
   sub: CV
 
+- name: NAACL
+  year: 2018
+  id: naacl18
+  link: http://naacl2018.org/
+  deadline: "2017-12-15 23:59:59"
+  timezone: Etc/GMT+12
+  date: June 2-4, 2018
+  place: New Orleans, USA
+  sub: NLP
+
 - name: SIGGRAPH
   year: 2018
   id: siggraph18
@@ -140,6 +150,16 @@
   date: July 5-9, 2018
   place: Stockholm, Sweden
   sub: ML
+
+- name: ACL
+  year: 2019
+  id: acl19
+  link: http://acl2019.org/
+  deadline: "TBA"
+  timezone: Etc/GMT+12
+  date: July 28-August 2, 2019
+  place: Florence, Italy
+  sub: NLP
 
 - name: IROS
   year: 2018
