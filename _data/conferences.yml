@@ -61,6 +61,16 @@
   place: Brighton, UK
   sub: SP
 
+- name: ICLR
+  year: 2018
+  id: iclr18
+  link: http://iclr.cc/
+  deadline: "2017-10-27 17:00:00"
+  timezone: America/Los_Angeles
+  date: April 30-May 3, 2018
+  place: Vancouver Convention Center, Vancouver, Canada
+  sub: ML
+
 - name: AAMAS
   year: 2018
   id: aamas18
@@ -150,16 +160,6 @@
   date: July 5-9, 2018
   place: Stockholm, Sweden
   sub: ML
-
-- name: ACL
-  year: 2019
-  id: acl19
-  link: http://acl2019.org/
-  deadline: "TBA"
-  timezone: Etc/GMT+12
-  date: July 28-August 2, 2019
-  place: Florence, Italy
-  sub: NLP
 
 - name: IROS
   year: 2018
@@ -280,3 +280,13 @@
   date: October 29-31, 2018
   place: Zurich, Switzerland
   sub: RO
+
+- name: ACL
+  year: 2019
+  id: acl19
+  link: http://acl2019.org/
+  deadline: TBA
+  timezone: Etc/GMT+12
+  date: July 28-August 2, 2019
+  place: Florence, Italy
+  sub: NLP
