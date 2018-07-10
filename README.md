@@ -2,10 +2,11 @@
 
 Countdown timers to keep track of a bunch of CV/NLP/ML/AI conference deadlines.
 
-To keep things minimal, I'm only listing top-tier conferences as per [conferenceranks.com][6]. Feel free to maintain a separate fork if you don't see your sub-field or conference of interest listed.
-
 ## Adding/updating a conference
 
+To keep things minimal, I'm only looking to list top-tier conferences as per [conferenceranks.com][6]. Feel free to maintain a separate fork if you don't see your sub-field or conference of interest listed.
+
+To add or update information:
 - Fork the repository
 - Update `_data/conferences.yml`
 - Make sure it has the `name`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place` attributes
