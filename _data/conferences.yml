@@ -1,36 +1,6 @@
 
 ---
 
-- name: SLT
-  year: 2018
-  id: slt2018
-  link: http://slt2018.org/
-  deadline: "2018-07-02 23:59:59"
-  timezone: Etc/GMT
-  date: December 18-21, 2019
-  place: Athens, Greece
-  sub: SP
-
-- name: WACV
-  year: 2019
-  id: wacv19
-  link: http://wacv19.uccs.us/
-  deadline: "2018-07-03 23:59:59"
-  timezone: America/Los_Angeles
-  date: January 8-11, 2019
-  place: Waikoloa Village, Hawaii
-  sub: CV
-
-- name: ACCV
-  year: 2018
-  id: accv18
-  link: http://accv2018.net/
-  deadline: "2018-07-05 23:59:59"
-  timezone: America/Los_Angeles
-  date: December 2-6, 2018
-  place: Perth, Western Australia
-  sub: CV
-
 - name: AAAI
   year: 2019
   id: aaai19
@@ -72,14 +42,24 @@
   sub: SP
 
 - name: ICLR
-  year: 2018
-  id: iclr18
+  year: 2019
+  id: iclr19
   link: http://iclr.cc/
-  deadline: "2017-10-27 17:00:00"
+  deadline: TBA
   timezone: America/Los_Angeles
-  date: April 30-May 3, 2018
-  place: Vancouver Convention Center, Vancouver, Canada
+  date: TBA
+  place: TBA
   sub: ML
+
+- name: ACL
+  year: 2019
+  id: acl19
+  link: http://acl2019.org/
+  deadline: TBA
+  timezone: Etc/GMT+12
+  date: July 28-August 2, 2019
+  place: Florence, Italy
+  sub: NLP
 
 - name: AAMAS
   year: 2018
@@ -119,7 +99,7 @@
   timezone: GMT
   date: August 12-16, 2018
   place: Vancouver, Canada
-  sub: GR
+  sub: CV
 
 - name: IJCAI
   year: 2018
@@ -251,16 +231,6 @@
   place: Brussels, Belgium
   sub: NLP
 
-- name: 3DV
-  year: 2018
-  id: threedv18
-  link: http://3dv18.uniud.it
-  deadline: "2018-05-25 23:59:59"
-  timezone: America/Los_Angeles
-  date: September 5-8, 2018
-  place: Verona, Italy
-  sub: CV
-
 - name: CoNLL
   year: 2018
   id: conll18
@@ -290,13 +260,3 @@
   date: October 29-31, 2018
   place: Zurich, Switzerland
   sub: RO
-
-- name: ACL
-  year: 2019
-  id: acl19
-  link: http://acl2019.org/
-  deadline: TBA
-  timezone: Etc/GMT+12
-  date: July 28-August 2, 2019
-  place: Florence, Italy
-  sub: NLP

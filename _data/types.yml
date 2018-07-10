@@ -9,6 +9,3 @@
   sub: RO
 - name: Speech/SigProc
   sub: SP
-- name: Graphics
-  sub: GR
-
