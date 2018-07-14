@@ -72,13 +72,13 @@
   sub: ML
 
 - name: CVPR
-  year: 2018
-  id: cvpr18
-  link: http://cvpr2018.thecvf.com/
-  deadline: "2017-11-15 23:59:59"
+  year: 2019
+  id: cvpr19
+  link: http://cvpr2019.thecvf.com/
+  deadline: "2018-11-16 23:59:59"
   timezone: America/Los_Angeles
-  date: June 18-23, 2018
-  place: Salt Lake City, Utah
+  date: June 15-21, 2019
+  place: Long Beach, California
   sub: CV
 
 - name: NAACL
