@@ -11,6 +11,7 @@ from shutil import copyfile
 from builtins import input
 import pytz
 
+import pdb
 
 try:
     # for python newer than 2.7
@@ -101,8 +102,6 @@ with open("../_data/conferences.yml", 'r') as stream:
         conf = [x for x in data if x['deadline'].lower() not in tba_words]
         tba  = [x for x in data if x['deadline'].lower() in tba_words]
 
-
-
         # just sort:
         conf.sort(key=lambda x: pytz.utc.normalize(datetime.datetime.strptime(x['deadline'], dateformat).replace(tzinfo=pytz.timezone(x['timezone']))))
         print("Date Sorting:")
@@ -142,6 +141,8 @@ with open('sorted_data.yml', 'r') as stream:
         print("\n\n")
         clean_conf = []
         for q in conf:
+            if q["date"] == 'TBA':
+                continue
             dates,year=q["date"].split(",")
             try:
                 start_date = dates.strip().split(" ")[0].strip()+" "+dates.split("-")[1].strip()+" "+year.strip()

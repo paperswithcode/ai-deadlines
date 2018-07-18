@@ -41,6 +41,16 @@
   place: Brighton, UK
   sub: SP
 
+- name: CVPR
+  year: 2019
+  id: cvpr19
+  link: http://cvpr2019.thecvf.com/
+  deadline: "2018-11-16 23:59:59"
+  timezone: America/Los_Angeles
+  date: June 15-21, 2019
+  place: Long Beach, California
+  sub: CV
+
 - name: ICLR
   year: 2019
   id: iclr19
@@ -70,16 +80,6 @@
   date: July 11-13, 2018
   place: Stockholm, Sweden
   sub: ML
-
-- name: CVPR
-  year: 2019
-  id: cvpr19
-  link: http://cvpr2019.thecvf.com/
-  deadline: "2018-11-16 23:59:59"
-  timezone: America/Los_Angeles
-  date: June 15-21, 2019
-  place: Long Beach, California
-  sub: CV
 
 - name: NAACL
   year: 2018
