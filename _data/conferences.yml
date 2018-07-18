@@ -21,16 +21,6 @@
   place: Montreal, Canada
   sub: RO
 
-- name: ICLR
-  year: 2019
-  id: iclr19
-  link: http://iclr.cc/
-  deadline: "2018-09-27 16:59:59"
-  timezone: EST
-  date: TBA
-  place: New Orleans, Louisiana, US
-  sub: ML
-
 - name: AISTATS
   year: 2019
   id: aistats19
@@ -60,6 +50,16 @@
   date: June 15-21, 2019
   place: Long Beach, California
   sub: CV
+
+- name: ICLR
+  year: 2019
+  id: iclr19
+  link: https://iclr.cc/Conferences/2019/CallForPapers
+  deadline: "2018-9-27 16:59:59"
+  timezone: America/New_york
+  date: TBD
+  place: New Orleans, Louisiana
+  sub: ML
 
 - name: ACL
   year: 2019
