@@ -55,10 +55,10 @@
   year: 2019
   id: iclr19
   link: http://iclr.cc/
-  deadline: TBA
-  timezone: America/Los_Angeles
+  deadline: "2018-9-27 16:59:59"
+  timezone: EST
   date: TBA
-  place: TBA
+  place: New Orleans, Louisiana
   sub: ML
 
 - name: ACL
