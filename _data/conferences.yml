@@ -51,6 +51,16 @@
   place: Brighton, UK
   sub: SP
 
+- name: NAACL
+  year: 2019
+  id: naacl19
+  link: http://naacl2019.org/
+  deadline: TBA
+  timezone: Etc/GMT+12
+  date: June 2-7, 2019
+  place: Minneapolis, USA
+  sub: NLP
+
 - name: CVPR
   year: 2019
   id: cvpr19
