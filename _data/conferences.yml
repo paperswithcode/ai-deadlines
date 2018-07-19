@@ -51,16 +51,6 @@
   place: Brighton, UK
   sub: SP
 
-- name: NAACL-HLT
-  year: 2019
-  id: naacl19
-  link: http://naacl2019.org/
-  deadline: TBA
-  timezone: Etc/GMT+12
-  date: June 2-7, 2019
-  place: Minneapolis, USA
-  sub: NLP
-
 - name: CVPR
   year: 2019
   id: cvpr19
@@ -70,6 +60,16 @@
   date: June 15-21, 2019
   place: Long Beach, California
   sub: CV
+
+- name: NAACL
+  year: 2019
+  id: naacl19
+  link: http://naacl2019.org/
+  deadline: TBA
+  timezone: Etc/GMT+12
+  date: June 2-7, 2019
+  place: Minneapolis, USA
+  sub: NLP
 
 - name: ACL
   year: 2019
@@ -90,16 +90,6 @@
   date: July 11-13, 2018
   place: Stockholm, Sweden
   sub: ML
-
-- name: NAACL
-  year: 2018
-  id: naacl18
-  link: http://naacl2018.org/
-  deadline: "2017-12-15 23:59:59"
-  timezone: Etc/GMT+12
-  date: June 2-4, 2018
-  place: New Orleans, USA
-  sub: NLP
 
 - name: SIGGRAPH
   year: 2018
