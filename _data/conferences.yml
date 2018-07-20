@@ -1,6 +1,16 @@
 
 ---
 
+- name: ICML
+  year: 2019
+  id: icml19
+  link: https://icml.cc/Conferences/2019
+  deadline: TBA
+  timezone: TBA
+  date: June 10-15, 2019
+  place: Long Beach Convention Center, USA
+  sub: ML
+
 - name: AAAI
   year: 2019
   id: aaai19
