@@ -270,3 +270,13 @@
   date: October 29-31, 2018
   place: Zurich, Switzerland
   sub: RO
+
+- name: AES
+  year: 2018
+  id: aes2018
+  link: http://www.aes.org/
+  deadline: "2018-05-31 20:00:00"
+  timezone: America/Los_Angeles
+  date: October 17-20, 2018
+  place: New York, NY, USA
+  sub: SP
