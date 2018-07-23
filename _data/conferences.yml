@@ -262,11 +262,11 @@
   sub: RO
 
 - name: AES
-  year: 2018
-  id: aes2018
-  link: http://www.aes.org/
-  deadline: "2018-05-31 20:00:00"
-  timezone: America/Los_Angeles
-  date: October 17-20, 2018
-  place: New York, NY, USA
+  year: 2019
+  id: aes2019
+  link: http://www.aes.org/conferences/2019/immersive/
+  deadline: "2018-10-01 23:59:59"
+  timezone: Etc/GMT
+  date: March 27-29, 2019
+  place: York, UK
   sub: SP
