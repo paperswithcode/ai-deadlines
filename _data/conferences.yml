@@ -31,6 +31,16 @@
   place: New Orleans, Louisiana, US
   sub: ML
 
+- name: AES
+  year: 2019
+  id: aes2019
+  link: http://www.aes.org/conferences/2019/immersive/
+  deadline: "2018-10-01 23:59:59"
+  timezone: Etc/GMT
+  date: March 27-29, 2019
+  place: York, UK
+  sub: SP
+
 - name: AISTATS
   year: 2019
   id: aistats19
