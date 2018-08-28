@@ -9,3 +9,5 @@
   sub: RO
 - name: Speech/SigProc
   sub: SP
+- name: Evolutionary Computation
+  sub: EC
