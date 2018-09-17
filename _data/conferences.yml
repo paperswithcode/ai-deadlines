@@ -122,13 +122,13 @@
   sub: CV
 
 - name: IJCAI
-  year: 2018
-  id: ijcai18
-  link: https://www.ijcai-18.org/
-  deadline: "2018-01-31 23:59:59"
-  timezone: Etc/GMT+12
-  date: July 13-19, 2018
-  place: Stockholm, Sweden
+  year: 2019
+  id: ijcai19
+  link: https://www.ijca19.org/
+  deadline: "2019-02-25 23:59:59"
+  timezone: Etc/GMT
+  date: August 10-16, 2019
+  place: Macau, China
   sub: ML
 
 - name: RSS
@@ -172,13 +172,13 @@
   sub: ML
 
 - name: IROS
-  year: 2018
-  id: iros2018
-  link: https://www.iros2018.org/
-  deadline: "2018-03-01 23:59:59"
-  timezone: CET
-  date: October 1-5, 2018
-  place: Madrid, Spain
+  year: 2019
+  id: iros2019
+  link: https://www.iros2019.org/
+  deadline: "2019-03-01 23:59:59"
+  timezone: Etc/GMT
+  date: November 3-9, 2019
+  place: Macau, China
   sub: RO
 
 - name: UAI
