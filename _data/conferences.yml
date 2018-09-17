@@ -1,16 +1,6 @@
 
 ---
 
-- name: ICRA
-  year: 2019
-  id: icra2019
-  link: https://icra2019.org//
-  deadline: "2018-09-15 23:59:59"
-  timezone: Etc/GMT
-  date: May 20-24, 2019
-  place: Montreal, Canada
-  sub: RO
-
 - name: WACV
   year: 2019
   id: wacv19
@@ -81,6 +71,26 @@
   place: Minneapolis, USA
   sub: NLP
 
+- name: IJCAI
+  year: 2019
+  id: ijcai19
+  link: https://www.ijca19.org/
+  deadline: "2019-02-25 23:59:59"
+  timezone: Etc/GMT
+  date: August 10-16, 2019
+  place: Macau, China
+  sub: ML
+
+- name: IROS
+  year: 2019
+  id: iros2019
+  link: https://www.iros2019.org/
+  deadline: "2019-03-01 23:59:59"
+  timezone: Etc/GMT
+  date: November 3-9, 2019
+  place: Macau, China
+  sub: RO
+
 - name: ICML
   year: 2019
   id: icml19
@@ -121,16 +131,6 @@
   place: Vancouver, Canada
   sub: CV
 
-- name: IJCAI
-  year: 2019
-  id: ijcai19
-  link: https://www.ijca19.org/
-  deadline: "2019-02-25 23:59:59"
-  timezone: Etc/GMT
-  date: August 10-16, 2019
-  place: Macau, China
-  sub: ML
-
 - name: RSS
   year: 2018
   id: rss18
@@ -170,16 +170,6 @@
   date: July 5-9, 2018
   place: Stockholm, Sweden
   sub: ML
-
-- name: IROS
-  year: 2019
-  id: iros2019
-  link: https://www.iros2019.org/
-  deadline: "2019-03-01 23:59:59"
-  timezone: Etc/GMT
-  date: November 3-9, 2019
-  place: Macau, China
-  sub: RO
 
 - name: UAI
   year: 2018
@@ -280,7 +270,7 @@
   date: October 29-31, 2018
   place: Zurich, Switzerland
   sub: RO
-  
+
 - name: AAAI
   year: 2019
   id: aaai19
@@ -290,3 +280,13 @@
   date: January 27 - February 1, 2019
   place: Hilton Hawaiian Village, Honolulu, Hawaii, USA
   sub: ML
+
+- name: ICRA
+  year: 2019
+  id: icra2019
+  link: https://icra2019.org//
+  deadline: "2018-09-15 23:59:59"
+  timezone: Etc/GMT
+  date: May 20-24, 2019
+  place: Montreal, Canada
+  sub: RO
