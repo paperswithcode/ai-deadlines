@@ -20,7 +20,7 @@
   date: May 6-9, 2019
   place: New Orleans, Louisiana, US
   sub: ML
-
+  
 - name: AES
   year: 2019
   id: aes2019
@@ -41,6 +41,16 @@
   place: Naha, Okinawa, Japan
   sub: ML
 
+- name: SDM
+  year: 2019
+  id: sdm2019
+  link: https://www.siam.org/Conferences/CM/Main/sdm19
+  deadline: "2018-10-05 23:59:59"
+  timezone: America/PST
+  date: May 2-4, 2019
+  place: Calgary, Alberta, Canada
+  sub: ML
+
 - name: ICASSP
   year: 2019
   id: icassp2019
@@ -50,6 +60,16 @@
   date: May 12-17, 2019
   place: Brighton, UK
   sub: SP
+
+- name: WWW
+  year: 2019
+  id: www2019
+  link: https://www2019.thewebconf.org/
+  deadline: "2018-11-05 23:59:59"
+  timezone: America/PST
+  date: May 13-17, 2019
+  place: San Francisco, USA
+  sub: ML
 
 - name: CVPR
   year: 2019
