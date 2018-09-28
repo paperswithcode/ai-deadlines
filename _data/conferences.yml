@@ -1,26 +1,6 @@
 
 ---
 
-- name: WACV
-  year: 2019
-  id: wacv19
-  link: http://wacv19.uccs.us/
-  deadline: "2018-09-21 23:59:59"
-  timezone: America/Los_Angeles
-  date: January 8-11, 2019
-  place: Waikoloa Village, Hawaii
-  sub: CV
-
-- name: ICLR
-  year: 2019
-  id: iclr19
-  link: http://iclr.cc/
-  deadline: "2018-09-27 17:59:59"
-  timezone: America/New_York
-  date: May 6-9, 2019
-  place: New Orleans, Louisiana, US
-  sub: ML
-
 - name: AES
   year: 2019
   id: aes2019
@@ -70,6 +50,16 @@
   date: June 2-7, 2019
   place: Minneapolis, USA
   sub: NLP
+
+- name: COLT
+  year: 2019
+  id: colt19
+  link: http://www.learningtheory.org/colt2019/
+  deadline: "2019-02-01 23:00:00"
+  timezone: EST
+  date: June 25-28, 2019
+  place: Phoenix, AZ
+  sub: ML
 
 - name: IJCAI
   year: 2019
@@ -159,16 +149,6 @@
   timezone: America/Los_Angeles
   date: August 19-23, 2018
   place: London, United Kingdom
-  sub: ML
-
-- name: COLT
-  year: 2018
-  id: colt18
-  link: http://www.learningtheory.org/colt2018/
-  deadline: "2018-02-16 22:59:59"
-  timezone: EST
-  date: July 5-9, 2018
-  place: Stockholm, Sweden
   sub: ML
 
 - name: UAI
@@ -290,3 +270,23 @@
   date: May 20-24, 2019
   place: Montreal, Canada
   sub: RO
+
+- name: WACV
+  year: 2019
+  id: wacv19
+  link: http://wacv19.uccs.us/
+  deadline: "2018-09-21 23:59:59"
+  timezone: America/Los_Angeles
+  date: January 8-11, 2019
+  place: Waikoloa Village, Hawaii
+  sub: CV
+
+- name: ICLR
+  year: 2019
+  id: iclr19
+  link: http://iclr.cc/
+  deadline: "2018-09-27 17:59:59"
+  timezone: America/New_York
+  date: May 6-9, 2019
+  place: New Orleans, Louisiana, US
+  sub: ML
