@@ -51,6 +51,16 @@
   place: Minneapolis, USA
   sub: NLP
 
+- name: COLT
+  year: 2019
+  id: colt19
+  link: http://www.learningtheory.org/colt2019/
+  deadline: "2019-02-01 23:00:00"
+  timezone: EST
+  date: June 25-28, 2019
+  place: Phoenix, AZ
+  sub: ML
+
 - name: IJCAI
   year: 2019
   id: ijcai19
@@ -139,16 +149,6 @@
   timezone: America/Los_Angeles
   date: August 19-23, 2018
   place: London, United Kingdom
-  sub: ML
-
-- name: COLT
-  year: 2018
-  id: colt18
-  link: http://www.learningtheory.org/colt2018/
-  deadline: "2018-02-16 22:59:59"
-  timezone: EST
-  date: July 5-9, 2018
-  place: Stockholm, Sweden
   sub: ML
 
 - name: UAI
