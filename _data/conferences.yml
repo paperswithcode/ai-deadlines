@@ -81,6 +81,16 @@
   place: Macau, China
   sub: RO
 
+- name: ICCV
+  year: 2019
+  id: iccv19
+  link: http://iccv2019.thecvf.com/
+  deadline: "2019-03-22 23:59:00"
+  timezone: Etc/GMT
+  date: October 27 - November 3, 2019
+  place: Seoul, Korea
+  sub: CV
+
 - name: ICML
   year: 2019
   id: icml19
@@ -290,13 +300,4 @@
   date: May 6-9, 2019
   place: New Orleans, Louisiana, US
   sub: ML
-  
-- name: ICCV
-  year: 2019
-  id: iccv19
-  link: http://iccv2019.thecvf.com/
-  deadline: "2019-03-22 23:59:00"
-  timezone: Etc/GMT
-  date: October 27 - November 3, 2019
-  place: Seoul, Korea
-  sub: CV
+
