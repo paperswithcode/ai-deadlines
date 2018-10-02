@@ -1,16 +1,6 @@
 
 ---
 
-- name: AES
-  year: 2019
-  id: aes2019
-  link: http://www.aes.org/conferences/2019/immersive/
-  deadline: "2018-10-01 23:59:59"
-  timezone: Etc/GMT
-  date: March 27-29, 2019
-  place: York, UK
-  sub: SP
-
 - name: AISTATS
   year: 2019
   id: aistats19
@@ -111,106 +101,6 @@
   place: Florence, Italy
   sub: NLP
 
-- name: AAMAS
-  year: 2018
-  id: aamas18
-  link: http://celweb.vuse.vanderbilt.edu/aamas18
-  deadline: "2017-11-14 23:59:00"
-  timezone: Etc/GMT+12
-  date: July 11-13, 2018
-  place: Stockholm, Sweden
-  sub: ML
-
-- name: SIGGRAPH
-  year: 2018
-  id: siggraph18
-  link: http://s2018.siggraph.org/
-  deadline: "2018-01-23 21:59:59"
-  timezone: GMT
-  date: August 12-16, 2018
-  place: Vancouver, Canada
-  sub: CV
-
-- name: RSS
-  year: 2018
-  id: rss18
-  link: http://www.roboticsconference.org/
-  deadline: "2018-02-01 23:59:59"
-  timezone: Etc/GMT+12
-  date: June 26-30, 2018
-  place: Pittsburgh, Pennsylvania, USA
-  sub: RO
-
-- name: ICML
-  year: 2018
-  id: icml18
-  link: https://icml.cc/Conferences/2018
-  deadline: "2018-02-09 18:59:59"
-  timezone: EST
-  date: July 10-15, 2018
-  place: Stockholm, Sweden
-  sub: ML
-
-- name: KDD
-  year: 2018
-  id: kdd18
-  link: http://www.kdd.org/kdd2018/
-  deadline: "2018-02-11 23:59:59"
-  timezone: America/Los_Angeles
-  date: August 19-23, 2018
-  place: London, United Kingdom
-  sub: ML
-
-- name: UAI
-  year: 2018
-  id: uai18
-  link: http://auai.org/uai2018/index.php
-  deadline: "2018-03-09 23:59:59"
-  timezone: Etc/GMT+11
-  date: August 06-10, 2018
-  place: Monterey, California, USA
-  sub: ML
-
-- name: ECCV
-  year: 2018
-  id: eccv18
-  link: https://eccv2018.org/
-  deadline: "2018-03-14 15:59:00"
-  timezone: America/Los_Angeles
-  date: September 8-14, 2018
-  place: Munich, Germany
-  sub: CV
-
-- name: COLING
-  year: 2018
-  id: coling18
-  link: http://coling2018.org/
-  deadline: "2018-03-16 23:59:59"
-  timezone: America/Adak
-  date: August 20-25, 2018
-  place: Santa Fe, New Mexico, USA
-  sub: NLP
-
-- name: Interspeech
-  year: 2018
-  id: interspeech18
-  link: http://interspeech2018.org/
-  deadline: "2018-03-23 23:59:59"
-  timezone: Etc/GMT
-  date: September 2-6, 2018
-  place: Hyderabad, India
-  sub: SP
-
-- name: BMVC
-  year: 2018
-  id: bmvc2018
-  link: http://bmvc2018.org/
-  deadline: "2018-05-07 23:59:59"
-  timezone: America/Los_Angeles
-  date: September 03-06, 2018
-  place: Newcastle upon Tyne
-  sub: CV
-
 - name: NIPS
   year: 2018
   id: nips18
@@ -301,3 +191,12 @@
   place: New Orleans, Louisiana, US
   sub: ML
 
+- name: AES
+  year: 2019
+  id: aes2019
+  link: http://www.aes.org/conferences/2019/immersive/
+  deadline: "2018-10-01 23:59:59"
+  timezone: Etc/GMT
+  date: March 27-29, 2019
+  place: York, UK
+  sub: SP
