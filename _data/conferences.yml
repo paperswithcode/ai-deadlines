@@ -31,6 +31,16 @@
   place: Minneapolis, USA
   sub: NLP
 
+- name: ICML
+  year: 2019
+  id: icml19
+  link: https://icml.cc/Conferences/2019
+  deadline: "2019-01-23 15:59:00"
+  timezone: America/Los_Angeles
+  date: June 10-15, 2019
+  place: Long Beach Convention Center, Long Beach, USA
+  sub: ML
+
 - name: COLT
   year: 2019
   id: colt19
@@ -80,16 +90,6 @@
   date: October 27 - November 3, 2019
   place: Seoul, Korea
   sub: CV
-
-- name: ICML
-  year: 2019
-  id: icml19
-  link: https://icml.cc/Conferences/2019
-  deadline: TBA
-  timezone: TBA
-  date: June 10-15, 2019
-  place: Long Beach Convention Center, Long Beach, USA
-  sub: ML
 
 - name: NIPS
   year: 2018
