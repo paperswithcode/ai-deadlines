@@ -11,6 +11,16 @@
   place: Brighton, UK
   sub: SP
 
+- name: AAMAS
+  year: 2019
+  id: aamas19
+  link: http://aamas2019.encs.concordia.ca/
+  deadline: "2018-11-16 23:59:59"
+  timezone: Etc/GMT
+  date: May 13-17, 2019
+  place: Montreal, Canada
+  sub: ML
+
 - name: CVPR
   year: 2019
   id: cvpr19
