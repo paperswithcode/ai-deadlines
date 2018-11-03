@@ -42,6 +42,16 @@
   sub: ML
   note: "<b>NOTE</b>: Mandatory abstract deadline on Jan 18, 2019. More info <a href='https://icml.cc/Conferences/2019/CallForPapers'>here</a>."
 
+- name: GECCO
+  year: 2019
+  id: gecco19
+  link: https://gecco-2019.sigevo.org/index.html/tiki-index.php
+  deadline: "2019-01-30 23:59:59"
+  timezone: Etc/GMT+10
+  date: July 13 - 17, 2019
+  place: Prague, Czech Republic
+  sub: ML
+
 - name: COLT
   year: 2019
   id: colt19
