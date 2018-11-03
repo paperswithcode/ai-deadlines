@@ -290,3 +290,13 @@
   date: May 20-24, 2019
   place: Montreal, Canada
   sub: RO
+
+- name: TEST
+  year: 2019
+  id: test2019
+  link: https://icra2019.org//
+  deadline: "2018-11-15 23:59:59"
+  timezone: Etc/GMT
+  date: May 20-24, 2019
+  place: Montreal, Canada
+  sub: RO
