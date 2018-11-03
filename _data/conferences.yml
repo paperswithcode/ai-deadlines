@@ -1,16 +1,6 @@
 
 ---
 
-- name: ICASSP
-  year: 2019
-  id: icassp2019
-  link: http://icassp2019.com/
-  deadline: "2018-10-29 23:59:59"
-  timezone: Etc/GMT
-  date: May 12-17, 2019
-  place: Brighton, UK
-  sub: SP
-
 - name: AAMAS
   year: 2019
   id: aamas19
@@ -48,7 +38,18 @@
   deadline: "2019-01-23 15:59:00"
   timezone: America/Los_Angeles
   date: June 10-15, 2019
-  place: Long Beach Convention Center, Long Beach, USA
+  place: Long Beach, USA
+  sub: ML
+  note: "<b>NOTE</b>: Mandatory abstract deadline on Jan 18, 2019. More info <a href='https://icml.cc/Conferences/2019/CallForPapers'>here</a>."
+
+- name: GECCO
+  year: 2019
+  id: gecco19
+  link: https://gecco-2019.sigevo.org/index.html/tiki-index.php
+  deadline: "2019-01-30 23:59:59"
+  timezone: Etc/GMT+10
+  date: July 13 - 17, 2019
+  place: Prague, Czech Republic
   sub: ML
 
 - name: COLT
@@ -70,6 +71,16 @@
   date: June 22-26, 2019
   place: Freiburg, Germany
   sub: RO
+
+- name: KDD
+  year: 2019
+  id: kdd19
+  link: https://www.kdd.org/kdd2019
+  deadline: "2019-02-02 23:59:59"
+  timezone: Etc/GMT
+  date: August 3-7, 2019
+  place: Anchorage, Alaska, USA
+  sub: DM
 
 - name: IJCAI
   year: 2019
@@ -131,16 +142,6 @@
   place: Brussels, Belgium
   sub: NLP
 
-- name: CoNLL
-  year: 2018
-  id: conll18
-  link: http://www.conll.org/
-  deadline: "2018-06-01 23:59:59"
-  timezone: Etc/GMT+12
-  date: October 31 - November 1, 2018
-  place: Brussels, Belgium
-  sub: NLP
-
 - name: ICDM
   year: 2018
   id: icdm2018
@@ -150,16 +151,6 @@
   date: November 17-20, 2018
   place: Singapore
   sub: ML
-
-- name: CoRL
-  year: 2018
-  id: corl2018
-  link: http://www.robot-learning.org/
-  deadline: "2018-06-15 17:00:00"
-  timezone: America/Los_Angeles
-  date: October 29-31, 2018
-  place: Zurich, Switzerland
-  sub: RO
 
 - name: AAAI
   year: 2019
@@ -220,3 +211,13 @@
   date: April 16-18, 2019
   place: Naha, Okinawa, Japan
   sub: ML
+
+- name: ICASSP
+  year: 2019
+  id: icassp2019
+  link: http://icassp2019.com/
+  deadline: "2018-10-29 23:59:59"
+  timezone: Etc/GMT
+  date: May 12-17, 2019
+  place: Brighton, UK
+  sub: SP

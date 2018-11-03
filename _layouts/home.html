@@ -8,7 +8,7 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="{{ site.author }}">
     <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
-    <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.css" | prepend:site.baseurl }}" media="screen,projection">
+    <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.13aff54.css" | prepend:site.baseurl }}" media="screen,projection">
     <link rel="shortcut icon" href="{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="{{ "/static/js/jquery.countdown.min.js" | prepend:site.baseurl }}"></script>
@@ -41,7 +41,7 @@
                   <form class="form-horizontal">
                     <div class="form-group">
                       {% for type in site.data.types %}
-                      <div class="col-md-2 col-xs-5">
+                      <div class="col-md-4 col-xs-5">
                         <div class="checkbox">
                           <label>
                             <input type="checkbox" id="{{ type.sub }}-checkbox" class=""> {{ type.name }}
@@ -63,6 +63,11 @@
                   <div class="meta">
                     {{conf.date}} // <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>
                   </div>
+                  {% if conf.note %}
+                  <div class="note">
+                    {{conf.note}}
+                  </div>
+                  {% endif %}
               </div>
               <div class="col-xs-12 col-sm-6">
                 <span class="timer"></span>

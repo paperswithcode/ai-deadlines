@@ -102,6 +102,11 @@ footer {
   font-size: 13px;
 }
 
+.note {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
 .timer {
   font-size: 20px;
 }
