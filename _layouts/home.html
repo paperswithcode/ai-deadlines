@@ -63,6 +63,11 @@
                   <div class="meta">
                     {{conf.date}} // <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>
                   </div>
+                  {% if conf.note %}
+                  <div class="note">
+                    {{conf.note}}
+                  </div>
+                  {% endif %}
               </div>
               <div class="col-xs-12 col-sm-6">
                 <span class="timer"></span>
