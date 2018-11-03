@@ -1,16 +1,6 @@
 
 ---
 
-- name: ICASSP
-  year: 2019
-  id: icassp2019
-  link: http://icassp2019.com/
-  deadline: "2018-10-29 23:59:59"
-  timezone: Etc/GMT
-  date: May 12-17, 2019
-  place: Brighton, UK
-  sub: SP
-
 - name: AAMAS
   year: 2019
   id: aamas19
@@ -71,7 +61,6 @@
   place: Freiburg, Germany
   sub: RO
 
-
 - name: KDD
   year: 2019
   id: kdd19
@@ -81,7 +70,6 @@
   date: August 3-7, 2019
   place: Anchorage, Alaska, USA
   sub: DM
-
 
 - name: IJCAI
   year: 2019
@@ -143,16 +131,6 @@
   place: Brussels, Belgium
   sub: NLP
 
-- name: CoNLL
-  year: 2018
-  id: conll18
-  link: http://www.conll.org/
-  deadline: "2018-06-01 23:59:59"
-  timezone: Etc/GMT+12
-  date: October 31 - November 1, 2018
-  place: Brussels, Belgium
-  sub: NLP
-
 - name: ICDM
   year: 2018
   id: icdm2018
@@ -162,16 +140,6 @@
   date: November 17-20, 2018
   place: Singapore
   sub: ML
-
-- name: CoRL
-  year: 2018
-  id: corl2018
-  link: http://www.robot-learning.org/
-  deadline: "2018-06-15 17:00:00"
-  timezone: America/Los_Angeles
-  date: October 29-31, 2018
-  place: Zurich, Switzerland
-  sub: RO
 
 - name: AAAI
   year: 2019
@@ -232,3 +200,13 @@
   date: April 16-18, 2019
   place: Naha, Okinawa, Japan
   sub: ML
+
+- name: ICASSP
+  year: 2019
+  id: icassp2019
+  link: http://icassp2019.com/
+  deadline: "2018-10-29 23:59:59"
+  timezone: Etc/GMT
+  date: May 12-17, 2019
+  place: Brighton, UK
+  sub: SP
