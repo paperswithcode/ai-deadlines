@@ -54,6 +54,11 @@
                 <!-- </div> -->
               </div>
             </div>
+            <div class="row">
+              <div class="meta col-xs-12">
+                Export all deadlines to <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/ai-deadlines.ics">Google Calendar</a> or <a href="/ai-deadlines.ics">.ics</a>.
+              </div>
+            </div>
         </div>
         {% for conf in site.data.conferences %}
         <div id="{{conf.id}}" class="{% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
