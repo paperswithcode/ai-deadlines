@@ -9,7 +9,7 @@ To keep things minimal, I'm only looking to list top-tier conferences in AI as p
 To add or update information:
 - Fork the repository
 - Update `_data/conferences.yml`
-- Make sure it has the `name`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place` attributes
+- Make sure it has the `title`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place` attributes
 - Send a pull request
 
 ## Forks & other useful listings

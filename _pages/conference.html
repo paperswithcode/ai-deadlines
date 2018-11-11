@@ -1,0 +1,98 @@
+---
+permalink:  /conference
+---
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{{ site.author }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.3b6df32.css" | prepend:site.baseurl }}" media="screen,projection">
+    <link rel="shortcut icon" href="{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ "/static/js/jquery.countdown.min.js" | prepend:site.baseurl }}"></script>
+    <script src="{{ "/static/js/moment.min.js" | prepend:site.baseurl }}"></script>
+    <script src="{{ "/static/js/moment-timezone-with-data.min.js" | prepend:site.baseurl }}"></script>
+    <script src="{{ "/static/js/store.min.js" | prepend:site.baseurl }}"></script>
+    <script src="{{ "/static/js/ouical.min.js" | prepend:site.baseurl }}"></script>
+
+  </head>
+  <body>
+    <div class="top-strip"></div>
+    <div class="container">
+        <div class="page-header" id="conf-title">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                  <h1>
+                    <a id="conf-title-href" nohref></a>
+                    <span id="twitter-box"></span>
+                    <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_repo }}&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+                  </h1>
+                </div>
+                <div class="meta deadline col-xs-12">
+                  <span id="conf-date"></span>. <span id="conf-place"></span>.<br>
+                  Deadline: <span class="deadline-time"></span><br>
+                  Website: <a id="conf-website" target="_blank" nohref></a><br>
+                </div>
+            </div>
+        </div>
+        <div>
+          <div class="row">
+              <div class="col-xs-12">
+                <span id="conf-timer"></span>
+              </div>
+          </div>
+          <hr>
+        </div>
+        <footer>
+          <a href="/">{{ site.domain }}</a> maintained by <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.
+        </footer>
+    </div>
+    <script type="text/javascript" charset="utf-8">
+    $(function() {
+        var url = new URL(window.location);
+        var conf = url.searchParams.get('id');
+        console.log(conf);
+
+        {% for conf in site.data.conferences %}
+            if (conf == "{{ conf.id }}") {
+              $('#conf-title-href').text("{{conf.title}} {{conf.year}}");
+              $('#conf-title-href').attr('href', "/conference?id={{conf.id}}");
+              $('#conf-date').text("{{conf.date}}");
+              $('#conf-place').text("{{conf.place}}");
+              $('#conf-website').text("{{conf.link}}");
+              $('#conf-website').attr('href', "{{conf.link}}");
+              var twitter_slug = '<a href="https://twitter.com/share" class="twitter-share-button" data-text="Countdown to the {{ conf.title }} {{ conf.year }} deadline! #{{ conf.id }} {% if site.twitter_hashtag %} #{{ site.twitter_hashtag }}{% endif %}" data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8">';
+              $('#twitter-box').html(twitter_slug);
+              {% if conf.deadline == "TBA" %}
+                $('#conf-timer').html("TBA");
+                $('.deadline-time').html("TBA");
+              {% else %}
+                // adjust date according to deadline timezone
+                var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
+                var confDate = moment.tz("{{conf.deadline}}", timezone);
+
+                // render countdown timer
+                $('#conf-timer').countdown(confDate.toDate(), function(event) {
+                  $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+                });
+                $('.deadline-time').html(confDate.toString());
+              {% endif %}
+            }
+        {% endfor %}
+    });
+    // Google analytics
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', '{{ site.ga_id }}', 'auto');
+    ga('send', 'pageview');
+    </script>
+  </body>
+</html>
