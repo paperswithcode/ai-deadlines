@@ -13,3 +13,10 @@ github_repo: ai-deadlines
 
 markdown: kramdown
 ga_id: UA-36274081-2
+
+page_gen-dirs: true
+page_gen:
+  - data: 'conferences'
+    template: 'conference'
+    name: 'id'
+    dir: ''

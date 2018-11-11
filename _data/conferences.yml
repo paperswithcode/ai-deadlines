@@ -1,7 +1,7 @@
 
 ---
 
-- name: AAMAS
+- title: AAMAS
   year: 2019
   id: aamas19
   link: http://aamas2019.encs.concordia.ca/
@@ -11,7 +11,7 @@
   place: Montreal, Canada
   sub: ML
 
-- name: CVPR
+- title: CVPR
   year: 2019
   id: cvpr19
   link: http://cvpr2019.thecvf.com/
@@ -21,7 +21,7 @@
   place: Long Beach, USA
   sub: CV
 
-- name: NAACL
+- title: NAACL
   year: 2019
   id: naacl19
   link: http://naacl2019.org/
@@ -31,7 +31,7 @@
   place: Minneapolis, USA
   sub: NLP
 
-- name: ICML
+- title: ICML
   year: 2019
   id: icml19
   link: https://icml.cc/Conferences/2019
@@ -42,7 +42,7 @@
   sub: ML
   note: "<b>NOTE</b>: Mandatory abstract deadline on Jan 18, 2019. More info <a href='https://icml.cc/Conferences/2019/CallForPapers'>here</a>."
 
-- name: GECCO
+- title: GECCO
   year: 2019
   id: gecco19
   link: https://gecco-2019.sigevo.org/index.html/tiki-index.php
@@ -52,7 +52,7 @@
   place: Prague, Czech Republic
   sub: ML
 
-- name: COLT
+- title: COLT
   year: 2019
   id: colt19
   link: http://www.learningtheory.org/colt2019/
@@ -62,7 +62,7 @@
   place: Phoenix, AZ
   sub: ML
 
-- name: RSS
+- title: RSS
   year: 2019
   id: rss19
   link: http://www.roboticsconference.org/
@@ -72,7 +72,7 @@
   place: Freiburg, Germany
   sub: RO
 
-- name: KDD
+- title: KDD
   year: 2019
   id: kdd19
   link: https://www.kdd.org/kdd2019
@@ -82,7 +82,7 @@
   place: Anchorage, Alaska, USA
   sub: DM
 
-- name: IJCAI
+- title: IJCAI
   year: 2019
   id: ijcai19
   link: https://www.ijcai19.org/
@@ -92,7 +92,7 @@
   place: Macau, China
   sub: ML
 
-- name: IROS
+- title: IROS
   year: 2019
   id: iros2019
   link: https://www.iros2019.org/
@@ -102,7 +102,7 @@
   place: Macau, China
   sub: RO
 
-- name: ACL
+- title: ACL
   year: 2019
   id: acl19
   link: http://acl2019.org/
@@ -112,7 +112,7 @@
   place: Florence, Italy
   sub: NLP
 
-- name: ICCV
+- title: ICCV
   year: 2019
   id: iccv19
   link: http://iccv2019.thecvf.com/
@@ -122,7 +122,7 @@
   place: Seoul, Korea
   sub: CV
 
-- name: NIPS
+- title: NIPS
   year: 2018
   id: nips18
   link: https://nips.cc/Conferences/2018
@@ -132,7 +132,7 @@
   place: "Palais des Congr\xE8s de Montr\xE9al, Montr\xE9al, Canada"
   sub: ML
 
-- name: EMNLP
+- title: EMNLP
   year: 2018
   id: emnlp18
   link: http://emnlp2018.org
@@ -142,7 +142,7 @@
   place: Brussels, Belgium
   sub: NLP
 
-- name: ICDM
+- title: ICDM
   year: 2018
   id: icdm2018
   link: http://icdm2018.org/
@@ -152,7 +152,7 @@
   place: Singapore
   sub: ML
 
-- name: AAAI
+- title: AAAI
   year: 2019
   id: aaai19
   link: https://aaai.org/Conferences/AAAI-19/
@@ -162,7 +162,7 @@
   place: Hilton Hawaiian Village, Honolulu, Hawaii, USA
   sub: ML
 
-- name: ICRA
+- title: ICRA
   year: 2019
   id: icra2019
   link: https://icra2019.org//
@@ -172,7 +172,7 @@
   place: Montreal, Canada
   sub: RO
 
-- name: WACV
+- title: WACV
   year: 2019
   id: wacv19
   link: http://wacv19.uccs.us/
@@ -182,7 +182,7 @@
   place: Waikoloa Village, Hawaii
   sub: CV
 
-- name: ICLR
+- title: ICLR
   year: 2019
   id: iclr19
   link: http://iclr.cc/
@@ -192,7 +192,7 @@
   place: New Orleans, Louisiana, US
   sub: ML
 
-- name: AES
+- title: AES
   year: 2019
   id: aes2019
   link: http://www.aes.org/conferences/2019/immersive/
@@ -202,7 +202,7 @@
   place: York, UK
   sub: SP
 
-- name: AISTATS
+- title: AISTATS
   year: 2019
   id: aistats19
   link: https://www.aistats.org/
@@ -212,7 +212,7 @@
   place: Naha, Okinawa, Japan
   sub: ML
 
-- name: ICASSP
+- title: ICASSP
   year: 2019
   id: icassp2019
   link: http://icassp2019.com/
