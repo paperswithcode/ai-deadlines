@@ -11,3 +11,5 @@
   sub: SP
 - name: Data Mining
   sub: DM
+- name: Medical Image
+  sub: MI
