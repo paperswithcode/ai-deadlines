@@ -102,6 +102,16 @@
   place: Seoul, Korea
   sub: CV
 
+- title: MICCAI
+  year: 2019
+  id: miccai2019
+  link: http://www.miccai2019.org/
+  deadline: '2019-03-29 23:59:59'
+  timezone: US/Pacific
+  date: October 13 - October 17, 2019
+  place: Shenzhen, China
+  sub: CV
+
 - title: NeurIPS
   year: 2018
   id: neurips18
