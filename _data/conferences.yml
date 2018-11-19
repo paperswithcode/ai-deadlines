@@ -1,31 +1,11 @@
 
 ---
 
-- title: AAMAS
-  year: 2019
-  id: aamas19
-  link: http://aamas2019.encs.concordia.ca/
-  deadline: "2018-11-16 23:59:59"
-  timezone: Etc/GMT
-  date: May 13-17, 2019
-  place: Montreal, Canada
-  sub: ML
-
-- title: CVPR
-  year: 2019
-  id: cvpr19
-  link: http://cvpr2019.thecvf.com/
-  deadline: "2018-11-16 23:59:59"
-  timezone: America/Los_Angeles
-  date: June 15-21, 2019
-  place: Long Beach, USA
-  sub: CV
-
 - title: NAACL
   year: 2019
   id: naacl19
   link: http://naacl2019.org/
-  deadline: "2018-12-10 23:59:59"
+  deadline: '2018-12-10 23:59:59'
   timezone: Etc/GMT+12
   date: June 2-7, 2019
   place: Minneapolis, USA
@@ -35,18 +15,18 @@
   year: 2019
   id: icml19
   link: https://icml.cc/Conferences/2019
-  deadline: "2019-01-23 15:59:00"
+  deadline: '2019-01-23 15:59:00'
   timezone: America/Los_Angeles
   date: June 10-15, 2019
   place: Long Beach, USA
   sub: ML
-  note: "<b>NOTE</b>: Mandatory abstract deadline on Jan 18, 2019. More info <a href='https://icml.cc/Conferences/2019/CallForPapers'>here</a>."
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 18, 2019. More info <a href=''https://icml.cc/Conferences/2019/CallForPapers''>here</a>.'
 
 - title: GECCO
   year: 2019
   id: gecco19
   link: https://gecco-2019.sigevo.org/index.html/tiki-index.php
-  deadline: "2019-01-30 23:59:59"
+  deadline: '2019-01-30 23:59:59'
   timezone: Etc/GMT+10
   date: July 13 - 17, 2019
   place: Prague, Czech Republic
@@ -56,7 +36,7 @@
   year: 2019
   id: colt19
   link: http://www.learningtheory.org/colt2019/
-  deadline: "2019-02-01 23:00:00"
+  deadline: '2019-02-01 23:00:00'
   timezone: America/New_York
   date: June 25-28, 2019
   place: Phoenix, AZ
@@ -66,7 +46,7 @@
   year: 2019
   id: rss19
   link: http://www.roboticsconference.org/
-  deadline: "2019-02-01 23:59:00"
+  deadline: '2019-02-01 23:59:00'
   timezone: America/Los_Angeles
   date: June 22-26, 2019
   place: Freiburg, Germany
@@ -76,7 +56,7 @@
   year: 2019
   id: kdd19
   link: https://www.kdd.org/kdd2019
-  deadline: "2019-02-02 23:59:59"
+  deadline: '2019-02-02 23:59:59'
   timezone: Etc/GMT
   date: August 3-7, 2019
   place: Anchorage, Alaska, USA
@@ -86,7 +66,7 @@
   year: 2019
   id: ijcai19
   link: https://www.ijcai19.org/
-  deadline: "2019-02-25 23:59:59"
+  deadline: '2019-02-25 23:59:59'
   timezone: Etc/GMT
   date: August 10-16, 2019
   place: Macau, China
@@ -96,7 +76,7 @@
   year: 2019
   id: iros2019
   link: https://www.iros2019.org/
-  deadline: "2019-03-01 23:59:59"
+  deadline: '2019-03-01 23:59:59'
   timezone: Etc/GMT
   date: November 3-9, 2019
   place: Macau, China
@@ -106,7 +86,7 @@
   year: 2019
   id: acl19
   link: http://acl2019.org/
-  deadline: "2019-03-04 23:59:00"
+  deadline: '2019-03-04 23:59:00'
   timezone: Etc/GMT+12
   date: July 28-August 2, 2019
   place: Florence, Italy
@@ -116,7 +96,7 @@
   year: 2019
   id: iccv19
   link: http://iccv2019.thecvf.com/
-  deadline: "2019-03-22 23:59:00"
+  deadline: '2019-03-22 23:59:00'
   timezone: Etc/GMT
   date: October 27 - November 3, 2019
   place: Seoul, Korea
@@ -125,29 +105,19 @@
 - title: NeurIPS
   year: 2018
   id: neurips18
-  link: https://nips.cc/Conferences/2018
-  deadline: "2018-05-18 13:00:00"
+  link: https://neurips.cc/Conferences/2018
+  deadline: '2018-05-18 13:00:00'
   timezone: America/Los_Angeles
   date: December 3-8, 2018
   place: "Palais des Congr\xE8s de Montr\xE9al, Montr\xE9al, Canada"
   sub: ML
-  note: "<b>NOTE</b>: Formerly (and unfortunately) called NIPS."
-
-- title: EMNLP
-  year: 2018
-  id: emnlp18
-  link: http://emnlp2018.org
-  deadline: "2018-05-22 23:59:59"
-  timezone: America/Los_Angeles
-  date: November 2-4, 2018
-  place: Brussels, Belgium
-  sub: NLP
+  note: '<b>NOTE</b>: Formerly (and unfortunately) called NIPS.'
 
 - title: ICDM
   year: 2018
   id: icdm2018
   link: http://icdm2018.org/
-  deadline: "2018-06-05 23:59:59"
+  deadline: '2018-06-05 23:59:59'
   timezone: Etc/GMT-7
   date: November 17-20, 2018
   place: Singapore
@@ -157,7 +127,7 @@
   year: 2019
   id: aaai19
   link: https://aaai.org/Conferences/AAAI-19/
-  deadline: "2018-09-05 23:59:59"
+  deadline: '2018-09-05 23:59:59'
   timezone: Etc/GMT+10
   date: January 27 - February 1, 2019
   place: Hilton Hawaiian Village, Honolulu, Hawaii, USA
@@ -167,7 +137,7 @@
   year: 2019
   id: icra2019
   link: https://icra2019.org//
-  deadline: "2018-09-15 23:59:59"
+  deadline: '2018-09-15 23:59:59'
   timezone: Etc/GMT
   date: May 20-24, 2019
   place: Montreal, Canada
@@ -177,7 +147,7 @@
   year: 2019
   id: wacv19
   link: http://wacv19.uccs.us/
-  deadline: "2018-09-21 23:59:59"
+  deadline: '2018-09-21 23:59:59'
   timezone: America/Los_Angeles
   date: January 8-11, 2019
   place: Waikoloa Village, Hawaii
@@ -187,7 +157,7 @@
   year: 2019
   id: iclr19
   link: http://iclr.cc/
-  deadline: "2018-09-27 17:59:59"
+  deadline: '2018-09-27 17:59:59'
   timezone: America/New_York
   date: May 6-9, 2019
   place: New Orleans, Louisiana, US
@@ -197,7 +167,7 @@
   year: 2019
   id: aes2019
   link: http://www.aes.org/conferences/2019/immersive/
-  deadline: "2018-10-01 23:59:59"
+  deadline: '2018-10-01 23:59:59'
   timezone: Etc/GMT
   date: March 27-29, 2019
   place: York, UK
@@ -207,7 +177,7 @@
   year: 2019
   id: aistats19
   link: https://www.aistats.org/
-  deadline: "2018-10-04 23:59:59"
+  deadline: '2018-10-04 23:59:59'
   timezone: America/Los_Angeles
   date: April 16-18, 2019
   place: Naha, Okinawa, Japan
@@ -217,8 +187,28 @@
   year: 2019
   id: icassp2019
   link: http://icassp2019.com/
-  deadline: "2018-10-29 23:59:59"
+  deadline: '2018-10-29 23:59:59'
   timezone: Etc/GMT
   date: May 12-17, 2019
   place: Brighton, UK
   sub: SP
+
+- title: AAMAS
+  year: 2019
+  id: aamas19
+  link: http://aamas2019.encs.concordia.ca/
+  deadline: '2018-11-16 23:59:59'
+  timezone: Etc/GMT
+  date: May 13-17, 2019
+  place: Montreal, Canada
+  sub: ML
+
+- title: CVPR
+  year: 2019
+  id: cvpr19
+  link: http://cvpr2019.thecvf.com/
+  deadline: '2018-11-16 23:59:59'
+  timezone: America/Los_Angeles
+  date: June 15-21, 2019
+  place: Long Beach, USA
+  sub: CV
