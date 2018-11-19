@@ -97,7 +97,7 @@ with open("../_data/conferences.yml", 'r') as stream:
         data = yaml.load(stream, Loader=Loader)
         print("Initial Sorting:")
         for q in data:
-            print(q["deadline"]," - ",q["name"])
+            print(q["deadline"]," - ",q["title"])
         print("\n\n")
         conf = [x for x in data if x['deadline'].lower() not in tba_words]
         tba  = [x for x in data if x['deadline'].lower() in tba_words]
@@ -106,18 +106,18 @@ with open("../_data/conferences.yml", 'r') as stream:
         conf.sort(key=lambda x: pytz.utc.normalize(datetime.datetime.strptime(x['deadline'], dateformat).replace(tzinfo=pytz.timezone(x['timezone']))))
         print("Date Sorting:")
         for q in conf+tba:
-            print(q["deadline"]," - ",q["name"])
+            print(q["deadline"]," - ",q["title"])
         print("\n\n")
         conf.sort(key=lambda x: pytz.utc.normalize(datetime.datetime.strptime(x['deadline'], dateformat).replace(tzinfo=pytz.timezone(x['timezone']))).strftime(dateformat) < right_now)
         print("Date and Passed Deadline Sorting with tba:")
         for q in conf+tba:
-            print(q["deadline"]," - ",q["name"])
+            print(q["deadline"]," - ",q["title"])
         print("\n\n")
 
         with open('sorted_data.yml', 'w') as outfile:
-            for line in ordered_dump(conf+tba, Dumper=yaml.SafeDumper, default_flow_style=False, explicit_start=True).replace('\'', '"').splitlines():
+            for line in ordered_dump(conf+tba, Dumper=yaml.SafeDumper, default_flow_style=False, explicit_start=True).splitlines():
                 outfile.write('\n')
-                outfile.write(line.replace('- name:', '\n- name:'))
+                outfile.write(line.replace('- title:', '\n- title:'))
     except yaml.YAMLError as exc:
         print(exc)
 
@@ -137,7 +137,7 @@ with open('sorted_data.yml', 'r') as stream:
         conf = yaml.load(stream, Loader=Loader)
         print("Initial Data:")
         for q in conf:
-            print(q["deadline"]," - ",q["name"])
+            print(q["deadline"]," - ",q["title"])
         print("\n\n")
         clean_conf = []
         for q in conf:
@@ -156,15 +156,15 @@ with open('sorted_data.yml', 'r') as stream:
             if datetime.datetime.strptime(start_date, "%B %d %Y").strftime(dateformat) >= right_now:
                 clean_conf.append(q)
             else:
-                print("Passed: "+q["deadline"]," - ",q["name"])
+                print("Passed: "+q["deadline"]," - ",q["title"])
         print("\n\n")
         print("Cleaned Data:")
         for q in clean_conf:
-            print(q["deadline"]," - ",q["name"])
+            print(q["deadline"]," - ",q["title"])
         with open('cleaned_data.yml', 'w') as outfile:
-            for line in ordered_dump(clean_conf, Dumper=yaml.SafeDumper, default_flow_style=False, explicit_start=True).replace('\'', '"').splitlines():
+            for line in ordered_dump(clean_conf, Dumper=yaml.SafeDumper, default_flow_style=False, explicit_start=True).splitlines():
                 outfile.write('\n')
-                outfile.write(line.replace('- name:', '\n- name:'))
+                outfile.write(line.replace('- title:', '\n- title:'))
     except yaml.YAMLError as exc:
         print(exc)
 
