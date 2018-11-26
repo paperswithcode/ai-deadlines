@@ -111,6 +111,16 @@
   date: October 13 - October 17, 2019
   place: Shenzhen, China
   sub: CV
+  
+- title: EMNLP-IJCNLP
+  year: 2019
+  id: emnlp-ijcnlp19
+  link: http://emnlp-ijcnlp2019.org/
+  deadline: '2019-05-21 23:59:59'
+  timezone: Etc/GMT-7
+  date: November 3-7, 2019
+  place: Hong Kong
+  sub: NLP
 
 - title: NeurIPS
   year: 2018
