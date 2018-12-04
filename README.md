@@ -18,6 +18,7 @@ To add or update information:
 - [neuro-deadlines][4] by @tbryn
 - [ai-challenge-deadlines][5] by @dieg0as
 - [2018-2019 International Conferences in AI, CV, DM, NLP and Robotics][7] by @JackieTseng
+- [CV-oriented ai-deadlines (with an emphasis on medical images)][8] by @duducheng
 
 ## License
 
@@ -30,3 +31,4 @@ To add or update information:
 [5]: https://github.com/dieg0as/ai-challenge-deadlines
 [6]: http://www.conferenceranks.com/#
 [7]: https://jackietseng.github.io/conference_call_for_paper/2018-2019-conferences-with-ccf.html
+[8]: https://creedai.github.io/ai-deadlines/
