@@ -46,6 +46,10 @@ h3 {
   margin-top: 20px;
 }
 
+#conf-title.page-header {
+  border-bottom: none;
+}
+
 p.authors {
   margin-bottom: 5px;
   color: #808080;
@@ -102,10 +106,55 @@ footer {
   font-size: 13px;
 }
 
+.note {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
 .timer {
   font-size: 20px;
 }
 
+#conf-timer {
+  font-size: 72px;
+  color: #444;
+}
+
+@media only screen and (max-width: 780px) {
+  #conf-timer {
+    font-size: 64px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #conf-timer {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #conf-timer {
+    font-size: 28px;
+  }
+}
+
 .checkbox {
   font-size: 12px;
+}
+
+.calendar {
+  font-size: 12px;
+  margin-bottom: -5px;
+}
+
+.calendar img {
+  margin-right: 5px;
+}
+
+.ind-cal {
+  margin: 0 5px;
+}
+
+.calendar img {
+  height: 20px;
 }

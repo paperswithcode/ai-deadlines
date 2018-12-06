@@ -8,13 +8,14 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="{{ site.author }}">
     <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
-    <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.css" | prepend:site.baseurl }}" media="screen,projection">
+    <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.3b6df32.css" | prepend:site.baseurl }}" media="screen,projection">
     <link rel="shortcut icon" href="{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="{{ "/static/js/jquery.countdown.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/static/js/moment.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/static/js/moment-timezone-with-data.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/static/js/store.min.js" | prepend:site.baseurl }}"></script>
+    <script src="{{ "/static/js/ouical.min.js" | prepend:site.baseurl }}"></script>
 
   </head>
   <body>
@@ -22,7 +23,7 @@
     <div class="container">
         <div class="page-header">
             <div class="row">
-                <div class="col-xs-12 col-sm-8">
+                <div class="col-xs-12 col-sm-12">
                   <h1>
                     {{ site.title }} <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ site.description }}{% if site.twitter_hashtag %} #{{ site.twitter_hashtag }}{% endif %}" data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                     <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_repo }}&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
@@ -40,7 +41,7 @@
                   <form class="form-horizontal">
                     <div class="form-group">
                       {% for type in site.data.types %}
-                      <div class="col-md-2 col-xs-5">
+                      <div class="col-md-4 col-xs-5">
                         <div class="checkbox">
                           <label>
                             <input type="checkbox" id="{{ type.sub }}-checkbox" class=""> {{ type.name }}
@@ -53,15 +54,25 @@
                 <!-- </div> -->
               </div>
             </div>
+            <div class="row">
+              <div class="meta col-xs-12">
+                Export all deadlines to <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/ai-deadlines.ics">Google Calendar</a> or <a href="/ai-deadlines.ics">.ics</a>.
+              </div>
+            </div>
         </div>
         {% for conf in site.data.conferences %}
         <div id="{{conf.id}}" class="{% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
           <div class="row">
               <div class="col-xs-12 col-sm-6">
-                  <a href="{{conf.link}}"><b>{{conf.name}} {{conf.year}}</b></a>
+                  <a href="/conference?id={{ conf.id }}"><b>{{conf.title}} {{conf.year}}</b></a>
                   <div class="meta">
                     {{conf.date}} // <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>
                   </div>
+                  {% if conf.note %}
+                  <div class="note">
+                    {{conf.note}}
+                  </div>
+                  {% endif %}
               </div>
               <div class="col-xs-12 col-sm-6">
                 <span class="timer"></span>
@@ -70,13 +81,14 @@
                     <span class="deadline-time"></span>
                   </div>
                 </div>
+                <div class="calendar"></div>
               </div>
           </div>
           <hr>
         </div>
         {% endfor %}
         <footer>
-          Maintained by <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.
+          <a href="/">{{ site.domain }}</a> is maintained by <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.
         </footer>
         <hr>
     </div>
@@ -93,9 +105,30 @@
 
           // render countdown timer
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
-              $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           });
           $('#{{conf.id}} .deadline-time').html(confDate.toString());
+
+          // add calendar button
+          var myCalendar = createCalendar({
+            options: {
+              class: 'calendar-obj',
+
+              // You can pass an ID. If you don't, one will be generated for you
+              id: '{{conf.id}}'
+            },
+            data: {
+              // Event title
+              title: '{{conf.title}} {{conf.year}} deadline',
+
+              // Event start date
+              start: confDate.toDate(), // new Date('June 15, 2013 19:00'),
+
+              // Event duration
+              duration: 60,
+            }
+          });
+          document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
 
           // check if date has passed, add 'past' class to it
           var today = moment();
@@ -110,7 +143,16 @@
         for (var i = 0; i < conf_type_data.length; i++) {
           all_subs[i] = conf_type_data[i]['sub'];
         }
-        var subs = store.get('{{ site.domain }}');
+
+        // Get subjects from URL
+        var url = new URL(window.location);
+        var subs = url.searchParams.get('sub');
+        if (subs == undefined) {
+           subs = store.get('{{ site.domain }}');
+        } else {
+           subs = subs.toUpperCase().split(',');
+        }
+        // Get subjects from browser cache
         if (subs === undefined) {
           subs = all_subs;
           for (var i = 0; i < subs.length; i++) {
@@ -128,6 +170,7 @@
           }
         }
         store.set('{{ site.domain }}', subs);
+        window.history.pushState('', '', '/?sub=' + subs.join());
 
         // Event handler on checkbox change
         $('form :checkbox').change(function(e) {
@@ -147,6 +190,7 @@
           }
           console.log(subs);
           store.set('{{ site.domain }}', subs);
+          window.history.pushState('', '', '/?sub=' + subs.join());
         });
     });
     <!-- Google analytics -->

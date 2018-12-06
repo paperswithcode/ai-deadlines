@@ -9,6 +9,5 @@
   sub: RO
 - name: Speech/SigProc
   sub: SP
-- name: Graphics
-  sub: GR
-
+- name: Data Mining
+  sub: DM

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+PRODID:-//{{ site.domain }}//ai-deadlines//EN
+X-PUBLISHED-TTL:PT1H
+{%- for conf in site.data.conferences -%}
+{% if conf.deadline != "TBA" %}
+BEGIN:VEVENT
+SUMMARY:{{ conf.name }} {{ conf.year }} deadline
+UID:{{ conf.id }}
+DTSTART;TZID={{ conf.timezone }}:{{ conf.deadline | date: "%Y%m%dT%H%M%S" }}
+END:VEVENT
+{% endif %}
+{%- endfor -%}
+END:VCALENDAR
