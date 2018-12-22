@@ -1,16 +1,6 @@
 
 ---
 
-- title: NAACL
-  year: 2019
-  id: naacl19
-  link: http://naacl2019.org/
-  deadline: '2018-12-10 23:59:59'
-  timezone: Etc/GMT+12
-  date: June 2-7, 2019
-  place: Minneapolis, USA
-  sub: NLP
-
 - title: ICML
   year: 2019
   id: icml19
@@ -111,7 +101,7 @@
   date: October 13 - October 17, 2019
   place: Shenzhen, China
   sub: CV
-  
+
 - title: InterSpeech
   year: 2019
   id: interspeech19
@@ -136,31 +126,10 @@
   year: 2019
   id: uai19
   link: http://auai.org/uai2019/
-  deadline: 'TBA'
+  deadline: TBA
   timezone: America/New_York
   date: July 22-26, 2019
   place: Tel Aviv, Israel
-  sub: ML
-
-- title: NeurIPS
-  year: 2018
-  id: neurips18
-  link: https://neurips.cc/Conferences/2018
-  deadline: '2018-05-18 13:00:00'
-  timezone: America/Los_Angeles
-  date: December 3-8, 2018
-  place: "Palais des Congr\xE8s de Montr\xE9al, Montr\xE9al, Canada"
-  sub: ML
-  note: '<b>NOTE</b>: Formerly (and unfortunately) called NIPS.'
-
-- title: ICDM
-  year: 2018
-  id: icdm2018
-  link: http://icdm2018.org/
-  deadline: '2018-06-05 23:59:59'
-  timezone: Etc/GMT-7
-  date: November 17-20, 2018
-  place: Singapore
   sub: ML
 
 - title: AAAI
@@ -252,3 +221,13 @@
   date: June 16-21, 2019
   place: Long Beach, USA
   sub: CV
+
+- title: NAACL
+  year: 2019
+  id: naacl19
+  link: http://naacl2019.org/
+  deadline: '2018-12-10 23:59:59'
+  timezone: Etc/GMT+12
+  date: June 2-7, 2019
+  place: Minneapolis, USA
+  sub: NLP
