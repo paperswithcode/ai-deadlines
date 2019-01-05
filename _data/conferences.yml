@@ -126,11 +126,12 @@
   year: 2019
   id: uai19
   link: http://auai.org/uai2019/
-  deadline: TBA
-  timezone: America/New_York
+  deadline: '2019-03-08 23:59:59'
+  timezone: Etc/GMT-11
   date: July 22-26, 2019
   place: Tel Aviv, Israel
   sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on March 04, 2019. More info <a href=''http://auai.org/uai2019/cfp.php''>here</a>.'
 
 - title: AAAI
   year: 2019
