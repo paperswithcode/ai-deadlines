@@ -133,6 +133,16 @@
   place: Hong Kong
   sub: NLP
 
+- title: CoRL
+  year: 2019
+  id: corl2019
+  link: http://www.robot-learning.org
+  deadline: '2019-06-14 23:59:59'
+  timezone: Etc/GMT
+  date: October 30 - November 1, 2019
+  place: Osaka, Japan
+  sub: RO
+
 - title: AAAI
   year: 2019
   id: aaai19
