@@ -57,17 +57,18 @@
   id: ijcai19
   link: https://www.ijcai19.org/
   deadline: '2019-02-25 23:59:59'
-  timezone: Etc/GMT
+  timezone: Etc/GMT-12
   date: August 10-16, 2019
   place: Macau, China
   sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Feb 19, 2019. More info <a href=''https://www.ijcai19.org/call-for-papers.html''>here</a>.'
 
 - title: IROS
   year: 2019
   id: iros2019
   link: https://www.iros2019.org/
   deadline: '2019-03-01 23:59:59'
-  timezone: Etc/GMT
+  timezone: America/Los_Angeles
   date: November 3-9, 2019
   place: Macau, China
   sub: RO
