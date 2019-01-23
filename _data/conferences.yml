@@ -57,7 +57,7 @@
   id: ijcai19
   link: https://www.ijcai19.org/
   deadline: '2019-02-25 23:59:59'
-  timezone: Etc/GMT-12
+  timezone: Etc/GMT+12
   date: August 10-16, 2019
   place: Macau, China
   sub: ML
