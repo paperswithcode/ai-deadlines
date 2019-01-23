@@ -46,8 +46,8 @@
   year: 2019
   id: kdd19
   link: https://www.kdd.org/kdd2019
-  deadline: '2019-02-02 23:59:59'
-  timezone: Etc/GMT
+  deadline: '2019-02-03 23:59:59'
+  timezone: Etc/GMT-11
   date: August 3-7, 2019
   place: Anchorage, Alaska, USA
   sub: DM
