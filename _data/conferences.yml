@@ -108,11 +108,12 @@
   year: 2019
   id: miccai2019
   link: http://www.miccai2019.org/
-  deadline: '2019-03-29 23:59:59'
+  deadline: '2019-04-02 23:59:59'
   timezone: US/Pacific
   date: October 13 - October 17, 2019
   place: Shenzhen, China
   sub: CV
+  note: '<b<NOTE</b>: Mandatory registration of intention-to-submit on March 19, 2019. More info <a href=''http://www.miccai2019.org/calls/call-for-papers/''>here</a>.'
 
 - title: InterSpeech
   year: 2019
