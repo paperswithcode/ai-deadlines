@@ -1,17 +1,6 @@
 
 ---
 
-- title: ICML
-  year: 2019
-  id: icml19
-  link: https://icml.cc/Conferences/2019
-  deadline: '2019-01-23 15:59:00'
-  timezone: America/Los_Angeles
-  date: June 10-15, 2019
-  place: Long Beach, USA
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 18, 2019. More info <a href=''https://icml.cc/Conferences/2019/CallForPapers''>here</a>.'
-
 - title: GECCO
   year: 2019
   id: gecco19
@@ -92,7 +81,8 @@
   date: July 22-26, 2019
   place: Tel Aviv, Israel
   sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on March 04, 2019. More info <a href=''http://auai.org/uai2019/cfp.php''>here</a>.'
+  note: '<b>NOTE</b>: Mandatory abstract deadline on March 04, 2019. More info <a
+    href=''http://auai.org/uai2019/cfp.php''>here</a>.'
 
 - title: ICCV
   year: 2019
@@ -104,17 +94,6 @@
   place: Seoul, Korea
   sub: CV
 
-- title: MICCAI
-  year: 2019
-  id: miccai2019
-  link: http://www.miccai2019.org/
-  deadline: '2019-04-02 23:59:59'
-  timezone: US/Pacific
-  date: October 13 - October 17, 2019
-  place: Shenzhen, China
-  sub: CV
-  note: '<b>NOTE</b>: Mandatory intention-to-submit registration on March 19. More info <a href="http://www.miccai2019.org/calls/call-for-papers/">here</a>.'
-
 - title: InterSpeech
   year: 2019
   id: interspeech19
@@ -124,6 +103,18 @@
   date: September 15-19, 2019
   place: Graz, Austria
   sub: SP
+
+- title: MICCAI
+  year: 2019
+  id: miccai2019
+  link: http://www.miccai2019.org/
+  deadline: '2019-04-02 23:59:59'
+  timezone: US/Pacific
+  date: October 13 - October 17, 2019
+  place: Shenzhen, China
+  sub: CV
+  note: '<b>NOTE</b>: Mandatory intention-to-submit registration on March 19. More
+    info <a href="http://www.miccai2019.org/calls/call-for-papers/">here</a>.'
 
 - title: EMNLP-IJCNLP
   year: 2019
@@ -164,16 +155,6 @@
   date: May 20-24, 2019
   place: Montreal, Canada
   sub: RO
-
-- title: WACV
-  year: 2019
-  id: wacv19
-  link: http://wacv19.uccs.us/
-  deadline: '2018-09-21 23:59:59'
-  timezone: America/Los_Angeles
-  date: January 8-11, 2019
-  place: Waikoloa Village, Hawaii
-  sub: CV
 
 - title: ICLR
   year: 2019
@@ -244,3 +225,14 @@
   date: June 2-7, 2019
   place: Minneapolis, USA
   sub: NLP
+
+- title: ICML
+  year: 2019
+  id: icml19
+  link: https://icml.cc/Conferences/2019
+  deadline: '2019-01-23 15:59:00'
+  timezone: America/Los_Angeles
+  date: June 10-15, 2019
+  place: Long Beach, USA
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 18, 2019. More info <a href=''https://icml.cc/Conferences/2019/CallForPapers''>here</a>.'
