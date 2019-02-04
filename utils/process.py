@@ -129,51 +129,51 @@ if query_yes_no("Did you check the sorted data and would like to replace the ori
     copyfile('sorted_data.yml','../_data/conferences.yml')
 
 
-# Clean:
+ # # Clean:
 
 
-with open('sorted_data.yml', 'r') as stream:
-    try:
-        conf = yaml.load(stream, Loader=Loader)
-        print("Initial Data:")
-        for q in conf:
-            print(q["deadline"]," - ",q["title"])
-        print("\n\n")
-        clean_conf = []
-        for q in conf:
-            if q["date"] == 'TBA':
-                continue
-            dates,year=q["date"].split(",")
-            try:
-                start_date = dates.strip().split(" ")[0].strip()+" "+dates.split("-")[1].strip()+" "+year.strip()
-            except IndexError:
-                month,day=dates.strip().split(" ")
-                start_date = month.strip()+" "+day.strip()+" "+year.strip()
-            try:
-                datetime.datetime.strptime(start_date, "%B %d %Y").strftime(dateformat)
-            except ValueError:
-                start_date = dates.split("-")[1].strip()+" "+year.strip()
-            if datetime.datetime.strptime(start_date, "%B %d %Y").strftime(dateformat) >= right_now:
-                clean_conf.append(q)
-            else:
-                print("Passed: "+q["deadline"]," - ",q["title"])
-        print("\n\n")
-        print("Cleaned Data:")
-        for q in clean_conf:
-            print(q["deadline"]," - ",q["title"])
-        with open('cleaned_data.yml', 'w') as outfile:
-            for line in ordered_dump(clean_conf, Dumper=yaml.SafeDumper, default_flow_style=False, explicit_start=True).splitlines():
-                outfile.write('\n')
-                outfile.write(line.replace('- title:', '\n- title:'))
-    except yaml.YAMLError as exc:
-        print(exc)
+ # with open('sorted_data.yml', 'r') as stream:
+ #     try:
+ #         conf = yaml.load(stream, Loader=Loader)
+ #         print("Initial Data:")
+ #         for q in conf:
+ #             print(q["deadline"]," - ",q["title"])
+ #         print("\n\n")
+ #         clean_conf = []
+ #         for q in conf:
+ #             if q["date"] == 'TBA':
+ #                 continue
+ #             dates,year=q["date"].split(",")
+ #             try:
+ #                 start_date = dates.strip().split(" ")[0].strip()+" "+dates.split("-")[1].strip()+" "+year.strip()
+ #             except IndexError:
+ #                 month,day=dates.strip().split(" ")
+ #                 start_date = month.strip()+" "+day.strip()+" "+year.strip()
+ #             try:
+ #                 datetime.datetime.strptime(start_date, "%B %d %Y").strftime(dateformat)
+ #             except ValueError:
+ #                 start_date = dates.split("-")[1].strip()+" "+year.strip()
+ #             if datetime.datetime.strptime(start_date, "%B %d %Y").strftime(dateformat) >= right_now:
+ #                 clean_conf.append(q)
+ #             else:
+ #                 print("Passed: "+q["deadline"]," - ",q["title"])
+ #         print("\n\n")
+ #         print("Cleaned Data:")
+ #         for q in clean_conf:
+ #             print(q["deadline"]," - ",q["title"])
+ #         with open('cleaned_data.yml', 'w') as outfile:
+ #             for line in ordered_dump(clean_conf, Dumper=yaml.SafeDumper, default_flow_style=False, explicit_start=True).splitlines():
+ #                 outfile.write('\n')
+ #                 outfile.write(line.replace('- title:', '\n- title:'))
+ #     except yaml.YAMLError as exc:
+ #         print(exc)
 
 
-# Overwrite?:
+ # # Overwrite?:
 
 
-if query_yes_no("Did you check the cleaned data and would like to replace the original data?"):
-    copyfile('cleaned_data.yml','../_data/conferences.yml')
+ # if query_yes_no("Did you check the cleaned data and would like to replace the original data?"):
+ #     copyfile('cleaned_data.yml','../_data/conferences.yml')
 
 
-# Thanks to https://gist.github.com/oglops/c70fb69eef42d40bed06
+ # # Thanks to https://gist.github.com/oglops/c70fb69eef42d40bed06
