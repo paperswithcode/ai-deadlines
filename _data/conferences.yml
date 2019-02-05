@@ -1,46 +1,6 @@
 
 ---
 
-- title: GECCO
-  year: 2019
-  id: gecco19
-  link: https://gecco-2019.sigevo.org/index.html/tiki-index.php
-  deadline: '2019-01-30 23:59:59'
-  timezone: Etc/GMT+10
-  date: July 13 - 17, 2019
-  place: Prague, Czech Republic
-  sub: ML
-
-- title: COLT
-  year: 2019
-  id: colt19
-  link: http://www.learningtheory.org/colt2019/
-  deadline: '2019-02-01 23:00:00'
-  timezone: America/New_York
-  date: June 25-28, 2019
-  place: Phoenix, AZ
-  sub: ML
-
-- title: RSS
-  year: 2019
-  id: rss19
-  link: http://www.roboticsconference.org/
-  deadline: '2019-02-01 23:59:00'
-  timezone: America/Los_Angeles
-  date: June 22-26, 2019
-  place: Freiburg, Germany
-  sub: RO
-
-- title: KDD
-  year: 2019
-  id: kdd19
-  link: https://www.kdd.org/kdd2019
-  deadline: '2019-02-03 23:59:59'
-  timezone: Etc/GMT+11
-  date: August 3-7, 2019
-  place: Anchorage, Alaska, USA
-  sub: DM
-
 - title: IJCAI
   year: 2019
   id: ijcai19
@@ -125,6 +85,17 @@
   date: November 3-7, 2019
   place: Hong Kong
   sub: NLP
+
+- title: NeurIPS
+  year: 2019
+  id: neurips19
+  link: https://neurips.cc/Conferences/2019
+  deadline: '2019-05-23 13:00:00'
+  timezone: America/Los_Angeles
+  date: December 2-8, 2018
+  place: "Palais des Congr\xE8s de Montr\xE9al, Montr\xE9al, Canada"
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on May 16, 2019. More info <a href="https://medium.com/@NeurIPSConf/starting-preparations-for-the-neurips-2019-review-process-d104ec708045">here</a>.'
 
 - title: CoRL
   year: 2019
@@ -236,3 +207,43 @@
   place: Long Beach, USA
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 18, 2019. More info <a href=''https://icml.cc/Conferences/2019/CallForPapers''>here</a>.'
+
+- title: GECCO
+  year: 2019
+  id: gecco19
+  link: https://gecco-2019.sigevo.org/index.html/tiki-index.php
+  deadline: '2019-01-30 23:59:59'
+  timezone: Etc/GMT+10
+  date: July 13 - 17, 2019
+  place: Prague, Czech Republic
+  sub: ML
+
+- title: COLT
+  year: 2019
+  id: colt19
+  link: http://www.learningtheory.org/colt2019/
+  deadline: '2019-02-01 23:00:00'
+  timezone: America/New_York
+  date: June 25-28, 2019
+  place: Phoenix, AZ
+  sub: ML
+
+- title: RSS
+  year: 2019
+  id: rss19
+  link: http://www.roboticsconference.org/
+  deadline: '2019-02-01 23:59:00'
+  timezone: America/Los_Angeles
+  date: June 22-26, 2019
+  place: Freiburg, Germany
+  sub: RO
+
+- title: KDD
+  year: 2019
+  id: kdd19
+  link: https://www.kdd.org/kdd2019
+  deadline: '2019-02-03 23:59:59'
+  timezone: Etc/GMT+11
+  date: August 3-7, 2019
+  place: Anchorage, Alaska, USA
+  sub: DM
