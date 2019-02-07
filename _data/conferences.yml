@@ -1,6 +1,17 @@
 
 ---
 
+- title: ECML/PKDD
+  year: 2019
+  id: ecmlpkdd19
+  link: https://ecmlpkdd2019.org/
+  deadline: '2019-04-05 23:59:59'
+  timezone: Etc/GMT-8
+  date: September 16-20, 2019
+  place: Würzburg, Germany
+  sub: ML
+  note:'<b>NOTE</b>: Mandatory abstract deadline on Mar 29, 2019. More info <a href=''https://ecmlpkdd2019.org/submissions/deadlines/''>here</a>.'
+  
 - title: IJCAI
   year: 2019
   id: ijcai19
