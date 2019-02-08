@@ -85,8 +85,18 @@
   date: September 16-20, 2019
   place: "W\xFCrzburg, Germany"
   sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on March 29, 2019. More info
-    <a href="https://ecmlpkdd2019.org/submissions/deadlines/">here</a>.'
+  note: '<b>NOTE</b>: Mandatory abstract deadline on March 29, 2019. More info <a
+    href="https://ecmlpkdd2019.org/submissions/deadlines/">here</a>.'
+
+- title: BMVC
+  year: 2019
+  id: bmvc19
+  link: https://bmvc2019.org
+  deadline: '2019-04-29 23:59:00'
+  timezone: America/Los_Angeles
+  date: September 9-12, 2019
+  place: Cardiff, Wales, UK
+  sub: CV
 
 - title: EMNLP-IJCNLP
   year: 2019
@@ -105,7 +115,7 @@
   deadline: '2019-05-23 13:00:00'
   timezone: America/Los_Angeles
   date: December 9-14, 2019
-  place: "Vancouver Convention Centre"
+  place: Vancouver Convention Centre, Canada
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 16, 2019. More info <a href="https://medium.com/@NeurIPSConf/starting-preparations-for-the-neurips-2019-review-process-d104ec708045">here</a>.'
 
@@ -259,13 +269,3 @@
   date: August 3-7, 2019
   place: Anchorage, Alaska, USA
   sub: DM
-
-- title: BMVC
-  year: 2019
-  id: bmvc19
-  link: https://bmvc2019.org
-  deadline: '2019-04-29 23:59:00'
-  timezone: America/Los_Angeles
-  date: September 9-12, 2019
-  place: Cardiff, Wales, UK
-  sub: CV
