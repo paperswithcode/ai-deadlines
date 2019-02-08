@@ -104,8 +104,8 @@
   link: https://neurips.cc/Conferences/2019
   deadline: '2019-05-23 13:00:00'
   timezone: America/Los_Angeles
-  date: December 2-8, 2018
-  place: "Palais des Congr\xE8s de Montr\xE9al, Montr\xE9al, Canada"
+  date: December 9-14, 2019
+  place: "Vancouver Convention Centre"
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 16, 2019. More info <a href="https://medium.com/@NeurIPSConf/starting-preparations-for-the-neurips-2019-review-process-d104ec708045">here</a>.'
 
@@ -259,3 +259,13 @@
   date: August 3-7, 2019
   place: Anchorage, Alaska, USA
   sub: DM
+
+- title: BMVC
+  year: 2019
+  id: bmvc19
+  link: https://bmvc2019.org
+  deadline: '2019-04-29 23:59:00'
+  timezone: America/Los_Angeles
+  date: September 9-12, 2019
+  place: Cardiff, Wales, UK
+  sub: CV
