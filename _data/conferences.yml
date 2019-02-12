@@ -119,6 +119,16 @@
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 16, 2019. More info <a href="https://medium.com/@NeurIPSConf/starting-preparations-for-the-neurips-2019-review-process-d104ec708045">here</a>.'
 
+- title: 3DV
+  year: 2019
+  id: threedv19
+  link: http://3dv19.gel.ulaval.ca/
+  deadline: '2019-06-10 23:59:59'
+  timezone: America/New_York
+  date: September 16-19, 2019
+  place: Quebec City, Canada
+  sub: CV
+
 - title: CoRL
   year: 2019
   id: corl2019
@@ -269,13 +279,3 @@
   date: August 3-7, 2019
   place: Anchorage, Alaska, USA
   sub: DM
-  
- - title: 3DV
-  year: 2019
-  id: 3dv19
-  link: http://3dv19.gel.ulaval.ca/
-  deadline: '2019-06-10 23:59:59'
-  timezone: America/New_York
-  date: September 16-19, 2019
-  place: Quebec City, Canada
-  sub: CV
