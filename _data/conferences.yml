@@ -119,6 +119,16 @@
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 16, 2019. More info <a href="https://medium.com/@NeurIPSConf/starting-preparations-for-the-neurips-2019-review-process-d104ec708045">here</a>.'
 
+- title: CoNLL
+  year: 2019
+  id: conll2019
+  link: https://www.conll.org/
+  deadline: '2019-05-31 23:59:59'
+  timezone: Etc/GMT-7
+  date: November 3-4, 2019
+  place: Hong Kong
+  sub: NLP
+
 - title: 3DV
   year: 2019
   id: threedv19
