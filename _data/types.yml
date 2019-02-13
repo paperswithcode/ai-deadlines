@@ -1,13 +1,7 @@
 ---
-- name: Machine Learning
-  sub: ML
+- name: Embedded Systems
+  sub: ES 
+- name: Computer Architecture
+  sub: CA
 - name: Computer Vision
   sub: CV
-- name: Natural Language Processing
-  sub: NLP
-- name: Robotics
-  sub: RO
-- name: Speech/SigProc
-  sub: SP
-- name: Data Mining
-  sub: DM
