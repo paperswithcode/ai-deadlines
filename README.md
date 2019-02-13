@@ -1,10 +1,8 @@
 ## AI Deadlines
 
-Countdown timers to keep track of a bunch of CV/NLP/ML/AI conference deadlines.
+Countdown timers to keep track of a bunch of ES conference deadlines.
 
 ## Adding/updating a conference
-
-To keep things minimal, I'm only looking to list top-tier conferences in AI as per [conferenceranks.com][6]. Feel free to maintain a separate fork if you don't see your sub-field or conference of interest listed.
 
 To add or update information:
 - Fork the repository
@@ -19,6 +17,13 @@ To add or update information:
 - [ai-challenge-deadlines][5] by @dieg0as
 - [2018-2019 International Conferences in AI, CV, DM, NLP and Robotics][7] by @JackieTseng
 - [CV-oriented ai-deadlines (with an emphasis on medical images)][8] by @duducheng
+
+## Hint
+When you want to see the list locally install `jekyll` [https://jekyllrb.com](https://jekyllrb.com) on your computer. run the following command in this directory:
+
+```bash
+jekyll serve
+```
 
 ## License
 
