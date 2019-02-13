@@ -1,6 +1,17 @@
 
 ---
 
+- title: MBMV
+  year: 2019
+  id: mbmv2019
+  link: https://www.vde.com/de/veranstaltungen/veranstaltungsuebersicht/veranstaltung-detailseite?id=16106&type=vde%7Cvdb
+  deadline: '2019-02-15 23:59:59'
+  timezone: Etc/GMT-1
+  date: April 8-9, 2019
+  place: Kaiserslautern, Germany
+  sub: ES
+  note: <b>Call for Papers:</b> <a href='https://www.vde.com/resource/blob/1779944/9b060fa6f02c8e857f48ff5045cce8cb/call-for-papers-data.pdf'>PDF</a>.
+
 - title: MICRO
   year: 2019
   id: micro52
@@ -10,7 +21,51 @@
   date: October 12-16, 2019
   place: Columbus, Ohio, USA
   sub: CA
-  note: '<b>Call for Papers:</b> <a href=''https://www.microarch.org/micro52/docs/cfp.pdf''>PDF</a>.'
+  note: <b>Call for Papers:</b> <a href='https://www.microarch.org/micro52/docs/cfp.pdf'>PDF</a>.
+
+- title: SAMOS
+  year: 2019
+  id: samosxix
+  link: http://samos-conference.com
+  deadline: '2018-03-01 23:59:59'
+  timezone: Etc/GMT-2
+  date: July 7-11, 2019
+  place: Samos Island, Greece
+  sub: ES
+  note: <b>Call for Papers:</b> <a href='http://samos-conference.com/?q=node/49'>HTML</a>.
+
+- title: HPCA
+  year: 2019
+  id: hpca2019
+  link: http://hpca2019.seas.gwu.edu
+  deadline: '2018-07-27 23:59:59'
+  timezone: Etc/GMT+5
+  date: February 16-20, 2019
+  place: Washington D.C., USA
+  sub: CA
+  note: <b>Call for Papers:</b> <a href='http://hpca2019.seas.gwu.edu/hpca19-cfp.pdf'>PDF</a>.
+
+- title: ASPLOS
+  year: 2019
+  id: asplos2019
+  link: https://asplos-conference.org
+  deadline: '2018-07-31 23:59:59'
+  timezone: Etc/GMT+8
+  date: April 13-17, 2019
+  place: Providence, RI, USA
+  sub: CA
+  note: <b>Call for Papers:</b> <a href='https://asplos-conference.org/wp-content/uploads/2018/05/asplos19-cfp.pdf'>PDF</a>.
+
+- title: ISCA
+  year: 2019
+  id: isca2019
+  link: https://www.iccd-conf.com
+  deadline: '2018-12-03 23:59:59'
+  timezone: Etc/GMT+5
+  date: June 22-26, 2019
+  place: Pheonix, AZ, USA
+  sub: CA
+  note: <b>Call for Papers:</b> <a href='https://iscaconf.org/isca2019/docs/ISCA-2019-Call-for-Papers.pdf'>PDF</a>.
 
 - title: ARCS
   year: 2019
@@ -21,61 +76,4 @@
   date: May 20-23, 2019
   place: Copenhagen, Denmark
   sub: CA
-  note: '<b>Call for Papers:</b> <a href=''http://arcs2019.itec.kit.edu/download/ARCS2019.pdf''>PDF</a>.'
-
-- title: HPCA
-  year: 2019
-  id: hpca2019
-  link: http://hpca2019.seas.gwu.edu
-  deadline: '2018-07-27 23:59:59'
-  timezone: Etc/GMT+5
-  date: February 16-20, 2019
-  place: Washington D.C., USA 
-  sub: CA
-  note: '<b>Call for Papers:</b> <a href=''http://hpca2019.seas.gwu.edu/hpca19-cfp.pdf''>PDF</a>.'
-
-- title: ASPLOS
-  year: 2019
-  id: asplos2019
-  link: https://asplos-conference.org
-  deadline: '2018-07-31 23:59:59'
-  timezone: Etc/GMT+8
-  date: April 13-17, 2019
-  place: Providence, RI, USA 
-  sub: CA
-  note: '<b>Call for Papers:</b> <a href=''https://asplos-conference.org/wp-content/uploads/2018/05/asplos19-cfp.pdf''>PDF</a>.'
-
-- title: ISCA
-  year: 2019
-  id: isca2019
-  link: https://www.iccd-conf.com
-  deadline: '2018-12-03 23:59:59'
-  timezone: Etc/GMT+5
-  date: June 22-26, 2019
-  place: Pheonix, AZ, USA 
-  sub: CA
-  note: '<b>Call for Papers:</b> <a href=''https://iscaconf.org/isca2019/docs/ISCA-2019-Call-for-Papers.pdf''>PDF</a>.'
-
-- title: SAMOS
-  year: 2019
-  id: samosxix
-  link: http://samos-conference.com
-  deadline: '2018-03-01 23:59:59'
-  timezone: Etc/GMT-2
-  date: July 7-11, 2019
-  place: Samos Island, Greece 
-  sub: ES
-  note: '<b>Call for Papers:</b> <a href=''http://samos-conference.com/?q=node/49''>HTML</a>.'
-
-- title: MBMV
-  year: 2019
-  id: mbmv2019
-  link: https://www.vde.com/de/veranstaltungen/veranstaltungsuebersicht/veranstaltung-detailseite?id=16106&type=vde%7Cvdb
-  deadline: '2019-02-15 23:59:59'
-  timezone: Etc/GMT-1
-  date: April 8-9, 2019
-  place: Kaiserslautern, Germany
-  sub: ES
-  note: '<b>Call for Papers:</b> <a href=''https://www.vde.com/resource/blob/1779944/9b060fa6f02c8e857f48ff5045cce8cb/call-for-papers-data.pdf''>PDF</a>.'
-
-
+  note: <b>Call for Papers:</b> <a href='http://arcs2019.itec.kit.edu/download/ARCS2019.pdf'>PDF</a>.
