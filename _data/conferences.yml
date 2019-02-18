@@ -1,17 +1,6 @@
 
 ---
 
-- title: MBMV
-  year: 2019
-  id: mbmv2019
-  link: https://www.vde.com/de/veranstaltungen/veranstaltungsuebersicht/veranstaltung-detailseite?id=16106&type=vde%7Cvdb
-  deadline: '2019-02-15 23:59:59'
-  timezone: Etc/GMT-1
-  date: April 8-9, 2019
-  place: Kaiserslautern, Germany
-  sub: ES
-  note: <b>Call for Papers:</b> <a href='https://www.vde.com/resource/blob/1779944/9b060fa6f02c8e857f48ff5045cce8cb/call-for-papers-data.pdf'>PDF</a>.
-
 - title: MICRO
   year: 2019
   id: micro52
@@ -23,6 +12,28 @@
   sub: CA
   note: <b>Call for Papers:</b> <a href='https://www.microarch.org/micro52/docs/cfp.pdf'>PDF</a>.
 
+- title: CASES
+  year: 2019
+  id: cases2019
+  link: https://www.esweek.org/cases/about
+  deadline: '2019-04-05 23:59:59'
+  timezone: Etc/GMT+5
+  date: Oct 13-18, 2019
+  place: New York City, NY, USA
+  sub: ES
+  note: <b>Call for Papers:</b> <a href='https://esweek.org/sites/default/files/2019-CASES-cfp_0.pdf'>PDF</a>.
+
+- title: CODES+ISSS
+  year: 2019
+  id: codesisss2019
+  link: https://www.esweek.org/codes/about
+  deadline: '2019-04-05 23:59:59'
+  timezone: Etc/GMT+5
+  date: Oct 13-18, 2019
+  place: New York City, NY, USA
+  sub: ES
+  note: <b>Call for Papers:</b> <a href='https://esweek.org/sites/default/files/CODES%2BISSS-2019-CFP.pdf'>PDF</a>.
+
 - title: SAMOS
   year: 2019
   id: samosxix
@@ -33,6 +44,17 @@
   place: Samos Island, Greece
   sub: ES
   note: <b>Call for Papers:</b> <a href='http://samos-conference.com/?q=node/49'>HTML</a>.
+
+- title: HiPEAC
+  year: 2019
+  id: hipeac2019
+  link: http://hipeac.net/conference
+  deadline: '2018-06-01 23:59:59'
+  timezone: Etc/GMT-1
+  date: Jan 21-23, 2019
+  place: Valencia, Spain
+  sub: CA
+  note: <b>Call for Papers:</b> <a href='http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=74246'>HTML</a>.
 
 - title: HPCA
   year: 2019
@@ -77,3 +99,25 @@
   place: Copenhagen, Denmark
   sub: CA
   note: <b>Call for Papers:</b> <a href='http://arcs2019.itec.kit.edu/download/ARCS2019.pdf'>PDF</a>.
+
+- title: MBMV
+  year: 2019
+  id: mbmv2019
+  link: https://www.vde.com/de/veranstaltungen/veranstaltungsuebersicht/veranstaltung-detailseite?id=16106&type=vde%7Cvdb
+  deadline: '2019-02-15 23:59:59'
+  timezone: Etc/GMT-1
+  date: April 8-9, 2019
+  place: Kaiserslautern, Germany
+  sub: ES
+  note: <b>Call for Papers:</b> <a href='https://www.vde.com/resource/blob/1779944/9b060fa6f02c8e857f48ff5045cce8cb/call-for-papers-data.pdf'>PDF</a>.
+
+- title: SeFuMal
+  year: 2019
+  id: sefumal2019
+  link: https://sites.google.com/site/sefumalworkshop/home
+  deadline: '2019-02-15 23:59:59'
+  timezone: Etc/GMT-1
+  date: Apr 30-May 2, 2019
+  place: Alghero, Italy
+  sub: CV
+  note: <b>Call for Papers:</b> <a href='http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=84155'>HTML</a>.
