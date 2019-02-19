@@ -83,17 +83,6 @@
   id: asplos2019
   link: https://asplos-conference.org
   deadline: '2018-07-31 23:59:59'
-  timezone: Etc/GMT+5
-  date: Apr 13-17, 2019
-  place: Providence, RI, USA
-  sub: CA
-  note: <b>Call for Papers:</b> <a href='https://asplos-conference.org/wp-content/uploads/2018/05/asplos19-cfp.pdf'>HTML</a>.
-
-- title: ASPLOS
-  year: 2019
-  id: asplos2019
-  link: https://asplos-conference.org
-  deadline: '2018-07-31 23:59:59'
   timezone: Etc/GMT+8
   date: April 13-17, 2019
   place: Providence, RI, USA
