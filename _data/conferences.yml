@@ -34,6 +34,17 @@
   sub: ES
   note: <b>Call for Papers:</b> <a href='https://esweek.org/sites/default/files/CODES%2BISSS-2019-CFP.pdf'>PDF</a>.
 
+- title: Tagung Automatisiertes Fahren
+  year: 2019
+  id: tuv2019
+  link: https://www.tuev-sued.de/akademie-de/congress/automobil-bahn/automatisiertes-fahren
+  deadline: '2019-04-12 23:59:59'
+  timezone: Etc/GMT+2
+  date: November 21-22, 2019
+  place: Munich, Germany
+  sub: CV
+  note: <b>Call for Papers:</b> <a href='https://www.tuev-sued.de/uploads/images/1549883812393523030668/tagung-automatisiertes-fahren-2019-call-for-papers.pdf'>PDF</a>.
+
 - title: ICCD
   year: 2019
   id: iccd2019
