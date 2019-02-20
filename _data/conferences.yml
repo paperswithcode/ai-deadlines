@@ -1,6 +1,17 @@
 
 ---
 
+- title: ICCV
+  year: 2019
+  id: iccv19
+  link: http://iccv2019.thecvf.com/
+  deadline: '2019-03-22 23:59:00'
+  timezone: Etc/GMT
+  date: October 27 - November 3, 2019
+  place: Seoul, Korea
+  sub: CV
+  note: <b>Call for Papers:</b> <a href='http://iccv2019.thecvf.com/submission/main_conference/author_guidelines'>HTML</a>.
+
 - title: MICRO
   year: 2019
   id: micro52
@@ -11,6 +22,17 @@
   place: Columbus, Ohio, USA
   sub: CA
   note: <b>Call for Papers:</b> <a href='https://www.microarch.org/micro52/docs/cfp.pdf'>PDF</a>.
+
+- title: ITSC
+  year: 2019
+  id: itsc2019
+  link: https://www.itsc2019.org/
+  deadline: '2019-03-31 23:59:00'
+  timezone: Etc/GMT
+  date: October 27-30, 2019
+  place: Auckland, New Zealand
+  sub: CV
+  note: <b>Call for Papers:</b> <a href='https://www.itsc2019.org/call-for-papers'>HTML</a>.
 
 - title: CASES
   year: 2019
@@ -44,6 +66,17 @@
   place: Munich, Germany
   sub: CV
   note: <b>Call for Papers:</b> <a href='https://www.tuev-sued.de/uploads/images/1549883812393523030668/tagung-automatisiertes-fahren-2019-call-for-papers.pdf'>PDF</a>.
+
+- title: ICCVE
+  year: 2019
+  id: iccve19
+  link: https://iccve2019.com/
+  deadline: '2019-05-05 23:59:00'
+  timezone: Etc/GMT
+  date: November 4-8, 2019
+  place: Graz, Austria
+  sub: CV
+  note: <b>Call for Papers:</b> <a href='https://iccve2019.com/sites/default/files/documents/call-docs/iccve2019-cfp_v10.pdf'>PDF</a>.
 
 - title: ICCD
   year: 2019
@@ -99,6 +132,16 @@
   place: Providence, RI, USA
   sub: CA
   note: <b>Call for Papers:</b> <a href='https://asplos-conference.org/wp-content/uploads/2018/05/asplos19-cfp.pdf'>PDF</a>.
+
+- title: CVPR
+  year: 2019
+  id: cvpr19
+  link: http://cvpr2019.thecvf.com/
+  deadline: '2018-11-16 23:59:59'
+  timezone: America/Los_Angeles
+  date: June 16-21, 2019
+  place: Long Beach, USA
+  sub: CV
 
 - title: ISCA
   year: 2019
