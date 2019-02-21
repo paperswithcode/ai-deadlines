@@ -64,6 +64,16 @@
   place: Graz, Austria
   sub: SP
 
+- title: MM
+  year: 2019
+  id: ACMMultimedia
+  link: https://www.acmmm.org/2019/
+  deadline: '2019-04-01 23:59:59'
+  timezone: Etc/GMT+12
+  date: October 21-25, 2019
+  place: Nice, France
+  sub: MM
+
 - title: MICCAI
   year: 2019
   id: miccai2019
