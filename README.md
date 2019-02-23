@@ -1,4 +1,4 @@
-## AI Deadlines
+## ES Deadlines
 
 Countdown timers to keep track of a bunch of ES conference deadlines.
 
