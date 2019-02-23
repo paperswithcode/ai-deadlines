@@ -12,7 +12,7 @@ permalink:  /conference
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="{{ site.author }}">
     <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
-    <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.3b6df32.css" | prepend:site.baseurl }}" media="screen,projection">
+    <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.css" | prepend:site.baseurl }}?t={{site.time | date: '%s'}}" media="screen,projection">
     <link rel="shortcut icon" href="{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="{{ "/static/js/jquery.countdown.min.js" | prepend:site.baseurl }}"></script>
@@ -51,7 +51,7 @@ permalink:  /conference
         </div>
         <footer>
           <a href="/">{{ site.domain }}</a> is maintained by <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.
-          If you find it useful, consider <a href="https://buymeacoff.ee/abhshkdz">buying him a coffee</a>.
+          If you find it useful, consider <a target="_blank" href="https://buymeacoff.ee/abhshkdz">buying him a coffee</a>.
         </footer>
     </div>
     <script type="text/javascript" charset="utf-8">
