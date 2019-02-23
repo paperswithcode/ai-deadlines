@@ -102,6 +102,14 @@ footer {
   opacity: 0.5;
 }
 
+.conf-row {
+  margin-bottom: 5px;
+}
+
+.conf-title {
+  font-size: 20px;
+}
+
 .deadline, .meta {
   font-size: 13px;
 }
@@ -120,6 +128,28 @@ footer {
   color: #444;
 }
 
+.conf-sub {
+  background: #0097e6;
+  color: white;
+  font-size: 13px;
+  padding: 3px 5px;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.conf-sub::selection {
+  background: #0097e6;
+}
+
+.checkbox input[type="checkbox"]:checked:after {
+  background-color: #0097e6;
+  border-color: #0097e6;
+}
+
+.checkbox input[type="checkbox"]:after, .checkbox input[type="checkbox"]:focus:after {
+  border-color: #0097e6;
+}
+
 @media only screen and (max-width: 780px) {
   #conf-timer {
     font-size: 64px;
@@ -129,6 +159,21 @@ footer {
 @media only screen and (max-width: 450px) {
   #conf-timer {
     font-size: 36px;
+  }
+  .conf-place {
+    display: none;
+  }
+  .conf-date {
+    display: none;
+  }
+  .note {
+    display: none;
+  }
+  .conf-row {
+    margin-bottom: 7px;
+  }
+  .calendar {
+    margin-bottom: 10px;
   }
 }
 
@@ -144,7 +189,7 @@ footer {
 
 .calendar {
   font-size: 12px;
-  margin-bottom: -5px;
+  margin-top: 3px;
 }
 
 .calendar img {
