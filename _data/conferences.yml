@@ -34,6 +34,17 @@
   sub: CV
   note: <b>Call for Papers:</b> <a href='https://www.itsc2019.org/call-for-papers'>HTML</a>.
 
+- title: DSD
+  year: 2019
+  id: dsd2019
+  link: http://dsd-seaa2019.csd.auth.gr/dsd/index.html
+  deadline: '2019-04-01 23:59:59'
+  timezone: Etc/GMT+2
+  date: August 28-30, 2019
+  place: Kallithea, Chalkidiki, Greece
+  sub: ES
+  note: <b>Call for Papers:</b> <a href='http://dsd-seaa2019.csd.auth.gr/dsd/CfP.pdf'>PDF</a>.
+
 - title: CASES
   year: 2019
   id: cases2019
