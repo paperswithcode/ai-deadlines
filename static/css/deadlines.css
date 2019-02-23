@@ -156,6 +156,9 @@ footer {
   #conf-timer {
     font-size: 64px;
   }
+  .calendar {
+    margin-bottom: 10px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -173,9 +176,6 @@ footer {
   }
   .conf-row {
     margin-bottom: 7px;
-  }
-  .calendar {
-    margin-bottom: 10px;
   }
 }
 
