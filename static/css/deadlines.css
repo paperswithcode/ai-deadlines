@@ -2,7 +2,7 @@ body {
   font-size: 16px;
   line-height: 23px;
   font-weight: 300;
-  /* color: #333; */
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 body *::selection {
@@ -108,7 +108,7 @@ footer {
 
 .conf-title {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .deadline, .meta {
@@ -122,7 +122,7 @@ footer {
 
 .timer {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 #conf-timer {
@@ -131,7 +131,8 @@ footer {
 }
 
 .conf-sub {
-  background: #efefef;
+  color: rgb(36, 101, 191);
+  background: rgba(236, 240, 241, 0.7);
   font-size: 13px;
   padding: 3px 5px;
   cursor: pointer;
