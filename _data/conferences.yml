@@ -38,7 +38,7 @@
   id: iccv19
   link: http://iccv2019.thecvf.com/
   deadline: '2019-03-22 23:59:00'
-  America/Los_Angeles
+  timezone: America/Los_Angeles
   date: October 27 - November 3, 2019
   place: Seoul, Korea
   sub: CV
