@@ -77,6 +77,18 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on March 29, 2019. More info <a
     href="https://ecmlpkdd2019.org/submissions/deadlines/">here</a>.'
 
+- title: ISMIR
+  year: 2019
+  id: ismir19
+  link: http://ismir2019.ewi.tudelft.nl/
+  deadline: '2019-04-05 23:59:59'
+  timezone: UTC-12
+  date: November 4-8, 2019
+  place: "Delft, The Netherlands"
+  sub: SP
+  note: '<b>NOTE<b>: The submission deadline timezone is Anywhere on Earth. More
+    info <a href="http://ismir2019.ewi.tudelft.nl/?q=call-for-papers">here</a>.'
+
 - title: BMVC
   year: 2019
   id: bmvc19
