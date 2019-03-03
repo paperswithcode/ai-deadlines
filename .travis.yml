@@ -7,6 +7,10 @@ script:
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+branches:
+  only:
+  - gh-pages
+  - /.*/
 notifications:
   on_success: never
   on_failure: always
