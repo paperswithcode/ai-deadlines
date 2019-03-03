@@ -95,7 +95,7 @@
           </div>
           <div class="row">
             <div class="col-xs-12">
-              <span title="Click to only show {{conf.sub}} conferences" id="{{conf.sub}}-sub" class="conf-sub"></span>
+              <span title="Click to only show {{conf.sub}} conferences" data-sub="{{conf.sub}}" class="conf-sub"></span>
             </div>
           </div>
           <hr>
@@ -219,8 +219,7 @@
 
         // Event handler on sub click
         $('.conf-sub').click(function(e) {
-          var cid = $(this).prop('id');
-          var csub = cid.substring(0, cid.length - 4);
+          var csub = $(this).data('sub');
           for (var i = 0; i < subs.length; i++) {
             if (subs[i] != csub) {
               $('#' + subs[i] + '-checkbox').prop('checked', false);
