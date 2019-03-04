@@ -55,6 +55,16 @@
   note: '<b>NOTE</b>: Mandatory intention-to-submit registration on March 19. More
     info <a href="http://www.miccai2019.org/calls/call-for-papers/">here</a>.'
 
+- title: MRS
+  year: 2019
+  id: mrs2019
+  link: https://robotics.cs.rutgers.edu/mrs2019/
+  deadline: '2019-03-15 23:59:59'
+  timezone: US/Pacific
+  date: August 22 - August 23, 2019
+  place: Rutgers, the State University of New Jersey, New Brunswick, NJ, USA.
+  sub: RO
+  
 - title: ECML/PKDD
   year: 2019
   id: ecmlpkdd19
