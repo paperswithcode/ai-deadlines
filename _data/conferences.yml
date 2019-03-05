@@ -1,16 +1,6 @@
 
 ---
 
-- title: ACL
-  year: 2019
-  id: acl19
-  link: http://acl2019.org/
-  deadline: '2019-03-04 23:59:00'
-  timezone: Etc/GMT+12
-  date: July 28-August 2, 2019
-  place: Florence, Italy
-  sub: NLP
-
 - title: UAI
   year: 2019
   id: uai19
@@ -309,3 +299,13 @@
   date: November 3-9, 2019
   place: Macau, China
   sub: RO
+
+- title: ACL
+  year: 2019
+  id: acl19
+  link: http://acl2019.org/
+  deadline: '2019-03-04 23:59:00'
+  timezone: Etc/GMT+12
+  date: July 28-August 2, 2019
+  place: Florence, Italy
+  sub: NLP
