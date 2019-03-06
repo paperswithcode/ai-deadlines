@@ -114,6 +114,21 @@
         var colors = ['#341f97', '#ee5253', '#2e86de',
                       '#ff9f43', '#10ac84', '#222f3e']
 
+        // Borrowed from https://github.com/moment/moment-timezone/issues/167
+        // Adds support for time zones 'UTC-12'..'UTC+12'
+        function addUtcTimeZones() {
+          // Moment.js uses the IANA timezone database, which supports generic time zones like 'Etc/GMT+1'.
+          // However, the signs for these time zones are inverted compared to ISO 8601.
+          // For more details, see https://github.com/moment/moment-timezone/issues/167
+          for (let offset = -12; offset <= 12; offset++) {
+            const posixSign = offset <= 0 ? '+' : '-';
+            const isoSign = offset >= 0 ? '+' : '-';
+            const link = `Etc/GMT${posixSign}${Math.abs(offset)}|UTC${isoSign}${Math.abs(offset)}`;
+            moment.tz.link(link);
+          }
+        }
+        addUtcTimeZones();
+
         // Get all subs
         var conf_type_data = {{ site.data.types | jsonify }};
         var all_subs = [];
