@@ -176,6 +176,17 @@
   sub: CA
   note: <b>Call for Papers:</b> <a href='http://arcs2019.itec.kit.edu/download/ARCS2019.pdf'>PDF</a>.
 
+- title: EuroLLVM
+  year: 2019
+  id: eurollvm2019
+  link: http://llvm.org/devmtg/2019-04
+  deadline: '2019-01-14 07:59:59'
+  timezone: Etc/GMT-1
+  date: April 8-9, 2019
+  place: Brussles, Belgium
+  sub: ES
+  note: <b>Call for Contributions:</b> <a href='http://lists.llvm.org/pipermail/llvm-dev/2019-January/129091.html'>HTML</a>.
+
 - title: MBMV
   year: 2019
   id: mbmv2019
