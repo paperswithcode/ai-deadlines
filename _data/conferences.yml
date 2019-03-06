@@ -6,7 +6,7 @@
   id: uai19
   link: http://auai.org/uai2019/
   deadline: '2019-03-08 23:59:59'
-  timezone: Etc/GMT-11
+  timezone: UTC-11
   date: July 22-26, 2019
   place: Tel Aviv, Israel
   sub: ML
@@ -28,7 +28,7 @@
   id: interspeech19
   link: https://www.interspeech2019.org/
   deadline: '2019-03-29 23:59:59'
-  timezone: Etc/GMT+12
+  timezone: UTC-12
   date: September 15-19, 2019
   place: Graz, Austria
   sub: SP
@@ -60,7 +60,7 @@
   id: ecmlpkdd19
   link: https://ecmlpkdd2019.org/
   deadline: '2019-04-05 23:59:59'
-  timezone: Etc/GMT-8
+  timezone: UTC-8
   date: September 16-20, 2019
   place: "W\xFCrzburg, Germany"
   sub: ML
@@ -72,7 +72,7 @@
   id: ismir19
   link: http://ismir2019.ewi.tudelft.nl/
   deadline: '2019-04-05 23:59:59'
-  timezone: Etc/GMT+12
+  timezone: UTC-12
   date: November 4-8, 2019
   place: Delft, The Netherlands
   sub: SP
@@ -92,7 +92,7 @@
   id: emnlp-ijcnlp19
   link: http://emnlp-ijcnlp2019.org/
   deadline: '2019-05-21 23:59:59'
-  timezone: Etc/GMT-7
+  timezone: UTC-7
   date: November 3-7, 2019
   place: Hong Kong
   sub: NLP
@@ -113,7 +113,7 @@
   id: conll2019
   link: http://www.conll.org/2019
   deadline: '2019-05-31 23:59:59'
-  timezone: Etc/GMT+12
+  timezone: UTC-12
   date: November 3-4, 2019
   place: Hong Kong
   sub: NLP
@@ -133,7 +133,7 @@
   id: corl2019
   link: http://www.robot-learning.org
   deadline: '2019-07-07 23:59:59'
-  timezone: Etc/GMT
+  timezone: UTC-7
   date: October 30 - November 1, 2019
   place: Osaka, Japan
   sub: RO
@@ -143,7 +143,7 @@
   id: aaai19
   link: https://aaai.org/Conferences/AAAI-19/
   deadline: '2018-09-05 23:59:59'
-  timezone: Etc/GMT+10
+  timezone: UTC-10
   date: January 27 - February 1, 2019
   place: Hilton Hawaiian Village, Honolulu, Hawaii, USA
   sub: ML
@@ -153,7 +153,7 @@
   id: icra2019
   link: https://icra2019.org//
   deadline: '2018-09-15 23:59:59'
-  timezone: Etc/GMT
+  timezone: UTC
   date: May 20-24, 2019
   place: Montreal, Canada
   sub: RO
@@ -173,7 +173,7 @@
   id: aes2019
   link: http://www.aes.org/conferences/2019/immersive/
   deadline: '2018-10-01 23:59:59'
-  timezone: Etc/GMT
+  timezone: UTC
   date: March 27-29, 2019
   place: York, UK
   sub: SP
@@ -193,7 +193,7 @@
   id: icassp2019
   link: http://icassp2019.com/
   deadline: '2018-10-29 23:59:59'
-  timezone: Etc/GMT
+  timezone: UTC
   date: May 12-17, 2019
   place: Brighton, UK
   sub: SP
@@ -203,7 +203,7 @@
   id: aamas19
   link: http://aamas2019.encs.concordia.ca/
   deadline: '2018-11-16 23:59:59'
-  timezone: Etc/GMT
+  timezone: UTC
   date: May 13-17, 2019
   place: Montreal, Canada
   sub: ML
@@ -223,7 +223,7 @@
   id: naacl19
   link: http://naacl2019.org/
   deadline: '2018-12-10 23:59:59'
-  timezone: Etc/GMT+12
+  timezone: UTC-12
   date: June 2-7, 2019
   place: Minneapolis, USA
   sub: NLP
@@ -244,7 +244,7 @@
   id: gecco19
   link: https://gecco-2019.sigevo.org/index.html/tiki-index.php
   deadline: '2019-01-30 23:59:59'
-  timezone: Etc/GMT+10
+  timezone: UTC-10
   date: July 13 - 17, 2019
   place: Prague, Czech Republic
   sub: ML
@@ -274,7 +274,7 @@
   id: kdd19
   link: https://www.kdd.org/kdd2019
   deadline: '2019-02-03 23:59:59'
-  timezone: Etc/GMT+11
+  timezone: UTC-11
   date: August 3-7, 2019
   place: Anchorage, Alaska, USA
   sub: DM
@@ -284,7 +284,7 @@
   id: ijcai19
   link: https://www.ijcai19.org/
   deadline: '2019-02-25 23:59:59'
-  timezone: Etc/GMT+12
+  timezone: UTC-12
   date: August 10-16, 2019
   place: Macau, China
   sub: ML
@@ -305,7 +305,7 @@
   id: acl19
   link: http://acl2019.org/
   deadline: '2019-03-04 23:59:00'
-  timezone: Etc/GMT+12
+  timezone: UTC-12
   date: July 28-August 2, 2019
   place: Florence, Italy
   sub: NLP
