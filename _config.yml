@@ -1,5 +1,5 @@
-title: AI Conference Deadlines # (Maintained by @abhshkdz)
-# email: abhshkdz@vt.edu
+title: AI/ML/DS Conference Deadlines 4 Africans # 
+# email: vukosi.marivate@cs.up.ac.za
 description: Countdowns to AI/ML/DS conference deadlines for Africans
 author: Mpho Mokoatle, Vukosi Marivate, Avashlin Moodley
 
@@ -12,6 +12,6 @@ github_username: vukosim
 github_repo: ai-ds-africa-deadlines
 
 markdown: kramdown
-ga_id: UA-36274081-2
+ga_id: 
 
 include: ['_pages']
