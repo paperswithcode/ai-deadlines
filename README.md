@@ -1,6 +1,6 @@
-## AI Deadlines ![](https://travis-ci.com/abhshkdz/ai-deadlines.svg?branch=gh-pages)
+## AI/ML/DS Deadlines 4 Africa ![](https://travis-ci.com/abhshkdz/ai-deadlines.svg?branch=gh-pages)
 
-Countdown timers to keep track of a bunch of CV/NLP/ML/RO conference deadlines.
+Countdowns to AI/ML/DS conference deadlines for Africans
 
 ## Adding/updating a conference
 
