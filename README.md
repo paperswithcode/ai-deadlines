@@ -1,4 +1,4 @@
-## AI/ML/DS Deadlines 4 Africa ![](https://travis-ci.com/abhshkdz/ai-deadlines.svg?branch=gh-pages)
+## AI/ML/DS Deadlines 4 Africa 
 
 Countdowns to AI/ML/DS conference deadlines for Africans
 
