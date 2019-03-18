@@ -1,15 +1,15 @@
 title: AI Conference Deadlines # (Maintained by @abhshkdz)
 # email: abhshkdz@vt.edu
-description: Countdowns to top CV/NLP/ML/Robotics/AI conference deadlines
-author: Abhishek Das
+description: Countdowns to AI/ML/DS conference deadlines for Africans
+author: Mpho Mokoatle, Vukosi Marivate, Avashlin Moodley
 
-domain: "aideadlin.es"
+domain: "vukosim.github.cio/ai-ds-africa-deadlines"
 baseurl: ""
 
-twitter_username: abhshkdz
-twitter_hashtag: machinelearning
-github_username: abhshkdz
-github_repo: ai-deadlines
+twitter_username: vukosi
+twitter_hashtag: africanmachinelearning
+github_username: vukosim
+github_repo: ai-ds-africa-deadlines
 
 markdown: kramdown
 ga_id: UA-36274081-2
