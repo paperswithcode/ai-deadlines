@@ -48,6 +48,7 @@
   sub: ML
 
 - title: 2019 IIER 683rd International Conference on Recent Innovations in Engineering and Technology (ICRIET)
+  year: 2019
   id: ICRIET2019
   link: http://theiier.org/Conference2019/SouthAfrica/2/ICRIET/index.php
   deadline: '2019-06-17 23:59:59'
@@ -58,6 +59,7 @@
 
   
   - title: IEEE Africon 2019
+  year: 2019
   id: africon2019
   link: http://africon2019.org/
   deadline: '2019-05-14 23:59:59'
