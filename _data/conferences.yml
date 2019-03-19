@@ -33,8 +33,50 @@
   deadline: '2019-06-30 23:59:59'
   timezone: GMT+2
   date: November 19-20, 2019
-  place: Johannesburg South Arica, Morocco
+  place: Johannesburg, South Arica
+  sub: ML
+  
+  
+- title: Academics World 600th International Conference on Artificial Intelligence and Soft Computing (ICAISC) 
+  year: 2019
+  id: ICAISC2019
+  link: https://www.allconferencealert.com/event_detail.php?ev_id=215535
+  deadline: '2019-04-17 23:59:59'
+  timezone: GMT+2
+  date: May 25-26, 2019
+  place: Johannesburg, South Arica
   sub: ML
 
+- title: 2019 IIER 683rd International Conference on Recent Innovations in Engineering and Technology (ICRIET)
+  id: ICRIET2019
+  link: http://theiier.org/Conference2019/SouthAfrica/2/ICRIET/index.php
+  deadline: '2019-06-17 23:59:59'
+  timezone: GMT+2
+  date: July 25-26, 2019
+  place: Johannesburg, South Arica
+  sub: CV
 
+
+- title: 498TH International Conference on Science, Engineering & Technology
+  id: ICSET2019
+  link: http://researchfora.com/Conference2019/SouthAfrica/2/ICSET/
+  deadline: '2019-08-17 23:59:59'
+  timezone: GMT+2
+  date: Semptember 25-26, 2019
+  place: Johannesburg, South Arica
+  sub: CV
+  
+  - title: IEEE Africon 2019
+  id: africon2019
+  link: http://africon2019.org/
+  deadline: '2019-05-14 23:59:59'
+  timezone: GMT+2
+  date: Semptember 25-27, 2019
+  place: Accra, Ghana
+  sub: ML
+  
+  
+  
+  
+  
 
