@@ -59,14 +59,14 @@
 
   
   - title: IEEE Africon 2019
-  year: 2019
-  id: africon2019
-  link: http://africon2019.org/
-  deadline: '2019-05-14 23:59:59'
-  timezone: GMT+2
-  date: Semptember 25-27, 2019
-  place: Accra, Ghana
-  sub: ML
+    year: 2019
+    id: africon2019
+    link: http://africon2019.org/
+    deadline: '2019-05-14 23:59:59'
+    timezone: GMT+2
+    date: Semptember 25-27, 2019
+    place: Accra, Ghana
+    sub: ML
   
   
   
