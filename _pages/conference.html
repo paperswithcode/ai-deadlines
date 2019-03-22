@@ -1,5 +1,5 @@
 ---
-permalink:  /conference
+permalink:  /conference/
 ---
 
 <html>
@@ -12,7 +12,7 @@ permalink:  /conference
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="{{ site.author }}">
     <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
-    <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.3b6df32.css" | prepend:site.baseurl }}" media="screen,projection">
+    <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.css" | prepend:site.baseurl }}?t={{site.time | date: '%s'}}" media="screen,projection">
     <link rel="shortcut icon" href="{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="{{ "/static/js/jquery.countdown.min.js" | prepend:site.baseurl }}"></script>
@@ -50,7 +50,8 @@ permalink:  /conference
           <hr>
         </div>
         <footer>
-          <a href="/">{{ site.domain }}</a> is maintained by <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.
+          <a href="/">{{ site.domain }}</a> is maintained by <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.<br>
+          If you find it useful, consider <a target="_blank" href="https://buymeacoff.ee/abhshkdz">buying him a coffee</a>.
         </footer>
     </div>
     <script type="text/javascript" charset="utf-8">
@@ -58,6 +59,21 @@ permalink:  /conference
         var url = new URL(window.location);
         var conf = url.searchParams.get('id');
         console.log(conf);
+
+        // Borrowed from https://github.com/moment/moment-timezone/issues/167
+        // Adds support for time zones 'UTC-12'..'UTC+12'
+        function addUtcTimeZones() {
+          // Moment.js uses the IANA timezone database, which supports generic time zones like 'Etc/GMT+1'.
+          // However, the signs for these time zones are inverted compared to ISO 8601.
+          // For more details, see https://github.com/moment/moment-timezone/issues/167
+          for (let offset = -12; offset <= 12; offset++) {
+            const posixSign = offset <= 0 ? '+' : '-';
+            const isoSign = offset >= 0 ? '+' : '-';
+            const link = `Etc/GMT${posixSign}${Math.abs(offset)}|UTC${isoSign}${Math.abs(offset)}`;
+            moment.tz.link(link);
+          }
+        }
+        addUtcTimeZones();
 
         {% for conf in site.data.conferences %}
             if (conf == "{{ conf.id }}") {

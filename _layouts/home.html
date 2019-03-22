@@ -8,7 +8,7 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="{{ site.author }}">
     <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
-    <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.3b6df32.css" | prepend:site.baseurl }}" media="screen,projection">
+    <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.css" | prepend:site.baseurl }}?t={{site.time | date: '%s'}}" media="screen,projection">
     <link rel="shortcut icon" href="{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="{{ "/static/js/jquery.countdown.min.js" | prepend:site.baseurl }}"></script>
@@ -30,7 +30,7 @@
                   </h1>
                 </div>
                 <div class="meta col-xs-12">
-                  {{ site.description }}
+                  {{ site.description }}.
                   To add/update a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull request</a>.
                 </div>
             </div>
@@ -41,7 +41,7 @@
                   <form class="form-horizontal">
                     <div class="form-group">
                       {% for type in site.data.types %}
-                      <div class="col-md-4 col-xs-5">
+                      <div class="col-md-4 col-xs-6">
                         <div class="checkbox">
                           <label>
                             <input type="checkbox" id="{{ type.sub }}-checkbox" class=""> {{ type.name }}
@@ -62,38 +62,83 @@
         </div>
         {% for conf in site.data.conferences %}
         <div id="{{conf.id}}" class="{% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
-          <div class="row">
-              <div class="col-xs-12 col-sm-6">
-                  <a href="/conference?id={{ conf.id }}"><b>{{conf.title}} {{conf.year}}</b></a>
-                  <div class="meta">
-                    {{conf.date}} // <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>
-                  </div>
-                  {% if conf.note %}
-                  <div class="note">
-                    {{conf.note}}
-                  </div>
-                  {% endif %}
+          <div class="row conf-row">
+              <div class="col-xs-5 col-sm-6">
+                  <a class="conf-title" href="/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
               </div>
-              <div class="col-xs-12 col-sm-6">
+              <div class="col-xs-7 col-sm-6">
                 <span class="timer"></span>
-                <div class="deadline">
-                  <div>Deadline:
-                    <span class="deadline-time"></span>
-                  </div>
-                </div>
-                <div class="calendar"></div>
               </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <div class="meta">
+                <span class="conf-date">{{conf.date}}.</span>
+                <span class="conf-place">
+                  <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
+                </span>
+              </div>
+              {% if conf.note %}
+              <div class="note">
+                {{conf.note}}
+              </div>
+              {% endif %}
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <div class="deadline">
+                <div>Deadline:
+                  <span class="deadline-time"></span>
+                </div>
+              </div>
+              <div class="calendar"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <span title="Click to only show {{conf.sub}} conferences" data-sub="{{conf.sub}}" class="conf-sub"></span>
+            </div>
           </div>
           <hr>
         </div>
         {% endfor %}
         <footer>
-          <a href="/">{{ site.domain }}</a> is maintained by <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.
+          <a href="/">{{ site.domain }}</a> is maintained by <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.<br>
+          If you find it useful, consider <a title="_blank" href="https://buymeacoff.ee/abhshkdz">buying him a coffee</a>.
         </footer>
-        <hr>
+        <br><br>
     </div>
     <script type="text/javascript" charset="utf-8">
     $(function() {
+        // Make sure this is >= no. of subs
+        // Currently not used
+        var colors = ['#341f97', '#ee5253', '#2e86de',
+                      '#ff9f43', '#10ac84', '#222f3e']
+
+        // Borrowed from https://github.com/moment/moment-timezone/issues/167
+        // Adds support for time zones 'UTC-12'..'UTC+12'
+        function addUtcTimeZones() {
+          // Moment.js uses the IANA timezone database, which supports generic time zones like 'Etc/GMT+1'.
+          // However, the signs for these time zones are inverted compared to ISO 8601.
+          // For more details, see https://github.com/moment/moment-timezone/issues/167
+          for (let offset = -12; offset <= 12; offset++) {
+            const posixSign = offset <= 0 ? '+' : '-';
+            const isoSign = offset >= 0 ? '+' : '-';
+            const link = `Etc/GMT${posixSign}${Math.abs(offset)}|UTC${isoSign}${Math.abs(offset)}`;
+            moment.tz.link(link);
+          }
+        }
+        addUtcTimeZones();
+
+        // Get all subs
+        var conf_type_data = {{ site.data.types | jsonify }};
+        var all_subs = [];
+        var sub2name = {}; var name2sub = {};
+        for (var i = 0; i < conf_type_data.length; i++) {
+          all_subs[i] = conf_type_data[i]['sub'];
+          sub2name[conf_type_data[i]['sub']] = conf_type_data[i]['name'];
+          name2sub[conf_type_data[i]['name']] = conf_type_data[i]['sub'];
+        }
+
         {% for conf in site.data.conferences %}
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
@@ -129,6 +174,7 @@
             }
           });
           document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
+          $('#{{conf.id}} .conf-sub').html(sub2name["{{conf.sub}}"].toLocaleLowerCase());
 
           // check if date has passed, add 'past' class to it
           var today = moment();
@@ -136,13 +182,6 @@
             $('#{{conf.id}}').addClass('past');
         {% endif %}
         {% endfor %}
-
-        // Set checkboxes
-        var conf_type_data = {{ site.data.types | jsonify }};
-        var all_subs = [];
-        for (var i = 0; i < conf_type_data.length; i++) {
-          all_subs[i] = conf_type_data[i]['sub'];
-        }
 
         // Get subjects from URL
         var url = new URL(window.location);
@@ -188,6 +227,25 @@
             if (idx >= 0)
               subs.splice(idx, 1);
           }
+          console.log(subs);
+          store.set('{{ site.domain }}', subs);
+          window.history.pushState('', '', '/?sub=' + subs.join());
+        });
+
+        // Event handler on sub click
+        $('.conf-sub').click(function(e) {
+          var csub = $(this).data('sub');
+          for (var i = 0; i < subs.length; i++) {
+            if (subs[i] != csub) {
+              $('#' + subs[i] + '-checkbox').prop('checked', false);
+              $('.' + subs[i] + '-conf').hide();
+            }
+            else {
+              $('#' + subs[i] + '-checkbox').prop('checked', true);
+              $('.' + subs[i] + '-conf').show();
+            }
+          }
+          subs = [csub];
           console.log(subs);
           store.set('{{ site.domain }}', subs);
           window.history.pushState('', '', '/?sub=' + subs.join());
