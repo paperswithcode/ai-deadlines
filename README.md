@@ -18,10 +18,9 @@ To add or update information:
 - [geodeadlin.es][3] by @LukasMosser
 - [neuro-deadlines][4] by @tbryn
 - [ai-challenge-deadlines][5] by @dieg0as
-- [2018-2019 International Conferences in AI, CV, DM, NLP and Robotics][7] by @JackieTseng
 - [CV-oriented ai-deadlines (with an emphasis on medical images)][8] by @duducheng
 - [es-deadlines (Embedded Systems, Computer Architecture, and Cyber-physical Systems)][9] by @AlexVonB and @k0nze
-- [2019-2020 International Conferences in AI, CV, DM, NLP and Robotics](10) by @JackieTseng
+- [2019-2020 International Conferences in AI, CV, DM, NLP and Robotics][10] by @JackieTseng
 
 ## License
 
@@ -33,7 +32,6 @@ To add or update information:
 [4]: https://github.com/tbryn/neuro-deadlines
 [5]: https://github.com/dieg0as/ai-challenge-deadlines
 [6]: http://www.conferenceranks.com/#
-[7]: https://jackietseng.github.io/conference_call_for_paper/2018-2019-conferences-with-ccf.html
 [8]: https://creedai.github.io/ai-deadlines/
 [9]: https://ekut-es.github.io/es-deadlines/
 [10]: https://jackietseng.github.io/conference_call_for_paper/conferences.html
