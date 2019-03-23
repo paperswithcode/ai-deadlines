@@ -1,16 +1,6 @@
 
 ---
 
-- title: ICCV
-  year: 2019
-  id: iccv19
-  link: http://iccv2019.thecvf.com/
-  deadline: '2019-03-22 23:59:00'
-  timezone: America/Los_Angeles
-  date: October 27 - November 2, 2019
-  place: Seoul, Korea
-  sub: CV
-
 - title: InterSpeech
   year: 2019
   id: interspeech19
@@ -54,6 +44,18 @@
   date: November 4-8, 2019
   place: Delft, The Netherlands
   sub: SP
+
+- title: MM
+  year: 2019
+  id: ACMMultimedia
+  link: https://www.acmmm.org/2019/
+  deadline: '2019-04-08 23:59:59'
+  timezone: UTC-12
+  date: October 21-25, 2019
+  place: Nice, France
+  sub: CV
+  note: '<b>NOTE</b>: Mandatory abstract submission deadline on April 1. More info
+    <a href="https://www.acmmm.org/2019/important-dates/">here</a>.'
 
 - title: BMVC
   year: 2019
@@ -299,3 +301,13 @@
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on March 04, 2019. More info <a
     href=''http://auai.org/uai2019/cfp.php''>here</a>.'
+
+- title: ICCV
+  year: 2019
+  id: iccv19
+  link: http://iccv2019.thecvf.com/
+  deadline: '2019-03-22 23:59:00'
+  timezone: America/Los_Angeles
+  date: October 27 - November 2, 2019
+  place: Seoul, Korea
+  sub: CV
