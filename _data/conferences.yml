@@ -199,6 +199,17 @@
   sub: CA
   note: <b>Call for Papers:</b> <a href='https://asplos-conference.org/wp-content/uploads/2018/05/asplos19-cfp.pdf'>PDF</a>.
 
+- title: CPS-IoT
+  year: 2019
+  id: cpsiot19
+  link: http://cpslab.cs.mcgill.ca/cpsiotweek2019/
+  deadline: '2018-10-17 23:59:00'
+  timezone: Etc/GMT
+  date: April 15-18, 2019
+  place: Montreal, Canada
+  sub: ES
+  note: null
+
 - title: CVPR
   year: 2019
   id: cvpr19
@@ -318,17 +329,6 @@
   place: Seoul, Korea
   sub: CV
   note: <b>Call for Papers:</b> <a href='http://iccv2019.thecvf.com/submission/main_conference/author_guidelines'>HTML</a>.
-
-- title: CPS-IoT
-  year: 2019
-  id: cpsiot19
-  link: http://cpslab.cs.mcgill.ca/cpsiotweek2019/
-  deadline: tba
-  timezone: Etc/GMT
-  date: April 15-18, 2019
-  place: Montreal, Canada
-  sub: ES
-  note: null
 
 - title: DAC
   year: 2020
