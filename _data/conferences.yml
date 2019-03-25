@@ -1,17 +1,6 @@
 
 ---
 
-- title: ICCV
-  year: 2019
-  id: iccv19
-  link: http://iccv2019.thecvf.com/
-  deadline: '2019-03-22 23:59:00'
-  timezone: Etc/GMT
-  date: October 27 - November 3, 2019
-  place: Seoul, Korea
-  sub: CV
-  note: <b>Call for Papers:</b> <a href='http://iccv2019.thecvf.com/submission/main_conference/author_guidelines'>HTML</a>.
-
 - title: MICRO
   year: 2019
   id: micro52
@@ -33,6 +22,17 @@
   place: Auckland, New Zealand
   sub: CV
   note: <b>Call for Papers:</b> <a href='https://www.itsc2019.org/call-for-papers'>HTML</a>.
+
+- title: ICCAD
+  year: 2019
+  id: iccad19
+  link: https://www.iccad.com/
+  deadline: '2019-04-01 23:59:00'
+  timezone: Etc/GMT
+  date: November 4-7, 2019
+  place: Westminster, USA
+  sub: CA
+  note: <b>Call for Papers:</b> <a href='https://www.iccad.com/2019_call_for_papers'>HTML</a>.
 
 - title: DSD
   year: 2019
@@ -78,6 +78,50 @@
   sub: CV
   note: <b>Call for Papers:</b> <a href='https://www.tuev-sued.de/uploads/images/1549883812393523030668/tagung-automatisiertes-fahren-2019-call-for-papers.pdf'>PDF</a>.
 
+- title: WCET
+  year: 2019
+  id: wcet19
+  link: https://www.ecrts.org/wcet/
+  deadline: '2019-04-16 23:59:00'
+  timezone: Etc/GMT
+  date: July 9-12, 2019
+  place: Stuttgart, Germany
+  sub: ES
+  note: <b>Call for Papers:</b> <a href='https://www.ecrts.org/wcet/wcet-call-for-papers/'>HTML</a>.
+
+- title: WATERS
+  year: 2019
+  id: waters19
+  link: https://www.ecrts.org/waters/
+  deadline: '2019-04-16 23:59:00'
+  timezone: Etc/GMT
+  date: July 9-12, 2019
+  place: Stuttgart, Germany
+  sub: ES
+  note: <b>Call for Papers:</b> <a href='https://www.ecrts.org/waters/waters-call-for-contributions/'>HTML</a>.
+
+- title: FDL
+  year: 2019
+  id: fdl19
+  link: http://fdl-conference.org/
+  deadline: '2019-04-19 23:59:00'
+  timezone: Etc/GMT
+  date: September 2-4, 2019
+  place: Southampton, UK
+  sub: CA
+  note: <b>Call for Papers:</b> <a href='http://fdl-conference.org/submission.html#call4paper'>HTML</a>.
+
+- title: MCSoC
+  year: 2019
+  id: mcsoc19
+  link: http://mcsoc-forum.org/
+  deadline: '2019-04-30 23:59:00'
+  timezone: Etc/GMT
+  date: October 1-4, 2019
+  place: Singapore
+  sub: ES
+  note: <b>Call for Papers:</b> <a href='http://mcsoc-forum.org/m2019/wp-content/uploads/2018/11/MCSOC2019-CFP.pdf'>PDF</a>.
+
 - title: ICCVE
   year: 2019
   id: iccve19
@@ -88,6 +132,17 @@
   place: Graz, Austria
   sub: CV
   note: <b>Call for Papers:</b> <a href='https://iccve2019.com/sites/default/files/documents/call-docs/iccve2019-cfp_v10.pdf'>PDF</a>.
+
+- title: RTSS
+  year: 2019
+  id: rtss19
+  link: http://2019.rtss.org/
+  deadline: '2019-05-30 23:59:00'
+  timezone: Etc/GMT
+  date: December 3-6, 2019
+  place: Hong Kong, China
+  sub: ES
+  note: null
 
 - title: ICCD
   year: 2019
@@ -187,6 +242,28 @@
   sub: ES
   note: <b>Call for Contributions:</b> <a href='http://lists.llvm.org/pipermail/llvm-dev/2019-January/129091.html'>HTML</a>.
 
+- title: IV
+  year: 2019
+  id: iv19
+  link: http://iv2019.org/
+  deadline: '2019-01-31 23:59:00'
+  timezone: Etc/GMT
+  date: June 9-12, 2019
+  place: Paris, France
+  sub: CV
+  note: <b>Call for Papers:</b> <a href='http://iv2019.org/call-for-paper/'>HTML</a>.
+
+- title: ECRTS
+  year: 2019
+  id: ecrts19
+  link: https://www.ecrts.org/
+  deadline: '2019-02-07 23:59:00'
+  timezone: Etc/GMT
+  date: July 9-12, 2019
+  place: Stuttgart, Germany
+  sub: ES
+  note: <b>Call for Papers:</b> <a href='https://www.ecrts.org/call-for-papers/'>HTML</a>.
+
 - title: MBMV
   year: 2019
   id: mbmv2019
@@ -209,6 +286,17 @@
   sub: CV
   note: <b>Call for Papers:</b> <a href='http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=84155'>HTML</a>.
 
+- title: SCOPES
+  year: 2019
+  id: scopes19
+  link: https://scopesconf.org/scopes-19/
+  deadline: '2019-02-24 23:59:00'
+  timezone: Etc/GMT
+  date: May 27-28, 2019
+  place: Sankt Goar, Germany
+  sub: CA
+  note: <b>Call for Papers:</b> <a href='https://www.scopesconf.org/scopes-19/cfp.php'>HTML</a>.
+
 - title: LCTES
   year: 2019
   id: lctes2019
@@ -219,3 +307,58 @@
   place: Pheonix, AZ, USA
   sub: ES
   note: <b>Call for Papers:</b> <a href='https://conf.researchr.org/home/LCTES-2019#Call-for-Papers'>HTML</a>.
+
+- title: ICCV
+  year: 2019
+  id: iccv19
+  link: http://iccv2019.thecvf.com/
+  deadline: '2019-03-22 23:59:00'
+  timezone: Etc/GMT
+  date: October 27 - November 3, 2019
+  place: Seoul, Korea
+  sub: CV
+  note: <b>Call for Papers:</b> <a href='http://iccv2019.thecvf.com/submission/main_conference/author_guidelines'>HTML</a>.
+
+- title: CPS-IoT
+  year: 2019
+  id: cpsiot19
+  link: http://cpslab.cs.mcgill.ca/cpsiotweek2019/
+  deadline: tba
+  timezone: Etc/GMT
+  date: April 15-18, 2019
+  place: Montreal, Canada
+  sub: ES
+  note: null
+
+- title: DAC
+  year: 2020
+  id: dac20
+  link: https://www.dac.com/
+  deadline: tba
+  timezone: Etc/GMT
+  date: tba
+  place: tba
+  sub: CA
+  note: tba
+
+- title: DATE
+  year: 2020
+  id: date20
+  link: https://www.date-conference.com/
+  deadline: tba
+  timezone: Etc/GMT
+  date: tba
+  place: tba
+  sub: ES
+  note: tba
+
+- title: ASP-DAC
+  year: 2020
+  id: aspdac20
+  link: http://www.aspdac.com/
+  deadline: tba
+  timezone: Etc/GMT
+  date: tba
+  place: tba
+  sub: CA
+  note: tba
