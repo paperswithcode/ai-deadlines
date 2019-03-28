@@ -1,7 +1,4 @@
-
 ---
-
-
 
 - title: AI EXPO AFRICA 
   year: 2019
@@ -12,9 +9,6 @@
   date: September 04-05, 2019
   place: Cape Town, South Africa
   sub: ML
-
-
-
 - title: North African Machine Learning Summer School (NASSMA) 
   year: 2019
   id: NASSMA19
@@ -24,9 +18,40 @@
   date: June 24-29, 2019
   place: Ben Guerir, Morocco
   sub: ML
-
-
-
-
-
+- title: 6th International Conference on Soft Computing & Machine learning 
+  year: 2019
+  id: iscmi2019
+  link: http://www.iscmi.us/
+  deadline: '2019-06-30 23:59:59'
+  timezone: GMT+2
+  date: November 19-20, 2019
+  place: Johannesburg, South Arica
+  sub: ML
+- title: Academics World 600th International Conference on Artificial Intelligence and Soft Computing (ICAISC) 
+  year: 2019
+  id: ICAISC2019
+  link: https://www.allconferencealert.com/event_detail.php?ev_id=215535
+  deadline: '2019-04-17 23:59:59'
+  timezone: GMT+2
+  date: May 25-26, 2019
+  place: Johannesburg, South Arica
+  sub: ML
+- title: 2019 IIER 683rd International Conference on Recent Innovations in Engineering and Technology (ICRIET)
+  year: 2019
+  id: ICRIET2019
+  link: http://theiier.org/Conference2019/SouthAfrica/2/ICRIET/index.php
+  deadline: '2019-06-17 23:59:59'
+  timezone: GMT+2
+  date: July 25-26, 2019
+  place: Johannesburg, South Arica
+  sub: CV
+- title: Deep Learning Indaba 
+  year: 2019
+  id: dl2019
+  link: http://www.deeplearningindaba.com/
+  deadline: '2019-04-12 23:59:59'
+  timezone: GMT+2
+  date: August 25-31, 2019
+  place: Nairobi, Kenya
+  sub: ML
 
