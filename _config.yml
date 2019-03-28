@@ -4,7 +4,7 @@ description: Countdowns to AI/ML/DS conference deadlines for Africans
 author: Mpho Mokoatle, Vukosi Marivate, Avashlin Moodley
 
 domain: "vukosim.github.cio/ai-ds-africa-deadlines"
-baseurl: ""
+baseurl: "vukosim.github.cio/ai-ds-africa-deadlines"
 
 twitter_username: vukosi
 twitter_hashtag: africanmachinelearning
