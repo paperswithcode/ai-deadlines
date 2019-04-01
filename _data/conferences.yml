@@ -1,6 +1,16 @@
 
 ---
-
+- title: ISLPED
+  year: 2019
+  id: islped2019
+  link: https://www.islped.org/2019/
+  deadline: '2019-03-09 23:59:59'
+  timezone: PST/GMT+7
+  date: July 29-31, 2019
+  place: Lausanne, Switzerland
+  sub: ES
+  note: <b>Call for Papers:</b> <a href='https://www.islped.org/2019/files/ISLPED2019_CFP_Feb22_2019.pdf'>PDF</a>.
+  
 - title: MICRO
   year: 2019
   id: micro52
