@@ -311,3 +311,15 @@
   date: September 15-19, 2019
   place: Graz, Austria
   sub: SP
+  
+- title: RecSys
+  year: 2019
+  id: recsys19
+  link: https://recsys.acm.org/recsys19/
+  deadline: '2019-04-23 23:59:59'
+  timezone: UTC-12
+  date: September 16-20, 2019
+  place: Copenhagen, Denmark
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 15, 2019. More info <a href=''https://recsys.acm.org/recsys19/dates/''>here</a>.'
+  
