@@ -311,3 +311,13 @@
   date: September 15-19, 2019
   place: Graz, Austria
   sub: SP
+  
+- title: ICDM
+  year: 2019
+  id: icdm19
+  link: http://icdm2019.bigke.org/
+  deadline: '2019-06-05 23:59:59'
+  timezone: UTC-7
+  date: November 8-11, 2019
+  place: Beijing, China
+  sub: DM
