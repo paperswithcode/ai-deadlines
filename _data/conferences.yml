@@ -1,18 +1,6 @@
 
 ---
 
-- title: MICCAI
-  year: 2019
-  id: miccai2019
-  link: http://www.miccai2019.org/
-  deadline: '2019-04-02 23:59:59'
-  timezone: US/Pacific
-  date: October 13 - October 17, 2019
-  place: Shenzhen, China
-  sub: CV
-  note: '<b>NOTE</b>: Mandatory intention-to-submit registration on March 19. More
-    info <a href="http://www.miccai2019.org/calls/call-for-papers/">here</a>.'
-
 - title: ECML/PKDD
   year: 2019
   id: ecmlpkdd19
@@ -87,6 +75,16 @@
   date: November 3-4, 2019
   place: Hong Kong
   sub: NLP
+
+- title: ICDM
+  year: 2019
+  id: icdm19
+  link: http://icdm2019.bigke.org/
+  deadline: '2019-06-05 23:59:59'
+  timezone: UTC-7
+  date: November 8-11, 2019
+  place: Beijing, China
+  sub: DM
 
 - title: 3DV
   year: 2019
@@ -311,13 +309,15 @@
   date: September 15-19, 2019
   place: Graz, Austria
   sub: SP
-  
-- title: ICDM
+
+- title: MICCAI
   year: 2019
-  id: icdm19
-  link: http://icdm2019.bigke.org/
-  deadline: '2019-06-05 23:59:59'
-  timezone: UTC-7
-  date: November 8-11, 2019
-  place: Beijing, China
-  sub: DM
+  id: miccai2019
+  link: http://www.miccai2019.org/
+  deadline: '2019-04-02 23:59:59'
+  timezone: US/Pacific
+  date: October 13 - October 17, 2019
+  place: Shenzhen, China
+  sub: CV
+  note: '<b>NOTE</b>: Mandatory intention-to-submit registration on March 19. More
+    info <a href="http://www.miccai2019.org/calls/call-for-papers/">here</a>.'
