@@ -1,28 +1,6 @@
 
 ---
 
-- title: ECML/PKDD
-  year: 2019
-  id: ecmlpkdd19
-  link: https://ecmlpkdd2019.org/
-  deadline: '2019-04-05 23:59:59'
-  timezone: UTC-12
-  date: September 16-20, 2019
-  place: "W\xFCrzburg, Germany"
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on March 29, 2019. More info <a
-    href="https://ecmlpkdd2019.org/submissions/deadlines/">here</a>.'
-
-- title: ISMIR
-  year: 2019
-  id: ismir19
-  link: http://ismir2019.ewi.tudelft.nl/
-  deadline: '2019-04-05 23:59:59'
-  timezone: UTC-12
-  date: November 4-8, 2019
-  place: Delft, The Netherlands
-  sub: SP
-
 - title: MM
   year: 2019
   id: ACMMultimedia
@@ -55,7 +33,7 @@
   place: Hong Kong
   sub: NLP
   note: '<b>NOTE</b>: Mandatory abstract submission deadline on May 15. More info
-  <a href="https://www.emnlp-ijcnlp2019.org/calls/papers/">here</a>.'
+    <a href="https://www.emnlp-ijcnlp2019.org/calls/papers/">here</a>.'
 
 - title: NeurIPS
   year: 2019
@@ -323,3 +301,25 @@
   sub: CV
   note: '<b>NOTE</b>: Mandatory intention-to-submit registration on March 19. More
     info <a href="http://www.miccai2019.org/calls/call-for-papers/">here</a>.'
+
+- title: ECML/PKDD
+  year: 2019
+  id: ecmlpkdd19
+  link: https://ecmlpkdd2019.org/
+  deadline: '2019-04-05 23:59:59'
+  timezone: UTC-12
+  date: September 16-20, 2019
+  place: "W\xFCrzburg, Germany"
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on March 29, 2019. More info <a
+    href="https://ecmlpkdd2019.org/submissions/deadlines/">here</a>.'
+
+- title: ISMIR
+  year: 2019
+  id: ismir19
+  link: http://ismir2019.ewi.tudelft.nl/
+  deadline: '2019-04-05 23:59:59'
+  timezone: UTC-12
+  date: November 4-8, 2019
+  place: Delft, The Netherlands
+  sub: SP
