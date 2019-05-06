@@ -1,16 +1,6 @@
 
 ---
 
-- title: BMVC
-  year: 2019
-  id: bmvc19
-  link: https://bmvc2019.org
-  deadline: '2019-04-29 23:59:00'
-  timezone: America/Los_Angeles
-  date: September 9-12, 2019
-  place: Cardiff, Wales, UK
-  sub: CV
-
 - title: EMNLP-IJCNLP
   year: 2019
   id: emnlp-ijcnlp19
@@ -334,3 +324,13 @@
   sub: CV
   note: '<b>NOTE</b>: Mandatory abstract submission deadline on April 1. More info
     <a href="https://www.acmmm.org/2019/important-dates/">here</a>.'
+
+- title: BMVC
+  year: 2019
+  id: bmvc19
+  link: https://bmvc2019.org
+  deadline: '2019-04-29 23:59:00'
+  timezone: America/Los_Angeles
+  date: September 9-12, 2019
+  place: Cardiff, Wales, UK
+  sub: CV
