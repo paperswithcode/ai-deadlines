@@ -1,5 +1,14 @@
 
 ---
+- title: LREC
+  year: 2020
+  id: lrec20
+  link: https://lrec2020.lrec-conf.org/
+  deadline: '2019-11-25 23:59:59'
+  timezone: UTC-12
+  date: May 11-16, 2020
+  place: France
+  sub: NLP
 
 - title: EMNLP-IJCNLP
   year: 2019
