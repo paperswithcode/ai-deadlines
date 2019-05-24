@@ -1,28 +1,6 @@
 
 ---
 
-- title: EMNLP-IJCNLP
-  year: 2019
-  id: emnlp-ijcnlp19
-  link: http://emnlp-ijcnlp2019.org/
-  deadline: '2019-05-21 23:59:59'
-  timezone: UTC-7
-  date: November 3-7, 2019
-  place: Hong Kong
-  sub: NLP
-  note: '<b>NOTE</b>: Mandatory abstract submission deadline on May 15. More info <a href="https://www.emnlp-ijcnlp2019.org/calls/papers">here</a>.'
-
-- title: NeurIPS
-  year: 2019
-  id: neurips19
-  link: https://neurips.cc/Conferences/2019
-  deadline: '2019-05-23 13:00:00'
-  timezone: America/Los_Angeles
-  date: December 9-14, 2019
-  place: Vancouver Convention Centre, Canada
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on May 16, 2019. More info <a href="https://nips.cc/Conferences/2019/Dates">here</a>.'
-
 - title: CoNLL
   year: 2019
   id: conll2019
@@ -163,6 +141,16 @@
   date: June 2-7, 2019
   place: Minneapolis, USA
   sub: NLP
+
+- title: SIGGRAPH
+  year: 2019
+  id: siggraph2019
+  link: https://s2019.siggraph.org/
+  deadline: '2019-01-14 22:00:00'
+  timezone: America/Los_Angeles
+  date: July 28 - August 1, 2019
+  place: Los Angeles, California, USA
+  sub: ML
 
 - title: ICML
   year: 2019
@@ -334,12 +322,25 @@
   place: Cardiff, Wales, UK
   sub: CV
 
-- title: SIGGRAPH
+- title: EMNLP-IJCNLP
   year: 2019
-  id: siggraph2019
-  link: https://s2019.siggraph.org/
-  deadline: '2019-01-14 22:00:00'
+  id: emnlp-ijcnlp19
+  link: http://emnlp-ijcnlp2019.org/
+  deadline: '2019-05-21 23:59:59'
+  timezone: UTC-7
+  date: November 3-7, 2019
+  place: Hong Kong
+  sub: NLP
+  note: '<b>NOTE</b>: Mandatory abstract submission deadline on May 15. More info
+    <a href="https://www.emnlp-ijcnlp2019.org/calls/papers">here</a>.'
+
+- title: NeurIPS
+  year: 2019
+  id: neurips19
+  link: https://neurips.cc/Conferences/2019
+  deadline: '2019-05-23 13:00:00'
   timezone: America/Los_Angeles
-  date: July 28 - August 1, 2019
-  place: Los Angeles, California, USA
+  date: December 9-14, 2019
+  place: Vancouver Convention Centre, Canada
   sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on May 16, 2019. More info <a href="https://nips.cc/Conferences/2019/Dates">here</a>.'
