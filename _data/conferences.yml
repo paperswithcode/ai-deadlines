@@ -1,16 +1,6 @@
 
 ---
 
-- title: CoNLL
-  year: 2019
-  id: conll2019
-  link: http://www.conll.org/2019
-  deadline: '2019-05-31 23:59:59'
-  timezone: UTC-12
-  date: November 3-4, 2019
-  place: Hong Kong
-  sub: NLP
-
 - title: ICDM
   year: 2019
   id: icdm19
@@ -344,3 +334,13 @@
   place: Vancouver Convention Centre, Canada
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 16, 2019. More info <a href="https://nips.cc/Conferences/2019/Dates">here</a>.'
+
+- title: CoNLL
+  year: 2019
+  id: conll2019
+  link: http://www.conll.org/2019
+  deadline: '2019-05-31 23:59:59'
+  timezone: UTC-12
+  date: November 3-4, 2019
+  place: Hong Kong
+  sub: NLP
