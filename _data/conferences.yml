@@ -43,13 +43,13 @@
   note: '<b>NOTE</b>: First round submission deadline.'
 
 - title: AAAI
-  year: 2019
+  year: 2020
   id: aaai19
-  link: https://aaai.org/Conferences/AAAI-19/
-  deadline: '2018-09-05 23:59:59'
-  timezone: UTC-10
-  date: January 27 - February 1, 2019
-  place: Hilton Hawaiian Village, Honolulu, Hawaii, USA
+  link: https://aaai.org/Conferences/AAAI-20/
+  deadline: '2019-09-05 23:59:59'
+  timezone: GMT-10
+  date: February 7 - February 12, 2020
+  place: Hilton New York Midtown, New York, New York, USA
   sub: ML
 
 - title: ICRA
