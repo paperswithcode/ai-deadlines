@@ -1,16 +1,6 @@
 
 ---
 
-- title: ICDM
-  year: 2019
-  id: icdm19
-  link: http://icdm2019.bigke.org/
-  deadline: '2019-06-05 23:59:59'
-  timezone: UTC-7
-  date: November 8-11, 2019
-  place: Beijing, China
-  sub: DM
-
 - title: 3DV
   year: 2019
   id: threedv19
@@ -44,12 +34,12 @@
 
 - title: AAAI
   year: 2020
-  id: aaai19
+  id: aaai20
   link: https://aaai.org/Conferences/AAAI-20/
   deadline: '2019-09-05 23:59:59'
-  timezone: GMT-10
-  date: February 7 - February 12, 2020
-  place: Hilton New York Midtown, New York, New York, USA
+  timezone: UTC-10
+  date: February 7-12, 2020
+  place: New York, USA
   sub: ML
 
 - title: ICRA
@@ -344,3 +334,13 @@
   date: November 3-4, 2019
   place: Hong Kong
   sub: NLP
+
+- title: ICDM
+  year: 2019
+  id: icdm19
+  link: http://icdm2019.bigke.org/
+  deadline: '2019-06-05 23:59:59'
+  timezone: UTC-7
+  date: November 8-11, 2019
+  place: Beijing, China
+  sub: DM
