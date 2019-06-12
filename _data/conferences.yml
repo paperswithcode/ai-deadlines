@@ -1,6 +1,16 @@
 
 ---
 
+- title: ALT
+  year: 2020
+  id: alt2020
+  link: http://alt2020.algorithmiclearningtheory.org/
+  deadline: '2019-09-20 16:59:59'
+  timezone: America/New_York
+  date: February 08-10, 2020
+  place: San Diego, CA, United States
+  sub: ML
+
 - title: 3DV
   year: 2019
   id: threedv19
