@@ -1,26 +1,6 @@
 
 ---
 
-- title: ALT
-  year: 2020
-  id: alt2020
-  link: http://alt2020.algorithmiclearningtheory.org/
-  deadline: '2019-09-20 16:59:59'
-  timezone: America/New_York
-  date: February 08-10, 2020
-  place: San Diego, CA, United States
-  sub: ML
-
-- title: 3DV
-  year: 2019
-  id: threedv19
-  link: http://3dv19.gel.ulaval.ca/
-  deadline: '2019-06-10 23:59:59'
-  timezone: America/New_York
-  date: September 16-19, 2019
-  place: Quebec City, Canada
-  sub: CV
-
 - title: CoRL
   year: 2019
   id: corl2019
@@ -50,6 +30,16 @@
   timezone: UTC-10
   date: February 7-12, 2020
   place: New York, USA
+  sub: ML
+
+- title: ALT
+  year: 2020
+  id: alt2020
+  link: http://alt2020.algorithmiclearningtheory.org/
+  deadline: '2019-09-20 16:59:59'
+  timezone: America/New_York
+  date: February 08-10, 2020
+  place: San Diego, CA, United States
   sub: ML
 
 - title: ICRA
@@ -354,3 +344,13 @@
   date: November 8-11, 2019
   place: Beijing, China
   sub: DM
+
+- title: 3DV
+  year: 2019
+  id: threedv19
+  link: http://3dv19.gel.ulaval.ca/
+  deadline: '2019-06-10 23:59:59'
+  timezone: America/New_York
+  date: September 16-19, 2019
+  place: Quebec City, Canada
+  sub: CV
