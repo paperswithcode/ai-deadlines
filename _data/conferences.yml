@@ -43,13 +43,13 @@
   sub: ML
 
 - title: ICRA
-  year: 2019
-  id: icra2019
-  link: https://icra2019.org//
-  deadline: '2018-09-15 23:59:59'
-  timezone: UTC
-  date: May 20-24, 2019
-  place: Montreal, Canada
+  year: 2020
+  id: icra2020
+  link: https://icra2020.org//
+  deadline: '2019-09-15 23:59:59'
+  timezone: America/Los_Angeles
+  date: May 31- June 4, 2020
+  place: Paris, France
   sub: RO
 
 - title: ICLR
