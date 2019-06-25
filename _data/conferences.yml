@@ -32,6 +32,16 @@
   place: New York, USA
   sub: ML
 
+- title: ICRA
+  year: 2020
+  id: icra2020
+  link: https://icra2020.org/
+  deadline: '2019-09-15 23:59:59'
+  timezone: America/Los_Angeles
+  date: May 31-June 4, 2020
+  place: Paris, France
+  sub: RO
+
 - title: ALT
   year: 2020
   id: alt2020
@@ -41,16 +51,6 @@
   date: February 08-10, 2020
   place: San Diego, CA, United States
   sub: ML
-
-- title: ICRA
-  year: 2020
-  id: icra2020
-  link: https://icra2020.org//
-  deadline: '2019-09-15 23:59:59'
-  timezone: America/Los_Angeles
-  date: May 31- June 4, 2020
-  place: Paris, France
-  sub: RO
 
 - title: ICLR
   year: 2019

@@ -140,6 +140,7 @@
         }
 
         {% for conf in site.data.conferences %}
+        $('#{{conf.id}} .conf-sub').html(sub2name["{{conf.sub}}"].toLocaleLowerCase());
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
@@ -174,7 +175,6 @@
             }
           });
           document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
-          $('#{{conf.id}} .conf-sub').html(sub2name["{{conf.sub}}"].toLocaleLowerCase());
 
           // check if date has passed, add 'past' class to it
           var today = moment();
