@@ -62,16 +62,6 @@
   place: Addis Ababa, Ethiopia
   sub: ML
 
-- title: HRI
-  year: 2019
-  id: hri2019
-  link: https://humanrobotinteraction.org/2019/
-  deadline: '2018-10-01 23:59:59'
-  timezone: America/Los_Angeles
-  date: March 11, 2019
-  place: Daegu, South Korea
-  sub: RO
-
 - title: AES
   year: 2019
   id: aes2019
@@ -81,6 +71,16 @@
   date: March 27-29, 2019
   place: York, UK
   sub: SP
+
+- title: HRI
+  year: 2019
+  id: hri2019
+  link: https://humanrobotinteraction.org/2019/
+  deadline: '2018-10-01 23:59:59'
+  timezone: America/Los_Angeles
+  date: March 11-14, 2019
+  place: Daegu, South Korea
+  sub: RO
 
 - title: AISTATS
   year: 2019
