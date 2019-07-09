@@ -134,7 +134,7 @@
         }
         addUtcTimeZones();
         var local_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-        document.getElementById("local-timezone").innerHTML = local_timezone;
+        document.getElementById("local-timezone").textContent = local_timezone;
 
         // Get all subs
         var conf_type_data = {{ site.data.types | jsonify }};
