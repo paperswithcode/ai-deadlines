@@ -35,7 +35,8 @@ permalink:  /conference/
                 </div>
                 <div class="meta deadline col-xs-12">
                   <span id="conf-date"></span>. <span id="conf-place"></span>.<br>
-                  Deadline: <span class="deadline-time"></span><br>
+                  Deadline (conf. timezone): <span class="deadline-time"></span><br>
+                  Deadline (local timezone): <span class="deadline-local-time"></span><br>
                   Website: <a id="conf-website" target="_blank" nohref></a><br>
                 </div>
             </div>
@@ -74,6 +75,7 @@ permalink:  /conference/
           }
         }
         addUtcTimeZones();
+        var local_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
         {% for conf in site.data.conferences %}
             if (conf == "{{ conf.id }}") {
@@ -88,16 +90,20 @@ permalink:  /conference/
               {% if conf.deadline == "TBA" %}
                 $('#conf-timer').html("TBA");
                 $('.deadline-time').html("TBA");
+                $('.deadline-local-time').html("TBA");
               {% else %}
                 // adjust date according to deadline timezone
                 var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
                 var confDate = moment.tz("{{conf.deadline}}", timezone);
+                // convert deadline to local timezone
+                var localConfDate = moment.tz(confDate, local_timezone);
 
                 // render countdown timer
                 $('#conf-timer').countdown(confDate.toDate(), function(event) {
                   $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
                 });
                 $('.deadline-time').html(confDate.toString());
+                $('.deadline-local-time').html(localConfDate.toString());
               {% endif %}
             }
         {% endfor %}
