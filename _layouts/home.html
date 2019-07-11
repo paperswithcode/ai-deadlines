@@ -31,7 +31,7 @@
                 </div>
                 <div class="meta col-xs-12">
                   {{ site.description }}.
-                  To add/update a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull request</a>.
+                  To add/edit a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull request</a>.
                 </div>
             </div>
             <br>
@@ -56,7 +56,15 @@
             </div>
             <div class="row">
               <div class="meta col-xs-12">
-                Export all deadlines to <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/ai-deadlines.ics">Google Calendar</a> or <a href="/ai-deadlines.ics">.ics</a>.
+                <span class="local-timezone-hide">
+                  All deadlines are shown in <span class="local-timezone">America/New_York</span> time.
+                  To view them in conference website timezones, click on the title.
+                </span>
+              </div>
+              <div class="meta col-xs-12">
+                You can optionally export all deadlines to
+                <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/ai-deadlines.ics">Google Calendar</a> or
+                <a href="/ai-deadlines.ics">.ics</a>.
               </div>
             </div>
         </div>
@@ -107,9 +115,6 @@
               <a href="/">{{ site.domain }}</a> is maintained by <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.<br>
               If you find it useful, consider <a title="_blank" href="https://www.buymeacoffee.com/abhshkdz">buying him a coffee</a>.
             </div>
-            <div class="col-xs-12 col-sm-6">
-              All deadlines in <span class="local-timezone"></span> time<br><br>
-            </div>
           </div>
         </footer>
         <br><br>
@@ -135,8 +140,15 @@
           }
         }
         addUtcTimeZones();
-        var local_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-        $('.local-timezone').text(local_timezone.toString());
+
+        try {
+          var local_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+          $('.local-timezone').text(local_timezone.toString());
+        }
+        catch(err) {
+          $('.local-timezone-hide').hide();
+        }
+
 
         // Get all subs
         var conf_type_data = {{ site.data.types | jsonify }};
@@ -157,14 +169,20 @@
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
           var confDate = moment.tz("{{conf.deadline}}", timezone);
-          // convert deadline to local timezone
-          var localConfDate = moment.tz(confDate, local_timezone);
 
           // render countdown timer
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           });
-          $('#{{conf.id}} .deadline-time').html(localConfDate.toString());
+
+          // convert deadline to local timezone
+          try {
+            var localConfDate = moment.tz(confDate, local_timezone);
+            $('#{{conf.id}} .deadline-time').html(localConfDate.toString());
+          }
+          catch(err) {
+            console.log("Error converting to local timezone.");
+          }
 
           // add calendar button
           var myCalendar = createCalendar({
