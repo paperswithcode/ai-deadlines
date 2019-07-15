@@ -83,13 +83,13 @@
   sub: ML
 
 - title: ICASSP
-  year: 2019
-  id: icassp2019
-  link: http://icassp2019.com/
-  deadline: '2018-10-29 23:59:59'
+  year: 2020
+  id: icassp2020
+  link: https://2020.ieeeicassp.org/
+  deadline: '2019-10-21 23:59:59'
   timezone: UTC
-  date: May 12-17, 2019
-  place: Brighton, UK
+  date: May 4-8, 2020
+  place: Barcelona, Spain
   sub: SP
 
 - title: AAMAS
