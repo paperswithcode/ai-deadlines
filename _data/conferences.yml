@@ -103,13 +103,13 @@
   sub: ML
 
 - title: CVPR
-  year: 2019
-  id: cvpr19
-  link: http://cvpr2019.thecvf.com/
-  deadline: '2018-11-16 23:59:59'
+  year: 2020
+  id: cvpr20
+  link: http://cvpr2020.thecvf.com/
+  deadline: '2019-11-15 23:59:59'
   timezone: America/Los_Angeles
-  date: June 16-21, 2019
-  place: Long Beach, USA
+  date: June 14-19, 2020
+  place: Seattle, USA
   sub: CV
 
 - title: NAACL
