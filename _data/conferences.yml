@@ -52,6 +52,16 @@
   place: Addis Ababa, Ethiopia
   sub: ML
 
+- title: ICASSP
+  year: 2020
+  id: icassp2020
+  link: https://2020.ieeeicassp.org/
+  deadline: '2019-10-21 23:59:59'
+  timezone: UTC
+  date: May 4-8, 2020
+  place: Barcelona, Spain
+  sub: SP
+
 - title: AES
   year: 2019
   id: aes2019
@@ -81,16 +91,6 @@
   date: April 16-18, 2019
   place: Naha, Okinawa, Japan
   sub: ML
-
-- title: ICASSP
-  year: 2020
-  id: icassp2020
-  link: https://2020.ieeeicassp.org/
-  deadline: '2019-10-21 23:59:59'
-  timezone: UTC
-  date: May 4-8, 2020
-  place: Barcelona, Spain
-  sub: SP
 
 - title: AAMAS
   year: 2019
