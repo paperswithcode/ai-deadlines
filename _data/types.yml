@@ -3,6 +3,10 @@
   sub: ML
 - name: Computer Vision
   sub: CV
+- name: Medical Image Computing
+  sub: MIC
+- name: Special Issues
+  sub: SI
 - name: Natural Language Proc
   sub: NLP
 - name: Robotics
