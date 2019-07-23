@@ -1,6 +1,6 @@
 
 ---
-- name: WACV
+- title: WACV
   year: 2020
   id: wacv20
   link: http://wacv20.wacv.net/
@@ -11,7 +11,7 @@
   sub: CV
   note: "<b>NOTE</b>: First round submission deadline."
 
-- name: AAAI
+- title: AAAI
   year: 2020
   id: aaai2020
   link: http://www.aaai.org/aaai20
@@ -23,7 +23,7 @@
   note: "<b>NOTE</b>:  Electronic abstracts due at 11:59 PM UTC-10 (midnight Hawaii)."
 
 
-- name: CVPR 
+- title: CVPR 
   year: 2020
   id: cvpr2020
   link: http://cvpr2020.thecvf.com
@@ -33,7 +33,7 @@
   place: Seattle, United States
   sub: CV
 
-- name: ICML 
+- title: ICML 
   year: 2020
   id: icml2020
   link: https://icml.cc/Conferences/2020
@@ -43,7 +43,7 @@
   place: Messe Wien Exhibition & Congress Center, Vienna, Austria
   sub: ML
   
-- name: ICCV(TBD)
+- title: ICCV(TBD)
   year: 2021
   id: iccv21
   link: http://iccv2021.thecvf.com/
@@ -53,7 +53,7 @@
   place: Montreal, Canada
   sub: CV
   
-- name: IJCAI(TBD)
+- title: IJCAI(TBD)
   year: 2020
   id: ijcai20
   link: http://www.ijcai20.org
@@ -63,7 +63,7 @@
   place: Yokohama, Japan
   sub: ML
   
-- name: ECCV(TBD)
+- title: ECCV(TBD)
   year: 2020
   id: eccv20
   link: http://eccv2020.eu/
@@ -74,7 +74,7 @@
   sub: CV
 
 
-- name: BMVC(TBD)
+- title: BMVC(TBD)
   year: 2020
   id: bmvc2020
   link: https://bmvc2019.org//
@@ -84,7 +84,7 @@
   place: Newcastle upon Tyne
   sub: CV
 
-- name: ECAI(TBD)
+- title: ECAI(TBD)
   year: 2020
   id: ecai2020
   link: 
@@ -96,7 +96,7 @@
 
 
 
-- name: NeurIPS(TBD)
+- title: NeurIPS(TBD)
   year: 2020
   id: neurips2020
   link: https://nips.cc/Conferences/2020
@@ -108,7 +108,7 @@
   note: "<b>NOTE</b>: Mandatory abstract deadline: Pacific Time, 2020-05-16 18:00:00."
 
 
-- name: ICLR(TBD)
+- title: ICLR(TBD)
   year: 2020
   id: iclr20
   link: http://www.iclr.cc
@@ -118,7 +118,7 @@
   place: "Vancouver Canada"
   sub: ML
   
-- name: ICPR
+- title: ICPR
   year: 2020
   id: icpr2020
   link: https://www.micc.unifi.it/icpr2020/
@@ -130,7 +130,7 @@
 
   
   
-- name: T-PAMI Call for Graphs in Vision and Pattern Analysis
+- title: T-PAMI Call for Graphs in Vision and Pattern Analysis
   year: 2020
   id: pamigraph
   link: http://songbai.site/files/Call-for-Papers.pdf
@@ -141,7 +141,7 @@
   sub: SI
   note: IEEE Transactions on Pattern Analysis and Machine Intelligence (IF - 9.455)
 
-- name: IPMI(TBD)
+- title: IPMI(TBD)
   year: 2020
   id: ipmi20
   link: https://ipmi2019.cse.ust.hk/
@@ -153,7 +153,7 @@
   note: "<b>NOTE</b>: Mandatory abstract deadline on Dec 6, 2018. "
   
   
-- name: MICCAI(TBD)
+- title: MICCAI(TBD)
   year: 2020
   id: miccai20
   link: http://www.miccai2019.org/
@@ -165,7 +165,7 @@
   note: "<b>NOTE</b>: Mandatory abstract deadline (more than 1 week ahead!): Midnight,
     Pacific Time, March 19th, 2019."
   
-- name: Deep Learning in Ultrasound Imaging
+- title: Deep Learning in Ultrasound Imaging
   year: 2019
   id: ebmdlui
   link: https://jbhi.embs.org/special-issues/deep-learning-in-ultrasound-imaging/
@@ -177,7 +177,7 @@
   note: IEEE Journal of Biomedical and Health Informatics (IF - 3.85)
   
   
-- name: SIGGRAPH
+ - title: SIGGRAPH
   year: 2018
   id: siggraph18
   link: http://s2018.siggraph.org/
@@ -188,7 +188,7 @@
   sub: CV
 
 
-- name: COLT
+- title: COLT
   year: 2018
   id: colt18
   link: http://www.learningtheory.org/colt2018/
@@ -198,7 +198,7 @@
   place: Stockholm, Sweden
   sub: ML
 
-- name: UAI
+- title: UAI
   year: 2018
   id: uai18
   link: http://auai.org/uai2018/index.php
@@ -208,7 +208,7 @@
   place: Monterey, California, USA
   sub: ML
 
-- name: T-PAMI Call for RGB-D
+- title: T-PAMI Call for RGB-D
   year: 2019
   id: pamirgbd
   link: http://yulanguo.me/pami.html
@@ -220,7 +220,7 @@
   note: IEEE Transactions on Pattern Analysis and Machine Intelligence (IF - 9.455)
 
 
-- name: KDD
+- title: KDD
   year: 2019
   id: kdd19
   link: http://www.kdd.org/kdd2019
@@ -232,7 +232,7 @@
 
 
 
-- name: ACM MM
+- title: ACM MM
   year: 2019
   id: acmmm19
   link: https://www.acmmm.org/2019/
@@ -244,12 +244,6 @@
 
 
 
-
-
-
-
-
--
 - title: ICASSP
   year: 2020
   id: icassp2020
