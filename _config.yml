@@ -5,8 +5,8 @@ remark: CV/MV/MIC-oriented
 description: Countdowns to top CV/MV/ML/MIC/NLP/Robotics/Special_Issue conference deadlines
 author: Changmiao Wang
 
-domain: "jiandanjinxin.github.io"
-baseurl: "/cv-ml-mic_deadlines"
+domain: "jiandanjinxin.github.io/cv-ml-mic_deadlines/"
+baseurl: "cv-ml-mic_deadlines"
 
 #twitter_username: abhshkdz
 #twitter_hashtag: machinelearning
