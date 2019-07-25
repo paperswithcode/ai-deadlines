@@ -1,6 +1,26 @@
 
 ---
 
+- title: ECIR
+  year: 2020
+  id: ecir20
+  link: https://ecir2020.org/
+  deadline: '2019-10-01 23:59:59'
+  timezone: UTC-10
+  date: April 14-17, 2020
+  place: Lisbon, Portugal
+  sub: ML
+
+- title: WebConf (WWW)
+  year: 2020
+  id: www20
+  link: https://www2020.thewebconf.org/
+  deadline: '2019-10-14 23:59:59'
+  timezone: UTC-12
+  date: April 20-24, 2020
+  place: Taipei, Taiwan
+  sub: ML
+
 - title: WACV
   year: 2020
   id: wacv20
