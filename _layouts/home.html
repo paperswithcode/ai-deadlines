@@ -62,9 +62,14 @@
                 </span>
               </div>
               <div class="meta col-xs-12">
-                You can optionally export all deadlines to
-                <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/ai-deadlines.ics">Google Calendar</a> or
-                <a href="/ai-deadlines.ics">.ics</a>.
+                You can optionally export all DEADLINES to
+                <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/{{site.baseurl}}/ai-deadlines.ics">Google Calendar</a> or
+                <a href="{{site.baseurl}}/ai-deadlines.ics">.ics</a>.
+              </div>
+              <div class="meta col-xs-12">
+                You can also optionally export all CONFERENCE DATES to
+                <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/{{site.baseurl}}/ai-conferences.ics">Google Calendar</a> or
+                <a href="{{site.baseurl}}/ai-conferences.ics">.ics</a>.
               </div>
             </div>
         </div>
@@ -81,7 +86,7 @@
           <div class="row">
             <div class="col-xs-12 col-sm-6">
               <div class="meta">
-                <span class="conf-date">{{conf.date}}.</span>
+                <span class="conf-date">{{conf.date_start | date: "%B %-d, %Y"}} to {{conf.date_end | date: "%B %-d, %Y"}}.</span>
                 <span class="conf-place">
                   <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
                 </span>
@@ -238,7 +243,7 @@
           }
         }
         store.set('{{ site.domain }}', subs);
-        window.history.pushState('', '', '/?sub=' + subs.join());
+        window.history.pushState('', '', '{{ site.baseurl }}/?sub=' + subs.join());
 
         // Event handler on checkbox change
         $('form :checkbox').change(function(e) {
@@ -258,7 +263,7 @@
           }
           console.log(subs);
           store.set('{{ site.domain }}', subs);
-          window.history.pushState('', '', '/?sub=' + subs.join());
+          window.history.pushState('', '', '{{ site.baseurl }}/?sub=' + subs.join());
         });
 
         // Event handler on sub click
@@ -277,7 +282,7 @@
           subs = [csub];
           console.log(subs);
           store.set('{{ site.domain }}', subs);
-          window.history.pushState('', '', '/?sub=' + subs.join());
+          window.history.pushState('', '', '{{ site.baseurl }}/?sub=' + subs.join());
         });
     });
     <!-- Google analytics -->

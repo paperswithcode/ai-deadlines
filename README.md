@@ -9,7 +9,7 @@ To keep things minimal, I'm only looking to list top-tier conferences in AI as p
 To add or update information:
 - Fork the repository
 - Update `_data/conferences.yml`
-- Make sure it has the `title`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place`, `sub` attributes
+- Make sure it has the `title`, `year`, `id`, `link`, `deadline`, `timezone`, `date_start`, `date_end`, `place`, `sub` attributes
     + See available timezone strings [here](https://momentjs.com/timezone/).
 - Send a pull request
 

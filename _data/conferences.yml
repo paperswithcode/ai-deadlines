@@ -7,7 +7,8 @@
   link: http://wacv20.wacv.net/
   deadline: '2019-07-26 23:59:59'
   timezone: America/Los_Angeles
-  date: March 2-5, 2020
+  date_start: 2020-03-02
+  date_end: 2020-03-05
   place: Snowmass village, Colorado, USA
   sub: CV
   note: '<b>NOTE</b>: First round submission deadline.'
@@ -18,7 +19,8 @@
   link: https://aaai.org/Conferences/AAAI-20/
   deadline: '2019-09-05 23:59:59'
   timezone: UTC-10
-  date: February 7-12, 2020
+  date_start: 2020-02-07
+  date_end: 2020-02-12
   place: New York, USA
   sub: ML
 
@@ -28,7 +30,8 @@
   link: https://icra2020.org/
   deadline: '2019-09-15 23:59:59'
   timezone: America/Los_Angeles
-  date: May 31-June 4, 2020
+  date_start: 2020-05-31
+  date_end: 2020-06-04
   place: Paris, France
   sub: RO
 
@@ -38,7 +41,8 @@
   link: http://alt2020.algorithmiclearningtheory.org/
   deadline: '2019-09-20 16:59:59'
   timezone: America/New_York
-  date: February 08-10, 2020
+  date_start: 2020-02-08
+  date_end: 2020-02-10
   place: San Diego, CA, United States
   sub: ML
 
@@ -48,7 +52,8 @@
   link: http://iclr.cc/
   deadline: '2019-09-25 17:59:59'
   timezone: 'Africa/Nairobi'
-  date: April 30, 2020
+  date_start: 2020-04-30
+  date_end: 2020-04-30
   place: Addis Ababa, Ethiopia
   sub: ML
 
@@ -58,7 +63,8 @@
   link: https://2020.ieeeicassp.org/
   deadline: '2019-10-21 23:59:59'
   timezone: UTC
-  date: May 4-8, 2020
+  date_start: 2020-05-04
+  date_end: 2020-05-08
   place: Barcelona, Spain
   sub: SP
 
@@ -68,7 +74,8 @@
   link: http://cvpr2020.thecvf.com/
   deadline: '2019-11-15 23:59:59'
   timezone: America/Los_Angeles
-  date: June 14-19, 2020
+  date_start: 2020-06-14
+  date_end: 2020-06-19
   place: Seattle, USA
   sub: CV
 
@@ -78,7 +85,8 @@
   link: http://www.aes.org/conferences/2019/immersive/
   deadline: '2018-10-01 23:59:59'
   timezone: UTC
-  date: March 27-29, 2019
+  date_start: 2019-03-27
+  date_end: 2019-03-29
   place: York, UK
   sub: SP
 
@@ -88,7 +96,8 @@
   link: https://humanrobotinteraction.org/2019/
   deadline: '2018-10-01 23:59:59'
   timezone: America/Los_Angeles
-  date: March 11-14, 2019
+  date_start: 2019-03-11
+  date_end: 2019-03-14
   place: Daegu, South Korea
   sub: RO
 
@@ -98,7 +107,8 @@
   link: https://www.aistats.org/
   deadline: '2018-10-04 23:59:59'
   timezone: America/Los_Angeles
-  date: April 16-18, 2019
+  date_start: 2019-04-16
+  date_end: 2019-04-18
   place: Naha, Okinawa, Japan
   sub: ML
 
@@ -108,7 +118,8 @@
   link: http://aamas2019.encs.concordia.ca/
   deadline: '2018-11-16 23:59:59'
   timezone: UTC
-  date: May 13-17, 2019
+  date_start: 2019-05-13
+  date_end: 2019-05-17
   place: Montreal, Canada
   sub: ML
 
@@ -118,7 +129,8 @@
   link: http://naacl2019.org/
   deadline: '2018-12-10 23:59:59'
   timezone: UTC-12
-  date: June 2-7, 2019
+  date_start: 2019-06-02
+  date_end: 2019-06-07
   place: Minneapolis, USA
   sub: NLP
 
@@ -128,7 +140,8 @@
   link: https://s2019.siggraph.org/
   deadline: '2019-01-14 22:00:00'
   timezone: America/Los_Angeles
-  date: July 28 - August 1, 2019
+  date_start: 2019-07-28
+  date_end: 2019-08-01
   place: Los Angeles, California, USA
   sub: ML
 
@@ -138,7 +151,8 @@
   link: https://icml.cc/Conferences/2019
   deadline: '2019-01-23 15:59:00'
   timezone: America/Los_Angeles
-  date: June 10-15, 2019
+  date_start: 2019-06-10
+  date_end: 2019-06-15
   place: Long Beach, USA
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 18, 2019. More info <a href=''https://icml.cc/Conferences/2019/CallForPapers''>here</a>.'
@@ -149,7 +163,8 @@
   link: https://gecco-2019.sigevo.org/index.html/tiki-index.php
   deadline: '2019-01-30 23:59:59'
   timezone: UTC-10
-  date: July 13 - 17, 2019
+  date_start: 2019-07-13
+  date_end: 2019-07-17
   place: Prague, Czech Republic
   sub: ML
 
@@ -159,7 +174,8 @@
   link: http://www.learningtheory.org/colt2019/
   deadline: '2019-02-01 23:00:00'
   timezone: America/New_York
-  date: June 25-28, 2019
+  date_start: 2019-06-25
+  date_end: 2019-06-28
   place: Phoenix, AZ
   sub: ML
 
@@ -169,7 +185,8 @@
   link: http://www.roboticsconference.org/
   deadline: '2019-02-01 23:59:00'
   timezone: America/Los_Angeles
-  date: June 22-26, 2019
+  date_start: 2019-06-22
+  date_end: 2019-06-26
   place: Freiburg, Germany
   sub: RO
 
@@ -179,7 +196,8 @@
   link: https://www.kdd.org/kdd2019
   deadline: '2019-02-03 23:59:59'
   timezone: UTC-11
-  date: August 3-7, 2019
+  date_start: 2019-08-03
+  date_end: 2019-08-07
   place: Anchorage, Alaska, USA
   sub: DM
 
@@ -189,7 +207,8 @@
   link: https://www.ijcai19.org/
   deadline: '2019-02-25 23:59:59'
   timezone: UTC-12
-  date: August 10-16, 2019
+  date_start: 2019-08-10
+  date_end: 2019-08-16
   place: Macau, China
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Feb 19, 2019. More info <a href=''https://www.ijcai19.org/call-for-papers.html''>here</a>.'
@@ -200,7 +219,8 @@
   link: https://www.iros2019.org/
   deadline: '2019-03-01 23:59:59'
   timezone: America/Los_Angeles
-  date: November 3-9, 2019
+  date_start: 2019-11-03
+  date_end: 2019-11-09
   place: Macau, China
   sub: RO
 
@@ -210,7 +230,8 @@
   link: http://acl2019.org/
   deadline: '2019-03-04 23:59:00'
   timezone: UTC-12
-  date: July 28-August 2, 2019
+  date_start: 2019-07-28
+  date_end: 2019-08-02
   place: Florence, Italy
   sub: NLP
 
@@ -220,7 +241,8 @@
   link: http://auai.org/uai2019/
   deadline: '2019-03-08 23:59:59'
   timezone: UTC-11
-  date: July 22-26, 2019
+  date_start: 2019-07-22
+  date_end: 2019-07-26
   place: Tel Aviv, Israel
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on March 04, 2019. More info <a
@@ -232,7 +254,8 @@
   link: http://iccv2019.thecvf.com/
   deadline: '2019-03-22 23:59:00'
   timezone: America/Los_Angeles
-  date: October 27 - November 2, 2019
+  date_start: 2019-10-27
+  date_end: 2019-11-02
   place: Seoul, Korea
   sub: CV
 
@@ -242,7 +265,8 @@
   link: https://www.interspeech2019.org/
   deadline: '2019-03-29 23:59:59'
   timezone: UTC-12
-  date: September 15-19, 2019
+  date_start: 2019-09-15
+  date_end: 2019-09-19
   place: Graz, Austria
   sub: SP
 
@@ -252,7 +276,8 @@
   link: http://www.miccai2019.org/
   deadline: '2019-04-02 23:59:59'
   timezone: US/Pacific
-  date: October 13 - October 17, 2019
+  date_start: 2019-10-13
+  date_end: 2019-10-17
   place: Shenzhen, China
   sub: CV
   note: '<b>NOTE</b>: Mandatory intention-to-submit registration on March 19. More
@@ -264,7 +289,8 @@
   link: https://ecmlpkdd2019.org/
   deadline: '2019-04-05 23:59:59'
   timezone: UTC-12
-  date: September 16-20, 2019
+  date_start: 2019-09-16
+  date_end: 2019-09-20
   place: "W\xFCrzburg, Germany"
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on March 29, 2019. More info <a
@@ -276,7 +302,8 @@
   link: http://ismir2019.ewi.tudelft.nl/
   deadline: '2019-04-05 23:59:59'
   timezone: UTC-12
-  date: November 4-8, 2019
+  date_start: 2019-11-04
+  date_end: 2019-11-08
   place: Delft, The Netherlands
   sub: SP
 
@@ -286,7 +313,8 @@
   link: https://www.acmmm.org/2019/
   deadline: '2019-04-08 23:59:59'
   timezone: UTC-12
-  date: October 21-25, 2019
+  date_start: 2019-10-21
+  date_end: 2019-10-25
   place: Nice, France
   sub: CV
   note: '<b>NOTE</b>: Mandatory abstract submission deadline on April 1. More info
@@ -298,7 +326,8 @@
   link: https://bmvc2019.org
   deadline: '2019-04-29 23:59:00'
   timezone: America/Los_Angeles
-  date: September 9-12, 2019
+  date_start: 2019-09-09
+  date_end: 2019-09-12
   place: Cardiff, Wales, UK
   sub: CV
 
@@ -308,7 +337,8 @@
   link: http://emnlp-ijcnlp2019.org/
   deadline: '2019-05-21 23:59:59'
   timezone: UTC-7
-  date: November 3-7, 2019
+  date_start: 2019-11-03
+  date_end: 2019-11-07
   place: Hong Kong
   sub: NLP
   note: '<b>NOTE</b>: Mandatory abstract submission deadline on May 15. More info
@@ -320,7 +350,8 @@
   link: https://neurips.cc/Conferences/2019
   deadline: '2019-05-23 13:00:00'
   timezone: America/Los_Angeles
-  date: December 9-14, 2019
+  date_start: 2019-12-09
+  date_end: 2019-12-14
   place: Vancouver Convention Centre, Canada
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 16, 2019. More info <a href="https://nips.cc/Conferences/2019/Dates">here</a>.'
@@ -331,7 +362,8 @@
   link: http://www.conll.org/2019
   deadline: '2019-05-31 23:59:59'
   timezone: UTC-12
-  date: November 3-4, 2019
+  date_start: 2019-11-03
+  date_end: 2019-11-04
   place: Hong Kong
   sub: NLP
 
@@ -341,7 +373,8 @@
   link: http://icdm2019.bigke.org/
   deadline: '2019-06-05 23:59:59'
   timezone: UTC-7
-  date: November 8-11, 2019
+  date_start: 2019-11-08
+  date_end: 2019-11-11
   place: Beijing, China
   sub: DM
 
@@ -351,7 +384,8 @@
   link: http://3dv19.gel.ulaval.ca/
   deadline: '2019-06-10 23:59:59'
   timezone: America/New_York
-  date: September 16-19, 2019
+  date_start: 2019-09-16
+  date_end: 2019-09-19
   place: Quebec City, Canada
   sub: CV
 
@@ -361,6 +395,7 @@
   link: http://www.robot-learning.org
   deadline: '2019-07-07 23:59:59'
   timezone: UTC-7
-  date: October 30 - November 1, 2019
+  date_start: 2019-10-30
+  date_end: 2019-11-01
   place: Osaka, Japan
   sub: RO

@@ -104,7 +104,7 @@ permalink:  /conference/
             if (conf == "{{ conf.id }}") {
               $('#conf-title-href').text("{{conf.title}} {{conf.year}}");
               $('#conf-title-href').attr('href', "/conference?id={{conf.id}}");
-              $('#conf-date').text("{{conf.date}}");
+              $('#conf-date').text('{{conf.date_start | date: "%B %-d, %Y"}} to {{conf.date_end | date: "%B %-d, %Y"}}');
               $('#conf-place').text("{{conf.place}}");
               $('#conf-website').text("{{conf.link}}");
               $('#conf-website').attr('href', "{{conf.link}}");

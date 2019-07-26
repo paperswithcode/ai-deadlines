@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+PRODID:-//{{ site.domain }}//ai-deadlines//EN
+X-PUBLISHED-TTL:PT1H
+{%- for conf in site.data.conferences %}
+BEGIN:VEVENT
+SUMMARY:{{ conf.title }} {{ conf.year }}
+UID:{{ conf.id }}
+DTSTAMP:{{ conf.date_start | date: "%Y%m%dT000000" }}
+DTSTART:{{ conf.date_start | date: "%Y%m%d" }}
+DTEND:{{ conf.date_end | date: "%Y%m%d" }}
+END:VEVENT
+{%- endfor %}
+END:VCALENDAR
