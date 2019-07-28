@@ -1,18 +1,6 @@
 
 ---
 
-- title: WACV
-  year: 2020
-  id: wacv20
-  link: http://wacv20.wacv.net/
-  deadline: '2019-07-26 23:59:59'
-  timezone: America/Los_Angeles
-  date_start: 2020-03-02
-  date_end: 2020-03-05
-  place: Snowmass village, Colorado, USA
-  sub: CV
-  note: '<b>NOTE</b>: First round submission deadline.'
-
 - title: AAAI
   year: 2020
   id: aaai20
@@ -51,7 +39,7 @@
   id: iclr20
   link: http://iclr.cc/
   deadline: '2019-09-25 17:59:59'
-  timezone: 'Africa/Nairobi'
+  timezone: Africa/Nairobi
   date_start: 2020-04-30
   date_end: 2020-04-30
   place: Addis Ababa, Ethiopia
@@ -399,3 +387,14 @@
   date_end: 2019-11-01
   place: Osaka, Japan
   sub: RO
+
+- title: WACV
+  year: 2020
+  id: wacv20
+  link: http://wacv20.wacv.net/
+  deadline: '2019-07-26 23:59:59'
+  timezone: America/Los_Angeles
+  date: March 2-5, 2020
+  place: Snowmass village, Colorado, USA
+  sub: CV
+  note: '<b>NOTE</b>: First round submission deadline.'
