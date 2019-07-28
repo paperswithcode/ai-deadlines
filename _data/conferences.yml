@@ -394,7 +394,8 @@
   link: http://wacv20.wacv.net/
   deadline: '2019-07-26 23:59:59'
   timezone: America/Los_Angeles
-  date: March 2-5, 2020
+  date_start: 2020-03-02
+  date_end: 2020-03-05
   place: Snowmass village, Colorado, USA
   sub: CV
   note: '<b>NOTE</b>: First round submission deadline.'

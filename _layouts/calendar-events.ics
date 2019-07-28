@@ -10,6 +10,7 @@ UID:{{ conf.id }}
 DTSTAMP:{{ conf.date_start | date: "%Y%m%dT000000" }}
 DTSTART:{{ conf.date_start | date: "%Y%m%d" }}
 DTEND:{{ conf.date_end | date: "%Y%m%d" }}
+URL:{{ conf.link }}
 END:VEVENT
 {%- endfor %}
 END:VCALENDAR
