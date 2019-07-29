@@ -82,13 +82,13 @@
   sub: RO
 
 - title: AISTATS
-  year: 2019
-  id: aistats19
+  year: 2020
+  id: aistats20
   link: https://www.aistats.org/
-  deadline: '2018-10-04 23:59:59'
+  deadline: '2018-10-08 23:59:59'
   timezone: America/Los_Angeles
-  date: April 16-18, 2019
-  place: Naha, Okinawa, Japan
+  date: June 3-5, 2020
+  place: Palermo, Sicily, Italy
   sub: ML
 
 - title: AAMAS
