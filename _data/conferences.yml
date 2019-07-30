@@ -41,6 +41,16 @@
   place: Addis Ababa, Ethiopia
   sub: ML
 
+- title: AISTATS
+  year: 2020
+  id: aistats20
+  link: https://www.aistats.org/
+  deadline: '2019-10-08 23:59:59'
+  timezone: America/Los_Angeles
+  date: June 3-5, 2020
+  place: Palermo, Sicily, Italy
+  sub: ML
+
 - title: ICASSP
   year: 2020
   id: icassp2020
@@ -80,16 +90,6 @@
   date: March 11-14, 2019
   place: Daegu, South Korea
   sub: RO
-
-- title: AISTATS
-  year: 2020
-  id: aistats20
-  link: https://www.aistats.org/
-  deadline: '2018-10-08 23:59:59'
-  timezone: America/Los_Angeles
-  date: June 3-5, 2020
-  place: Palermo, Sicily, Italy
-  sub: ML
 
 - title: AAMAS
   year: 2019
