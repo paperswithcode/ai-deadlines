@@ -1,6 +1,16 @@
 
 ---
 
+- title: ACL
+  year: 2020
+  id: naacl20
+  link: https://acl2020.org/
+  deadline: '2020-12-9 23:59:59'
+  timezone: UTC-12
+  date: July 6-8, 2020
+  place: Seattle, Washington, USA
+  sub: NLP
+
 - title: AAAI
   year: 2020
   id: aaai20
