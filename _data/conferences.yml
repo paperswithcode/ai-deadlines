@@ -81,6 +81,17 @@
   place: Seattle, Washington, USA
   sub: NLP
 
+- title: ECCV
+  year: 2020
+  id: eccv2020
+  link: https://eccv2020.eu
+  deadline: '2020-03-15 07:00:00'
+  timezone: Europe/London
+  date: August 23-28, 2020
+  place: Glasgow, Scotland, UK
+  sub: CV
+  note: '<b>NOTE</b>: Deadline to be confirmed.'
+
 - title: AES
   year: 2019
   id: aes2019
@@ -374,15 +385,3 @@
   place: Snowmass village, Colorado, USA
   sub: CV
   note: '<b>NOTE</b>: First round submission deadline.'
-  
-- title: ECCV 
-  year: 2020
-  id: eccv2020
-  link: https://eccv2020.eu
-  deadline: '2020-03-15 07:00:00'
-  timezone: Europe/London
-  date: August 23-28, 2020
-  place: Glasgow, Scotland, UK
-  sub: CV
-  note: '<b>Deadline TBC<\b> 
-  
