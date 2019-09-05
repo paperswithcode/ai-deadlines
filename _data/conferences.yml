@@ -103,13 +103,13 @@
   sub: SP
 
 - title: HRI
-  year: 2019
-  id: hri2019
-  link: https://humanrobotinteraction.org/2019/
-  deadline: '2018-10-01 23:59:59'
+  year: 2020
+  id: hri2020
+  link: https://humanrobotinteraction.org/2020/
+  deadline: '2019-10-02 23:59:59'
   timezone: America/Los_Angeles
-  date: March 11-14, 2019
-  place: Daegu, South Korea
+  date: March 23-26, 2020
+  place: Cambridge, UK
   sub: RO
 
 - title: AAMAS
