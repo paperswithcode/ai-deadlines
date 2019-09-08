@@ -81,6 +81,17 @@
   place: Seattle, Washington, USA
   sub: NLP
 
+- title: ICMR
+  year: 2020
+  id: icmr2020
+  link: http://icmr2020.org/
+  deadline: '2020-01-11 23:59:59'
+  timezone: Europe/London
+  date: June 8-11, 2020
+  place: Dublin, Ireland
+  sub: CV
+  note: '<b>NOTE</b>: Deadline to be confirmed.'
+
 - title: ECCV
   year: 2020
   id: eccv2020
