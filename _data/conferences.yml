@@ -32,13 +32,13 @@
   sub: NLP
   
 - name: AAMAS
-  year: 2019
-  id: aamas19
-  link: http://aamas2019.encs.concordia.ca/
-  deadline: 2018-11-16 23:59:59"
-  timezone: Etc/GMT
-  date: May 13-17, 2019
-  place: Montreal, Canada
+  year: 2020
+  id: aamas20
+  link: https://aamas2020.conference.auckland.ac.nz/
+  deadline: "2019-11-12 23:59:59"
+  timezone: UTC-12 
+  date: May 9-13, 2020
+  place: Auckland, New Zealand 
   sub: ML
 
 - name: ICML
