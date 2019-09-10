@@ -71,6 +71,17 @@
   place: Seattle, USA
   sub: CV
 
+- title: AAMAS
+  year: 2020
+  id: aamas20
+  link: https://aamas2020.conference.auckland.ac.nz/
+  deadline: '2019-11-15 23:59:59'
+  timezone: UTC-12
+  date: May 9-13, 2020
+  place: Auckland, New Zealand
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 12, 2019. More info <a href=''https://aamas2020.conference.auckland.ac.nz/call-for-papers/''>here</a>.'
+
 - title: ACL
   year: 2020
   id: acl20
@@ -112,16 +123,6 @@
   date: March 27-29, 2019
   place: York, UK
   sub: SP
-
-- title: AAMAS
-  year: 2019
-  id: aamas19
-  link: http://aamas2019.encs.concordia.ca/
-  deadline: '2018-11-16 23:59:59'
-  timezone: UTC
-  date: May 13-17, 2019
-  place: Montreal, Canada
-  sub: ML
 
 - title: NAACL
   year: 2019
