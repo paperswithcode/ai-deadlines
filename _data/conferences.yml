@@ -1,36 +1,6 @@
 
 ---
 
-- title: RSS
-  year: 2020
-  id: rss2020
-  link: https://roboticsconference.org/
-  deadline: '2020-01-30 23:59:59'
-  timezone: America/Los_Angeles
-  date: Jul 12-Jul 17, 2020
-  place: Oregon State University at Corvallis, Oregon
-  sub: RO
-
-- title: IROS
-  year: 2020
-  id: iros2020
-  link: http://www.iros2020.org/
-  deadline: '2020-03-01 23:59:59'
-  timezone: America/Los_Angeles
-  date: Oct 24-Oct 30, 2020
-  place: Las Vegas, USA
-  sub: RO
-
-- title: ICRA
-  year: 2020
-  id: icra2020
-  link: https://icra2020.org/
-  deadline: '2019-09-15 23:59:59'
-  timezone: America/Los_Angeles
-  date: May 31-June 4, 2020
-  place: Paris, France
-  sub: RO
-
 - title: ALT
   year: 2020
   id: alt2020
@@ -123,6 +93,26 @@
   sub: CV
   note: '<b>NOTE</b>: Deadline to be confirmed.'
 
+- title: RSS
+  year: 2020
+  id: rss2020
+  link: https://roboticsconference.org/
+  deadline: '2020-01-30 23:59:59'
+  timezone: UTC-12
+  date: Jul 12-17, 2020
+  place: Oregon State University at Corvallis, Oregon
+  sub: RO
+
+- title: IROS
+  year: 2020
+  id: iros2020
+  link: http://www.iros2020.org/
+  deadline: '2020-03-01 23:59:59'
+  timezone: America/Los_Angeles
+  date: Oct 24-30, 2020
+  place: Las Vegas, USA
+  sub: RO
+
 - title: ECCV
   year: 2020
   id: eccv2020
@@ -194,16 +184,6 @@
   date: June 25-28, 2019
   place: Phoenix, AZ
   sub: ML
-
-- title: RSS
-  year: 2019
-  id: rss19
-  link: http://www.roboticsconference.org/
-  deadline: '2019-02-01 23:59:00'
-  timezone: America/Los_Angeles
-  date: June 22-26, 2019
-  place: Freiburg, Germany
-  sub: RO
 
 - title: KDD
   year: 2019
@@ -417,3 +397,13 @@
   date: February 7-12, 2020
   place: New York, USA
   sub: ML
+
+- title: ICRA
+  year: 2020
+  id: icra2020
+  link: https://icra2020.org/
+  deadline: '2019-09-15 23:59:59'
+  timezone: America/Los_Angeles
+  date: May 31-June 4, 2020
+  place: Paris, France
+  sub: RO
