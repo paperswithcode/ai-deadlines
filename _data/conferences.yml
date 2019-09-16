@@ -1,6 +1,16 @@
 
 ---
 
+- title: RSS
+  year: 2020
+  id: rss2020
+  link: https://roboticsconference.org/
+  deadline: '2020-01-30 23:59:59'
+  timezone: America/Los_Angeles
+  date: Jul 12-Jul 17, 2020
+  place: Oregon State University at Corvallis, Oregon
+  sub: RO
+
 - title: IROS
   year: 2020
   id: iros2020
