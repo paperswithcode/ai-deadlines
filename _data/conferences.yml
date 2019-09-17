@@ -176,17 +176,6 @@
   place: Los Angeles, California, USA
   sub: ML
 
-- title: ICML
-  year: 2019
-  id: icml19
-  link: https://icml.cc/Conferences/2019
-  deadline: '2019-01-23 15:59:00'
-  timezone: America/Los_Angeles
-  date: June 10-15, 2019
-  place: Long Beach, USA
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 18, 2019. More info <a href=''https://icml.cc/Conferences/2019/CallForPapers''>here</a>.'
-
 - title: GECCO
   year: 2019
   id: gecco19
@@ -216,37 +205,6 @@
   date: August 3-7, 2019
   place: Anchorage, Alaska, USA
   sub: DM
-
-- title: IJCAI
-  year: 2019
-  id: ijcai19
-  link: https://www.ijcai19.org/
-  deadline: '2019-02-25 23:59:59'
-  timezone: UTC-12
-  date: August 10-16, 2019
-  place: Macau, China
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Feb 19, 2019. More info <a href=''https://www.ijcai19.org/call-for-papers.html''>here</a>.'
-
-- title: IROS
-  year: 2019
-  id: iros2019
-  link: https://www.iros2019.org/
-  deadline: '2019-03-01 23:59:59'
-  timezone: America/Los_Angeles
-  date: November 3-9, 2019
-  place: Macau, China
-  sub: RO
-
-- title: ACL
-  year: 2019
-  id: acl19
-  link: http://acl2019.org/
-  deadline: '2019-03-04 23:59:00'
-  timezone: UTC-12
-  date: July 28-August 2, 2019
-  place: Florence, Italy
-  sub: NLP
 
 - title: UAI
   year: 2019
