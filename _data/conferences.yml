@@ -72,6 +72,16 @@
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 12, 2019. More info <a href=''https://aamas2020.conference.auckland.ac.nz/call-for-papers/''>here</a>.'
 
+- title: LREC
+  year: 2020
+  id: lrec20
+  link: https://lrec2020.lrec-conf.org/en/
+  deadline: '2019-11-25 23:59:59'
+  timezone: UTC-12
+  date: June 11-16, 2020
+  place: marseille, France
+  sub: NLP
+
 - title: ACL
   year: 2020
   id: acl20
