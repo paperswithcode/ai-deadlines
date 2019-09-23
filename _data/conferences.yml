@@ -177,13 +177,13 @@
   sub: NLP
 
 - title: SIGGRAPH
-  year: 2019
-  id: siggraph2019
-  link: https://s2019.siggraph.org/
-  deadline: '2019-01-14 22:00:00'
+  year: 2020
+  id: siggraph2020
+  link: https://s2020.siggraph.org/
+  deadline: '2020-01-22 22:00:00'
   timezone: America/Los_Angeles
-  date: July 28 - August 1, 2019
-  place: Los Angeles, California, USA
+  date: July 19 - July 23, 2020
+  place: Washington, D.C., USA
   sub: ML
 
 - title: GECCO
