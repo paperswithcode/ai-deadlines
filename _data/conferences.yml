@@ -104,6 +104,16 @@
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 15, 2020. More info <a href=''https://www.ijcai19.org/''>here</a>.'
 
+- title: SIGGRAPH
+  year: 2020
+  id: siggraph20
+  link: https://s2020.siggraph.org/
+  deadline: '2020-01-22 22:00:00'
+  timezone: America/Los_Angeles
+  date: July 19 - 23, 2020
+  place: Washington, D.C., USA
+  sub: CV
+
 - title: RSS
   year: 2020
   id: rss2020
@@ -165,16 +175,6 @@
   date: June 2-7, 2019
   place: Minneapolis, USA
   sub: NLP
-
-- title: SIGGRAPH
-  year: 2020
-  id: siggraph2020
-  link: https://s2020.siggraph.org/
-  deadline: '2020-01-22 22:00:00'
-  timezone: America/Los_Angeles
-  date: July 19 - July 23, 2020
-  place: Washington, D.C., USA
-  sub: ML
 
 - title: GECCO
   year: 2019
