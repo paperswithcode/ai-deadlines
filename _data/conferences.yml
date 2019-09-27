@@ -1,6 +1,16 @@
 
 ---
 
+- title: SIGMOD/PODS
+  year: 2020
+  id: sigmod2020
+  link: https://sigmod2020.org
+  deadline: '2019-10-15 17:00:00'
+  timezone: America/Los_Angeles
+  date: June 14-19, 2020
+  place: Portland, USA
+  sub: DB
+
 - title: HRI
   year: 2020
   id: hri2020
