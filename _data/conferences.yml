@@ -1,28 +1,6 @@
 
 ---
 
-- title: ECAI
-  year: 2020
-  id: ecai20
-  link: http://ecai2020.eu/
-  deadline: '2019-11-19 23:59:59'
-  timezone: UTC
-  date: June 8-12, 2020
-  place: Santiago de Compostella, Spain
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 15, 2020. More info <a href=''http://ecai2020.eu/''>here</a>.'
-
-- title: ICAPS
-  year: 2020
-  id: icaps20
-  link: https://icaps20.icaps-conference.org/
-  deadline: '2019-11-20 23:59:59'
-  timezone: UTC
-  date: June 14-19, 2020
-  place: Nancy, France
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 15, 2020. More info <a href=''https://icaps20.icaps-conference.org/''>here</a>.'
-
 - title: HRI
   year: 2020
   id: hri2020
@@ -73,6 +51,28 @@
   place: Auckland, New Zealand
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 12, 2019. More info <a href=''https://aamas2020.conference.auckland.ac.nz/call-for-papers/''>here</a>.'
+
+- title: ECAI
+  year: 2020
+  id: ecai20
+  link: http://ecai2020.eu/
+  deadline: '2019-11-19 23:59:59'
+  timezone: UTC-12
+  date: June 8-12, 2020
+  place: Santiago de Compostella, Spain
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 15, 2019. More info <a href=''http://ecai2020.eu/call-for-papers/mainconference/''>here</a>.'
+
+- title: ICAPS
+  year: 2020
+  id: icaps20
+  link: https://icaps20.icaps-conference.org/
+  deadline: '2019-11-20 23:59:59'
+  timezone: UTC-12
+  date: June 14-19, 2020
+  place: Nancy, France
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 15, 2020. More info <a href=''https://icaps20.icaps-conference.org/''>here</a>.'
 
 - title: LREC
   year: 2020
