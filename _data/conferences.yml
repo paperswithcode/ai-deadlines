@@ -419,3 +419,13 @@
   date: March 23-26, 2020
   place: Cambridge, UK
   sub: RO
+  
+- title: COLING
+  year: 2020
+  id: coling2020
+  link: https://coling2020.org/
+  deadline: '2020-04-08 23:59:59'
+  timezone: UTC+1
+  date: September 13-18, 2020
+  place: Barcelona, Spain
+  sub: NLP
