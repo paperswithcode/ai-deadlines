@@ -14,7 +14,7 @@
 
 - title: ICASSP
   year: 2020
-  id: icassp2020
+  id: icassp20
   link: https://2020.ieeeicassp.org/
   deadline: '2019-10-21 23:59:59'
   timezone: UTC
@@ -87,7 +87,7 @@
 
 - title: ICMR
   year: 2020
-  id: icmr2020
+  id: icmr20
   link: http://icmr2020.org/
   deadline: '2020-01-11 23:59:59'
   timezone: Europe/London
@@ -119,7 +119,7 @@
 
 - title: RSS
   year: 2020
-  id: rss2020
+  id: rss20
   link: https://roboticsconference.org/
   deadline: '2020-01-30 23:59:59'
   timezone: UTC-12
@@ -140,7 +140,7 @@
 
 - title: IROS
   year: 2020
-  id: iros2020
+  id: iros20
   link: http://www.iros2020.org/
   deadline: '2020-03-01 23:59:59'
   timezone: America/Los_Angeles
@@ -150,7 +150,7 @@
 
 - title: ECCV
   year: 2020
-  id: eccv2020
+  id: eccv20
   link: https://eccv2020.eu
   deadline: '2020-03-15 07:00:00'
   timezone: Europe/London
@@ -161,7 +161,7 @@
 
 - title: COLING
   year: 2020
-  id: coling2020
+  id: coling20
   link: https://coling2020.org/
   deadline: '2020-04-08 23:59:59'
   timezone: UTC+1
@@ -382,7 +382,7 @@
 
 - title: ICRA
   year: 2020
-  id: icra2020
+  id: icra20
   link: https://icra2020.org/
   deadline: '2019-09-15 23:59:59'
   timezone: America/Los_Angeles
@@ -392,7 +392,7 @@
 
 - title: ALT
   year: 2020
-  id: alt2020
+  id: alt20
   link: http://alt2020.algorithmiclearningtheory.org/
   deadline: '2019-09-20 16:59:59'
   timezone: America/New_York
@@ -412,7 +412,7 @@
 
 - title: HRI
   year: 2020
-  id: hri2020
+  id: hri20
   link: https://humanrobotinteraction.org/2020/
   deadline: '2019-10-01 23:59:59'
   timezone: America/Los_Angeles
