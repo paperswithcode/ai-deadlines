@@ -159,6 +159,16 @@
   sub: CV
   note: '<b>NOTE</b>: Deadline to be confirmed.'
 
+- title: COLING
+  year: 2020
+  id: coling2020
+  link: https://coling2020.org/
+  deadline: '2020-04-08 23:59:59'
+  timezone: UTC+1
+  date: September 13-18, 2020
+  place: Barcelona, Spain
+  sub: NLP
+
 - title: AES
   year: 2019
   id: aes2019
