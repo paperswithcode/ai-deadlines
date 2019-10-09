@@ -1,16 +1,6 @@
 
 ---
 
-- title: AISTATS
-  year: 2020
-  id: aistats20
-  link: https://www.aistats.org/
-  deadline: '2019-10-08 23:59:59'
-  timezone: America/Los_Angeles
-  date: June 3-5, 2020
-  place: Palermo, Sicily, Italy
-  sub: ML
-
 - title: WACV
   year: 2020
   id: wacv20
@@ -168,6 +158,16 @@
   place: Glasgow, Scotland, UK
   sub: CV
   note: '<b>NOTE</b>: Deadline to be confirmed.'
+
+- title: COLING
+  year: 2020
+  id: coling2020
+  link: https://coling2020.org/
+  deadline: '2020-04-08 23:59:59'
+  timezone: UTC+1
+  date: September 13-18, 2020
+  place: Barcelona, Spain
+  sub: NLP
 
 - title: AES
   year: 2019
@@ -419,13 +419,13 @@
   date: March 23-26, 2020
   place: Cambridge, UK
   sub: RO
-  
-- title: COLING
+
+- title: AISTATS
   year: 2020
-  id: coling2020
-  link: https://coling2020.org/
-  deadline: '2020-04-08 23:59:59'
-  timezone: UTC+1
-  date: September 13-18, 2020
-  place: Barcelona, Spain
-  sub: NLP
+  id: aistats20
+  link: https://www.aistats.org/
+  deadline: '2019-10-08 23:59:59'
+  timezone: America/Los_Angeles
+  date: June 3-5, 2020
+  place: Palermo, Sicily, Italy
+  sub: ML
