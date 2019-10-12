@@ -1,17 +1,6 @@
 
 ---
 
-- title: WACV
-  year: 2020
-  id: wacv20
-  link: http://wacv20.wacv.net/
-  deadline: '2019-10-11 23:59:59'
-  timezone: America/Los_Angeles
-  date: March 2-5, 2020
-  place: Snowmass village, Colorado, USA
-  sub: CV
-  note: '<b>NOTE</b>: Second round submission deadline.'
-
 - title: ICASSP
   year: 2020
   id: icassp20
@@ -429,3 +418,14 @@
   date: June 3-5, 2020
   place: Palermo, Sicily, Italy
   sub: ML
+
+- title: WACV
+  year: 2020
+  id: wacv20
+  link: http://wacv20.wacv.net/
+  deadline: '2019-10-11 23:59:59'
+  timezone: America/Los_Angeles
+  date: March 2-5, 2020
+  place: Snowmass village, Colorado, USA
+  sub: CV
+  note: '<b>NOTE</b>: Second round submission deadline.'
