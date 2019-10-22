@@ -16,6 +16,7 @@
   id: aamas20
   link: https://aamas2020.conference.auckland.ac.nz/
   deadline: '2019-11-15 23:59:59'
+  abstract_deadline: '2019-11-12 23:59:59'
   timezone: UTC-12
   date: May 9-13, 2020
   place: Auckland, New Zealand
@@ -27,6 +28,7 @@
   id: ecai20
   link: http://ecai2020.eu/
   deadline: '2019-11-19 23:59:59'
+  abstract_deadline: '2019-11-15 23:59:59'
   timezone: UTC-12
   date: June 8-12, 2020
   place: Santiago de Compostella, Spain
@@ -38,11 +40,12 @@
   id: icaps20
   link: https://icaps20.icaps-conference.org/
   deadline: '2019-11-20 23:59:59'
+  abstract_deadline: '2019-11-15 23:59:59'
   timezone: UTC-12
   date: June 14-19, 2020
   place: Nancy, France
   sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 15, 2020. More info <a href=''https://icaps20.icaps-conference.org/''>here</a>.'
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 15, 2019. More info <a href=''https://icaps20.icaps-conference.org/''>here</a>.'
 
 - title: LREC
   year: 2020
@@ -79,6 +82,7 @@
   id: ijcai-pricai20
   link: https://www.ijcai20.org/
   deadline: '2020-01-21 23:59:59'
+  abstract_deadline: '2020-01-15 23:59:59'
   timezone: UTC-12
   date: July 11-17, 2020
   place: Yokohama, Japan
@@ -110,6 +114,7 @@
   id: icml20
   link: https://icml.cc/Conferences/2020
   deadline: '2020-02-07 03:59:00'
+  abstract_deadline: '2020-01-31 03:59:00'
   timezone: America/Los_Angeles
   date: July 12-18, 2020
   place: Vienna, Austria
@@ -202,6 +207,7 @@
   id: uai19
   link: http://auai.org/uai2019/
   deadline: '2019-03-08 23:59:59'
+  abstract_deadline: '2019-03-04 23:59:59'
   timezone: UTC-11
   date: July 22-26, 2019
   place: Tel Aviv, Israel
@@ -246,6 +252,7 @@
   id: ecmlpkdd19
   link: https://ecmlpkdd2019.org/
   deadline: '2019-04-05 23:59:59'
+  abstract_deadline: '2019-03-29 23:59:29'
   timezone: UTC-12
   date: September 16-20, 2019
   place: "W\xFCrzburg, Germany"
@@ -268,6 +275,7 @@
   id: ACMMultimedia
   link: https://www.acmmm.org/2019/
   deadline: '2019-04-08 23:59:59'
+  abstract_deadline: '2019-04-01 23:59:59'
   timezone: UTC-12
   date: October 21-25, 2019
   place: Nice, France
@@ -290,6 +298,7 @@
   id: emnlp-ijcnlp19
   link: http://emnlp-ijcnlp2019.org/
   deadline: '2019-05-21 23:59:59'
+  abstract_deadline: '2019-05-15 23:59:59'
   timezone: UTC-7
   date: November 3-7, 2019
   place: Hong Kong
@@ -302,6 +311,7 @@
   id: neurips19
   link: https://neurips.cc/Conferences/2019
   deadline: '2019-05-23 13:00:00'
+  abstract_deadline: '2019-05-16 13:00:00'
   timezone: America/Los_Angeles
   date: December 9-14, 2019
   place: Vancouver Convention Centre, Canada
