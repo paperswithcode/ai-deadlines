@@ -1,16 +1,6 @@
 
 ---
 
-- title: ICASSP
-  year: 2020
-  id: icassp20
-  link: https://2020.ieeeicassp.org/
-  deadline: '2019-10-21 23:59:59'
-  timezone: UTC
-  date: May 4-8, 2020
-  place: Barcelona, Spain
-  sub: SP
-
 - title: CVPR
   year: 2020
   id: cvpr20
@@ -428,3 +418,13 @@
   place: Snowmass village, Colorado, USA
   sub: CV
   note: '<b>NOTE</b>: Second round submission deadline.'
+
+- title: ICASSP
+  year: 2020
+  id: icassp20
+  link: https://2020.ieeeicassp.org/
+  deadline: '2019-10-21 23:59:59'
+  timezone: UTC
+  date: May 4-8, 2020
+  place: Barcelona, Spain
+  sub: SP
