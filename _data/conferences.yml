@@ -1,6 +1,16 @@
 
 ---
 
+- title: ITSC
+  year: 2020
+  id: itsc2020
+  link: https://www.ieee-itsc2020.org/
+  deadline: '2020-02-14 23:59:59'
+  timezone: America/Los_Angeles
+  date: Sep 21-Sep 23, 2020
+  place: Rhodes, Greece
+  sub: RO
+
 - title: RSS
   year: 2020
   id: rss2020
