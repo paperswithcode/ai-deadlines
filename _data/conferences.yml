@@ -151,6 +151,16 @@
   place: Glasgow, Scotland, UK
   sub: CV
 
+- title: InterSpeech
+  year: 2020
+  id: interspeech20
+  link: https://www.interspeech2020.org/
+  deadline: '2020-03-29 23:59:59'
+  timezone: UTC-12
+  date: September 14-18, 2020
+  place: Shanghai, China
+  sub: SP
+
 - title: COLING
   year: 2020
   id: coling20
