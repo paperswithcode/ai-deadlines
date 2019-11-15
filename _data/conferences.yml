@@ -131,16 +131,6 @@
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 31, 2020. More info <a href=''https://icml.cc/Conferences/2020/CallForPapers''>here</a>.'
 
-- title: KDD
-  year: 2020
-  id: kdd20
-  link: https://www.kdd.org/kdd2020/
-  deadline: '2019-02-13 23:59:59'
-  timezone: UTC-11
-  date: August 22-27, 2019
-  place: San Diego, California, USA
-  sub: DM
-
 - title: IROS
   year: 2020
   id: iros20
@@ -229,6 +219,16 @@
   timezone: UTC-11
   date: August 3-7, 2019
   place: Anchorage, Alaska, USA
+  sub: DM
+
+- title: KDD
+  year: 2020
+  id: kdd20
+  link: https://www.kdd.org/kdd2020/
+  deadline: '2019-02-13 23:59:59'
+  timezone: UTC-11
+  date: August 22-27, 2019
+  place: San Diego, California, USA
   sub: DM
 
 - title: UAI
