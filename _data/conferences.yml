@@ -1,16 +1,6 @@
 
 ---
 
-- title: CVPR
-  year: 2020
-  id: cvpr20
-  link: http://cvpr2020.thecvf.com/
-  deadline: '2019-11-15 23:59:59'
-  timezone: America/Los_Angeles
-  date: June 14-19, 2020
-  place: Seattle, USA
-  sub: CV
-
 - title: AAMAS
   year: 2020
   id: aamas20
@@ -467,3 +457,13 @@
   date: May 4-8, 2020
   place: Barcelona, Spain
   sub: SP
+
+- title: CVPR
+  year: 2020
+  id: cvpr20
+  link: http://cvpr2020.thecvf.com/
+  deadline: '2019-11-15 23:59:59'
+  timezone: America/Los_Angeles
+  date: June 14-19, 2020
+  place: Seattle, USA
+  sub: CV
