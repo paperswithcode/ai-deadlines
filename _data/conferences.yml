@@ -1,18 +1,6 @@
 
 ---
 
-- title: AAMAS
-  year: 2020
-  id: aamas20
-  link: https://aamas2020.conference.auckland.ac.nz/
-  deadline: '2019-11-15 23:59:59'
-  abstract_deadline: '2019-11-12 23:59:59'
-  timezone: UTC-12
-  date: May 9-13, 2020
-  place: Auckland, New Zealand
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 12, 2019. More info <a href=''https://aamas2020.conference.auckland.ac.nz/call-for-papers/''>here</a>.'
-
 - title: ECAI
   year: 2020
   id: ecai20
@@ -467,3 +455,15 @@
   date: June 14-19, 2020
   place: Seattle, USA
   sub: CV
+
+- title: AAMAS
+  year: 2020
+  id: aamas20
+  link: https://aamas2020.conference.auckland.ac.nz/
+  deadline: '2019-11-15 23:59:59'
+  abstract_deadline: '2019-11-12 23:59:59'
+  timezone: UTC-12
+  date: May 9-13, 2020
+  place: Auckland, New Zealand
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 12, 2019. More info <a href=''https://aamas2020.conference.auckland.ac.nz/call-for-papers/''>here</a>.'
