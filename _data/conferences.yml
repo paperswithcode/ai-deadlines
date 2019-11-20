@@ -1,18 +1,6 @@
 
 ---
 
-- title: ECAI
-  year: 2020
-  id: ecai20
-  link: http://ecai2020.eu/
-  deadline: '2019-11-19 23:59:59'
-  abstract_deadline: '2019-11-15 23:59:59'
-  timezone: UTC-12
-  date: June 8-12, 2020
-  place: Santiago de Compostella, Spain
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 15, 2019. More info <a href=''http://ecai2020.eu/call-for-papers/mainconference/''>here</a>.'
-
 - title: ICAPS
   year: 2020
   id: icaps20
@@ -467,3 +455,15 @@
   place: Auckland, New Zealand
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 12, 2019. More info <a href=''https://aamas2020.conference.auckland.ac.nz/call-for-papers/''>here</a>.'
+
+- title: ECAI
+  year: 2020
+  id: ecai20
+  link: http://ecai2020.eu/
+  deadline: '2019-11-19 23:59:59'
+  abstract_deadline: '2019-11-15 23:59:59'
+  timezone: UTC-12
+  date: June 8-12, 2020
+  place: Santiago de Compostella, Spain
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 15, 2019. More info <a href=''http://ecai2020.eu/call-for-papers/mainconference/''>here</a>.'
