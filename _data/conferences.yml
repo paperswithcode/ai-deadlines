@@ -95,26 +95,6 @@
   place: San Diego, California, USA
   sub: DM
 
-- title: WSDM
-  year: 2020
-  id: wsdm20
-  link: http://www.wsdm-conference.org/2020/
-  deadline: '2019-08-16 23:59:59'
-  timezone: UTC-11
-  date: February 3-7, 2020
-  place: Houston, Texas, USA
-  sub: DM
-  
-- title: WWW
-  year: 2020
-  id: www20
-  link: https://www2020.thewebconf.org/
-  deadline: '2019-10-14 23:59:59'
-  timezone: UTC-11
-  date: April 20-24, 2020
-  place: Taipei, Taiwan
-  sub: DM  
-
 - title: IROS
   year: 2020
   id: iros20
@@ -194,16 +174,6 @@
   date: June 25-28, 2019
   place: Phoenix, AZ
   sub: ML
-
-- title: KDD
-  year: 2019
-  id: kdd19
-  link: https://www.kdd.org/kdd2019
-  deadline: '2019-02-03 23:59:59'
-  timezone: UTC-11
-  date: August 3-7, 2019
-  place: Anchorage, Alaska, USA
-  sub: DM
 
 - title: UAI
   year: 2019
@@ -360,6 +330,16 @@
   date: October 30 - November 1, 2019
   place: Osaka, Japan
   sub: RO
+
+- title: WSDM
+  year: 2020
+  id: wsdm20
+  link: http://www.wsdm-conference.org/2020/
+  deadline: '2019-08-16 23:59:59'
+  timezone: UTC-11
+  date: February 3-7, 2020
+  place: Houston, Texas, USA
+  sub: DM
 
 - title: AAAI
   year: 2020
