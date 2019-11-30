@@ -165,16 +165,6 @@
   place: Prague, Czech Republic
   sub: ML
 
-- title: COLT
-  year: 2019
-  id: colt19
-  link: http://www.learningtheory.org/colt2019/
-  deadline: '2019-02-01 23:00:00'
-  timezone: America/New_York
-  date: June 25-28, 2019
-  place: Phoenix, AZ
-  sub: ML
-
 - title: UAI
   year: 2019
   id: uai19
@@ -198,16 +188,6 @@
   place: Seoul, Korea
   sub: CV
 
-- title: InterSpeech
-  year: 2019
-  id: interspeech19
-  link: https://www.interspeech2019.org/
-  deadline: '2019-03-29 23:59:59'
-  timezone: UTC-12
-  date: September 15-19, 2019
-  place: Graz, Austria
-  sub: SP
-
 - title: MICCAI
   year: 2019
   id: miccai2019
@@ -219,19 +199,6 @@
   sub: CV
   note: '<b>NOTE</b>: Mandatory intention-to-submit registration on March 19. More
     info <a href="http://www.miccai2019.org/calls/call-for-papers/">here</a>.'
-
-- title: ECML/PKDD
-  year: 2019
-  id: ecmlpkdd19
-  link: https://ecmlpkdd2019.org/
-  deadline: '2019-04-05 23:59:59'
-  abstract_deadline: '2019-03-29 23:59:29'
-  timezone: UTC-12
-  date: September 16-20, 2019
-  place: "W\xFCrzburg, Germany"
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on March 29, 2019. More info <a
-    href="https://ecmlpkdd2019.org/submissions/deadlines/">here</a>.'
 
 - title: ISMIR
   year: 2019
