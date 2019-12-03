@@ -1,16 +1,6 @@
 
 ---
 
-- title: LREC
-  year: 2020
-  id: lrec20
-  link: https://lrec2020.lrec-conf.org/en/
-  deadline: '2019-12-02 23:59:59'
-  timezone: Europe/Paris
-  date: May 11-16, 2020
-  place: Marseille, France
-  sub: NLP
-
 - title: ACL
   year: 2020
   id: acl20
@@ -434,3 +424,13 @@
   place: Nancy, France
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 15, 2019. More info <a href=''https://icaps20.icaps-conference.org/''>here</a>.'
+
+- title: LREC
+  year: 2020
+  id: lrec20
+  link: https://lrec2020.lrec-conf.org/en/
+  deadline: '2019-12-02 23:59:59'
+  timezone: Europe/Paris
+  date: May 11-16, 2020
+  place: Marseille, France
+  sub: NLP
