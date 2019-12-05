@@ -131,7 +131,7 @@
   id: coling20
   link: https://coling2020.org/
   deadline: '2020-04-08 23:59:59'
-  timezone: UTC+1
+  timezone: UTC-12
   date: September 13-18, 2020
   place: Barcelona, Spain
   sub: NLP
