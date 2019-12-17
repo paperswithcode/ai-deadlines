@@ -1,5 +1,15 @@
 ---
 
+- title: ICPR
+  year: 2020
+  id: icpr20
+  link: https://www.micc.unifi.it/icpr2020
+  deadline: '2020-03-02 23:59:59'
+  timezone: Europe/Milan
+  date: Sep 13-18, 2020
+  place: Milan, Italy
+  sub: CV
+
 - title: ICMR
   year: 2020
   id: icmr20
