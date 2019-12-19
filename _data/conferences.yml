@@ -460,3 +460,13 @@
   date: July 6-8, 2020
   place: Seattle, Washington, USA
   sub: NLP
+  
+- title: ICCC
+  year: 2020
+  id: iccc20
+  link: http://computationalcreativity.net/iccc20/
+  deadline: '2020-03-01 23:59:59'
+  timezone: UTC
+  date: June 29 – July 3, 2020
+  place: Coimbra, Portugal
+  sub: ML
