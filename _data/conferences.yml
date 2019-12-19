@@ -43,6 +43,16 @@
   place: Xi'an, China
   sub: DM
 
+- title: MIDL
+  year: 2020
+  id: midl2020
+  link: https://2020.midl.io/
+  deadline: '2020-01-30 23:59:59'
+  timezone: UTC-12
+  date: July 6-8, 2020
+  place: Montreal, Canada
+  sub: CV
+
 - title: RSS
   year: 2020
   id: rss20
@@ -115,6 +125,17 @@
   place: Milan, Italy
   sub: CV
 
+- title: MICCAI
+  year: 2020
+  id: miccai2020
+  link: http://www.miccai2020.org/
+  deadline: '2020-03-03 23:59:59'
+  timezone: America/Los_Angeles
+  date: October 4-8, 2020
+  place: Lima, Peru
+  sub: CV
+  note: '<b>NOTE</b>: Intent to submit deadline on Feb 18, 2020. More info <a href=''https://www.miccai2020.org/''>here</a>.'
+
 - title: ECCV
   year: 2020
   id: eccv20
@@ -184,18 +205,6 @@
   date: October 27 - November 2, 2019
   place: Seoul, Korea
   sub: CV
-
-- title: MICCAI
-  year: 2019
-  id: miccai2019
-  link: http://www.miccai2019.org/
-  deadline: '2019-04-02 23:59:59'
-  timezone: US/Pacific
-  date: October 13 - October 17, 2019
-  place: Shenzhen, China
-  sub: CV
-  note: '<b>NOTE</b>: Mandatory intention-to-submit registration on March 19. More
-    info <a href="http://www.miccai2019.org/calls/call-for-papers/">here</a>.'
 
 - title: ISMIR
   year: 2019
