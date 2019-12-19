@@ -1,5 +1,28 @@
 ---
 
+
+- title: MICCAI
+  year: 2020
+  id: miccai2020
+  link: http://www.miccai2020.org/
+  deadline: '2019-03-03 23:59:59'
+  timezone: US/Pacific
+  date: October 4 - October 8, 2020
+  place: Lima, Peru
+  sub: CV
+  note: '<b>NOTE</b>: Intent to submit deadline on Feb 18, 2020. More info <a href=''https://www.miccai2020.org/''>here</a>.'
+
+- title: midl
+  year: 2020
+  id: icpr20
+  link: https://www.micc.unifi.it/icpr2020
+  deadline: '2020-01-30 23:59:59'
+  timezone: UTC-0
+  date: July 6-8, 2020
+  place: Montreal, Canada
+  sub: CV
+
+
 - title: ICPR
   year: 2020
   id: icpr20
