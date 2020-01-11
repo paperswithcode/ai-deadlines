@@ -1,15 +1,5 @@
 ---
 
-- title: EMNLP
-  year: 2020
-  id: emnlp20
-  link: https://2020.emnlp.org/
-  deadline: '2020-05-08 23:59:00'
-  timezone: UTC-12
-  date: November 8-10, 2020
-  place: Punta Cana, Dominican Republic
-  sub: NLP
-
 - title: ICMR
   year: 2020
   id: icmr20
@@ -196,6 +186,16 @@
   place: Barcelona, Spain
   sub: NLP
 
+- title: EMNLP
+  year: 2020
+  id: emnlp20
+  link: https://2020.emnlp.org/
+  deadline: '2020-05-08 23:59:00'
+  timezone: UTC-12
+  date: November 8-10, 2020
+  place: Punta Cana, Dominican Republic
+  sub: NLP
+
 - title: AES
   year: 2019
   id: aes2019
@@ -268,19 +268,6 @@
   date: September 9-12, 2019
   place: Cardiff, Wales, UK
   sub: CV
-
-- title: EMNLP-IJCNLP
-  year: 2019
-  id: emnlp-ijcnlp19
-  link: http://emnlp-ijcnlp2019.org/
-  deadline: '2019-05-21 23:59:59'
-  abstract_deadline: '2019-05-15 23:59:59'
-  timezone: UTC-7
-  date: November 3-7, 2019
-  place: Hong Kong
-  sub: NLP
-  note: '<b>NOTE</b>: Mandatory abstract submission deadline on May 15. More info
-    <a href="https://www.emnlp-ijcnlp2019.org/calls/papers">here</a>.'
 
 - title: NeurIPS
   year: 2019
