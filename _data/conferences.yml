@@ -1,15 +1,5 @@
 ---
 
-- title: CHIL
-  year: 2020
-  id: chil20
-  link: http://www.chilconference.org/
-  deadline: '2020-01-13 23:59:59'
-  timezone: UTC-12
-  date: April 2-4, 2020
-  place: Toronto, Canada
-  sub: ML
-
 - title: IJCAI-PRICAI
   year: 2020
   id: ijcai-pricai20
@@ -477,3 +467,13 @@
   date: June 8-11, 2020
   place: Dublin, Ireland
   sub: CV
+
+- title: CHIL
+  year: 2020
+  id: chil20
+  link: http://www.chilconference.org/
+  deadline: '2020-01-13 23:59:59'
+  timezone: UTC-12
+  date: April 2-4, 2020
+  place: Toronto, Canada
+  sub: ML
