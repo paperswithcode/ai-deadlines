@@ -1,5 +1,17 @@
 ---
 
+- title: BigMM
+  year: 2020
+  id: bigmm-2020
+  link: http://bigmm2020.org/
+  deadline: '2020-04-15 23:59:59'
+  abstract_deadline: '2020-02-01 23:59:59'
+  timezone: IST
+  date: September 24-26, 2020
+  place: New Delhi, India
+  sub: ML
+  note: '<b>NOTE</b>: Round 1 Regular/Short/Industry Paper Submission deadline on Feb 1, 2020. More info <a href=''http://bigmm2020.org/''>here</a>.'
+
 - title: IJCAI-PRICAI
   year: 2020
   id: ijcai-pricai20
