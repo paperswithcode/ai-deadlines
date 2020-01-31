@@ -1,15 +1,5 @@
 ---
 
-- title: MIDL
-  year: 2020
-  id: midl2020
-  link: https://2020.midl.io/
-  deadline: '2020-01-30 23:59:59'
-  timezone: UTC-12
-  date: July 6-8, 2020
-  place: Montreal, Canada
-  sub: CV
-
 - title: COLT
   year: 2020
   id: colt20
@@ -487,3 +477,13 @@
   date: July 25 - 30, 2020
   place: Xi'an, China
   sub: DM
+
+- title: MIDL
+  year: 2020
+  id: midl2020
+  link: https://2020.midl.io/
+  deadline: '2020-01-30 23:59:59'
+  timezone: UTC-12
+  date: July 6-8, 2020
+  place: Montreal, Canada
+  sub: CV
