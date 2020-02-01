@@ -1,15 +1,5 @@
 ---
 
-- title: RSS
-  year: 2020
-  id: rss20
-  link: https://roboticsconference.org/
-  deadline: '2020-01-31 23:59:59'
-  timezone: UTC-12
-  date: Jul 12-17, 2020
-  place: Oregon State University at Corvallis, Oregon
-  sub: RO
-
 - title: ICML
   year: 2020
   id: icml20
@@ -487,3 +477,13 @@
   timezone: America/Los_Angeles
   place: Graz, Austria
   sub: ML
+
+- title: RSS
+  year: 2020
+  id: rss20
+  link: https://roboticsconference.org/
+  deadline: '2020-01-31 23:59:59'
+  timezone: UTC-12
+  date: Jul 12-17, 2020
+  place: Oregon State University at Corvallis, Oregon
+  sub: RO
