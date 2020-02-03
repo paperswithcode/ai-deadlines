@@ -4,12 +4,28 @@ VERSION:2.0
 PRODID:-//{{ site.domain }}//ai-deadlines//EN
 X-PUBLISHED-TTL:PT1H
 {%- for conf in site.data.conferences -%}
-{% if conf.deadline != "TBA" %}
+{% if conf.abstract_deadline and conf.abstract_deadline != "TBA" %}
 BEGIN:VEVENT
+SUMMARY:{{ conf.title }} {{ conf.year }} abstract deadline
+UID:{{ conf.id }}-abstract {% if conf.timezone contains "UTC" %} {% assign tz = conf.timezone | split: "UTC" %} {% if tz[1] contains "-" %} {% assign tz = tz[1] | replace: "-", "+" %} {% else if tz[1] contains "+" %} {% assign tz = tz[1] | replace: "+", "-" %} {% else assign tz = tz[1] %} {% endif %}
+ORGANIZER:aideadlin.es
+DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
+DTSTART;TZID=Etc/GMT{{ tz }}:{{ conf.abstract_deadline | date: "%Y%m%dT%H%M%S" }}
+{% else %}
+ORGANIZER:aideadlin.es
+DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
+DTSTART;TZID={{ conf.timezone }}:{{ conf.abstract_deadline | date: "%Y%m%dT%H%M%S" }}
+{% endif %}END:VEVENT{% endif %}
+{% if conf.deadline != "TBA" %}BEGIN:VEVENT
 SUMMARY:{{ conf.title }} {{ conf.year }} deadline
-UID:{{ conf.id }}
+UID:{{ conf.id }} {% if conf.timezone contains "UTC" %} {% assign tz = conf.timezone | split: "UTC" %} {% if tz[1] contains "-" %} {% assign tz = tz[1] | replace: "-", "+" %} {% else if tz[1] contains "+" %} {% assign tz = tz[1] | replace: "+", "-" %} {% else assign tz = tz[1] %} {% endif %}
+ORGANIZER:aideadlin.es
+DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
+DTSTART;TZID=Etc/GMT{{ tz }}:{{ conf.deadline | date: "%Y%m%dT%H%M%S" }}
+{% else %}
+ORGANIZER:aideadlin.es
+DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
 DTSTART;TZID={{ conf.timezone }}:{{ conf.deadline | date: "%Y%m%dT%H%M%S" }}
-END:VEVENT
+{% endif %}END:VEVENT
 {% endif %}
-{%- endfor -%}
-END:VCALENDAR
+{%- endfor -%}END:VCALENDAR

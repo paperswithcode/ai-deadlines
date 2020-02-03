@@ -124,7 +124,7 @@ with open("../_data/conferences.yml", 'r') as stream:
                     Dumper=yaml.SafeDumper,
                     default_flow_style=False,
                     explicit_start=True).splitlines():
-                outfile.write('\n')
                 outfile.write(line.replace('- title:', '\n- title:'))
+                outfile.write('\n')
     except yaml.YAMLError as exc:
         print(exc)
