@@ -83,6 +83,19 @@
   place: Glasgow, Scotland, UK
   sub: CV
 
+- title: MM
+  year: 2020
+  id: mm20
+  link: https://2020.acmmm.org/
+  deadline: '2020-03-28 23:59:00'
+  abstract_deadline: '2020-03-21 23:59:00'
+  timezone: UTC-12
+  date: October 12-16, 2020
+  place: Seattle, USA
+  sub: CV
+  note: '<b>NOTE</b>: Mandatory abstract submission deadline on Mar 21. More info
+    <a href="https://2020.acmmm.org/important-dates.html">here</a>.'
+
 - title: InterSpeech
   year: 2020
   id: interspeech20
@@ -172,19 +185,6 @@
   date: November 4-8, 2019
   place: Delft, The Netherlands
   sub: SP
-
-- title: MM
-  year: 2019
-  id: ACMMultimedia
-  link: https://www.acmmm.org/2019/
-  deadline: '2019-04-08 23:59:59'
-  abstract_deadline: '2019-04-01 23:59:59'
-  timezone: UTC-12
-  date: October 21-25, 2019
-  place: Nice, France
-  sub: CV
-  note: '<b>NOTE</b>: Mandatory abstract submission deadline on April 1. More info
-    <a href="https://www.acmmm.org/2019/important-dates/">here</a>.'
 
 - title: BMVC
   year: 2019
