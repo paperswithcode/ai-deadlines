@@ -50,17 +50,6 @@
   place: Milan, Italy
   sub: CV
 
-- title: MICCAI
-  year: 2020
-  id: miccai2020
-  link: http://www.miccai2020.org/
-  deadline: '2020-03-17 23:59:59'
-  timezone: America/Los_Angeles
-  date: October 4-8, 2020
-  place: Lima, Peru
-  sub: CV
-  note: '<b>NOTE</b>: Deadlines were extended by two weeks. Intent to submit deadline on Mar 03, 2020. More info <a href=''https://www.miccai2020.org/''>here</a>.'
-
 - title: ECCV
   year: 2020
   id: eccv20
@@ -70,6 +59,17 @@
   date: August 23-28, 2020
   place: Glasgow, Scotland, UK
   sub: CV
+
+- title: MICCAI
+  year: 2020
+  id: miccai2020
+  link: http://www.miccai2020.org/
+  deadline: '2020-03-17 23:59:59'
+  timezone: America/Los_Angeles
+  date: October 4-8, 2020
+  place: Lima, Peru
+  sub: CV
+  note: '<b>NOTE</b>: Intent to submit deadline on Mar 03, 2020. More info <a href=''https://www.miccai2020.org/''>here</a>.'
 
 - title: MM
   year: 2020
