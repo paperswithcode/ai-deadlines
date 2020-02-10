@@ -54,8 +54,8 @@
   year: 2020
   id: eccv20
   link: https://eccv2020.eu
-  deadline: '2020-03-05 07:00:00'
-  timezone: Europe/London
+  deadline: '2020-03-05 23:59:00'
+  timezone: UTC-0
   date: August 23-28, 2020
   place: Glasgow, Scotland, UK
   sub: CV
