@@ -15,7 +15,7 @@
   id: uai20
   link: http://auai.org/uai2020/
   deadline: '2020-02-20 23:59:59'
-  timezone: America/New_York
+  timezone: UTC+1
   date: August 3-6, 2020
   place: Toronto, Canada
   sub: ML
