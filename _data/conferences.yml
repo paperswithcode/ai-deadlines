@@ -1,5 +1,14 @@
 ---
 
+- title: NeurIPS
+  year: 2020
+  id: neurips20
+  link: https://nips.cc/Conferences/2020
+  deadline: TBD
+  date: December 6-12, 2019
+  place: Vancouver Convention Centre, Canada
+  sub: ML
+
 - title: KDD
   year: 2020
   id: kdd20
