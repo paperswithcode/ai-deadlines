@@ -136,16 +136,6 @@
   place: Sorrento, Italy
   sub: DM
 
-- title: ICDM
-  year: 2020
-  id: icdm20
-  link: http://icdm2020.bigke.org/
-  deadline: '2020-06-02 23:59:59'
-  timezone: UTC-7
-  date: November 17-20, 2020
-  place: Sorrento, Italy
-  sub: DM
-
 - title: AACL-IJCNLP
   year: 2020
   id: aacl20
