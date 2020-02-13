@@ -1,14 +1,5 @@
 ---
 
-- title: NeurIPS
-  year: 2020
-  id: neurips20
-  link: https://nips.cc/Conferences/2020
-  deadline: TBD
-  date: December 6-12, 2020
-  place: Vancouver Convention Centre, Canada
-  sub: ML
-
 - title: KDD
   year: 2020
   id: kdd20
@@ -135,6 +126,16 @@
   place: Punta Cana, Dominican Republic
   sub: NLP
 
+- title: ICDM
+  year: 2020
+  id: icdm20
+  link: http://icdm2020.bigke.org/
+  deadline: '2020-06-02 23:59:59'
+  timezone: UTC-7
+  date: November 17-20, 2020
+  place: Sorrento, Italy
+  sub: DM
+
 - title: AACL-IJCNLP
   year: 2020
   id: aacl20
@@ -205,18 +206,6 @@
   place: Cardiff, Wales, UK
   sub: CV
 
-- title: NeurIPS
-  year: 2019
-  id: neurips19
-  link: https://neurips.cc/Conferences/2019
-  deadline: '2019-05-23 13:00:00'
-  abstract_deadline: '2019-05-16 13:00:00'
-  timezone: America/Los_Angeles
-  date: December 9-14, 2019
-  place: Vancouver Convention Centre, Canada
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on May 16, 2019. More info <a href="https://nips.cc/Conferences/2019/Dates">here</a>.'
-
 - title: CoNLL
   year: 2019
   id: conll2019
@@ -226,16 +215,6 @@
   date: November 3-4, 2019
   place: Hong Kong
   sub: NLP
-
-- title: ICDM
-  year: 2019
-  id: icdm19
-  link: http://icdm2019.bigke.org/
-  deadline: '2019-06-05 23:59:59'
-  timezone: UTC-7
-  date: November 8-11, 2019
-  place: Beijing, China
-  sub: DM
 
 - title: 3DV
   year: 2019
@@ -508,3 +487,12 @@
   place: Vienna, Austria
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 30, 2020. More info <a href=''https://icml.cc/Conferences/2020/CallForPapers''>here</a>.'
+
+- title: NeurIPS
+  year: 2020
+  id: neurips20
+  link: https://nips.cc/Conferences/2020
+  deadline: TBA
+  date: December 6-12, 2020
+  place: Vancouver Convention Centre, Canada
+  sub: ML
