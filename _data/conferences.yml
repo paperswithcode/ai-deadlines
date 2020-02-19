@@ -492,7 +492,10 @@
   year: 2020
   id: neurips20
   link: https://nips.cc/Conferences/2020
-  deadline: TBA
+  deadline: '2020-05-12 01:00'
+  timezone: PDT
   date: December 6-12, 2020
   place: Vancouver Convention Centre, Canada
   sub: ML
+    note: '<b>NOTE</b>: Mandatory abstract deadline on May 05, 2020.'
+
