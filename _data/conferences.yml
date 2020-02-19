@@ -116,6 +116,18 @@
   place: Punta Cana, Dominican Republic
   sub: NLP
 
+- title: NeurIPS
+  year: 2020
+  id: neurips20
+  link: https://nips.cc/Conferences/2020
+  deadline: '2020-05-12 13:00:00'
+  abstract_deadline: '2020-05-05 13:00:00'
+  timezone: America/Los_Angeles
+  date: December 6-12, 2020
+  place: Vancouver Convention Centre, Canada
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on May 05, 2020.'
+
 - title: ICDM
   year: 2020
   id: icdm20
@@ -487,15 +499,3 @@
   date: August 22-27, 2020
   place: San Diego, California, USA
   sub: DM
-
-- title: NeurIPS
-  year: 2020
-  id: neurips20
-  link: https://nips.cc/Conferences/2020
-  deadline: '2020-05-12 13:00:00'
-  timezone: PDT
-  date: December 6-12, 2020
-  place: Vancouver Convention Centre, Canada
-  sub: ML
-    note: '<b>NOTE</b>: Mandatory abstract deadline on May 05, 2020.'
-
