@@ -96,6 +96,18 @@
   place: Barcelona, Spain
   sub: NLP
 
+- title: ISMIR
+  year: 2020
+  id: ismir20
+  link: https://ismir.github.io/ISMIR2020/
+  deadline: '2020-04-17 23:59:59'
+  abstract_deadline: '2020-04-10 23:59:59'
+  timezone: UTC-12
+  date: October 12-15, 2020
+  place: Montreal, Canada
+  sub: SP
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 10, 2020. More info <a href=''https://ismir.github.io/ISMIR2020/cfp/''>here</a>.'
+
 - title: EMNLP
   year: 2020
   id: emnlp20
@@ -177,16 +189,6 @@
   date: October 27 - November 2, 2019
   place: Seoul, Korea
   sub: CV
-
-- title: ISMIR
-  year: 2019
-  id: ismir19
-  link: http://ismir2019.ewi.tudelft.nl/
-  deadline: '2019-04-05 23:59:59'
-  timezone: UTC-12
-  date: November 4-8, 2019
-  place: Delft, The Netherlands
-  sub: SP
 
 - title: BMVC
   year: 2019
