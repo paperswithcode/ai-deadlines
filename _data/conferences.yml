@@ -108,6 +108,17 @@
   sub: SP
   note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 10, 2020. More info <a href=''https://ismir.github.io/ISMIR2020/cfp/''>here</a>.'
 
+- title: BMVC
+  year: 2020
+  id: bmvc20
+  link: https://britishmachinevisionassociation.github.io/bmvc
+  deadline: '2020-04-30 23:59:59'
+  abstract_deadline: '2020-04-23 23:59:59'
+  timezone: UTC-8
+  date: September 7-11, 2020
+  place: Manchester, UK
+  sub: CV
+
 - title: EMNLP
   year: 2020
   id: emnlp20
