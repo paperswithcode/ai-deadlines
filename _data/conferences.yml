@@ -1,15 +1,5 @@
 ---
 
-- title: IROS
-  year: 2020
-  id: iros20
-  link: http://www.iros2020.org/
-  deadline: '2020-03-01 23:59:59'
-  timezone: America/Los_Angeles
-  date: Oct 24-30, 2020
-  place: Las Vegas, USA
-  sub: RO
-
 - title: ECCV
   year: 2020
   id: eccv20
@@ -161,6 +151,16 @@
   date: December 4-7, 2020
   place: Suzhou, China
   sub: NLP
+
+- title: CoRL
+  year: 2020
+  id: corl20
+  link: http://www.robot-learning.org
+  deadline: '2020-07-07 23:59:59'
+  timezone: UTC-7
+  date: November 14-16, 2020
+  place: Cambridge, USA
+  sub: RO
 
 - title: AES
   year: 2019
@@ -504,12 +504,12 @@
   place: Toronto, Canada
   sub: ML
 
-- title: CoRL
+- title: IROS
   year: 2020
-  id: corl2020
-  link: http://www.robot-learning.org
-  deadline: '2020-07-07 23:59:59'
-  timezone: UTC-7
-  date: November 14-16, 2020
-  place: Cambridge, USA
+  id: iros20
+  link: http://www.iros2020.org/
+  deadline: '2020-03-01 23:59:59'
+  timezone: America/Los_Angeles
+  date: Oct 24-30, 2020
+  place: Las Vegas, USA
   sub: RO
