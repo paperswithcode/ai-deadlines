@@ -232,16 +232,6 @@
   place: Quebec City, Canada
   sub: CV
 
-- title: CoRL
-  year: 2019
-  id: corl2019
-  link: http://www.robot-learning.org
-  deadline: '2019-07-07 23:59:59'
-  timezone: UTC-7
-  date: October 30 - November 1, 2019
-  place: Osaka, Japan
-  sub: RO
-
 - title: WSDM
   year: 2020
   id: wsdm20
