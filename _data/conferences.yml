@@ -152,6 +152,16 @@
   place: Suzhou, China
   sub: NLP
 
+- title: CoRL
+  year: 2020
+  id: corl20
+  link: http://www.robot-learning.org
+  deadline: '2020-07-07 23:59:59'
+  timezone: UTC-7
+  date: November 14-16, 2020
+  place: Cambridge, USA
+  sub: RO
+
 - title: AES
   year: 2019
   id: aes2019
@@ -221,16 +231,6 @@
   date: September 16-19, 2019
   place: Quebec City, Canada
   sub: CV
-
-- title: CoRL
-  year: 2019
-  id: corl2019
-  link: http://www.robot-learning.org
-  deadline: '2019-07-07 23:59:59'
-  timezone: UTC-7
-  date: October 30 - November 1, 2019
-  place: Osaka, Japan
-  sub: RO
 
 - title: WSDM
   year: 2020
