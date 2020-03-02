@@ -513,3 +513,13 @@
   date: August 3-6, 2020
   place: Toronto, Canada
   sub: ML
+
+- title: CoRL
+  year: 2020
+  id: corl2020
+  link: http://www.robot-learning.org
+  deadline: '2020-07-07 23:59:59'
+  timezone: UTC-7
+  date: November 14-16, 2020
+  place: Cambridge, USA
+  sub: RO
