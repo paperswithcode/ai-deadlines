@@ -1,15 +1,5 @@
 ---
 
-- title: ECCV
-  year: 2020
-  id: eccv20
-  link: https://eccv2020.eu
-  deadline: '2020-03-05 23:59:00'
-  timezone: UTC
-  date: August 23-28, 2020
-  place: Glasgow, Scotland, UK
-  sub: CV
-
 - title: ICCC
   year: 2020
   id: iccc20
@@ -513,3 +503,13 @@
   date: Oct 24-30, 2020
   place: Las Vegas, USA
   sub: RO
+
+- title: ECCV
+  year: 2020
+  id: eccv20
+  link: https://eccv2020.eu
+  deadline: '2020-03-05 23:59:00'
+  timezone: UTC
+  date: August 23-28, 2020
+  place: Glasgow, Scotland, UK
+  sub: CV
