@@ -56,16 +56,6 @@
   note: '<b>NOTE</b>: Mandatory abstract submission deadline on Mar 21. More info
     <a href="https://2020.acmmm.org/important-dates.html">here</a>.'
 
-- title: InterSpeech
-  year: 2020
-  id: interspeech20
-  link: http://www.interspeech2020.org/
-  deadline: '2020-03-29 23:59:59'
-  timezone: UTC-12
-  date: September 14-18, 2020
-  place: Shanghai, China
-  sub: SP
-
 - title: COLING
   year: 2020
   id: coling20
@@ -99,6 +89,16 @@
   place: Manchester, UK
   sub: CV
   note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 23, 2020. More info <a href=''https://britishmachinevisionassociation.github.io/bmvc''>here</a>.'
+
+- title: InterSpeech
+  year: 2020
+  id: interspeech20
+  link: http://www.interspeech2020.org/
+  deadline: '2020-05-08 23:59:59'
+  timezone: UTC-12
+  date: October 25-29, 2020
+  place: Shanghai, China
+  sub: SP
 
 - title: EMNLP
   year: 2020
