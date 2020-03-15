@@ -37,14 +37,14 @@
   year: 2020
   id: mm20
   link: https://2020.acmmm.org/
-  deadline: '2020-03-28 23:59:00'
+  deadline: '2020-04-25 23:59:00'
   abstract_deadline: '2020-03-21 23:59:00'
   timezone: UTC-12
   date: October 12-16, 2020
   place: Seattle, USA
   sub: CV
-  note: '<b>NOTE</b>: Mandatory abstract submission deadline on Mar 21. More info
-    <a href="https://2020.acmmm.org/important-dates.html">here</a>.'
+  note: '<b>NOTE</b>: Mandatory abstract submission deadline on Apr 25. More info
+    <a href="https://2020.acmmm.org/important-dates.html">here</a>. '
 
 - title: COLING
   year: 2020
