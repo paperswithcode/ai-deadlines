@@ -33,19 +33,6 @@
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Mar 19, 2020. More info <a href=''https://ecmlpkdd2020.net/submissions/deadlines/''>here</a>.'
 
-- title: MM
-  year: 2020
-  id: mm20
-  link: https://2020.acmmm.org/
-  deadline: '2020-04-25 23:59:00'
-  abstract_deadline: '2020-03-21 23:59:00'
-  timezone: UTC-12
-  date: October 12-16, 2020
-  place: Seattle, USA
-  sub: CV
-  note: '<b>NOTE</b>: Mandatory abstract submission deadline on Apr 25. More info
-    <a href="https://2020.acmmm.org/important-dates.html">here</a>. '
-
 - title: COLING
   year: 2020
   id: coling20
@@ -67,6 +54,16 @@
   place: Montreal, Canada
   sub: SP
   note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 10, 2020. More info <a href=''https://ismir.github.io/ISMIR2020/cfp/''>here</a>.'
+
+- title: MM
+  year: 2020
+  id: mm20
+  link: https://2020.acmmm.org/
+  deadline: '2020-04-25 23:59:00'
+  timezone: UTC-12
+  date: October 12-16, 2020
+  place: Seattle, USA
+  sub: CV
 
 - title: BMVC
   year: 2020
