@@ -150,14 +150,14 @@
   date: November 14-16, 2020
   place: Cambridge, USA
   sub: RO
-  
+
 - title: 3DV
   year: 2020
-  id: 3dv2020
+  id: threedv20
   link: http://3dv2020.dgcv.nii.ac.jp/index.html
   deadline: '2020-07-31 23:59:59'
-  timezone: UTC-7
-  date: November 25-27, 2020
+  timezone: America/Los_Angeles
+  date: November 25-28, 2020
   place: Fukuoka, Japan
   sub: CV
 
@@ -220,16 +220,6 @@
   date: November 3-4, 2019
   place: Hong Kong
   sub: NLP
-
-- title: 3DV
-  year: 2019
-  id: threedv19
-  link: http://3dv19.gel.ulaval.ca/
-  deadline: '2019-06-10 23:59:59'
-  timezone: America/New_York
-  date: September 16-19, 2019
-  place: Quebec City, Canada
-  sub: CV
 
 - title: WSDM
   year: 2020
