@@ -1,15 +1,5 @@
 ---
 
-- title: ICPR
-  year: 2020
-  id: icpr20
-  link: https://www.micc.unifi.it/icpr2020
-  deadline: '2020-03-18 23:59:59'
-  timezone: UTC+1
-  date: Sep 13-18, 2020
-  place: Milan, Italy
-  sub: CV
-
 - title: ECML-PKDD
   year: 2020
   id: ecmlpkdd2020
@@ -77,6 +67,18 @@
   place: Galway, Ireland
   sub: DM
   note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 24, 2020. More info <a href=''https://cikm2020.org/call-for-papers-full-and-short-research-papers/''>here</a>.'
+
+- title: RecSys
+  year: 2020
+  id: recsys20
+  link: https://recsys.acm.org/recsys20/
+  deadline: '2020-05-04 23:59:59'
+  abstract_deadline: '2020-04-27 23:59:59'
+  timezone: UTC-12
+  date: September 22-26, 2020
+  place: Rio de Janeiro, Brazil
+  sub: DM
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 27, 2020. More info <a href=''https://recsys.acm.org/recsys20/dates/''>here</a>.'
 
 - title: InterSpeech
   year: 2020
@@ -523,15 +525,12 @@
   sub: CV
   note: '<b>NOTE</b>: Intent to submit deadline on Mar 03, 2020. More info <a href=''https://www.miccai2020.org/''>here</a>.'
 
-
-- title: RecSys
+- title: ICPR
   year: 2020
-  id: recsys20
-  link: https://recsys.acm.org/recsys20/
-  deadline: '2020-05-04 23:59:59'
-  abstract_deadline: '2020-04-27 23:59:59'
-  timezone: UTC-12
-  date: September 22-26, 2020
-  place: Rio de Janeiro, Brazil
-  sub: DM
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Apr. 27, 2020. More info <a href=''https://recsys.acm.org/recsys20/dates/''>here</a>.'
+  id: icpr20
+  link: https://www.micc.unifi.it/icpr2020
+  deadline: '2020-03-18 23:59:59'
+  timezone: UTC+1
+  date: Sep 13-18, 2020
+  place: Milan, Italy
+  sub: CV
