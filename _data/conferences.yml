@@ -1,15 +1,5 @@
 ---
 
-- title: ICPR
-  year: 2020
-  id: icpr20
-  link: https://www.micc.unifi.it/icpr2020
-  deadline: '2020-03-18 23:59:59'
-  timezone: UTC+1
-  date: Sep 13-18, 2020
-  place: Milan, Italy
-  sub: CV
-
 - title: ECML-PKDD
   year: 2020
   id: ecmlpkdd2020
@@ -522,3 +512,13 @@
   place: Lima, Peru
   sub: CV
   note: '<b>NOTE</b>: Intent to submit deadline on Mar 03, 2020. More info <a href=''https://www.miccai2020.org/''>here</a>.'
+
+- title: ICPR
+  year: 2020
+  id: icpr20
+  link: https://www.micc.unifi.it/icpr2020
+  deadline: '2020-03-18 23:59:59'
+  timezone: UTC+1
+  date: Sep 13-18, 2020
+  place: Milan, Italy
+  sub: CV
