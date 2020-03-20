@@ -522,3 +522,16 @@
   place: Lima, Peru
   sub: CV
   note: '<b>NOTE</b>: Intent to submit deadline on Mar 03, 2020. More info <a href=''https://www.miccai2020.org/''>here</a>.'
+
+
+- title: RecSys
+  year: 2020
+  id: recsys20
+  link: https://recsys.acm.org/recsys20/
+  deadline: '2020-05-04 23:59:59'
+  abstract_deadline: '2020-04-27 23:59:59'
+  timezone: UTC-12
+  date: September 22-26, 2020
+  place: Rio de Janeiro, Brazil
+  sub: DM
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Apr. 27, 2020. More info <a href=''https://recsys.acm.org/recsys20/dates/''>here</a>.'
