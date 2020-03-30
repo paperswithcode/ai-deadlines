@@ -1,15 +1,5 @@
 ---
 
-- title: COLING
-  year: 2020
-  id: coling20
-  link: https://coling2020.org/
-  deadline: '2020-07-01 23:59:59'
-  timezone: UTC-12
-  date: December 8-13, 2020
-  place: Barcelona, Spain
-  sub: NLP
-
 - title: ISMIR
   year: 2020
   id: ismir20
@@ -118,6 +108,16 @@
   timezone: UTC-12
   date: December 4-7, 2020
   place: Suzhou, China
+  sub: NLP
+
+- title: COLING
+  year: 2020
+  id: coling20
+  link: https://coling2020.org/
+  deadline: '2020-07-01 23:59:59'
+  timezone: UTC-12
+  date: December 8-13, 2020
+  place: Barcelona, Spain
   sub: NLP
 
 - title: CoRL
