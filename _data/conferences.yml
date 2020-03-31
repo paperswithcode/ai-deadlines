@@ -191,19 +191,19 @@
   sub: CV
 
 - title: CoNLL
-  year: 2019
-  id: conll2019
-  link: http://www.conll.org/2019
-  deadline: '2019-05-31 23:59:59'
+  year: 2020
+  id: conll2020
+  link: http://www.conll.org
+  deadline: '2020-06-05 23:59:59'
   timezone: UTC-12
-  date: November 3-4, 2019
-  place: Hong Kong
+  date: November 11-12, 2020
+  place: Punta Cana, Dominican Republic
   sub: NLP
 
 - title: WSDM
   year: 2020
   id: wsdm20
-  link: http://www.wsdm-conference.org/2020/
+  link: https://www.wsdm-conference.org/2020/
   deadline: '2019-08-16 23:59:59'
   timezone: UTC-11
   date: February 3-7, 2020
