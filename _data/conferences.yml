@@ -100,6 +100,16 @@
   place: Sorrento, Italy
   sub: DM
 
+- title: CoNLL
+  year: 2020
+  id: conll2020
+  link: http://www.conll.org/2020
+  deadline: '2020-06-05 23:59:59'
+  timezone: UTC-12
+  date: November 11-12, 2020
+  place: Punta Cana, Dominican Republic
+  sub: NLP
+
 - title: AACL-IJCNLP
   year: 2020
   id: aacl20
@@ -189,16 +199,6 @@
   date: September 9-12, 2019
   place: Cardiff, Wales, UK
   sub: CV
-
-- title: CoNLL
-  year: 2020
-  id: conll2020
-  link: http://www.conll.org
-  deadline: '2020-06-05 23:59:59'
-  timezone: UTC-12
-  date: November 11-12, 2020
-  place: Punta Cana, Dominican Republic
-  sub: NLP
 
 - title: WSDM
   year: 2020
