@@ -1,17 +1,5 @@
 ---
 
-- title: ECML-PKDD
-  year: 2020
-  id: ecmlpkdd2020
-  link: https://ecmlpkdd2020.net/
-  deadline: '2020-04-02 23:59:59'
-  abstract_deadline: '2020-03-19 23:59:59'
-  timezone: UTC-12
-  date: September 14-18, 2020
-  place: Ghent, Belgium
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Mar 19, 2020. More info <a href=''https://ecmlpkdd2020.net/submissions/deadlines/''>here</a>.'
-
 - title: ISMIR
   year: 2020
   id: ismir20
@@ -534,3 +522,15 @@
   date: Sep 13-18, 2020
   place: Milan, Italy
   sub: CV
+
+- title: ECML-PKDD
+  year: 2020
+  id: ecmlpkdd2020
+  link: https://ecmlpkdd2020.net/
+  deadline: '2020-04-02 23:59:59'
+  abstract_deadline: '2020-03-19 23:59:59'
+  timezone: UTC-12
+  date: September 14-18, 2020
+  place: Ghent, Belgium
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Mar 19, 2020. More info <a href=''https://ecmlpkdd2020.net/submissions/deadlines/''>here</a>.'
