@@ -87,7 +87,7 @@
   deadline: '2020-06-01 23:59:00'
   timezone: UTC-12
   date: November 16-20, 2020
-  place: online
+  place: Online
   sub: NLP
 
 - title: ICDM
@@ -247,7 +247,7 @@
   deadline: '2019-09-25 17:59:59'
   timezone: Africa/Nairobi
   date: April 30, 2020
-  place: online
+  place: Online
   sub: ML
 
 - title: HRI
@@ -448,7 +448,7 @@
   abstract_deadline: '2020-01-30 23:59:00'
   timezone: UTC-12
   date: July 12-18, 2020
-  place: online
+  place: Online
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 30, 2020. More info <a href=''https://icml.cc/Conferences/2020/CallForPapers''>here</a>.'
 
