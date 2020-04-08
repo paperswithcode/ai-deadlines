@@ -68,16 +68,6 @@
   place: Shanghai, China
   sub: SP
 
-- title: EMNLP
-  year: 2020
-  id: emnlp20
-  link: https://2020.emnlp.org/
-  deadline: '2020-05-11 23:59:00'
-  timezone: UTC-12
-  date: November 8-10, 2020
-  place: Punta Cana, Dominican Republic
-  sub: NLP
-
 - title: NeurIPS
   year: 2020
   id: neurips20
@@ -89,6 +79,16 @@
   place: Vancouver Convention Centre, Canada
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 05, 2020.'
+
+- title: EMNLP
+  year: 2020
+  id: emnlp20
+  link: https://2020.emnlp.org/
+  deadline: '2020-06-01 23:59:00'
+  timezone: UTC-12
+  date: November 16-20, 2020
+  place: online
+  sub: NLP
 
 - title: ICDM
   year: 2020
