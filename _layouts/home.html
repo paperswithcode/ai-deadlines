@@ -83,7 +83,11 @@
               <div class="meta">
                 <span class="conf-date">{{conf.date}}.</span>
                 <span class="conf-place">
+                  {% if conf.place == "online" %}
+                  <a nohref>{{conf.place}}</a>
+                  {% else %}
                   <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
+                  {% endif %}
                 </span>
               </div>
               {% if conf.note %}
