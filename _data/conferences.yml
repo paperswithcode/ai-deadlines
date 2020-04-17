@@ -104,10 +104,10 @@
   year: 2020
   id: conll2020
   link: http://www.conll.org/2020
-  deadline: '2020-06-05 23:59:59'
+  deadline: '2020-07-17 23:59:59'
   timezone: UTC-12
-  date: November 11-12, 2020
-  place: Punta Cana, Dominican Republic
+  date: November 19-20, 2020
+  place: Online
   sub: NLP
 
 - title: AACL-IJCNLP
