@@ -1,5 +1,17 @@
 ---
 
+- title: AIME
+  year: 2020
+  id: aime2020
+  link: http://aime20.aimedicine.info/
+  deadline: '2020-05-01 23:59:59'
+  abstract_deadline: '2020-04-17 23:59:59'
+  timezone: UTC-12
+  date: August 26-29, 2020
+  place: Minneapolis MN, USA
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 17, 2020. More info <a href=''http://aime20.aimedicine.info/''>here</a>.'
+
 - title: ISMIR
   year: 2020
   id: ismir20
