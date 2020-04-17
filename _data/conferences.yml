@@ -68,18 +68,6 @@
   place: Shanghai, China
   sub: SP
 
-- title: NeurIPS
-  year: 2020
-  id: neurips20
-  link: https://nips.cc/Conferences/2020
-  deadline: '2020-06-03 13:00:00'
-  abstract_deadline: '2020-05-27 13:00:00'
-  timezone: America/Los_Angeles
-  date: December 6-12, 2020
-  place: Vancouver Convention Centre, Canada
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on May 27, 2020, Paper submission deadline June 3, 2020'
-
 - title: EMNLP
   year: 2020
   id: emnlp20
@@ -99,6 +87,19 @@
   date: November 17-20, 2020
   place: Sorrento, Italy
   sub: DM
+
+- title: NeurIPS
+  year: 2020
+  id: neurips20
+  link: https://nips.cc/Conferences/2020
+  deadline: '2020-06-03 13:00:00'
+  abstract_deadline: '2020-05-27 13:00:00'
+  timezone: America/Los_Angeles
+  date: December 6-12, 2020
+  place: Vancouver Convention Centre, Canada
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on May 27, 2020, Paper submission
+    deadline June 3, 2020'
 
 - title: AACL-IJCNLP
   year: 2020
