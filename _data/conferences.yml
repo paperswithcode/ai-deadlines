@@ -1,15 +1,5 @@
 ---
 
-- title: MM
-  year: 2020
-  id: mm20
-  link: https://2020.acmmm.org/
-  deadline: '2020-05-24 23:59:00'
-  timezone: UTC-12
-  date: October 12-16, 2020
-  place: Seattle, USA
-  sub: CV
-
 - title: BMVC
   year: 2020
   id: bmvc20
@@ -55,6 +45,16 @@
   date: October 25-29, 2020
   place: Shanghai, China
   sub: SP
+
+- title: MM
+  year: 2020
+  id: mm20
+  link: https://2020.acmmm.org/
+  deadline: '2020-05-24 23:59:00'
+  timezone: UTC-12
+  date: October 12-16, 2020
+  place: Seattle, USA
+  sub: CV
 
 - title: EMNLP
   year: 2020
