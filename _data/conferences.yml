@@ -137,6 +137,16 @@
   date: November 25-28, 2020
   place: Fukuoka, Japan
   sub: CV
+  
+  - title: Ai4 2020
+  year: 2020
+  id: ai42020
+  link: https://ai4.io
+  deadline: '2020-06-31 23:59:59'
+  timezone: America/Los_Angeles
+  date: September 1-2, 2020
+  place: Las Vegas, Nevada
+  sub: ML
 
 - title: AES
   year: 2019
