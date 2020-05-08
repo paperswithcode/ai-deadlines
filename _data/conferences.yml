@@ -1,16 +1,5 @@
 ---
 
-- title: WACV
-  year: 2021
-  id: wacv21
-  link: http://wacv2021.thecvf.com/home
-  deadline: '2020-06-12 23:59:59'
-  timezone: America/Los_Angeles
-  date: January 5-9, 2021
-  place: Waikoloa, Hawaii, USA
-  sub: CV
-  note: '<b>NOTE</b>: First round submission deadline.'
-
 - title: InterSpeech
   year: 2020
   id: interspeech20
@@ -74,6 +63,17 @@
   place: Vancouver Convention Centre, Canada
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 27, 2020'
+
+- title: WACV
+  year: 2021
+  id: wacv21
+  link: http://wacv2021.thecvf.com/home
+  deadline: '2020-06-12 23:59:59'
+  timezone: America/Los_Angeles
+  date: January 5-9, 2021
+  place: Waikoloa, Hawaii, USA
+  sub: CV
+  note: '<b>NOTE</b>: First round submission deadline.'
 
 - title: AACL-IJCNLP
   year: 2020
