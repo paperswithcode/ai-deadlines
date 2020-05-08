@@ -94,6 +94,16 @@
   place: Cambridge, USA
   sub: RO
 
+- title: ICPR
+  year: 2020
+  id: icpr20
+  link: https://www.micc.unifi.it/icpr2020/
+  deadline: '2020-07-10 23:59:00'
+  timezone: UTC+1
+  date: January 10-15, 2021
+  place: Milan, Italy
+  sub: ML
+
 - title: CoNLL
   year: 2020
   id: conll2020
@@ -476,16 +486,6 @@
   place: Lima, Peru
   sub: CV
   note: '<b>NOTE</b>: Intent to submit deadline on Mar 03, 2020. More info <a href=''https://www.miccai2020.org/''>here</a>.'
-
-- title: ICPR
-  year: 2020
-  id: icpr20
-  link: https://www.micc.unifi.it/icpr2020/
-  deadline: '2020-07-10 23:59:00'
-  timezone: UTC+1
-  date: January 10-15, 2021
-  place: Milan, Italy
-  sub: ML
 
 - title: ECML-PKDD
   year: 2020
