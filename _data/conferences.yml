@@ -1,15 +1,5 @@
 ---
 
-- title: InterSpeech
-  year: 2020
-  id: interspeech20
-  link: http://www.interspeech2020.org/
-  deadline: '2020-05-08 23:59:59'
-  timezone: UTC-12
-  date: October 25-29, 2020
-  place: Shanghai, China
-  sub: SP
-
 - title: MM
   year: 2020
   id: mm20
@@ -545,3 +535,13 @@
   place: Galway, Ireland
   sub: DM
   note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 24, 2020. More info <a href=''https://cikm2020.org/call-for-papers-full-and-short-research-papers/''>here</a>.'
+
+- title: InterSpeech
+  year: 2020
+  id: interspeech20
+  link: http://www.interspeech2020.org/
+  deadline: '2020-05-08 23:59:59'
+  timezone: UTC-12
+  date: October 25-29, 2020
+  place: Shanghai, China
+  sub: SP
