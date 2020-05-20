@@ -1,6 +1,7 @@
 ---
 
 - title: MM
+  hindex: 58
   year: 2020
   id: mm20
   link: https://2020.acmmm.org/
@@ -11,6 +12,7 @@
   sub: CV
 
 - title: EMNLP
+  hindex: 88
   year: 2020
   id: emnlp20
   link: https://2020.emnlp.org/
@@ -21,6 +23,7 @@
   sub: NLP
 
 - title: RecSys
+  hindex: 45
   year: 2020
   id: recsys20
   link: https://recsys.acm.org/recsys20/
@@ -33,6 +36,7 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 25, 2020. More info <a href=''https://recsys.acm.org/recsys20/dates/''>here</a>.'
 
 - title: ICDM
+  hindex: 44
   year: 2020
   id: icdm20
   link: http://icdm2020.bigke.org/
@@ -43,6 +47,7 @@
   sub: DM
 
 - title: NeurIPS
+  hindex: 169
   year: 2020
   id: neurips20
   link: https://nips.cc/Conferences/2020
@@ -55,6 +60,7 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 27, 2020'
 
 - title: WACV
+  hindex: 46
   year: 2021
   id: wacv21
   link: http://wacv2021.thecvf.com/home
@@ -66,6 +72,7 @@
   note: '<b>NOTE</b>: First round submission deadline.'
 
 - title: AACL-IJCNLP
+  hindex: -1
   year: 2020
   id: aacl20
   link: http://aacl2020.org
@@ -76,6 +83,7 @@
   sub: NLP
 
 - title: COLING
+  hindex: 41
   year: 2020
   id: coling20
   link: https://coling2020.org/
@@ -86,6 +94,7 @@
   sub: NLP
 
 - title: CoRL
+  hindex: 20
   year: 2020
   id: corl20
   link: http://www.robot-learning.org
@@ -96,6 +105,7 @@
   sub: RO
 
 - title: ICPR
+  hindex: 38
   year: 2020
   id: icpr20
   link: https://www.micc.unifi.it/icpr2020/
@@ -106,6 +116,7 @@
   sub: ML
 
 - title: CoNLL
+  hindex: 34
   year: 2020
   id: conll2020
   link: http://www.conll.org/2020
@@ -116,6 +127,7 @@
   sub: NLP
 
 - title: 3DV
+  hindex: 29
   year: 2020
   id: threedv20
   link: http://3dv2020.dgcv.nii.ac.jp/index.html
@@ -126,6 +138,7 @@
   sub: CV
 
 - title: AES
+  hindex: 19
   year: 2019
   id: aes2019
   link: http://www.aes.org/conferences/2019/immersive/
@@ -136,6 +149,7 @@
   sub: SP
 
 - title: NAACL
+  hindex: 61
   year: 2019
   id: naacl19
   link: http://naacl2019.org/
@@ -146,6 +160,7 @@
   sub: NLP
 
 - title: GECCO
+  hindex: 36
   year: 2019
   id: gecco19
   link: https://gecco-2019.sigevo.org/index.html/tiki-index.php
@@ -156,6 +171,7 @@
   sub: ML
 
 - title: ICCV
+  hindex: 129
   year: 2019
   id: iccv19
   link: http://iccv2019.thecvf.com/
@@ -166,6 +182,7 @@
   sub: CV
 
 - title: BMVC
+  hindex: 46
   year: 2019
   id: bmvc19
   link: https://bmvc2019.org
@@ -176,6 +193,7 @@
   sub: CV
 
 - title: WSDM
+  hindex: 51
   year: 2020
   id: wsdm20
   link: http://www.wsdm-conference.org/2020/
@@ -186,6 +204,7 @@
   sub: DM
 
 - title: AAAI
+  hindex: 95
   year: 2020
   id: aaai20
   link: https://aaai.org/Conferences/AAAI-20/
@@ -196,6 +215,7 @@
   sub: ML
 
 - title: ICRA
+  hindex: 82
   year: 2020
   id: icra20
   link: https://icra2020.org/
@@ -206,6 +226,7 @@
   sub: RO
 
 - title: ALT
+  hindex: 15
   year: 2020
   id: alt20
   link: http://alt2020.algorithmiclearningtheory.org/
@@ -216,6 +237,7 @@
   sub: ML
 
 - title: ICLR
+  hindex: 150
   year: 2020
   id: iclr20
   link: http://iclr.cc/
@@ -226,6 +248,7 @@
   sub: ML
 
 - title: HRI
+  hindex: 40
   year: 2020
   id: hri20
   link: https://humanrobotinteraction.org/2020/
@@ -236,6 +259,7 @@
   sub: RO
 
 - title: AISTATS
+  hindex: 52
   year: 2020
   id: aistats20
   link: https://www.aistats.org/
@@ -246,6 +270,7 @@
   sub: ML
 
 - title: WACV
+  hindex: 46
   year: 2020
   id: wacv20
   link: http://wacv20.wacv.net/
@@ -257,6 +282,7 @@
   note: '<b>NOTE</b>: Second round submission deadline.'
 
 - title: ICASSP
+  hindex: 80
   year: 2020
   id: icassp20
   link: https://2020.ieeeicassp.org/
@@ -267,6 +293,7 @@
   sub: SP
 
 - title: CVPR
+  hindex: 240
   year: 2020
   id: cvpr20
   link: http://cvpr2020.thecvf.com/
@@ -277,6 +304,7 @@
   sub: CV
 
 - title: AAMAS
+  hindex: 25
   year: 2020
   id: aamas20
   link: https://aamas2020.conference.auckland.ac.nz/
@@ -289,6 +317,7 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 12, 2019. More info <a href=''https://aamas2020.conference.auckland.ac.nz/call-for-papers/''>here</a>.'
 
 - title: ECAI
+  hindex: 26
   year: 2020
   id: ecai20
   link: http://ecai2020.eu/
@@ -301,6 +330,7 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 15, 2019. More info <a href=''http://ecai2020.eu/call-for-papers/mainconference/''>here</a>.'
 
 - title: ICAPS
+  hindex: 28
   year: 2020
   id: icaps20
   link: https://icaps20.icaps-conference.org/
@@ -313,6 +343,7 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 15, 2019. More info <a href=''https://icaps20.icaps-conference.org/''>here</a>.'
 
 - title: LREC
+  hindex: 45
   year: 2020
   id: lrec20
   link: https://lrec2020.lrec-conf.org/en/
@@ -323,6 +354,7 @@
   sub: NLP
 
 - title: ACL
+  hindex: 26
   year: 2020
   id: acl20
   link: https://acl2020.org/
@@ -333,6 +365,7 @@
   sub: NLP
 
 - title: ICMR
+  hindex: 33
   year: 2020
   id: icmr20
   link: http://icmr2020.org/
@@ -343,6 +376,7 @@
   sub: CV
 
 - title: CHIL
+  hindex: -1
   year: 2020
   id: chil20
   link: http://www.chilconference.org/
@@ -353,6 +387,7 @@
   sub: ML
 
 - title: IJCAI-PRICAI
+  hindex: 67
   year: 2020
   id: ijcai-pricai20
   link: https://www.ijcai20.org/
@@ -365,6 +400,7 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 15, 2020. More info <a href=''https://www.ijcai19.org/''>here</a>.'
 
 - title: SIGGRAPH
+  hindex: 20
   year: 2020
   id: siggraph20
   link: https://s2020.siggraph.org/
@@ -375,6 +411,7 @@
   sub: CV
 
 - title: SIGIR
+  hindex: 55
   year: 2020
   id: sigir20
   link: http://sigir.org/sigir2020/
@@ -386,6 +423,7 @@
   sub: DM
 
 - title: MIDL
+  hindex: -1
   year: 2020
   id: midl2020
   link: https://2020.midl.io/
@@ -396,6 +434,7 @@
   sub: CV
 
 - title: COLT
+  hindex: 48
   year: 2020
   id: colt20
   link: http://www.learningtheory.org/colt2020/
@@ -406,6 +445,7 @@
   sub: ML
 
 - title: RSS
+  hindex: 47
   year: 2020
   id: rss20
   link: https://roboticsconference.org/
@@ -416,6 +456,7 @@
   sub: RO
 
 - title: ICML
+  hindex: 135
   year: 2020
   id: icml20
   link: https://icml.cc/Conferences/2020
@@ -428,6 +469,7 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 30, 2020. More info <a href=''https://icml.cc/Conferences/2020/CallForPapers''>here</a>.'
 
 - title: KDD
+  hindex: 30
   year: 2020
   id: kdd20
   link: https://www.kdd.org/kdd2020/
@@ -438,6 +480,7 @@
   sub: DM
 
 - title: UAI
+  hindex: 33
   year: 2020
   id: uai20
   link: http://auai.org/uai2020/
@@ -448,6 +491,7 @@
   sub: ML
 
 - title: IROS
+  hindex: 58
   year: 2020
   id: iros20
   link: http://www.iros2020.org/
@@ -458,6 +502,7 @@
   sub: RO
 
 - title: ECCV
+  hindex: 135
   year: 2020
   id: eccv20
   link: https://eccv2020.eu
@@ -468,6 +513,7 @@
   sub: CV
 
 - title: ICCC
+  hindex: 22
   year: 2020
   id: iccc20
   link: http://computationalcreativity.net/iccc20/
@@ -478,6 +524,7 @@
   sub: ML
 
 - title: MICCAI
+  hindex: 46
   year: 2020
   id: miccai2020
   link: http://www.miccai2020.org/
@@ -489,6 +536,7 @@
   note: '<b>NOTE</b>: Intent to submit deadline on Mar 03, 2020. More info <a href=''https://www.miccai2020.org/''>here</a>.'
 
 - title: ECML-PKDD
+  hindex: 30
   year: 2020
   id: ecmlpkdd2020
   link: https://ecmlpkdd2020.net/
@@ -501,6 +549,7 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on Mar 19, 2020. More info <a href=''https://ecmlpkdd2020.net/submissions/deadlines/''>here</a>.'
 
 - title: ISMIR
+  hindex: 32
   year: 2020
   id: ismir20
   link: https://ismir.github.io/ISMIR2020/
@@ -513,6 +562,7 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 10, 2020. More info <a href=''https://ismir.github.io/ISMIR2020/cfp/''>here</a>.'
 
 - title: BMVC
+  hindex: 46
   year: 2020
   id: bmvc20
   link: https://britishmachinevisionassociation.github.io/bmvc
@@ -525,6 +575,7 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 23, 2020. More info <a href=''https://britishmachinevisionassociation.github.io/bmvc''>here</a>.'
 
 - title: CIKM
+  hindex: 48
   year: 2020
   id: cikm20
   link: https://cikm2020.org/
@@ -537,6 +588,7 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 24, 2020. More info <a href=''https://cikm2020.org/call-for-papers-full-and-short-research-papers/''>here</a>.'
 
 - title: InterSpeech
+  hindex: 65
   year: 2020
   id: interspeech20
   link: http://www.interspeech2020.org/
