@@ -1,5 +1,37 @@
 ---
 
+- title: WMT
+  hindex: 27 
+  year: 2020
+  id: wmt20
+  link: http://www.statmt.org/wmt20/
+  deadline: '2020-08-15 23:59:00'
+  timezone: UTC-12
+  date: November 19-20, 2020
+  place: Online
+  sub: NLP
+
+- title: INLG
+  year: 2020
+  id: inlg20
+  link: https://www.inlg2020.org/
+  deadline: '2020-08-15 23:59:00'
+  timezone: UTC-12
+  date: December 15-18, 2020
+  place: Dublin, Ireland
+  sub: NLP
+  
+- title: EACL
+  hindex: 36
+  year: 2021
+  id: eacl21
+  link: https://2021.eacl.org/
+  deadline: '2020-09-20 23:59:00'
+  timezone: UTC-12
+  date: April 21-23, 2021
+  place: Kyiv, Ukraine
+  sub: NLP
+
 - title: MM
   hindex: 58
   year: 2020
