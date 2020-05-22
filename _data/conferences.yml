@@ -35,17 +35,6 @@
   sub: DM
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 25, 2020. More info <a href=''https://recsys.acm.org/recsys20/dates/''>here</a>.'
 
-- title: ICDM
-  hindex: 44
-  year: 2020
-  id: icdm20
-  link: http://icdm2020.bigke.org/
-  deadline: '2020-06-11 23:59:59'
-  timezone: UTC-7
-  date: November 17-20, 2020
-  place: Sorrento, Italy
-  sub: DM
-
 - title: NeurIPS
   hindex: 169
   year: 2020
@@ -58,6 +47,17 @@
   place: Vancouver Convention Centre, Canada
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 27, 2020'
+
+- title: ICDM
+  hindex: 44
+  year: 2020
+  id: icdm20
+  link: http://icdm2020.bigke.org/
+  deadline: '2020-06-11 23:59:59'
+  timezone: UTC-7
+  date: November 17-20, 2020
+  place: Sorrento, Italy
+  sub: DM
 
 - title: WACV
   hindex: 46
