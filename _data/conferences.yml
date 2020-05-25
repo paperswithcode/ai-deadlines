@@ -1,16 +1,5 @@
 ---
 
-- title: MM
-  hindex: 58
-  year: 2020
-  id: mm20
-  link: https://2020.acmmm.org/
-  deadline: '2020-05-24 23:59:00'
-  timezone: UTC-12
-  date: October 12-16, 2020
-  place: Seattle, USA
-  sub: CV
-
 - title: EMNLP
   hindex: 88
   year: 2020
@@ -619,3 +608,14 @@
   date: October 25-29, 2020
   place: Shanghai, China
   sub: SP
+
+- title: MM
+  hindex: 58
+  year: 2020
+  id: mm20
+  link: https://2020.acmmm.org/
+  deadline: '2020-05-24 23:59:00'
+  timezone: UTC-12
+  date: October 12-16, 2020
+  place: Seattle, USA
+  sub: CV
