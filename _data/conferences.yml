@@ -92,6 +92,17 @@
   date: December 8-13, 2020
   place: Barcelona, Spain
   sub: NLP
+  
+- title: APSIPA-ASC
+  hindex: -1
+  year: 2020
+  id: apsipa20
+  link: http://www.apsipa2020.org/
+  deadline: '2020-07-01 23:59:00'
+  timezone: UTC+12
+  date: December 7-10, 2020
+  place: Auckland, New Zealand
+  sub: SP
 
 - title: CoRL
   hindex: 20
@@ -136,6 +147,17 @@
   date: November 25-28, 2020
   place: Fukuoka, Japan
   sub: CV
+
+- title: SLT
+  hindex: 26
+  year: 2020
+  id: slt20
+  link: http://slt2020.org/
+  deadline: '2020-08-14 23:59:00'
+  timezone: UTC-12
+  date: January 19-22, 2021
+  place: Shenzhen, China
+  sub: SP
 
 - title: WMT
   hindex: 27
