@@ -83,7 +83,11 @@
               <div class="meta">
                 <span class="conf-date">{{conf.date}}.</span>
                 <span class="conf-place">
+                  {% if conf.place == "Online" %}
+                  <a href="#">{{conf.place}}</a>.
+                  {% else %}
                   <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
+                  {% endif %}
                 </span>
               </div>
               {% if conf.note %}
@@ -113,7 +117,7 @@
           <div class="row">
             <div class="col-xs-12 col-sm-6">
               <a href="/">{{ site.domain }}</a> is maintained by <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.<br>
-              If you find it useful, consider <a title="_blank" href="https://www.buymeacoffee.com/abhshkdz">buying him a coffee</a>.
+              If you find it useful, consider buying him <a target="_blank" href="https://read.gift/u/abhshkdz">a book</a> or <a title="_blank" href="https://www.buymeacoffee.com/abhshkdz">coffee</a>.
             </div>
           </div>
         </footer>
