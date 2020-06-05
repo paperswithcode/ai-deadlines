@@ -192,13 +192,13 @@
 
 - title: WSDM
   hindex: 51
-  year: 2020
-  id: wsdm20
-  link: http://www.wsdm-conference.org/2020/
-  deadline: '2019-08-16 23:59:59'
+  year: 2021
+  id: wsdm21
+  link: http://www.wsdm-conference.org/2021/
+  deadline: '2020-08-16 23:59:59'
   timezone: UTC-11
-  date: February 3-7, 2020
-  place: Houston, Texas, USA
+  date: March 8-12, 2021
+  place: Jerusalem, Israel
   sub: DM
 
 - title: AAAI
