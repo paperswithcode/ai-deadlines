@@ -1,16 +1,5 @@
 ---
 
-- title: EMNLP
-  hindex: 88
-  year: 2020
-  id: emnlp20
-  link: https://2020.emnlp.org/
-  deadline: '2020-06-03 23:59:00'
-  timezone: UTC-12
-  date: November 16-20, 2020
-  place: Online
-  sub: NLP
-
 - title: NeurIPS
   hindex: 169
   year: 2020
@@ -124,6 +113,17 @@
   place: Online
   sub: NLP
 
+- title: WSDM
+  hindex: 51
+  year: 2021
+  id: wsdm21
+  link: http://www.wsdm-conference.org/2021/
+  deadline: '2020-08-16 23:59:59'
+  timezone: UTC-11
+  date: March 8-12, 2021
+  place: Jerusalem, Israel
+  sub: DM
+
 - title: EACL
   hindex: 36
   year: 2021
@@ -189,17 +189,6 @@
   date: September 9-12, 2019
   place: Cardiff, Wales, UK
   sub: CV
-
-- title: WSDM
-  hindex: 51
-  year: 2021
-  id: wsdm21
-  link: http://www.wsdm-conference.org/2021/
-  deadline: '2020-08-16 23:59:59'
-  timezone: UTC-11
-  date: March 8-12, 2021
-  place: Jerusalem, Israel
-  sub: DM
 
 - title: AAAI
   hindex: 95
@@ -619,3 +608,14 @@
   place: Online
   sub: DM
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 25, 2020. More info <a href=''https://recsys.acm.org/recsys20/dates/''>here</a>.'
+
+- title: EMNLP
+  hindex: 88
+  year: 2020
+  id: emnlp20
+  link: https://2020.emnlp.org/
+  deadline: '2020-06-03 23:59:00'
+  timezone: UTC-12
+  date: November 16-20, 2020
+  place: Online
+  sub: NLP
