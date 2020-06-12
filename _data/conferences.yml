@@ -1,16 +1,5 @@
 ---
 
-- title: ICDM
-  hindex: 44
-  year: 2020
-  id: icdm20
-  link: http://icdm2020.bigke.org/
-  deadline: '2020-06-11 23:59:59'
-  timezone: UTC-7
-  date: November 17-20, 2020
-  place: Sorrento, Italy
-  sub: DM
-
 - title: WACV
   hindex: 46
   year: 2021
@@ -179,14 +168,15 @@
 
 - title: AAAI
   hindex: 95
-  year: 2020
-  id: aaai20
-  link: https://aaai.org/Conferences/AAAI-20/
-  deadline: '2019-09-05 23:59:59'
-  timezone: UTC-10
+  year: 2021
+  id: aaai21
+  link: https://aaai.org/Conferences/AAAI-21/
+  deadline: '2019-09-09 23:59:59'
+  timezone: UTC-12
   date: February 7-12, 2020
-  place: New York, USA
+  place: Vancouver, Canada
   sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on September 01, 2020'
 
 - title: ICRA
   hindex: 82
@@ -619,3 +609,14 @@
   place: Vancouver Convention Centre, Canada
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 27, 2020'
+
+- title: ICDM
+  hindex: 44
+  year: 2020
+  id: icdm20
+  link: http://icdm2020.bigke.org/
+  deadline: '2020-06-11 23:59:59'
+  timezone: UTC-7
+  date: November 17-20, 2020
+  place: Sorrento, Italy
+  sub: DM
