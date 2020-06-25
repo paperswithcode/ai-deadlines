@@ -246,14 +246,15 @@
 
 - title: CVPR
   hindex: 240
-  year: 2020
-  id: cvpr20
-  link: http://cvpr2020.thecvf.com/
-  deadline: '2019-11-15 23:59:59'
+  year: 2021
+  id: cvpr21
+  link: http://cvpr2021.thecvf.com/
+  deadline: '2020-11-16 23:59:59'
   timezone: America/Los_Angeles
-  date: June 14-19, 2020
-  place: Seattle, USA
+  date: June 19-25, 2021
+  place: Nashville, USA
   sub: CV
+  note: '<b>Deadline TBC<\b>'
 
 - title: AAMAS
   hindex: 25
