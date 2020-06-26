@@ -111,6 +111,18 @@
   place: Kyiv, Ukraine
   sub: NLP
 
+- title: CVPR
+  hindex: 240
+  year: 2021
+  id: cvpr21
+  link: http://cvpr2021.thecvf.com/
+  deadline: '2020-11-16 23:59:59'
+  timezone: America/Los_Angeles
+  date: June 19-25, 2021
+  place: Nashville, USA
+  sub: CV
+  note: <b>Deadline timezone yet to be confirmed.</b>
+
 - title: AES
   hindex: 19
   year: 2019
@@ -243,18 +255,6 @@
   date: May 4-8, 2020
   place: Barcelona, Spain
   sub: SP
-
-- title: CVPR
-  hindex: 240
-  year: 2021
-  id: cvpr21
-  link: http://cvpr2021.thecvf.com/
-  deadline: '2020-11-16 23:59:59'
-  timezone: America/Los_Angeles
-  date: June 19-25, 2021
-  place: Nashville, USA
-  sub: CV
-  note: '<b>Deadline TBC<\b>'
 
 - title: AAMAS
   hindex: 25
