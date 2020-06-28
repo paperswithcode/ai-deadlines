@@ -32,7 +32,18 @@
   date: January 10-15, 2021
   place: Milan, Italy
   sub: ML
-
+  
+- title: ACCV
+  hindex: 38
+  year: 2020
+  id: accv20
+  link: http://accv2020.kyoto/
+  deadline: '2020-07-8 23:59:00'
+  timezone: UTC
+  date: November 30 - December 2, 2020
+  place: Kyoto, Japan
+  sub: CV
+  
 - title: CoNLL
   hindex: 34
   year: 2020
