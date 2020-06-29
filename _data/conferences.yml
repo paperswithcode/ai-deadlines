@@ -44,6 +44,17 @@
   place: Online
   sub: NLP
 
+- title: *SEM
+  hindex: 16
+  year: 2020
+  id: starsem2020
+  link: https://sites.google.com/view/starsem2020/home
+  deadline: '2020-07-20 23:59:59'
+  timezone: UTC-12
+  date: December 12-13, 2020
+  place: Online
+  sub: NLP
+
 - title: CoRL
   hindex: 20
   year: 2020
