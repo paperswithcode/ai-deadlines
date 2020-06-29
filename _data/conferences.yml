@@ -1,16 +1,5 @@
 ---
 
-- title: AACL-IJCNLP
-  hindex: -1
-  year: 2020
-  id: aacl20
-  link: http://aacl2020.org
-  deadline: '2020-06-26 23:59:00'
-  timezone: UTC-12
-  date: December 4-7, 2020
-  place: Suzhou, China
-  sub: NLP
-
 - title: COLING
   hindex: 41
   year: 2020
@@ -22,6 +11,17 @@
   place: Barcelona, Spain
   sub: NLP
 
+- title: ACCV
+  hindex: 38
+  year: 2020
+  id: accv20
+  link: http://accv2020.kyoto/
+  deadline: '2020-07-08 23:59:00'
+  timezone: UTC
+  date: November 30 - December 4, 2020
+  place: Online
+  sub: CV
+
 - title: ICPR
   hindex: 38
   year: 2020
@@ -32,18 +32,7 @@
   date: January 10-15, 2021
   place: Milan, Italy
   sub: ML
-  
-- title: ACCV
-  hindex: 38
-  year: 2020
-  id: accv20
-  link: http://accv2020.kyoto/
-  deadline: '2020-07-8 23:59:00'
-  timezone: UTC
-  date: November 30 - December 2, 2020
-  place: Kyoto, Japan
-  sub: CV
-  
+
 - title: CoNLL
   hindex: 34
   year: 2020
@@ -632,3 +621,14 @@
   place: Waikoloa, Hawaii, USA
   sub: CV
   note: '<b>NOTE</b>: First round submission deadline.'
+
+- title: AACL-IJCNLP
+  hindex: -1
+  year: 2020
+  id: aacl20
+  link: http://aacl2020.org
+  deadline: '2020-06-26 23:59:00'
+  timezone: UTC-12
+  date: December 4-7, 2020
+  place: Suzhou, China
+  sub: NLP
