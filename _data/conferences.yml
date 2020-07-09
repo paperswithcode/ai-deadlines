@@ -100,6 +100,19 @@
   place: Kyiv, Ukraine
   sub: NLP
 
+- title: ICLR
+  hindex: 150
+  year: 2021
+  id: iclr21
+  link: http://iclr.cc/
+  deadline: '2020-10-02 07:59:59'
+  abstract_deadline: '2020-09-28 07:59:59'
+  timezone: UTC-7
+  date: May 4, 2021
+  place: Vienna, Austria
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on September 28, 2020. More info <a href=''https://iclr.cc/Conferences/2021/CallForPapers''>here</a>.'
+
 - title: CVPR
   hindex: 240
   year: 2021
@@ -187,17 +200,6 @@
   timezone: America/New_York
   date: February 08-10, 2020
   place: San Diego, CA, United States
-  sub: ML
-
-- title: ICLR
-  hindex: 150
-  year: 2020
-  id: iclr20
-  link: http://iclr.cc/
-  deadline: '2019-09-25 17:59:59'
-  timezone: Africa/Nairobi
-  date: April 30, 2020
-  place: Online
   sub: ML
 
 - title: HRI
