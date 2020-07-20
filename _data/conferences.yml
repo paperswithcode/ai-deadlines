@@ -10,19 +10,7 @@
   date: November 19-20, 2020
   place: Online
   sub: NLP
-  
-  
-- title: WACV
-  hindex: 46
-  year: 2021
-  id: wacv21
-  link: http://wacv2021.thecvf.com/
-  deadline: '2020-8-26 23:59:59'
-  timezone: America/Los_Angeles
-  date: January 5 - 9 (Tuesday - Saturday)
-  place: Waikoloa, Hawaii, USA
-  sub: CV
-  note: '<b>NOTE</b>: Second round submission deadline.'
+ 
 
 - title: CoRL
   hindex: 20
@@ -592,18 +580,18 @@
   date: November 17-20, 2020
   place: Sorrento, Italy
   sub: DM
-
+    
 - title: WACV
   hindex: 46
   year: 2021
   id: wacv21
-  link: http://wacv2021.thecvf.com/home
-  deadline: '2020-06-24 23:59:59'
+  link: http://wacv2021.thecvf.com/
+  deadline: '2020-08-26 23:59:59'
   timezone: America/Los_Angeles
   date: January 5-9, 2021
   place: Waikoloa, Hawaii, USA
   sub: CV
-  note: '<b>NOTE</b>: First round submission deadline.'
+  note: '<b>NOTE</b>: Second round submission deadline.'
 
 - title: AACL-IJCNLP
   hindex: -1
