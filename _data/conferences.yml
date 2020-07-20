@@ -1,17 +1,5 @@
 ---
 
-- title: CoNLL
-  hindex: 34
-  year: 2020
-  id: conll2020
-  link: http://www.conll.org/2020
-  deadline: '2020-07-17 23:59:59'
-  timezone: UTC-12
-  date: November 19-20, 2020
-  place: Online
-  sub: NLP
- 
-
 - title: CoRL
   hindex: 20
   year: 2020
@@ -55,6 +43,18 @@
   date: March 8-12, 2021
   place: Jerusalem, Israel
   sub: DM
+
+- title: WACV
+  hindex: 46
+  year: 2021
+  id: wacv21
+  link: http://wacv2021.thecvf.com/
+  deadline: '2020-08-26 23:59:59'
+  timezone: America/Los_Angeles
+  date: January 5-9, 2021
+  place: Waikoloa, Hawaii, USA
+  sub: CV
+  note: '<b>NOTE</b>: Second round submission deadline.'
 
 - title: AAAI
   hindex: 95
@@ -580,18 +580,6 @@
   date: November 17-20, 2020
   place: Sorrento, Italy
   sub: DM
-    
-- title: WACV
-  hindex: 46
-  year: 2021
-  id: wacv21
-  link: http://wacv2021.thecvf.com/
-  deadline: '2020-08-26 23:59:59'
-  timezone: America/Los_Angeles
-  date: January 5-9, 2021
-  place: Waikoloa, Hawaii, USA
-  sub: CV
-  note: '<b>NOTE</b>: Second round submission deadline.'
 
 - title: AACL-IJCNLP
   hindex: -1
@@ -636,3 +624,14 @@
   date: January 10-15, 2021
   place: Milan, Italy
   sub: ML
+
+- title: CoNLL
+  hindex: 34
+  year: 2020
+  id: conll2020
+  link: http://www.conll.org/2020
+  deadline: '2020-07-17 23:59:59'
+  timezone: UTC-12
+  date: November 19-20, 2020
+  place: Online
+  sub: NLP
