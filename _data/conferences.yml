@@ -22,24 +22,3 @@
   place: Seoul, South Korea
   sub: CA
   
-- title: ASPLOS
-  hindex: 23
-  year: 2021
-  id: asplos21
-  link: https://asplos-conference.org
-  deadline: '2020-08-21 23:59:00'
-  timezone: UTC-7
-  date: April x - April y, 2021
-  place: Detroit, Michigan
-  sub: CA
-  
-- title: DATE
-  hindex: 24
-  year: 2021
-  id: date21
-  link: https://www.date-conference.com
-  deadline: '2020-09-21 23:59:00'
-  timezone: UTC+1
-  date: Feb 1 - Feb 5, 2021
-  place: Grenoble, France
-  sub: CAD
