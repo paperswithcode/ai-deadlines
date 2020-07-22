@@ -1,15 +1,15 @@
-title: AI Conference Deadlines # (Maintained by @abhshkdz)
-# email: abhshkdz@vt.edu
-description: Countdowns to top CV/NLP/ML/Robotics/AI conference deadlines
-author: Abhishek Das
+title: Computer Architecture Conference Deadlines # (Maintained by @mktrm)
+# email: mktrm@ucsd.edu
+description: Countdowns to computer architecture conference deadlines
+author: Kazem Taram
 
-domain: "aideadlin.es"
+domain: "https://mktrm.github.io/arch-deadlines"
 baseurl: ""
 
-twitter_username: abhshkdz
-twitter_hashtag: machinelearning
-github_username: abhshkdz
-github_repo: ai-deadlines
+twitter_username: mktaram
+twitter_hashtag: architecture
+github_username: mktrm
+github_repo: arch-deadlines
 
 markdown: kramdown
 ga_id: UA-36274081-2
