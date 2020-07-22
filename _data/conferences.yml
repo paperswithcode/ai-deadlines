@@ -1,12 +1,42 @@
 ---
 
 - title: HPCA
-  hindex: 20
-  year: 2020
-  id: corl20
-  link: http://www.robot-learning.org
-  deadline: '2020-07-28 23:59:00'
+  hindex: 21
+  year: 2021
+  id: hpca21
+  link: https://hpca-conf.org/2021/
+  deadline: '2020-07-31 23:59:00'
   timezone: UTC-7
-  date: November 16-18, 2020
-  place: Online
+  date: Feb 27 - Mar 3, 2021
+  place: Seoul, South Korea
   sub: CA
+- title: CGO 
+  hindex: 21
+  year: 2021
+  id: hpca21
+  link: https://conf.researchr.org/home/cgo-2021
+  deadline: '2020-09-1 23:59:00'
+  timezone: UTC-7
+  date: Feb 27 - Mar 3, 2021
+  place: Seoul, South Korea
+  sub: CA
+- title: ASPLOS
+  hindex: 21
+  year: 2021
+  id: asplos21
+  link: https://asplos-conference.org
+  deadline: '2020-08-21 23:59:00'
+  timezone: UTC-7
+  date: April x - April y, 2021
+  place: Detroit, Michigan
+  sub: CA
+- title: DATE
+  hindex: 21
+  year: 2021
+  id: date21
+  link: https://www.date-conference.com
+  deadline: '2020-09-21 23:59:00'
+  timezone: UTC
+  date: Feb 1 - Feb 5, 2021
+  place: Grenoble, France
+  sub: CAD
