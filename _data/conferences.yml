@@ -10,6 +10,8 @@
   date: Feb 27 - Mar 3, 2021
   place: Seoul, South Korea
   sub: CA
+  
+  
 - title: CGO 
   hindex: 21
   year: 2021
@@ -20,6 +22,8 @@
   date: Feb 27 - Mar 3, 2021
   place: Seoul, South Korea
   sub: CA
+  
+  
 - title: ASPLOS
   hindex: 21
   year: 2021
@@ -30,13 +34,15 @@
   date: April x - April y, 2021
   place: Detroit, Michigan
   sub: CA
+  
+  
 - title: DATE
   hindex: 21
   year: 2021
   id: date21
   link: https://www.date-conference.com
   deadline: '2020-09-21 23:59:00'
-  timezone: UTC
+  timezone: UTC+1
   date: Feb 1 - Feb 5, 2021
   place: Grenoble, France
   sub: CAD
