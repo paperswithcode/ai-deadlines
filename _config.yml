@@ -4,7 +4,8 @@ description: Countdowns to computer architecture conference deadlines
 author: Kazem Taram
 
 domain: "mktrm.github.io"
-baseurl: "arch-deadlines/"
+#baseurl: "arch-deadlines"
+baseurl: ""
 
 twitter_username: mktaram
 twitter_hashtag: architecture
