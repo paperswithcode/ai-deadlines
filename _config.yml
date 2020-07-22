@@ -5,7 +5,7 @@ author: Kazem Taram
 
 domain: "mktrm.github.io"
 baseurl: "arch-deadlines"
-baseurl: ""
+#baseurl: ""
 
 twitter_username: mktaram
 twitter_hashtag: architecture
