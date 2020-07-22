@@ -1,4 +1,13 @@
 ---
+- title: ICASSP
+  year: 2021
+  id: icassp21
+  link: https://2021.ieeeicassp.org/
+  deadline: '2020-10-19 23:59:59'
+  timezone: UTC
+  date: June 6-11, 2021
+  place: Toronto, Ontario, Canada
+  sub: SP
 
 - title: CoRL
   hindex: 20
