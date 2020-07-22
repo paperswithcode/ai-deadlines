@@ -25,10 +25,22 @@
 - title: CGO 
   hindex: 22
   year: 2021
-  id: hpca21
+  id: cgo21
   link: https://conf.researchr.org/home/cgo-2021
   deadline: '2020-09-01 23:59:00'
   timezone: UTC-7
   date: Feb 27 - Mar 3, 2021
   place: Seoul, South Korea
   sub: CA
+  
+  
+  - title: DATE
+  hindex: 24
+  year: 2021
+  id: date21
+  link: https://www.date-conference.com
+  deadline: '2020-09-21 23:59:00'
+  timezone: UTC+1
+  date: Feb 1 - Feb 5, 2021
+  place: Grenoble, France
+  sub: CAD
