@@ -21,3 +21,14 @@
   date: April x - April y, 2021
   place: Detroit, Michigan
   sub: CA
+
+- title: CGO 
+  hindex: 22
+  year: 2021
+  id: hpca21
+  link: https://conf.researchr.org/home/cgo-2021
+  deadline: '2020-09-01 23:59:00'
+  timezone: UTC-7
+  date: Feb 27 - Mar 3, 2021
+  place: Seoul, South Korea
+  sub: CA
