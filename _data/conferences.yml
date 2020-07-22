@@ -93,6 +93,17 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on September 28, 2020. More info
     <a href=''https://iclr.cc/Conferences/2021/CallForPapers''>here</a>.'
 
+- title: ICASSP
+  hindex: 80
+  year: 2021
+  id: icassp21
+  link: https://2021.ieeeicassp.org/
+  deadline: '2020-10-19 23:59:59'
+  timezone: UTC
+  date: June 6-11, 2021
+  place: Toronto, Ontario, Canada
+  sub: SP
+
 - title: CVPR
   hindex: 240
   year: 2021
@@ -215,17 +226,6 @@
   place: Snowmass village, Colorado, USA
   sub: CV
   note: '<b>NOTE</b>: Second round submission deadline.'
-
-- title: ICASSP
-  hindex: 80
-  year: 2020
-  id: icassp20
-  link: https://2020.ieeeicassp.org/
-  deadline: '2019-10-21 23:59:59'
-  timezone: UTC
-  date: May 4-8, 2020
-  place: Barcelona, Spain
-  sub: SP
 
 - title: AAMAS
   hindex: 25
