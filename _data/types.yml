@@ -1,7 +1,6 @@
 ---
 - name: Computer Architecture
   sub: CA
+  
 - name: Design Automation
   sub: CAD
-
-
