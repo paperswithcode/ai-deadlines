@@ -3,11 +3,5 @@
   sub: CA
 - name: Design Automation
   sub: CAD
-- name: Natural Language Proc
-  sub: NLP
-- name: Robotics
-  sub: RO
-- name: Speech/SigProc
-  sub: SP
-- name: Data Mining
-  sub: DM
+
+
