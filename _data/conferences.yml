@@ -1,16 +1,5 @@
 ---
 
-- title: 3DV
-  hindex: 29
-  year: 2020
-  id: threedv20
-  link: http://3dv2020.dgcv.nii.ac.jp/index.html
-  deadline: '2020-07-31 23:59:59'
-  timezone: America/Los_Angeles
-  date: November 25-28, 2020
-  place: Fukuoka, Japan
-  sub: CV
-
 - title: WMT
   hindex: 27
   year: 2020
@@ -81,6 +70,19 @@
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on September 28, 2020. More info
     <a href=''https://iclr.cc/Conferences/2021/CallForPapers''>here</a>.'
+
+- title: AAMAS
+  hindex: 25
+  year: 2021
+  id: aamas21
+  link: https://aamas2021.soton.ac.uk/
+  deadline: '2020-10-09 23:59:59'
+  abstract_deadline: '2020-10-02 23:59:59'
+  timezone: UTC-12
+  date: May 3-7, 2021
+  place: London, UK
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 02, 2020. More info <a href=''https://aamas2021.soton.ac.uk/calls/papers/''>here</a>.'
 
 - title: ICASSP
   hindex: 80
@@ -215,19 +217,6 @@
   place: Snowmass village, Colorado, USA
   sub: CV
   note: '<b>NOTE</b>: Second round submission deadline.'
-
-- title: AAMAS
-  hindex: 25
-  year: 2020
-  id: aamas20
-  link: https://aamas2020.conference.auckland.ac.nz/
-  deadline: '2019-11-15 23:59:59'
-  abstract_deadline: '2019-11-12 23:59:59'
-  timezone: UTC-12
-  date: May 9-13, 2020
-  place: Auckland, New Zealand
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 12, 2019. More info <a href=''https://aamas2020.conference.auckland.ac.nz/call-for-papers/''>here</a>.'
 
 - title: ECAI
   hindex: 26
@@ -635,3 +624,14 @@
   date: November 16-18, 2020
   place: Online
   sub: RO
+
+- title: 3DV
+  hindex: 29
+  year: 2020
+  id: threedv20
+  link: http://3dv2020.dgcv.nii.ac.jp/index.html
+  deadline: '2020-07-31 23:59:59'
+  timezone: America/Los_Angeles
+  date: November 25-28, 2020
+  place: Fukuoka, Japan
+  sub: CV
