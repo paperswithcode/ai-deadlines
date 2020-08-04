@@ -96,7 +96,7 @@
   sub: SP
 
 - title: CVPR
-  hindex: 240
+  hindex: 299
   year: 2021
   id: cvpr21
   link: http://cvpr2021.thecvf.com/
@@ -106,6 +106,17 @@
   place: Nashville, USA
   sub: CV
   note: '<b>NOTE</b>: Deadline timezone yet to be confirmed'
+
+- title: ICCV
+  hindex: 176
+  year: 2021
+  id: iccv2021
+  link: http://iccv2021.thecvf.com/
+  deadline: '2021-03-17 23:59:00'
+  timezone: America/Los_Angeles
+  date: October 11-17, 2021
+  place: Montreal, Canada
+  sub: CV
 
 - title: AES
   hindex: 19
@@ -139,17 +150,6 @@
   date: July 13 - 17, 2019
   place: Prague, Czech Republic
   sub: ML
-
-- title: ICCV
-  hindex: 129
-  year: 2019
-  id: iccv19
-  link: http://iccv2019.thecvf.com/
-  deadline: '2019-03-22 23:59:00'
-  timezone: America/Los_Angeles
-  date: October 27 - November 2, 2019
-  place: Seoul, Korea
-  sub: CV
 
 - title: BMVC
   hindex: 46
@@ -634,15 +634,4 @@
   timezone: America/Los_Angeles
   date: November 25-28, 2020
   place: Fukuoka, Japan
-  sub: CV
-
-- title: ICCV
-  hindex: 129
-  year: 2021
-  id: iccv2021
-  link: http://iccv2021.thecvf.com/
-  deadline: '2021-03-17 23:59:00'
-  timezone: UTC -8
-  date: October 11-17, 2021
-  place: Montreal, Canada
   sub: CV
