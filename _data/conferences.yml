@@ -1,5 +1,17 @@
 ---
 
+- title: ML Conf EU
+  hindex: 00
+  year: 2020
+  id: mlceu20
+  link: https://mlconf.eu
+  deadline: '2020-09-11 23:59:59'
+  timezone: UTC+2
+  date: November 5-6, 2020
+  place: Online
+  sub: ML
+  note: CFP: https://forms.gle/7vmZtDLqSA9fGUQdA
+
 - title: WMT
   hindex: 27
   year: 2020
