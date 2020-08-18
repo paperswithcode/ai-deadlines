@@ -1,28 +1,5 @@
 ---
 
-- title: WSDM
-  hindex: 51
-  year: 2021
-  id: wsdm21
-  link: http://www.wsdm-conference.org/2021/
-  deadline: '2020-08-16 23:59:59'
-  timezone: UTC-11
-  date: March 8-12, 2021
-  place: Jerusalem, Israel
-  sub: DM
-
-- title: WACV
-  hindex: 46
-  year: 2021
-  id: wacv21
-  link: http://wacv2021.thecvf.com/
-  deadline: '2020-09-29 23:59:59'
-  timezone: America/Los_Angeles
-  date: January 5-9, 2021
-  place: Waikoloa, Hawaii, USA
-  sub: CV
-  note: '<b>NOTE</b>: Second round submission deadline.'
-
 - title: AAAI
   hindex: 95
   year: 2021
@@ -45,6 +22,18 @@
   date: April 21-23, 2021
   place: Kyiv, Ukraine
   sub: NLP
+
+- title: WACV
+  hindex: 46
+  year: 2021
+  id: wacv21
+  link: http://wacv2021.thecvf.com/
+  deadline: '2020-09-29 23:59:59'
+  timezone: America/Los_Angeles
+  date: January 5-9, 2021
+  place: Waikoloa, Hawaii, USA
+  sub: CV
+  note: '<b>NOTE</b>: Second round submission deadline.'
 
 - title: ICLR
   hindex: 150
@@ -635,3 +624,14 @@
   date: November 19-20, 2020
   place: Online
   sub: NLP
+
+- title: WSDM
+  hindex: 51
+  year: 2021
+  id: wsdm21
+  link: http://www.wsdm-conference.org/2021/
+  deadline: '2020-08-16 23:59:59'
+  timezone: UTC-11
+  date: March 8-12, 2021
+  place: Jerusalem, Israel
+  sub: DM
