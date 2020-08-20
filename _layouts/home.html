@@ -68,51 +68,55 @@
               </div>
             </div>
         </div>
-        {% for conf in site.data.conferences %}
-        <div id="{{conf.id}}" class="{% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
-          <div class="row conf-row">
-              <div class="col-xs-5 col-sm-6">
-                  <a class="conf-title" href="/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
-              </div>
-              <div class="col-xs-7 col-sm-6">
-                <span class="timer"></span>
-              </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 col-sm-6">
-              <div class="meta">
-                <span class="conf-date">{{conf.date}}.</span>
-                <span class="conf-place">
-                  {% if conf.place == "Online" %}
-                  <a href="#">{{conf.place}}</a>.
-                  {% else %}
-                  <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
-                  {% endif %}
-                </span>
-              </div>
-              {% if conf.note %}
-              <div class="note">
-                {{conf.note}}
-              </div>
-              {% endif %}
-            </div>
-            <div class="col-xs-12 col-sm-6">
-              <div class="deadline">
-                <div>Deadline:
-                  <span class="deadline-time"></span>
+        <div id="coming_confs">
+          {% for conf in site.data.conferences %}
+          <div id="{{conf.id}}" class="{% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
+            <div class="row conf-row">
+                <div class="col-xs-5 col-sm-6">
+                    <a class="conf-title" href="/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
                 </div>
+                <div class="col-xs-7 col-sm-6">
+                  <span class="timer"></span>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6">
+                <div class="meta">
+                  <span class="conf-date">{{conf.date}}.</span>
+                  <span class="conf-place">
+                    {% if conf.place == "Online" %}
+                    <a href="#">{{conf.place}}</a>.
+                    {% else %}
+                    <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
+                    {% endif %}
+                  </span>
+                </div>
+                {% if conf.note %}
+                <div class="note">
+                  {{conf.note}}
+                </div>
+                {% endif %}
               </div>
-              <div class="calendar"></div>
+              <div class="col-xs-12 col-sm-6">
+                <div class="deadline">
+                  <div>Deadline:
+                    <span class="deadline-time"></span>
+                  </div>
+                </div>
+                <div class="calendar"></div>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <span title="Click to only show {{conf.sub}} conferences" data-sub="{{conf.sub}}" class="conf-sub"></span>
+            <div class="row">
+              <div class="col-xs-12">
+                <span title="Click to only show {{conf.sub}} conferences" data-sub="{{conf.sub}}" class="conf-sub"></span>
+              </div>
             </div>
+            <hr>
           </div>
-          <hr>
+          {% endfor %}
         </div>
-        {% endfor %}
+        <div id="past_confs">
+        </div>
         <footer>
           <div class="row">
             <div class="col-xs-12 col-sm-6">
@@ -211,8 +215,10 @@
 
           // check if date has passed, add 'past' class to it
           var today = moment();
-          if (today.diff(confDate) > 0)
+          if (today.diff(confDate) > 0) {
             $('#{{conf.id}}').addClass('past');
+            $('#{{conf.id}}').appendTo($("#past_confs"))
+          }
         {% endif %}
         {% endfor %}
 
