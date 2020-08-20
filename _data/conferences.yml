@@ -1,15 +1,4 @@
 ---
-- title: WWWW
-  hindex: 70
-  year: 2021
-  id: WWW21
-  link: http://www2021.thewebconf.org/
-  deadline: '2020-10-19 23:59:59'
-  timezone: UTC-12
-  date: April 19-23, 2021
-  place: Ljubljana, Slovenia
-  sub: DM
-  note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
 
 - title: AAAI
   hindex: 95
@@ -83,6 +72,18 @@
   date: June 6-11, 2021
   place: Toronto, Ontario, Canada
   sub: SP
+
+- title: WWWW
+  hindex: 70
+  year: 2021
+  id: www21
+  link: http://www2021.thewebconf.org/
+  deadline: '2020-10-19 23:59:59'
+  timezone: UTC-12
+  date: April 19-23, 2021
+  place: Ljubljana, Slovenia
+  sub: DM
+  note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
 
 - title: CVPR
   hindex: 299
