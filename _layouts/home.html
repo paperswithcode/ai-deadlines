@@ -68,9 +68,10 @@
               </div>
             </div>
         </div>
+        <div id="confs">
         <div id="coming_confs">
           {% for conf in site.data.conferences %}
-          <div id="{{conf.id}}" class="{% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
+          <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
             <div class="row conf-row">
                 <div class="col-xs-5 col-sm-6">
                     <a class="conf-title" href="/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
@@ -116,6 +117,7 @@
           {% endfor %}
         </div>
         <div id="past_confs">
+        </div>
         </div>
         <footer>
           <div class="row">
@@ -215,12 +217,23 @@
 
           // check if date has passed, add 'past' class to it
           var today = moment();
-          if (today.diff(confDate) > 0) {
+          diff = today.diff(confDate)
+          $('#{{conf.id}}').attr("diff", diff)
+          if (diff > 0) {
             $('#{{conf.id}}').addClass('past');
             $('#{{conf.id}}').appendTo($("#past_confs"))
           }
         {% endif %}
         {% endfor %}
+
+        // Sort coming_confs and past_confs
+        $("#coming_confs .ConfItem").sort(function (a, b) {
+		    return $(b).attr('diff') - $(a).attr('diff');
+		}).appendTo($("#coming_confs"));
+
+        $("#past_confs .ConfItem").sort(function (a, b) {
+		    return $(b).attr('diff') - $(a).attr('diff');
+		}).appendTo($("#past_confs"));
 
         // Get subjects from URL
         var url = new URL(window.location);
