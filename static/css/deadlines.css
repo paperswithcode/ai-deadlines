@@ -135,6 +135,7 @@ footer {
   background: rgba(236, 240, 241, 0.7);
   font-size: 13px;
   padding: 3px 5px;
+  margin-right: 8px;
   cursor: pointer;
   font-weight: 300;
 }
