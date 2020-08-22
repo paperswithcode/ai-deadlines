@@ -110,7 +110,7 @@
             <div class="row">
               <div class="col-xs-12">
                 {% for sub in conf.sub %}
-                <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="conf-sub" id="{{sub}}"></span>
+                <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="conf-sub {{sub}}-tag"></span>
                 {% endfor %}
               </div>
             </div>
@@ -174,7 +174,7 @@
 
         {% for conf in site.data.conferences %}
         {% for sub in conf.sub %}
-        $('#{{conf.id}} #{{sub}}').html(sub2name["{{sub}}"].toLocaleLowerCase());
+        $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
         {% endfor %}
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
