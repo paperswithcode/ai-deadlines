@@ -1,71 +1,5 @@
 ---
 
-- title: ICPR
-  hindex: 38
-  year: 2020
-  id: icpr20
-  link: https://www.micc.unifi.it/icpr2020/
-  deadline: '2020-07-15 23:59:00'
-  timezone: UTC+1
-  date: January 10-15, 2021
-  place: Milan, Italy
-  sub: ML
-
-- title: CoNLL
-  hindex: 34
-  year: 2020
-  id: conll2020
-  link: http://www.conll.org/2020
-  deadline: '2020-07-17 23:59:59'
-  timezone: UTC-12
-  date: November 19-20, 2020
-  place: Online
-  sub: NLP
-
-- title: CoRL
-  hindex: 20
-  year: 2020
-  id: corl20
-  link: http://www.robot-learning.org
-  deadline: '2020-07-28 23:59:00'
-  timezone: UTC-7
-  date: November 16-18, 2020
-  place: Online
-  sub: RO
-
-- title: 3DV
-  hindex: 29
-  year: 2020
-  id: threedv20
-  link: http://3dv2020.dgcv.nii.ac.jp/index.html
-  deadline: '2020-07-31 23:59:59'
-  timezone: America/Los_Angeles
-  date: November 25-28, 2020
-  place: Fukuoka, Japan
-  sub: CV
-
-- title: WMT
-  hindex: 27
-  year: 2020
-  id: wmt20
-  link: http://www.statmt.org/wmt20/
-  deadline: '2020-08-15 23:59:00'
-  timezone: UTC-12
-  date: November 19-20, 2020
-  place: Online
-  sub: NLP
-
-- title: WSDM
-  hindex: 51
-  year: 2021
-  id: wsdm21
-  link: http://www.wsdm-conference.org/2021/
-  deadline: '2020-08-16 23:59:59'
-  timezone: UTC-11
-  date: March 8-12, 2021
-  place: Jerusalem, Israel
-  sub: DM
-
 - title: AAAI
   hindex: 95
   year: 2021
@@ -89,6 +23,18 @@
   place: Kyiv, Ukraine
   sub: NLP
 
+- title: WACV
+  hindex: 46
+  year: 2021
+  id: wacv21
+  link: http://wacv2021.thecvf.com/
+  deadline: '2020-09-29 23:59:59'
+  timezone: America/Los_Angeles
+  date: January 5-9, 2021
+  place: Waikoloa, Hawaii, USA
+  sub: CV
+  note: '<b>NOTE</b>: Second round submission deadline.'
+
 - title: ICLR
   hindex: 150
   year: 2021
@@ -103,8 +49,56 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on September 28, 2020. More info
     <a href=''https://iclr.cc/Conferences/2021/CallForPapers''>here</a>.'
 
+- title: AAMAS
+  hindex: 25
+  year: 2021
+  id: aamas21
+  link: https://aamas2021.soton.ac.uk/
+  deadline: '2020-10-09 23:59:59'
+  abstract_deadline: '2020-10-02 23:59:59'
+  timezone: UTC-12
+  date: May 3-7, 2021
+  place: London, UK
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 02, 2020. More info <a href=''https://aamas2021.soton.ac.uk/calls/papers/''>here</a>.'
+
+- title: AISTATS
+  hindex: 52
+  year: 2021
+  id: aistats21
+  link: https://www.aistats.org/aistats2021/
+  deadline: '2020-10-15 08:00:00'
+  timezone: America/Los_Angeles
+  date: April 13-15, 2021
+  place: San Diego, California, USA
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 8, 2020. More info <a href=''http://www.aistats.org/aistats2021/cfp.html''>here</a>.'
+
+- title: ICASSP
+  hindex: 80
+  year: 2021
+  id: icassp21
+  link: https://2021.ieeeicassp.org/
+  deadline: '2020-10-19 23:59:59'
+  timezone: UTC
+  date: June 6-11, 2021
+  place: Toronto, Ontario, Canada
+  sub: SP
+
+- title: WWW
+  hindex: 70
+  year: 2021
+  id: www21
+  link: http://www2021.thewebconf.org/
+  deadline: '2020-10-19 23:59:59'
+  timezone: UTC-12
+  date: April 19-23, 2021
+  place: Ljubljana, Slovenia
+  sub: DM
+  note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
+
 - title: CVPR
-  hindex: 240
+  hindex: 299
   year: 2021
   id: cvpr21
   link: http://cvpr2021.thecvf.com/
@@ -115,59 +109,15 @@
   sub: CV
   note: '<b>NOTE</b>: Deadline timezone yet to be confirmed'
 
-- title: AES
-  hindex: 19
-  year: 2019
-  id: aes2019
-  link: http://www.aes.org/conferences/2019/immersive/
-  deadline: '2018-10-01 23:59:59'
-  timezone: UTC
-  date: March 27-29, 2019
-  place: York, UK
-  sub: SP
-
-- title: NAACL
-  hindex: 61
-  year: 2019
-  id: naacl19
-  link: http://naacl2019.org/
-  deadline: '2018-12-10 23:59:59'
-  timezone: UTC-12
-  date: June 2-7, 2019
-  place: Minneapolis, USA
-  sub: NLP
-
-- title: GECCO
-  hindex: 36
-  year: 2019
-  id: gecco19
-  link: https://gecco-2019.sigevo.org/index.html/tiki-index.php
-  deadline: '2019-01-30 23:59:59'
-  timezone: UTC-10
-  date: July 13 - 17, 2019
-  place: Prague, Czech Republic
-  sub: ML
-
 - title: ICCV
-  hindex: 129
-  year: 2019
-  id: iccv19
-  link: http://iccv2019.thecvf.com/
-  deadline: '2019-03-22 23:59:00'
+  hindex: 176
+  year: 2021
+  id: iccv2021
+  link: http://iccv2021.thecvf.com/
+  deadline: '2021-03-17 23:59:00'
   timezone: America/Los_Angeles
-  date: October 27 - November 2, 2019
-  place: Seoul, Korea
-  sub: CV
-
-- title: BMVC
-  hindex: 46
-  year: 2019
-  id: bmvc19
-  link: https://bmvc2019.org
-  deadline: '2019-04-29 23:59:00'
-  timezone: America/Los_Angeles
-  date: September 9-12, 2019
-  place: Cardiff, Wales, UK
+  date: October 11-17, 2021
+  place: Montreal, Canada
   sub: CV
 
 - title: ICRA
@@ -203,65 +153,6 @@
   place: Cambridge, UK
   sub: RO
 
-- title: AISTATS
-  hindex: 52
-  year: 2020
-  id: aistats20
-  link: https://www.aistats.org/
-  deadline: '2019-10-08 23:59:59'
-  timezone: America/Los_Angeles
-  date: June 3-5, 2020
-  place: Palermo, Sicily, Italy
-  sub: ML
-
-- title: WACV
-  hindex: 46
-  year: 2020
-  id: wacv20
-  link: http://wacv20.wacv.net/
-  deadline: '2019-10-11 23:59:59'
-  timezone: America/Los_Angeles
-  date: March 2-5, 2020
-  place: Snowmass village, Colorado, USA
-  sub: CV
-  note: '<b>NOTE</b>: Second round submission deadline.'
-
-- title: ICASSP
-  hindex: 80
-  year: 2020
-  id: icassp20
-  link: https://2020.ieeeicassp.org/
-  deadline: '2019-10-21 23:59:59'
-  timezone: UTC
-  date: May 4-8, 2020
-  place: Barcelona, Spain
-  sub: SP
-
-- title: AAMAS
-  hindex: 25
-  year: 2020
-  id: aamas20
-  link: https://aamas2020.conference.auckland.ac.nz/
-  deadline: '2019-11-15 23:59:59'
-  abstract_deadline: '2019-11-12 23:59:59'
-  timezone: UTC-12
-  date: May 9-13, 2020
-  place: Auckland, New Zealand
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 12, 2019. More info <a href=''https://aamas2020.conference.auckland.ac.nz/call-for-papers/''>here</a>.'
-
-- title: ECAI
-  hindex: 26
-  year: 2020
-  id: ecai20
-  link: http://ecai2020.eu/
-  deadline: '2019-11-19 23:59:59'
-  abstract_deadline: '2019-11-15 23:59:59'
-  timezone: UTC-12
-  date: June 8-12, 2020
-  place: Santiago de Compostella, Spain
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 15, 2019. More info <a href=''http://ecai2020.eu/call-for-papers/mainconference/''>here</a>.'
 
 - title: ICAPS
   hindex: 28
@@ -340,7 +231,7 @@
   link: https://s2020.siggraph.org/
   deadline: '2020-01-22 22:00:00'
   timezone: America/Los_Angeles
-  date: July 19 - 23, 2020
+  date: July 19-23, 2020
   place: Washington, D.C., USA
   sub: CV
 
@@ -352,7 +243,7 @@
   deadline: '2020-01-22 23:59:59'
   abstract_deadline: '2020-01-15 23:59:59'
   timezone: UTC-12
-  date: July 25 - 30, 2020
+  date: July 25-30, 2020
   place: Xi'an, China
   sub: DM
 
@@ -591,18 +482,6 @@
   place: Sorrento, Italy
   sub: DM
 
-- title: WACV
-  hindex: 46
-  year: 2021
-  id: wacv21
-  link: http://wacv2021.thecvf.com/home
-  deadline: '2020-06-24 23:59:59'
-  timezone: America/Los_Angeles
-  date: January 5-9, 2021
-  place: Waikoloa, Hawaii, USA
-  sub: CV
-  note: '<b>NOTE</b>: First round submission deadline.'
-
 - title: AACL-IJCNLP
   hindex: -1
   year: 2020
@@ -635,3 +514,69 @@
   date: November 30 - December 4, 2020
   place: Online
   sub: CV
+
+- title: ICPR
+  hindex: 38
+  year: 2020
+  id: icpr20
+  link: https://www.micc.unifi.it/icpr2020/
+  deadline: '2020-07-15 23:59:00'
+  timezone: UTC+1
+  date: January 10-15, 2021
+  place: Milan, Italy
+  sub: ML
+
+- title: CoNLL
+  hindex: 34
+  year: 2020
+  id: conll2020
+  link: http://www.conll.org/2020
+  deadline: '2020-07-17 23:59:59'
+  timezone: UTC-12
+  date: November 19-20, 2020
+  place: Online
+  sub: NLP
+
+- title: CoRL
+  hindex: 20
+  year: 2020
+  id: corl20
+  link: http://www.robot-learning.org
+  deadline: '2020-07-28 23:59:00'
+  timezone: UTC-7
+  date: November 16-18, 2020
+  place: Online
+  sub: RO
+
+- title: 3DV
+  hindex: 29
+  year: 2020
+  id: threedv20
+  link: http://3dv2020.dgcv.nii.ac.jp/index.html
+  deadline: '2020-07-31 23:59:59'
+  timezone: America/Los_Angeles
+  date: November 25-28, 2020
+  place: Fukuoka, Japan
+  sub: CV
+
+- title: WMT
+  hindex: 27
+  year: 2020
+  id: wmt20
+  link: http://www.statmt.org/wmt20/
+  deadline: '2020-08-15 23:59:00'
+  timezone: UTC-12
+  date: November 19-20, 2020
+  place: Online
+  sub: NLP
+
+- title: WSDM
+  hindex: 51
+  year: 2021
+  id: wsdm21
+  link: http://www.wsdm-conference.org/2021/
+  deadline: '2020-08-16 23:59:59'
+  timezone: UTC-11
+  date: March 8-12, 2021
+  place: Jerusalem, Israel
+  sub: DM
