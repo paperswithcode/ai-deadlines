@@ -232,12 +232,12 @@
 
         // Sort coming_confs and past_confs
         $("#coming_confs .ConfItem").sort(function (a, b) {
-		    return $(b).attr('diff') - $(a).attr('diff');
-		}).appendTo($("#coming_confs"));
+          return $(b).attr('diff') - $(a).attr('diff');
+        }).appendTo($("#coming_confs"));
 
         $("#past_confs .ConfItem").sort(function (a, b) {
-		    return $(b).attr('diff') - $(a).attr('diff');
-		}).appendTo($("#past_confs"));
+          return $(b).attr('diff') - $(a).attr('diff');
+        }).appendTo($("#past_confs"));
 
         // Get subjects from URL
         var url = new URL(window.location);
