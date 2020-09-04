@@ -591,3 +591,14 @@
   date: March 25-27, 2021
   place: Alexandria, Virginia, U.S.
   sub: DM
+
+- title: NAACL
+  hindex: 90
+  year: 2021
+  id: naacl21
+  link: https://2021.naacl.org/
+  deadline: '2020-11-23 23:59:59'
+  timezone: UTC-12
+  date: June 6-11, 2021
+  place: Mexico City, Mexico
+  sub: NLP
