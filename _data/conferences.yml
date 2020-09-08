@@ -593,17 +593,6 @@
   place: Online
   sub: NLP
 
-- title: WSDM
-  hindex: 51
-  year: 2021
-  id: wsdm21
-  link: http://www.wsdm-conference.org/2021/
-  deadline: '2020-08-16 23:59:59'
-  timezone: UTC-11
-  date: March 8-12, 2021
-  place: Jerusalem, Israel
-  sub: DM
-
 - title: SDM
   hindex: 33
   year: 2021
