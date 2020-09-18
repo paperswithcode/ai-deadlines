@@ -1,28 +1,5 @@
 ---
 
-- title: AAAI
-  hindex: 95
-  year: 2021
-  id: aaai21
-  link: https://aaai.org/Conferences/AAAI-21/
-  deadline: '2020-09-09 23:59:59'
-  timezone: UTC-12
-  date: February 2-9, 2021
-  place: Vancouver, Canada
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on September 01, 2020'
-
-- title: EACL
-  hindex: 36
-  year: 2021
-  id: eacl21
-  link: https://2021.eacl.org/
-  deadline: '2020-10-07 23:59:00'
-  timezone: UTC-12
-  date: April 21-23, 2021
-  place: Online (Kyiv, Ukraine)
-  sub: NLP
-
 - title: WACV
   hindex: 46
   year: 2021
@@ -49,6 +26,17 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on September 28, 2020. More info
     <a href=''https://iclr.cc/Conferences/2021/CallForPapers''>here</a>.'
 
+- title: EACL
+  hindex: 36
+  year: 2021
+  id: eacl21
+  link: https://2021.eacl.org/
+  deadline: '2020-10-07 23:59:00'
+  timezone: UTC-12
+  date: April 21-23, 2021
+  place: Online (Kyiv, Ukraine)
+  sub: NLP
+
 - title: AAMAS
   hindex: 25
   year: 2021
@@ -61,6 +49,17 @@
   place: London, UK
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 02, 2020. More info <a href=''https://aamas2021.soton.ac.uk/calls/papers/''>here</a>.'
+
+- title: SDM
+  hindex: 33
+  year: 2021
+  id: sdm21
+  link: https://www.siam.org/conferences/cm/conference/sdm21
+  deadline: '2020-10-12 23:59:00'
+  timezone: UTC-5
+  date: April 29 - May 1, 2021
+  place: Online
+  sub: DM
 
 - title: AISTATS
   hindex: 52
@@ -97,6 +96,17 @@
   sub: DM
   note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
 
+- title: ICRA
+  hindex: 94
+  year: 2020
+  id: icra21
+  link: https://www.ieee-ras.org/component/rseventspro/event/1908-icra-2021-call-for-papers-deadline
+  deadline: '2020-10-31 23:59:59'
+  timezone: America/Los_Angeles
+  date: May 30-June 5, 2021
+  place: Online
+  sub: RO
+
 - title: CVPR
   hindex: 299
   year: 2021
@@ -117,9 +127,8 @@
   timezone: UTC-12
   date: June 6-11, 2021
   place: Mexico City, Mexico
-  abstract_deadline: 
   sub: NLP
- 
+
 - title: ICME
   hindex: 30
   year: 2021
@@ -142,7 +151,7 @@
   place: Montreal, Canada
   abstract_deadline: '2021-02-02 23:59:00'
   sub: DM
-  
+
 - title: ICCV
   hindex: 176
   year: 2021
@@ -153,17 +162,6 @@
   date: October 11-17, 2021
   place: Montreal, Canada
   sub: CV
-
-- title: ICRA
-  hindex: 82
-  year: 2020
-  id: icra20
-  link: https://icra2020.org/
-  deadline: '2019-09-15 23:59:59'
-  timezone: America/Los_Angeles
-  date: May 31-June 4, 2020
-  place: Paris, France
-  sub: RO
 
 - title: ALT
   hindex: 15
@@ -186,7 +184,6 @@
   date: March 23-26, 2020
   place: Cambridge, UK
   sub: RO
-
 
 - title: ICAPS
   hindex: 28
@@ -592,13 +589,14 @@
   place: Online
   sub: NLP
 
-- title: SDM
-  hindex: 33
+- title: AAAI
+  hindex: 95
   year: 2021
-  id: sdm21
-  link: https://www.siam.org/conferences/cm/conference/sdm21
-  deadline: '2020-10-12 23:59:00'
-  timezone: UTC-5
-  date: April 29 - May 1, 2021
-  place: Online
-  sub: DM
+  id: aaai21
+  link: https://aaai.org/Conferences/AAAI-21/
+  deadline: '2020-09-09 23:59:59'
+  timezone: UTC-12
+  date: February 2-9, 2021
+  place: Vancouver, Canada
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on September 01, 2020'
