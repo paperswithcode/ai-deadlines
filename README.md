@@ -33,7 +33,7 @@ To add or update a deadline:
 
 [1]: https://abhshkdz.mit-license.org/
 [2]: http://aideadlin.es/
-[3]: http://geodeadlin.es/
+[3]: https://github.com/LukasMosser/geo-deadlines
 [4]: https://github.com/tbryn/neuro-deadlines
 [5]: https://github.com/dieg0as/ai-challenge-deadlines
 [6]: http://www.conferenceranks.com/#
