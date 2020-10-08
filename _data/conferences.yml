@@ -254,19 +254,6 @@
   place: Toronto, Canada
   sub: ML
 
-- title: IJCAI-PRICAI
-  hindex: 67
-  year: 2020
-  id: ijcai-pricai20
-  link: https://www.ijcai20.org/
-  deadline: '2020-01-21 23:59:59'
-  abstract_deadline: '2020-01-15 23:59:59'
-  timezone: UTC-12
-  date: July 11-17, 2020
-  place: Yokohama, Japan
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 15, 2020. More info <a href=''https://www.ijcai19.org/''>here</a>.'
-
 - title: SIGGRAPH
   hindex: 20
   year: 2020
