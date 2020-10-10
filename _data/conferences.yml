@@ -175,6 +175,18 @@
   place: Montreal, Canada
   sub: CV
 
+- title: ACL
+  hindex: 135
+  year: 2021
+  id: acl21
+  link: https://2021.aclweb.org/
+  deadline: '2021-02-01 23:59:59'
+  timezone: UTC-12
+  date: August 2-4, 2021
+  place: Bangkok, Thailand
+  sub: NLP
+
+
 - title: ALT
   hindex: 15
   year: 2020
