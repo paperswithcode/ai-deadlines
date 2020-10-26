@@ -186,6 +186,18 @@
   place: Montreal, Canada
   sub: CV
 
+- title: ACL
+  hindex: 135
+  year: 2021
+  id: acl21
+  link: https://2021.aclweb.org/
+  deadline: '2021-02-01 23:59:59'
+  timezone: UTC-12
+  date: August 2-4, 2021
+  place: Bangkok, Thailand
+  sub: NLP
+
+
 - title: ALT
   hindex: 15
   year: 2020
@@ -230,17 +242,6 @@
   timezone: Europe/Paris
   date: May 11-16, 2020
   place: Marseille, France
-  sub: NLP
-
-- title: ACL
-  hindex: 26
-  year: 2020
-  id: acl20
-  link: https://acl2020.org/
-  deadline: '2019-12-09 23:59:59'
-  timezone: UTC-12
-  date: July 6-8, 2020
-  place: Seattle, Washington, USA
   sub: NLP
 
 - title: ICMR
