@@ -1,5 +1,6 @@
 ---
 - title: ICML
+  hindex: 135
   year: 2021
   id: icml21
   link: https://icml.cc/Conferences/2021
@@ -321,19 +322,6 @@
   date: Jul 12-17, 2020
   place: Oregon State University at Corvallis, Oregon
   sub: RO
-
-- title: ICML
-  hindex: 135
-  year: 2020
-  id: icml20
-  link: https://icml.cc/Conferences/2020
-  deadline: '2020-02-06 23:59:00'
-  abstract_deadline: '2020-01-30 23:59:00'
-  timezone: UTC-12
-  date: July 12-18, 2020
-  place: Online
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 30, 2020. More info <a href=''https://icml.cc/Conferences/2020/CallForPapers''>here</a>.'
 
 - title: KDD
   hindex: 30
