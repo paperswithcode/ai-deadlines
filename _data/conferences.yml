@@ -1,160 +1,4 @@
 ---
-- title: CHIL
-  hindex: -1
-  year: 2021
-  id: chil21
-  link: https://www.chilconference.org/
-  deadline: '2021-01-11 23:59:59'
-  abstract_deadline: '2021-01-07 23:59:59'
-  timezone: UTC-12
-  date: April 8-10, 2021
-  place: Online
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 7, 2021. More info at <a href=''https://www.chilconference.org''>chilconference.org</a>.'
-
-- title: ICML
-  hindex: 135
-  year: 2021
-  id: icml21
-  link: https://icml.cc/Conferences/2021
-  deadline: '2021-02-04 23:59:00'
-  abstract_deadline: '2021-01-28 23:59:00'
-  timezone: UTC-12
-  date: July 18-24, 2021
-  place: Vienna, Austria
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 28, 2021. More info <a href=''https://icml.cc/Conferences/2021/CallForPapers''>here</a>.'
-
-
-- title: WACV
-  hindex: 46
-  year: 2021
-  id: wacv21
-  link: http://wacv2021.thecvf.com/
-  deadline: '2020-09-29 23:59:59'
-  timezone: America/Los_Angeles
-  date: January 5-9, 2021
-  place: Waikoloa, Hawaii, USA
-  sub: CV
-  note: '<b>NOTE</b>: Second round submission deadline.'
-
-- title: ICLR
-  hindex: 150
-  year: 2021
-  id: iclr21
-  link: http://iclr.cc/
-  deadline: '2020-10-02 07:59:59'
-  abstract_deadline: '2020-09-28 07:59:59'
-  timezone: UTC-7
-  date: May 4, 2021
-  place: Vienna, Austria
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on September 28, 2020. More info
-    <a href=''https://iclr.cc/Conferences/2021/CallForPapers''>here</a>.'
-
-- title: EACL
-  hindex: 36
-  year: 2021
-  id: eacl21
-  link: https://2021.eacl.org/
-  deadline: '2020-10-07 23:59:00'
-  timezone: UTC-12
-  date: April 21-23, 2021
-  place: Online (Kyiv, Ukraine)
-  sub: NLP
-
-- title: AAMAS
-  hindex: 25
-  year: 2021
-  id: aamas21
-  link: https://aamas2021.soton.ac.uk/
-  deadline: '2020-10-09 23:59:59'
-  abstract_deadline: '2020-10-02 23:59:59'
-  timezone: UTC-12
-  date: May 3-7, 2021
-  place: London, UK
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 02, 2020. More info <a href=''https://aamas2021.soton.ac.uk/calls/papers/''>here</a>.'
-
-- title: SDM
-  hindex: 33
-  year: 2021
-  id: sdm21
-  link: https://www.siam.org/conferences/cm/conference/sdm21
-  deadline: '2020-10-12 23:59:00'
-  timezone: UTC-5
-  date: April 29 - May 1, 2021
-  place: Online
-  sub: DM
-
-- title: AISTATS
-  hindex: 52
-  year: 2021
-  id: aistats21
-  link: https://www.aistats.org/aistats2021/
-  deadline: '2020-10-15 08:00:00'
-  timezone: America/Los_Angeles
-  date: April 13-15, 2021
-  place: San Diego, California, USA
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 8, 2020. More info <a href=''http://www.aistats.org/aistats2021/cfp.html''>here</a>.'
-
-- title: ICASSP
-  hindex: 80
-  year: 2021
-  id: icassp21
-  link: https://2021.ieeeicassp.org/
-  deadline: '2020-10-19 23:59:59'
-  timezone: UTC
-  date: June 6-11, 2021
-  place: Toronto, Ontario, Canada
-  sub: SP
-
-- title: WWW
-  hindex: 70
-  year: 2021
-  id: www21
-  link: http://www2021.thewebconf.org/
-  deadline: '2020-10-19 23:59:59'
-  timezone: UTC-12
-  date: April 19-23, 2021
-  place: Ljubljana, Slovenia
-  sub: DM
-  note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
-
-- title: IJCAI
-  hindex: 67
-  year: 2021
-  id: ijcai21
-  link: https://ijcai-21.org/
-  deadline: '2021-01-18 23:59:59'
-  abstract_deadline: '2021-01-12 23:59:59'
-  timezone: UTC-12
-  date: August 21-26, 2021
-  place: Montreal, Canada
-  sub: ML
-
-- title: ICIP
-  hindex: 52
-  year: 2021
-  id: icip21
-  link: https://2021.ieeeicip.org
-  deadline: '2021-01-13 23:59:59'
-  timezone: America/Los_Angeles
-  date: September, 19-22, 2021
-  place: Anchorage, Alaska, USA
-  sub: CV
-  
-- title: ICRA
-  hindex: 94
-  year: 2020
-  id: icra21
-  link: https://www.ieee-ras.org/component/rseventspro/event/1908-icra-2021-call-for-papers-deadline
-  deadline: '2020-10-31 23:59:59'
-  timezone: America/Los_Angeles
-  date: May 30-June 5, 2021
-  place: Online
-  sub: RO
 
 - title: CVPR
   hindex: 299
@@ -189,6 +33,66 @@
   place: Shenzhen, China
   sub: CV
 
+- title: CHIL
+  hindex: -1
+  year: 2021
+  id: chil21
+  link: https://www.chilconference.org/
+  deadline: '2021-01-11 23:59:59'
+  abstract_deadline: '2021-01-07 23:59:59'
+  timezone: UTC-12
+  date: April 8-10, 2021
+  place: Online
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 7, 2021. More info <a href=''https://www.chilconference.org''>here</a>.'
+
+- title: ICIP
+  hindex: 52
+  year: 2021
+  id: icip21
+  link: https://2021.ieeeicip.org
+  deadline: '2021-01-13 23:59:59'
+  timezone: America/Los_Angeles
+  date: September, 19-22, 2021
+  place: Anchorage, Alaska, USA
+  sub: CV
+
+- title: IJCAI
+  hindex: 67
+  year: 2021
+  id: ijcai21
+  link: https://ijcai-21.org/
+  deadline: '2021-01-18 23:59:59'
+  abstract_deadline: '2021-01-12 23:59:59'
+  timezone: UTC-12
+  date: August 21-26, 2021
+  place: Montreal, Canada
+  sub: ML
+
+- title: ACL
+  hindex: 135
+  year: 2021
+  id: acl21
+  link: https://2021.aclweb.org/
+  deadline: '2021-02-01 23:59:59'
+  timezone: UTC-12
+  date: August 2-4, 2021
+  place: Bangkok, Thailand
+  sub: NLP
+
+- title: ICML
+  hindex: 135
+  year: 2021
+  id: icml21
+  link: https://icml.cc/Conferences/2021
+  deadline: '2021-02-04 23:59:00'
+  abstract_deadline: '2021-01-28 23:59:00'
+  timezone: UTC-12
+  date: July 18-24, 2021
+  place: Vienna, Austria
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 28, 2021. More info <a href=''https://icml.cc/Conferences/2021/CallForPapers''>here</a>.'
+
 - title: SIGIR
   hindex: 57
   year: 2021
@@ -211,18 +115,6 @@
   date: October 11-17, 2021
   place: Montreal, Canada
   sub: CV
-
-- title: ACL
-  hindex: 135
-  year: 2021
-  id: acl21
-  link: https://2021.aclweb.org/
-  deadline: '2021-02-01 23:59:59'
-  timezone: UTC-12
-  date: August 2-4, 2021
-  place: Bangkok, Thailand
-  sub: NLP
-
 
 - title: ALT
   hindex: 15
@@ -613,3 +505,110 @@
   place: Vancouver, Canada
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on September 01, 2020'
+
+- title: WACV
+  hindex: 46
+  year: 2021
+  id: wacv21
+  link: http://wacv2021.thecvf.com/
+  deadline: '2020-09-29 23:59:59'
+  timezone: America/Los_Angeles
+  date: January 5-9, 2021
+  place: Waikoloa, Hawaii, USA
+  sub: CV
+  note: '<b>NOTE</b>: Second round submission deadline.'
+
+- title: ICLR
+  hindex: 150
+  year: 2021
+  id: iclr21
+  link: http://iclr.cc/
+  deadline: '2020-10-02 07:59:59'
+  abstract_deadline: '2020-09-28 07:59:59'
+  timezone: UTC-7
+  date: May 4, 2021
+  place: Vienna, Austria
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on September 28, 2020. More info
+    <a href=''https://iclr.cc/Conferences/2021/CallForPapers''>here</a>.'
+
+- title: EACL
+  hindex: 36
+  year: 2021
+  id: eacl21
+  link: https://2021.eacl.org/
+  deadline: '2020-10-07 23:59:00'
+  timezone: UTC-12
+  date: April 21-23, 2021
+  place: Online (Kyiv, Ukraine)
+  sub: NLP
+
+- title: AAMAS
+  hindex: 25
+  year: 2021
+  id: aamas21
+  link: https://aamas2021.soton.ac.uk/
+  deadline: '2020-10-09 23:59:59'
+  abstract_deadline: '2020-10-02 23:59:59'
+  timezone: UTC-12
+  date: May 3-7, 2021
+  place: London, UK
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 02, 2020. More info <a href=''https://aamas2021.soton.ac.uk/calls/papers/''>here</a>.'
+
+- title: SDM
+  hindex: 33
+  year: 2021
+  id: sdm21
+  link: https://www.siam.org/conferences/cm/conference/sdm21
+  deadline: '2020-10-12 23:59:00'
+  timezone: UTC-5
+  date: April 29 - May 1, 2021
+  place: Online
+  sub: DM
+
+- title: AISTATS
+  hindex: 52
+  year: 2021
+  id: aistats21
+  link: https://www.aistats.org/aistats2021/
+  deadline: '2020-10-15 08:00:00'
+  timezone: America/Los_Angeles
+  date: April 13-15, 2021
+  place: San Diego, California, USA
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 8, 2020. More info <a href=''http://www.aistats.org/aistats2021/cfp.html''>here</a>.'
+
+- title: ICASSP
+  hindex: 80
+  year: 2021
+  id: icassp21
+  link: https://2021.ieeeicassp.org/
+  deadline: '2020-10-19 23:59:59'
+  timezone: UTC
+  date: June 6-11, 2021
+  place: Toronto, Ontario, Canada
+  sub: SP
+
+- title: WWW
+  hindex: 70
+  year: 2021
+  id: www21
+  link: http://www2021.thewebconf.org/
+  deadline: '2020-10-19 23:59:59'
+  timezone: UTC-12
+  date: April 19-23, 2021
+  place: Ljubljana, Slovenia
+  sub: DM
+  note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
+
+- title: ICRA
+  hindex: 94
+  year: 2020
+  id: icra21
+  link: https://www.ieee-ras.org/component/rseventspro/event/1908-icra-2021-call-for-papers-deadline
+  deadline: '2020-10-31 23:59:59'
+  timezone: America/Los_Angeles
+  date: May 30-June 5, 2021
+  place: Online
+  sub: RO
