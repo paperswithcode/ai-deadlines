@@ -105,6 +105,28 @@
   abstract_deadline: '2021-02-02 23:59:00'
   sub: DM
 
+- title: IROS
+  hindex: 58
+  year: 2021
+  id: iros21
+  link: https://www.iros2021.org/important-dates
+  deadline: '2021-03-01 23:59:59'
+  timezone: America/Los_Angeles
+  date: Sep 27-Oct 1, 2021
+  place: Prague, Czech Republic
+  sub: RO
+
+- title: RSS
+  hindex: 47
+  year: 2021
+  id: rss21
+  link: https://roboticsconference.org/
+  deadline: '2021-03-01 23:59:59'
+  timezone: UTC-12
+  date: Jul 12-16, 2021
+  place: Online
+  sub: RO
+
 - title: ICCV
   hindex: 176
   year: 2021
@@ -206,17 +228,6 @@
   place: Graz, Austria
   sub: ML
 
-- title: RSS
-  hindex: 47
-  year: 2020
-  id: rss20
-  link: https://roboticsconference.org/
-  deadline: '2020-01-31 23:59:59'
-  timezone: UTC-12
-  date: Jul 12-17, 2020
-  place: Oregon State University at Corvallis, Oregon
-  sub: RO
-
 - title: KDD
   hindex: 30
   year: 2020
@@ -238,17 +249,6 @@
   date: August 3-6, 2020
   place: Toronto, Canada
   sub: ML
-
-- title: IROS
-  hindex: 58
-  year: 2020
-  id: iros20
-  link: http://www.iros2020.org/
-  deadline: '2020-03-01 23:59:59'
-  timezone: America/Los_Angeles
-  date: Oct 24-30, 2020
-  place: Las Vegas, USA
-  sub: RO
 
 - title: ECCV
   hindex: 135
