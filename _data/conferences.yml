@@ -1,16 +1,5 @@
 ---
 
-- title: KDD
-  hindex: 30
-  year: 2021
-  id: kdd21
-  link: https://www.kdd.org/kdd2021/
-  deadline: '2021-02-08 23:59:59'
-  timezone: UTC-12
-  date: August 14-18, 2021
-  place: Singapore
-  sub: DM
-
 - title: CVPR
   hindex: 299
   year: 2021
@@ -103,6 +92,17 @@
   place: Vienna, Austria
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 28, 2021. More info <a href=''https://icml.cc/Conferences/2021/''>here</a>.'
+
+- title: KDD
+  hindex: 30
+  year: 2021
+  id: kdd21
+  link: https://www.kdd.org/kdd2021/
+  deadline: '2021-02-08 23:59:59'
+  timezone: UTC-12
+  date: August 14-18, 2021
+  place: Singapore
+  sub: DM
 
 - title: SIGIR
   hindex: 57
@@ -238,17 +238,6 @@
   timezone: America/Los_Angeles
   place: Graz, Austria
   sub: ML
-
-- title: KDD
-  hindex: 30
-  year: 2020
-  id: kdd20
-  link: https://www.kdd.org/kdd2020/
-  deadline: '2020-02-13 23:59:59'
-  timezone: UTC-11
-  date: August 22-27, 2020
-  place: San Diego, California, USA
-  sub: DM
 
 - title: UAI
   hindex: 33
