@@ -1,5 +1,16 @@
 ---
 
+- title: Deep Learning Update
+  hindex: -
+  year: 2021
+  id: dlu21
+  link: http://www.deep-learning-update.org/
+  deadline: '2021-01-15 23:59:59'
+  timezone: UTC-12
+  date: March 15-21, 2021
+  place: Online
+  sub: ML
+
 - title: CVPR
   hindex: 299
   year: 2021
