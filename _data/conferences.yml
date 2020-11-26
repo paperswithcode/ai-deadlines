@@ -1,7 +1,5 @@
----
-
 - title: Deep Learning Update
-  hindex: -
+  hindex: 0
   year: 2021
   id: dlu21
   link: http://www.deep-learning-update.org/
@@ -10,6 +8,7 @@
   date: March 15-21, 2021
   place: Online
   sub: ML
+  note: 'new conference, for this hindex 0'
 
 - title: CVPR
   hindex: 299
