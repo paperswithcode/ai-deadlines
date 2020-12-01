@@ -173,16 +173,16 @@
 
 - title: ICAPS
   hindex: 28
-  year: 2020
-  id: icaps20
-  link: https://icaps20.icaps-conference.org/
-  deadline: '2019-11-20 23:59:59'
-  abstract_deadline: '2019-11-15 23:59:59'
+  year: 2021
+  id: icaps21
+  link: https://icaps21.icaps-conference.org/
+  deadline: '2020-12-18 23:59:59'
+  abstract_deadline: '2020-12-11 23:59:59'
   timezone: UTC-12
-  date: June 14-19, 2020
-  place: Nancy, France
+  date: June 7-12, 2021
+  place: Guangzhou, China
   sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Nov 15, 2019. More info <a href=''https://icaps20.icaps-conference.org/''>here</a>.'
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Dec 11, 2020. More info <a href=''https://icaps21.icaps-conference.org/''>here</a>.'
 
 - title: LREC
   hindex: 45
