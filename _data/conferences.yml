@@ -1,37 +1,17 @@
 ---
 
-- title: CVPR
-  hindex: 299
+- title: ICAPS
+  hindex: 28
   year: 2021
-  id: cvpr21
-  link: http://cvpr2021.thecvf.com/
-  deadline: '2020-11-16 23:59:59'
-  timezone: America/Los_Angeles
-  date: June 19-25, 2021
-  place: Nashville, USA
-  sub: CV
-
-- title: NAACL
-  hindex: 90
-  year: 2021
-  id: naacl21
-  link: https://2021.naacl.org/
-  deadline: '2020-11-23 23:59:00'
+  id: icaps21
+  link: https://icaps21.icaps-conference.org/
+  deadline: '2020-12-18 23:59:59'
+  abstract_deadline: '2020-12-11 23:59:59'
   timezone: UTC-12
-  date: June 6-11, 2021
-  place: Mexico City, Mexico
-  sub: NLP
-
-- title: ICME
-  hindex: 30
-  year: 2021
-  id: icme21
-  link: https://2021.ieeeicme.org/
-  deadline: '2020-11-29 23:59:59'
-  timezone: America/Los_Angeles
-  date: July 5-9, 2021
-  place: Shenzhen, China
-  sub: CV
+  date: June 7-12, 2021
+  place: Guangzhou, China
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Dec 11, 2020. More info <a href=''https://icaps21.icaps-conference.org/''>here</a>.'
 
 - title: CHIL
   hindex: -1
@@ -170,19 +150,6 @@
   date: March 23-26, 2020
   place: Cambridge, UK
   sub: RO
-
-- title: ICAPS
-  hindex: 28
-  year: 2021
-  id: icaps21
-  link: https://icaps21.icaps-conference.org/
-  deadline: '2020-12-18 23:59:59'
-  abstract_deadline: '2020-12-11 23:59:59'
-  timezone: UTC-12
-  date: June 7-12, 2021
-  place: Guangzhou, China
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Dec 11, 2020. More info <a href=''https://icaps21.icaps-conference.org/''>here</a>.'
 
 - title: LREC
   hindex: 45
@@ -612,3 +579,36 @@
   date: May 30-June 5, 2021
   place: Online
   sub: RO
+
+- title: CVPR
+  hindex: 299
+  year: 2021
+  id: cvpr21
+  link: http://cvpr2021.thecvf.com/
+  deadline: '2020-11-16 23:59:59'
+  timezone: America/Los_Angeles
+  date: June 19-25, 2021
+  place: Nashville, USA
+  sub: CV
+
+- title: NAACL
+  hindex: 90
+  year: 2021
+  id: naacl21
+  link: https://2021.naacl.org/
+  deadline: '2020-11-23 23:59:00'
+  timezone: UTC-12
+  date: June 6-11, 2021
+  place: Mexico City, Mexico
+  sub: NLP
+
+- title: ICME
+  hindex: 30
+  year: 2021
+  id: icme21
+  link: https://2021.ieeeicme.org/
+  deadline: '2020-11-29 23:59:59'
+  timezone: America/Los_Angeles
+  date: July 5-9, 2021
+  place: Shenzhen, China
+  sub: CV
