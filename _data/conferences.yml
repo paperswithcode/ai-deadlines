@@ -208,13 +208,13 @@
 
 - title: UAI
   hindex: 33
-  year: 2020
-  id: uai20
-  link: http://auai.org/uai2020/
-  deadline: '2020-02-20 23:59:59'
-  timezone: UTC+1
-  date: August 3-6, 2020
-  place: Toronto, Canada
+  year: 2021
+  id: uai21
+  link: http://auai.org/uai2021/
+  deadline: '2021-02-19 23:59:59'
+  timezone: UTC
+  date: July 26-30, 2021
+  place: TBD
   sub: ML
 
 - title: ECCV
