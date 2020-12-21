@@ -1,18 +1,5 @@
 ---
 
-- title: ICAPS
-  hindex: 28
-  year: 2021
-  id: icaps21
-  link: https://icaps21.icaps-conference.org/
-  deadline: '2020-12-18 23:59:59'
-  abstract_deadline: '2020-12-11 23:59:59'
-  timezone: UTC-12
-  date: June 7-12, 2021
-  place: Guangzhou, China
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Dec 11, 2020. More info <a href=''https://icaps21.icaps-conference.org/''>here</a>.'
-
 - title: CHIL
   hindex: -1
   year: 2021
@@ -96,6 +83,17 @@
   abstract_deadline: '2021-02-02 23:59:00'
   sub: DM
 
+- title: UAI
+  hindex: 33
+  year: 2021
+  id: uai21
+  link: http://auai.org/uai2021/
+  deadline: '2021-02-19 23:59:59'
+  timezone: UTC
+  date: July 26-30, 2021
+  place: TBD
+  sub: ML
+
 - title: IROS
   hindex: 58
   year: 2021
@@ -174,14 +172,14 @@
   sub: CV
 
 - title: SIGGRAPH
-  hindex: 20
-  year: 2020
-  id: siggraph20
-  link: https://s2020.siggraph.org/
-  deadline: '2020-01-22 22:00:00'
+  hindex: 19
+  year: 2021
+  id: siggraph21
+  link: https://s2021.siggraph.org/
+  deadline: '2020-01-15 22:00:00'
   timezone: America/Los_Angeles
-  date: July 19-23, 2020
-  place: Washington, D.C., USA
+  date: August 1-5, 2021
+  place: Online
   sub: CV
 
 - title: MIDL
@@ -204,17 +202,6 @@
   deadline: '2020-01-31 16:00:00'
   timezone: America/Los_Angeles
   place: Graz, Austria
-  sub: ML
-
-- title: UAI
-  hindex: 33
-  year: 2021
-  id: uai21
-  link: http://auai.org/uai2021/
-  deadline: '2021-02-19 23:59:59'
-  timezone: UTC
-  date: July 26-30, 2021
-  place: TBD
   sub: ML
 
 - title: ECCV
@@ -612,3 +599,16 @@
   date: July 5-9, 2021
   place: Shenzhen, China
   sub: CV
+
+- title: ICAPS
+  hindex: 28
+  year: 2021
+  id: icaps21
+  link: https://icaps21.icaps-conference.org/
+  deadline: '2020-12-18 23:59:59'
+  abstract_deadline: '2020-12-11 23:59:59'
+  timezone: UTC-12
+  date: June 7-12, 2021
+  place: Guangzhou, China
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Dec 11, 2020. More info <a href=''https://icaps21.icaps-conference.org/''>here</a>.'
