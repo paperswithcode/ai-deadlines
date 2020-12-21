@@ -24,6 +24,17 @@
   place: Anchorage, Alaska, USA
   sub: CV
 
+- title: SIGGRAPH
+  hindex: 19
+  year: 2021
+  id: siggraph21
+  link: https://s2021.siggraph.org/
+  deadline: '2021-01-15 22:00:00'
+  timezone: America/Los_Angeles
+  date: August 1-5, 2021
+  place: Online
+  sub: CV
+
 - title: IJCAI
   hindex: 67
   year: 2021
@@ -169,17 +180,6 @@
   timezone: Europe/London
   date: June 8-11, 2020
   place: Dublin, Ireland
-  sub: CV
-
-- title: SIGGRAPH
-  hindex: 19
-  year: 2021
-  id: siggraph21
-  link: https://s2021.siggraph.org/
-  deadline: '2020-01-15 22:00:00'
-  timezone: America/Los_Angeles
-  date: August 1-5, 2021
-  place: Online
   sub: CV
 
 - title: MIDL
