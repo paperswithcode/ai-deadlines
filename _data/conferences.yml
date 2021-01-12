@@ -266,6 +266,17 @@
   sub: SP
   note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 10, 2020. More info <a href=''https://ismir.github.io/ISMIR2020/cfp/''>here</a>.'
 
+- title: ASRU
+  hindex: -1
+  year: 2021
+  id: asru21
+  link: https://asru2021.org/
+  deadline: '2021-05-14 23:59:59'
+  timezone: UTC-12
+  date: December 13-17, 2021
+  place: Cartagena, Colombia
+  sub: SP
+
 - title: BMVC
   hindex: 46
   year: 2020
