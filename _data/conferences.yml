@@ -293,15 +293,16 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 24, 2020. More info <a href=''https://cikm2020.org/call-for-papers-full-and-short-research-papers/''>here</a>.'
 
 - title: InterSpeech
-  hindex: 65
-  year: 2020
-  id: interspeech20
-  link: http://www.interspeech2020.org/
-  deadline: '2020-05-08 23:59:59'
+  hindex: 81
+  year: 2021
+  id: interspeech21
+  link: http://www.interspeech2021.org/
+  deadline: '2021-04-02 23:59:59'
   timezone: UTC-12
-  date: October 25-29, 2020
-  place: Shanghai, China
+  date: August 30 - September 3, 2021
+  place: Brno, Czechia
   sub: SP
+  abstract_deadline: '2021-03-26 23:59:59'
 
 - title: MM
   hindex: 58
