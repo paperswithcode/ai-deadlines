@@ -305,13 +305,13 @@
 
 - title: MM
   hindex: 58
-  year: 2020
-  id: mm20
-  link: https://2020.acmmm.org/
-  deadline: '2020-05-24 23:59:00'
+  year: 2021
+  id: mm21
+  link: https://2021.acmmm.org/
+  deadline: '2020-04-3 23:59:00'
   timezone: UTC-12
   date: October 12-16, 2020
-  place: Seattle, USA
+  place: Chengdu, China
   sub: CV
 
 - title: RecSys
