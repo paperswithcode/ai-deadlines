@@ -1,41 +1,5 @@
 ---
 
-- title: CHIL
-  hindex: -1
-  year: 2021
-  id: chil21
-  link: https://www.chilconference.org/
-  deadline: '2021-01-14 23:59:59'
-  abstract_deadline: '2021-01-10 23:59:59'
-  timezone: UTC-12
-  date: April 8-10, 2021
-  place: Online
-  sub: ML
-  note: '<b>NOTE</b>: Recommended abstract deadline on Jan 10, 2021. More info <a href=''https://www.chilconference.org''>here</a>.'
-
-- title: ICIP
-  hindex: 52
-  year: 2021
-  id: icip21
-  link: https://2021.ieeeicip.org
-  deadline: '2021-01-13 23:59:59'
-  timezone: America/Los_Angeles
-  date: September, 19-22, 2021
-  place: Anchorage, Alaska, USA
-  sub: CV
-
-- title: IJCAI
-  hindex: 67
-  year: 2021
-  id: ijcai21
-  link: https://ijcai-21.org/
-  deadline: '2021-01-20 23:59:59'
-  abstract_deadline: '2021-01-13 23:59:59'
-  timezone: UTC-12
-  date: August 21-26, 2021
-  place: Montreal, Canada
-  sub: ML
-
 - title: SIGGRAPH
   hindex: 19
   year: 2021
@@ -138,6 +102,17 @@
   timezone: America/Los_Angeles
   date: October 11-17, 2021
   place: Montreal, Canada
+  sub: CV
+
+- title: MM
+  hindex: 58
+  year: 2021
+  id: mm21
+  link: https://2021.acmmm.org/
+  deadline: '2021-04-03 23:59:59'
+  timezone: UTC-12
+  date: October 20-24, 2021
+  place: Chengdu, China
   sub: CV
 
 - title: ALT
@@ -302,17 +277,6 @@
   date: October 25-29, 2020
   place: Shanghai, China
   sub: SP
-
-- title: MM
-  hindex: 58
-  year: 2021
-  id: mm21
-  link: https://2021.acmmm.org/
-  deadline: '2021-04-03 23:59:59'
-  timezone: UTC-12
-  date: October 12-16, 2020
-  place: Chengdu, China
-  sub: CV
 
 - title: RecSys
   hindex: 45
@@ -614,3 +578,40 @@
   place: Guangzhou, China
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Dec 11, 2020. More info <a href=''https://icaps21.icaps-conference.org/''>here</a>.'
+
+- title: ICIP
+  hindex: 52
+  year: 2021
+  id: icip21
+  link: https://2021.ieeeicip.org
+  deadline: '2021-01-13 23:59:59'
+  timezone: America/Los_Angeles
+  date: September, 19-22, 2021
+  place: Anchorage, Alaska, USA
+  sub: CV
+
+- title: CHIL
+  hindex: -1
+  year: 2021
+  id: chil21
+  link: https://www.chilconference.org/
+  deadline: '2021-01-14 23:59:59'
+  abstract_deadline: '2021-01-10 23:59:59'
+  timezone: UTC-12
+  date: April 8-10, 2021
+  place: Online
+  sub: ML
+  note: '<b>NOTE</b>: Recommended abstract deadline on Jan 10, 2021. More info <a
+    href=''https://www.chilconference.org''>here</a>.'
+
+- title: IJCAI
+  hindex: 67
+  year: 2021
+  id: ijcai21
+  link: https://ijcai-21.org/
+  deadline: '2021-01-20 23:59:59'
+  abstract_deadline: '2021-01-13 23:59:59'
+  timezone: UTC-12
+  date: August 21-26, 2021
+  place: Montreal, Canada
+  sub: ML
