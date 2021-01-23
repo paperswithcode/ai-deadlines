@@ -114,6 +114,29 @@
   date: October 20-24, 2021
   place: Chengdu, China
   sub: CV
+  
+- title: FG
+  hindex: -1
+  year: 2021
+  id: fg2021
+  link: http://iab-rubric.org/fg2021/
+  deadline: '2021-04-15 23:59:00'
+  timezone: America/Los_Angeles
+  date: December 15-18, 2021
+  place: Jodhpur, India
+  sub: CV
+  note: '<b>NOTE</b>: the 2nd round submission deadline is July 15, 2021.'
+
+- title: ICMI
+  hindex: -1
+  year: 2021
+  id: icmi2021
+  link: https://icmi.acm.org/2021/
+  deadline: '2021-05-26 23:59:00'
+  timezone: UTC-7
+  date: October 18-22, 2021
+  place: Montreal, Canada
+  sub: CV
 
 - title: ALT
   hindex: 15
