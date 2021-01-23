@@ -115,7 +115,6 @@
   place: Chengdu, China
   sub: CV
   
-
 - title: FG
   hindex: -1
   year: 2021
@@ -126,7 +125,7 @@
   date: December 15-18, 2021
   place: Jodhpur, India
   sub: CV
-  note: Two Round Submission, the Second Round Submission deasline is July 15, 2021.
+  note: '<b>NOTE</b>: Two Round Submission, the Second Round Submission deasline is July 15, 2021.
 
 - title: ICMI
   hindex: -1
@@ -134,7 +133,7 @@
   id: icmi2021
   link: https://icmi.acm.org/2021/
   deadline: '2021-05-26 23:59:00'
-  timezone: GMT-7
+  timezone: UTC-7
   date: October 18-22, 2021
   place: Montreal, Canada
   sub: CV
