@@ -1,18 +1,5 @@
 ---
 
-- title: SIGGRAPH
-  hindex: 19
-  year: 2021
-  id: siggraph21
-  link: https://s2021.siggraph.org/
-  abstract_deadline: '2021-01-27 22:00:00'
-  deadline: '2021-01-28 22:00:00'
-  timezone: UTC
-  date: August 1-5, 2021
-  place: Online
-  sub: CV
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 27, 2021. More info <a href=''https://s2021.siggraph.org/program/technical-papers/''>here</a>.'
-
 - title: ACL
   hindex: 135
   year: 2021
@@ -92,6 +79,18 @@
   date: Jul 12-16, 2021
   place: Online
   sub: RO
+
+- title: MICCAI
+  hindex: 46
+  year: 2021
+  id: miccai2021
+  link: http://www.miccai2021.org/
+  deadline: '2021-03-03 23:59:59'
+  timezone: America/Los_Angeles
+  date: September 27-October 1, 2021
+  place: Lima, Peru
+  sub: CV
+  note: '<b>NOTE</b>: Intent to submit deadline on Feb 19, 2021. More info <a href=''https://www.miccai2021.org/''>here</a>.'
 
 - title: ICCV
   hindex: 176
@@ -250,18 +249,6 @@
   date: June 29-July 3, 2020
   place: Coimbra, Portugal
   sub: ML
-
-- title: MICCAI
-  hindex: 46
-  year: 2020
-  id: miccai2020
-  link: http://www.miccai2020.org/
-  deadline: '2020-03-17 23:59:59'
-  timezone: America/Los_Angeles
-  date: October 4-8, 2020
-  place: Lima, Peru
-  sub: CV
-  note: '<b>NOTE</b>: Intent to submit deadline on Mar 03, 2020. More info <a href=''https://www.miccai2020.org/''>here</a>.'
 
 - title: ISMIR
   hindex: 32
@@ -639,3 +626,16 @@
   date: August 21-26, 2021
   place: Montreal, Canada
   sub: ML
+
+- title: SIGGRAPH
+  hindex: 19
+  year: 2021
+  id: siggraph21
+  link: https://s2021.siggraph.org/
+  abstract_deadline: '2021-01-27 22:00:00'
+  deadline: '2021-01-28 22:00:00'
+  timezone: UTC
+  date: August 1-5, 2021
+  place: Online
+  sub: CV
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 27, 2021. More info <a href=''https://s2021.siggraph.org/program/technical-papers/''>here</a>.'
