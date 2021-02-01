@@ -208,13 +208,13 @@
 
 - title: MIDL
   hindex: -1
-  year: 2020
-  id: midl2020
-  link: https://2020.midl.io/
-  deadline: '2020-01-30 23:59:59'
+  year: 2021
+  id: midl2021
+  link: https://2021.midl.io/
+  deadline: '2021-02-17 23:59:59'
   timezone: UTC-12
-  date: July 6-8, 2020
-  place: Montreal, Canada
+  date: July 7-9, 2020
+  place: Luebeck, Germany
   sub: CV
 
 - title: COLT
