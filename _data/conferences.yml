@@ -1,5 +1,17 @@
 ---
 
+- title: EMNLP
+  hindex: 112
+  year: 2021
+  id: emnlp21
+  link: https://2021.emnlp.org/
+  deadline: '2021-05-17 23:59:00'
+  timezone: UTC-12
+  date: November 7-11, 2021
+  place: Punta Cana, Dominican Republic
+  abstract_deadline: '2021-05-10 23:59:00'
+  sub: NLP
+
 - title: ACL
   hindex: 135
   year: 2021
@@ -303,17 +315,6 @@
   place: Online
   sub: DM
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 25, 2020. More info <a href=''https://recsys.acm.org/recsys20/dates/''>here</a>.'
-
-- title: EMNLP
-  hindex: 88
-  year: 2020
-  id: emnlp20
-  link: https://2020.emnlp.org/
-  deadline: '2020-06-03 23:59:00'
-  timezone: UTC-12
-  date: November 16-20, 2020
-  place: Online
-  sub: NLP
 
 - title: NeurIPS
   hindex: 169
