@@ -642,3 +642,13 @@
   date: July 26-30, 2021
   place: TBD
   sub: ML
+
+- title: ICANN
+  year: 2021
+  id: icann21
+  link: https://e-nns.org/icann2021/
+  deadline: '2021-05-15 23:59:59'
+  timezone: CET
+  date: September 14-17, 2021
+  place: Bratislava, Slovakia
+  sub: ML
