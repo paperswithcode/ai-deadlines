@@ -3,7 +3,7 @@ rvm:
   - 2.4
 script:
   - bundle exec jekyll build --future
-  - bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html
+  - bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html --url-ignore "/#.*/" --http-status-ignore "400,441"
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true

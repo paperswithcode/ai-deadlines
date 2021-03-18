@@ -68,51 +68,63 @@
               </div>
             </div>
         </div>
-        {% for conf in site.data.conferences %}
-        <div id="{{conf.id}}" class="{% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
-          <div class="row conf-row">
-              <div class="col-xs-5 col-sm-6">
-                  <a class="conf-title" href="/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
-              </div>
-              <div class="col-xs-7 col-sm-6">
-                <span class="timer"></span>
-              </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 col-sm-6">
-              <div class="meta">
-                <span class="conf-date">{{conf.date}}.</span>
-                <span class="conf-place">
-                  <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
-                </span>
-              </div>
-              {% if conf.note %}
-              <div class="note">
-                {{conf.note}}
-              </div>
-              {% endif %}
-            </div>
-            <div class="col-xs-12 col-sm-6">
-              <div class="deadline">
-                <div>Deadline:
-                  <span class="deadline-time"></span>
+        <div id="confs">
+        <div id="coming_confs">
+          {% for conf in site.data.conferences %}
+          <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
+            <div class="row conf-row">
+                <div class="col-xs-5 col-sm-6">
+                    <a class="conf-title" href="/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
                 </div>
+                <div class="col-xs-7 col-sm-6">
+                  <span class="timer"></span>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6">
+                <div class="meta">
+                  <span class="conf-date">{{conf.date}}.</span>
+                  <span class="conf-place">
+                    {% if conf.place == "Online" %}
+                    <a href="#">{{conf.place}}</a>.
+                    {% else %}
+                    <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
+                    {% endif %}
+                  </span>
+                </div>
+                {% if conf.note %}
+                <div class="note">
+                  {{conf.note}}
+                </div>
+                {% endif %}
               </div>
-              <div class="calendar"></div>
+              <div class="col-xs-12 col-sm-6">
+                <div class="deadline">
+                  <div>Deadline:
+                    <span class="deadline-time"></span>
+                  </div>
+                </div>
+                <div class="calendar"></div>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <span title="Click to only show {{conf.sub}} conferences" data-sub="{{conf.sub}}" class="conf-sub"></span>
+            <div class="row">
+              <div class="col-xs-12">
+                {% for sub in conf.sub %}
+                <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="conf-sub {{sub}}-tag"></span>
+                {% endfor %}
+              </div>
             </div>
+            <hr>
           </div>
-          <hr>
+          {% endfor %}
         </div>
-        {% endfor %}
+        <div id="past_confs">
+        </div>
+        </div>
         <footer>
           <div class="row">
             <div class="col-xs-12 col-sm-6">
-              <a href="/">{{ site.domain }}</a> is maintained by <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.<br>
+              <a href="/">{{ site.domain }}</a> is maintained by <a href="https://twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.<br>
               If you find it useful, consider buying him <a target="_blank" href="https://read.gift/u/abhshkdz">a book</a> or <a title="_blank" href="https://www.buymeacoffee.com/abhshkdz">coffee</a>.
             </div>
           </div>
@@ -161,7 +173,9 @@
         }
 
         {% for conf in site.data.conferences %}
-        $('#{{conf.id}} .conf-sub').html(sub2name["{{conf.sub}}"].toLocaleLowerCase());
+        {% for sub in conf.sub %}
+        $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
+        {% endfor %}
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
@@ -207,10 +221,23 @@
 
           // check if date has passed, add 'past' class to it
           var today = moment();
-          if (today.diff(confDate) > 0)
+          diff = today.diff(confDate)
+          $('#{{conf.id}}').attr("diff", diff)
+          if (diff > 0) {
             $('#{{conf.id}}').addClass('past');
+            $('#{{conf.id}}').appendTo($("#past_confs"))
+          }
         {% endif %}
         {% endfor %}
+
+        // Sort coming_confs and past_confs
+        $("#coming_confs .ConfItem").sort(function (a, b) {
+          return $(b).attr('diff') - $(a).attr('diff');
+        }).appendTo($("#coming_confs"));
+
+        $("#past_confs .ConfItem").sort(function (a, b) {
+          return $(b).attr('diff') - $(a).attr('diff');
+        }).appendTo($("#past_confs"));
 
         // Get subjects from URL
         var url = new URL(window.location);
@@ -219,6 +246,18 @@
            subs = store.get('{{ site.domain }}');
         } else {
            subs = subs.toUpperCase().split(',');
+        }
+        if (subs != undefined) {
+          // Hide unchecked subs
+          for (var i = 0; i < all_subs.length; i++) {
+            if (subs.indexOf(all_subs[i]) < 0) {
+              $('.' + all_subs[i] + '-conf').hide();
+            }
+          }
+          // In case a conf with multiple types is wrongly hid, show all confs with at least one checked type.
+          for (var i = 0; i < subs.length; i++) {
+            $('.' + subs[i] + '-conf').show();
+          }
         }
         // Get subjects from browser cache
         if (subs === undefined) {
@@ -229,12 +268,6 @@
         } else {
           for (var i = 0; i < subs.length; i++) {
             $('#' + subs[i] + '-checkbox').prop('checked', true);
-          }
-        }
-        // Hide unchecked subs
-        for (var i = 0; i < all_subs.length; i++) {
-          if (subs.indexOf(all_subs[i]) < 0) {
-            $('.' + all_subs[i] + '-conf').hide();
           }
         }
         store.set('{{ site.domain }}', subs);
@@ -255,6 +288,10 @@
             var idx = subs.indexOf(csub);
             if (idx >= 0)
               subs.splice(idx, 1);
+            // In case a conf with multiple types (including this type) is wrongly hid, show all confs with at least one checked type.
+            for (var i = 0; i < subs.length; i++) {
+              $('.' + subs[i] + '-conf').show();
+            }
           }
           console.log(subs);
           store.set('{{ site.domain }}', subs);
@@ -269,11 +306,9 @@
               $('#' + subs[i] + '-checkbox').prop('checked', false);
               $('.' + subs[i] + '-conf').hide();
             }
-            else {
-              $('#' + subs[i] + '-checkbox').prop('checked', true);
-              $('.' + subs[i] + '-conf').show();
-            }
           }
+          $('#' + csub + '-checkbox').prop('checked', true);
+          $('.' + csub + '-conf').show();
           subs = [csub];
           console.log(subs);
           store.set('{{ site.domain }}', subs);
