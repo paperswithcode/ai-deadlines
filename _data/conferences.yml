@@ -246,19 +246,6 @@
   sub: CV
   note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 23, 2020. More info <a href=''https://britishmachinevisionassociation.github.io/bmvc''>here</a>.'
 
-- title: CIKM
-  hindex: 48
-  year: 2020
-  id: cikm20
-  link: https://cikm2020.org/
-  deadline: '2020-05-01 23:59:59'
-  abstract_deadline: '2020-04-24 23:59:59'
-  timezone: UTC-12
-  date: October 19-23, 2020
-  place: Galway, Ireland
-  sub: DM
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 24, 2020. More info <a href=''https://cikm2020.org/call-for-papers-full-and-short-research-papers/''>here</a>.'
-
 - title: RecSys
   hindex: 45
   year: 2020
