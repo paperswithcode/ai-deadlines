@@ -325,17 +325,6 @@
   place: Online
   sub: NLP
 
-- title: CoRL
-  hindex: 20
-  year: 2020
-  id: corl20
-  link: http://www.robot-learning.org
-  deadline: '2020-07-28 23:59:00'
-  timezone: UTC-7
-  date: November 16-18, 2020
-  place: Online
-  sub: RO
-
 - title: 3DV
   hindex: 29
   year: 2020
@@ -645,7 +634,6 @@
   sub: ML
   
 - title: CoRL
-  hindex: 20
   year: 2021
   id: corl21
   link: http://www.robot-learning.org
