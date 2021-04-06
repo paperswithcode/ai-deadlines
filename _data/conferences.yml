@@ -642,3 +642,13 @@
   date: November 8-11, 2021
   place: London, UK, and virtual
   sub: RO
+  
+- title: AKBC
+  year: 2021
+  id: akbc21
+  link: https://www.akbc.ws/2021/
+  deadline: '2021-06-17 23:59:59'
+  timezone: UTC-12
+  date: October 4-7, 2021
+  place: Irvine, United States
+  sub: NLP
