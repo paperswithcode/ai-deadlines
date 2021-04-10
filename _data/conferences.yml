@@ -652,3 +652,13 @@
   date: October 4-7, 2021
   place: Irvine, United States
   sub: NLP
+
+- title: ICDM
+  year: 2021
+  id: icdm21
+  link: https://icdm2021.auckland.ac.nz/
+  deadline: '2021-06-11 23:59:59'
+  timezone: UTC-7
+  date: Dec 7, 2021
+  place: Auckland, New Zealand
+  sub: DM
