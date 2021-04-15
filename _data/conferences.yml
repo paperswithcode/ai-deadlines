@@ -129,6 +129,28 @@
   date: October 18-22, 2021
   place: Montreal, Canada
   sub: CV
+  
+- title: ACML
+  hindex: 17
+  year: 2021
+  id: acml2021
+  link: http://www.acml-conf.org/2021
+  deadline: '2021-06-25 23:59:00'
+  timezone: UTC-7
+  date: November 17-19, 2021
+  place: Online
+  sub: CV
+
+- title: ICDM2021
+  hindex: -1
+  year: 2021
+  id: icdm2021
+  link: https://icdm2021.auckland.ac.nz
+  deadline: '2020-06-11 23:59:59'
+  timezone: UTC-7
+  date: December 7-10, 2021
+  place: Auckland, New Zealand
+  sub: DM
 
 - title: ALT
   hindex: 15
