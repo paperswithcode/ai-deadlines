@@ -325,17 +325,6 @@
   place: Online
   sub: NLP
 
-- title: CoRL
-  hindex: 20
-  year: 2020
-  id: corl20
-  link: http://www.robot-learning.org
-  deadline: '2020-07-28 23:59:00'
-  timezone: UTC-7
-  date: November 16-18, 2020
-  place: Online
-  sub: RO
-
 - title: 3DV
   hindex: 29
   year: 2020
@@ -643,3 +632,23 @@
   date: July 26-30, 2021
   place: TBD
   sub: ML
+  
+- title: CoRL
+  year: 2021
+  id: corl21
+  link: http://www.robot-learning.org
+  deadline: '2021-06-18 23:59:00'
+  timezone: UTC-7
+  date: November 8-11, 2021
+  place: London, UK, and virtual
+  sub: RO
+  
+- title: AKBC
+  year: 2021
+  id: akbc21
+  link: https://www.akbc.ws/2021/
+  deadline: '2021-06-17 23:59:59'
+  timezone: UTC-12
+  date: October 4-7, 2021
+  place: Irvine, United States
+  sub: NLP
