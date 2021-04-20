@@ -675,3 +675,15 @@
   date: October 20-24, 2021
   place: Chengdu, China
   sub: CV
+
+- title: CIKM
+  hindex: 48
+  year: 2021
+  id: cikm21
+  link: https://cikm2021.org/
+  deadline: '2020-05-26 23:59:59'
+  abstract_deadline: '2020-05-19 23:59:59'
+  timezone: UTC-12
+  date: November 1-5, 2021
+  place: Online (Hosted in Gold Coast, Queensland, Australia)
+  sub: DM
