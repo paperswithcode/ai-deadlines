@@ -25,18 +25,6 @@
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 19, 2021'
 
-- title: CIKM
-   hindex: 48
-   year: 2021
-   id: cikm21
-   link: https://cikm2021.org/
-   deadline: '2021-05-26 23:59:59'
-   abstract_deadline: '2021-05-19 23:59:59'
-   timezone: UTC-12
-   date: November 1-5, 2021
-   place: Gold Coast, Queensland, Australia
-   sub: DM
-
 - title: ICMI
   hindex: -1
   year: 2021
@@ -47,6 +35,18 @@
   date: October 18-22, 2021
   place: Montreal, Canada
   sub: CV
+
+- title: CIKM
+  hindex: 48
+  year: 2021
+  id: cikm21
+  link: https://cikm2021.org/
+  deadline: '2021-05-26 23:59:59'
+  abstract_deadline: '2021-05-19 23:59:59'
+  timezone: UTC-12
+  date: November 1-5, 2021
+  place: Gold Coast, Queensland, Australia
+  sub: DM
 
 - title: ICDM
   hindex: -1
@@ -192,19 +192,6 @@
   place: Manchester, UK
   sub: CV
   note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 23, 2020. More info <a href=''https://britishmachinevisionassociation.github.io/bmvc''>here</a>.'
-
-- title: CIKM
-  hindex: 48
-  year: 2020
-  id: cikm20
-  link: https://cikm2020.org/
-  deadline: '2020-05-01 23:59:59'
-  abstract_deadline: '2020-04-24 23:59:59'
-  timezone: UTC-12
-  date: October 19-23, 2020
-  place: Galway, Ireland
-  sub: DM
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 24, 2020. More info <a href=''https://cikm2020.org/call-for-papers-full-and-short-research-papers/''>here</a>.'
 
 - title: RecSys
   hindex: 45
