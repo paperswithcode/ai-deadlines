@@ -1,5 +1,17 @@
 ---
 
+- title: BIBM
+  hindex: -1
+  year: 2021
+  id: bibm21
+  link: https://ieeebibm.org/BIBM2021/
+  deadline: '2021-08-28 23:59:00'
+  timezone: America/Texas
+  date: December 9-12, 2021
+  place: Houston, USA
+  abstract_deadline: '2021-08-28 23:59:00'
+  sub: CV
+
 - title: EMNLP
   hindex: 112
   year: 2021
