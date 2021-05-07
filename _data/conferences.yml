@@ -1,5 +1,18 @@
 ---
 
+- title: WACV
+  hindex: 54
+  year: 2022
+  id: wacv22
+  link: http://wacv2022.thecvf.com/
+  deadline: '2021-06-02 23:59:59'
+  timezone: America/Los_Angeles
+  date: January 4-8, 2022
+  place: Waikoloa, Hawaii, USA
+  sub: CV
+  note: '<b>NOTE</b>: Second round submission deadline on Aug. 11th 2021'
+
+
 - title: EMNLP
   hindex: 112
   year: 2021
@@ -306,17 +319,6 @@
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on September 01, 2020'
 
-- title: WACV
-  hindex: 46
-  year: 2021
-  id: wacv21
-  link: http://wacv2021.thecvf.com/
-  deadline: '2020-09-29 23:59:59'
-  timezone: America/Los_Angeles
-  date: January 5-9, 2021
-  place: Waikoloa, Hawaii, USA
-  sub: CV
-  note: '<b>NOTE</b>: Second round submission deadline.'
 
 - title: ICLR
   hindex: 150
