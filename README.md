@@ -26,6 +26,7 @@ To add or update a deadline:
 - [CV-oriented ai-deadlines (with an emphasis on medical images)][8] by @duducheng
 - [es-deadlines (Embedded Systems, Computer Architecture, and Cyber-physical Systems)][9] by @AlexVonB and @k0nze
 - [2019-2020 International Conferences in AI, CV, DM, NLP and Robotics][10] by @JackieTseng
+- [ccf-deadlines][11] by @ccfddl
 
 ## License
 
@@ -40,3 +41,4 @@ To add or update a deadline:
 [8]: https://creedai.github.io/ai-deadlines/
 [9]: https://ekut-es.github.io/es-deadlines/
 [10]: https://jackietseng.github.io/conference_call_for_paper/conferences.html
+[11]: https://ccfddl.github.io/
