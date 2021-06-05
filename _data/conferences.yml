@@ -208,16 +208,16 @@
 
 - title: RecSys
   hindex: 45
-  year: 2020
-  id: recsys20
-  link: https://recsys.acm.org/recsys20/
-  deadline: '2020-06-01 23:59:59'
-  abstract_deadline: '2020-05-25 23:59:59'
+  year: 2021
+  id: recsys21
+  link: https://recsys.acm.org/recsys21/
+  deadline: '2021-05-04 23:59:59'
+  abstract_deadline: '2020-04-27 23:59:59'
   timezone: UTC-12
-  date: September 22-26, 2020
-  place: Online
+  date: September 27 - October 1, 2021
+  place: Amsterdam, Netherlands
   sub: DM
-  note: '<b>NOTE</b>: Mandatory abstract deadline on May 25, 2020. More info <a href=''https://recsys.acm.org/recsys20/dates/''>here</a>.'
+  note: '<b>NOTE</b>: Mandatory abstract deadline on April 27, 2020. More info <a href=''https://recsys.acm.org/recsys21/dates/''>here</a>.'
 
 - title: ICDM
   hindex: 44
