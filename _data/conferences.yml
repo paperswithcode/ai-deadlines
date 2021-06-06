@@ -208,27 +208,16 @@
 
 - title: RecSys
   hindex: 45
-  year: 2020
-  id: recsys20
-  link: https://recsys.acm.org/recsys20/
-  deadline: '2020-06-01 23:59:59'
-  abstract_deadline: '2020-05-25 23:59:59'
+  year: 2021
+  id: recsys21
+  link: https://recsys.acm.org/recsys21/
+  deadline: '2021-05-04 23:59:59'
+  abstract_deadline: '2020-04-27 23:59:59'
   timezone: UTC-12
-  date: September 22-26, 2020
-  place: Online
+  date: September 27 - October 1, 2021
+  place: Amsterdam, Netherlands
   sub: DM
-  note: '<b>NOTE</b>: Mandatory abstract deadline on May 25, 2020. More info <a href=''https://recsys.acm.org/recsys20/dates/''>here</a>.'
-
-- title: ICDM
-  hindex: 44
-  year: 2020
-  id: icdm20
-  link: http://icdm2020.bigke.org/
-  deadline: '2020-06-11 23:59:59'
-  timezone: UTC-7
-  date: November 17-20, 2020
-  place: Sorrento, Italy
-  sub: DM
+  note: '<b>NOTE</b>: Mandatory abstract deadline on April 27, 2020. More info <a href=''https://recsys.acm.org/recsys21/dates/''>here</a>.'
 
 - title: AACL-IJCNLP
   hindex: -1
@@ -309,15 +298,16 @@
 
 - title: AAAI
   hindex: 95
-  year: 2021
-  id: aaai21
-  link: https://aaai.org/Conferences/AAAI-21/
-  deadline: '2020-09-09 23:59:59'
+  year: 2022
+  id: aaai22
+  link: https://aaai.org/Conferences/AAAI-22/
+  deadline: '2021-09-08 23:59:59'
+  abstract_deadline: '2021-08-30 23:59:59'
   timezone: UTC-12
-  date: February 2-9, 2021
+  date: February 22 - March 1, 2022
   place: Vancouver, Canada
   sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on September 01, 2020'
+  note: '<b>NOTE</b>: Mandatory abstract deadline on August 30, 2021'
 
 
 - title: ICLR
@@ -394,13 +384,14 @@
 
 - title: WWW
   hindex: 70
-  year: 2021
-  id: www21
-  link: http://www2021.thewebconf.org/
-  deadline: '2020-10-19 23:59:59'
+  year: 2022
+  id: www22
+  link: https://www2022.thewebconf.org/
+  deadline: '2021-10-21 23:59:59'
+  abstract_deadline: '2021-10-14 23:59:59'
   timezone: UTC-12
-  date: April 19-23, 2021
-  place: Ljubljana, Slovenia
+  date: April 25-29, 2022
+  place: Lyon, France
   sub: DM
   note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
 
