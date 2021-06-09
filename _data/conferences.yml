@@ -320,7 +320,6 @@
   place: Philadelphia (PA), USA
   sub: RO
 
-
 - title: ICLR
   hindex: 150
   year: 2021
@@ -405,17 +404,6 @@
   place: Lyon, France
   sub: DM
   note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
-
-- title: ICRA
-  hindex: 94
-  year: 2020
-  id: icra21
-  link: https://www.ieee-ras.org/component/rseventspro/event/1908-icra-2021-call-for-papers-deadline
-  deadline: '2020-10-31 23:59:59'
-  timezone: America/Los_Angeles
-  date: May 30-June 5, 2021
-  place: Online
-  sub: RO
 
 - title: CVPR
   hindex: 299
