@@ -16,7 +16,7 @@ To add or update a deadline:
 - Make sure it has the `title`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place`, `sub` attributes
     + See available timezone strings [here](https://momentjs.com/timezone/).
 - Optionally add a `note` and `abstract_deadline` in case the conference has a separate mandatory abstract deadline
-- Optionally add `h5-index` ([reference](https://scholar.google.com/citations?view_op=top_venues&vq=eng))
+- Optionally add `hindex` (refers to h5-index from [here](https://scholar.google.com/citations?view_op=top_venues&vq=eng))
 - Send a pull request
 
 ## Forks & other useful listings
