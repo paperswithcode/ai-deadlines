@@ -1,5 +1,19 @@
 ---
 
+- title: ICLR
+  hindex: 203
+  year: 2022
+  id: iclr22
+  link: https://iclr.cc/
+  deadline: '2021-10-05 17:00:00'
+  abstract_deadline: '2021-09-28 17:00:00'
+  timezone: UTC-7
+  date: April 25-29, 2022
+  place: Virtual conference
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on September 28, 2021. More info
+    <a href=''https://iclr.cc/Conferences/2022/CallForPapers''>here</a>.'
+
 - title: WACV
   hindex: 54
   year: 2022
@@ -330,20 +344,6 @@
   date: May 23-27, 2022
   place: Philadelphia (PA), USA
   sub: RO
-
-- title: ICLR
-  hindex: 150
-  year: 2021
-  id: iclr21
-  link: http://iclr.cc/
-  deadline: '2020-10-02 07:59:59'
-  abstract_deadline: '2020-09-28 07:59:59'
-  timezone: UTC-7
-  date: May 4, 2021
-  place: Vienna, Austria
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on September 28, 2020. More info
-    <a href=''https://iclr.cc/Conferences/2021/CallForPapers''>here</a>.'
 
 - title: EACL
   hindex: 36
