@@ -154,8 +154,14 @@ footer {
   font-weight: 300;
 }
 
-.host-sub::selection {
-  background: #c22fb8;
+.h5-sub {
+  color: rgb(203, 67, 53);
+  background: rgba(245, 238, 248, 0.7);
+  font-size: 13px;
+  padding: 3px 5px;
+  margin-right: 8px;
+  cursor: pointer;
+  font-weight: 300;
 }
 
 .checkbox input[type="checkbox"]:checked:after {
