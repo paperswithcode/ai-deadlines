@@ -13,3 +13,5 @@
   sub: DM
 - name: Connected Vehicles
   sub: V2X
+- name: Intelligent Vehicles
+  sub: IV
