@@ -1,4 +1,17 @@
 ---
+- title: ICINCO
+  long:  International Conference on Informatics in Control, Automation and Robotics
+  hindex: 14
+  year: 2022
+  id: icinco2022
+  link: http://www.icinco.org/?y=2022
+  deadline: '2022-03-02 23:59:59'
+  timezone: UTC-12
+  date: July 14-16, 2022
+  place: Lisbon, Portugal
+  sub: RO
+  host: INSTICC
+  
 - title: ICARCV
   long:  International Conference on Control, Automation, Robotics and Vision
   hindex: 13
