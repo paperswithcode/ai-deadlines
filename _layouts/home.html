@@ -113,6 +113,9 @@
                 <span title="Organized by {{conf.host}} " class="host-sub">{{conf.host}}</span>
                 {% endfor %}
                 {% for sub in conf.sub %}
+                <span title="h5-index" class="h5-sub">{{conf.hindex}}</span>
+                {% endfor %}
+                {% for sub in conf.sub %}
                 <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="conf-sub {{sub}}-tag"></span>
                 {% endfor %}
               </div>
