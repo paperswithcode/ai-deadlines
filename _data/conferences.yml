@@ -1,4 +1,58 @@
 ---
+- title: ICARCV
+  long:  International Conference on Control, Automation, Robotics and Vision
+  hindex: 13
+  year: 2020
+  id: icarcv2020
+  link: https://www.icarcv.sg/
+  deadline: '2020-06-30 23:59:59'
+  timezone: UTC-12
+  date: December 13-15, 2020
+  place: Shenzhen, China
+  sub: RO
+  host: IEEE
+
+- title: RCAE
+  long:  Conference on Robotics, Control and Automation Engineering
+  hindex: 3
+  year: 2021
+  id: rcae21
+  link: http://www.rcae.net/
+  deadline: '2021-07-20 23:59:59'
+  timezone: UTC-12
+  date: November 04-06, 2021
+  place: Wuhan, China
+  sub: RO
+  host: IEEE
+
+- title: ICCAR (Deadline approximated)
+  long:  INTERNATIONAL CONFERENCE ON CONTROL, AUTOMATION AND ROBOTICS
+  hindex: 14
+  year: 2022
+  id: iccar22
+  link: http://www.iccar.org/index.html
+  deadline: '2022-03-10 23:59:59'
+  timezone: UTC-12
+  date: ???
+  place: ???
+  sub: RO
+  host: IEEE
+
+- title: ICoIV
+  long: International Conference on Intelligent Vehicles
+  hindex: --
+  year: 2021
+  id: icoiv21
+  link: http://www.icoiv.org/
+  deadline: '2021-07-10 23:59:59'
+  timezone: UTC-12
+  date: November 07-09, 2021
+  place: Chengdu, China
+  sub: IV
+  host: HKSRA/MDPI
+  abstract_deadline: '2021-06-30 23:59:59'
+  note: '<b>NOTE</b>: Mandatory abstract deadline on June 30, 2021'
+
 
 - title: ICSA (Deadline approximated)
   long: INTERNATIONAL CONFERENCE ON SOFTWARE ARCHITECTURE
@@ -77,6 +131,7 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on August 30, 2021'
 
 - title: ICRA
+  long: International Conference on Robotics and Automation
   hindex: 94
   year: 2022
   id: icra22
@@ -86,6 +141,7 @@
   date: May 23-27, 2022
   place: Philadelphia (PA), USA
   sub: RO
+  host: IEEE
 
 - title: ICASSP
   hindex: 80
