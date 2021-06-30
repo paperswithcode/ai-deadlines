@@ -4,7 +4,7 @@ description: Countdowns to AD-related conference deadlines
 author: Daniel Bogdoll
 
 domain: ""
-baseurl: "https://daniel-bogdoll.github.io/ad-deadlines/"
+baseurl: "/ad-deadlines"
 
 twitter_username: BogdollDaniel
 twitter_hashtag: machinelearning
