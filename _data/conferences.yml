@@ -340,6 +340,7 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 8, 2020. More info <a href=''http://www.aistats.org/aistats2021/cfp.html''>here</a>.'
 
 - title: CVPR
+  long: Conference on Computer Vision and Pattern Recognition
   hindex: 299
   year: 2022
   id: cvpr22
@@ -349,6 +350,7 @@
   date: June 19-22, 2022
   place: New Orleans, Louisiana, USA
   sub: CV
+  host: IEEE/CVF
 
 - title: NAACL
   hindex: 90
