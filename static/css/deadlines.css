@@ -131,8 +131,8 @@ footer {
 }
 
 .conf-sub {
-  color: rgb(36, 101, 30);
-  background: rgba(236, 240, 241, 0.7);
+  color: rgb(52, 152, 219 );
+  background: rgba(235, 245, 251, 0.7);
   font-size: 13px;
   padding: 3px 5px;
   margin-right: 8px;
@@ -145,8 +145,8 @@ footer {
 }
 
 .host-sub {
-  color: rgb(168, 235, 157);
-  background: rgba(236, 241, 240, 0.7);
+  color: rgb(26, 188, 156);
+  background: rgba(233, 247, 239, 0.7);
   font-size: 13px;
   padding: 3px 5px;
   margin-right: 8px;
