@@ -6,10 +6,10 @@ author: Daniel Bogdoll
 domain: ""
 baseurl: "https://daniel-bogdoll.github.io/ad-deadlines/"
 
-twitter_username: abhshkdz
+twitter_username: BogdollDaniel
 twitter_hashtag: machinelearning
-github_username: abhshkdz
-github_repo: ai-deadlines
+github_username: daniel-bogdoll
+github_repo: ad-deadlines
 
 markdown: kramdown
 ga_id: UA-36274081-2
