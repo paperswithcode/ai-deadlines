@@ -144,6 +144,20 @@ footer {
   background: #0097e6;
 }
 
+.host-sub {
+  color: rgb(168, 235, 157);
+  background: rgba(66,194,47, 0.7);
+  font-size: 13px;
+  padding: 3px 5px;
+  margin-right: 8px;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.host-sub::selection {
+  background: #c22fb8;
+}
+
 .checkbox input[type="checkbox"]:checked:after {
   background-color: #0097e6;
   border-color: #0097e6;
