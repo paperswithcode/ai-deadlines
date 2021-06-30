@@ -15,3 +15,4 @@ markdown: kramdown
 ga_id: UA-36274081-2
 
 include: ['_pages']
+theme: jekyll-theme-slate
