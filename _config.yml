@@ -1,9 +1,9 @@
-title: AI Conference Deadlines # (Maintained by @abhshkdz)
-# email: abhshkdz@vt.edu
-description: Countdowns to top CV/NLP/ML/Robotics/AI conference deadlines
-author: Abhishek Das
+title: AD Conference Deadlines # (Maintained by @daniel-bogdoll)
+# email: daniel.bogdoll@rwth-aachen.de
+description: Countdowns to AD-related conference deadlines
+author: Daniel Bogdoll
 
-domain: "aideadlin.es"
+domain: "https://daniel-bogdoll.github.io/ad-deadlines/"
 baseurl: ""
 
 twitter_username: abhshkdz
@@ -15,4 +15,3 @@ markdown: kramdown
 ga_id: UA-36274081-2
 
 include: ['_pages']
-theme: jekyll-theme-cayman
