@@ -20,7 +20,7 @@
   </head>
   <body>
     <div class="top-strip"></div>
-    <div class="container">
+    <div class="container">t
         <div class="page-header">
             <div class="row">
                 <div class="col-xs-12 col-sm-12">
@@ -108,6 +108,11 @@
               </div>
             </div>
             <div class="row">
+              <div class="col-xs-12">
+                {% for host in conf.host %}
+                <span title="Click to get to conference host {{host}}" data-host="{{host}}" class="conf-host {{host}}-tag"></span>
+                {% endfor %}
+              </div>
               <div class="col-xs-12">
                 {% for sub in conf.sub %}
                 <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="conf-sub {{sub}}-tag"></span>
