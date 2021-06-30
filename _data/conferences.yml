@@ -1,12 +1,12 @@
 ---
 
-- title: ICSA
+- title: ICSA (Deadline approximated)
   long: INTERNATIONAL CONFERENCE ON SOFTWARE ARCHITECTURE
   hindex: 17
   year: 2022
   id: icsa22
   link: https://icsa-conferences.org/2022/
-  deadline: ''
+  deadline: ''2021-12-01 23:59:59''
   timezone: UTC-12
   date: March 12-15, 2022
   place: Honolulu, Hawaii, USA
