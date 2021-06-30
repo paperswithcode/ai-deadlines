@@ -1,5 +1,16 @@
 ---
 
+- title: SAI FICC
+  hindex: --
+  year: 2022
+  id: ficc22
+  link: https://saiconference.com/FICC
+  deadline: '2021-07-15 23:59:59'
+  timezone: UTC-12
+  date: March 03-04, 2022
+  place: San Francisco, California, USA
+  sub: V2X
+
 - title: WSDM
   hindex: 54
   year: 2022
