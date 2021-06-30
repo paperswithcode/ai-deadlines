@@ -110,7 +110,7 @@
             <div class="row">
               <div class="col-xs-12">
                 {% for host in conf.sub %}
-                <span title="Click to only show {{sub}} conferences" data-sub="{{host}}" class="host-sub {{sub}}-tag">{{conf.host}}</span>
+                <span title="Organized by {{conf.host}} " class="host-sub">{{conf.host}}</span>
                 {% endfor %}
                 {% for sub in conf.sub %}
                 <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="conf-sub {{sub}}-tag"></span>
