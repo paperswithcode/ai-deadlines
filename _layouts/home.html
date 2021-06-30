@@ -109,8 +109,8 @@
             </div>
             <div class="row">
               <div class="col-xs-12">
-                {% for sub in conf.sub %}
-                <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="host-sub {{sub}}-tag"></span>
+                {% for host in conf.sub %}
+                <span title="Click to only show {{sub}} conferences" data-sub="{{host}}" class="host-sub {{sub}}-tag"></span>
                 {% endfor %}
                 {% for sub in conf.sub %}
                 <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="conf-sub {{sub}}-tag"></span>
