@@ -1,6 +1,18 @@
 ---
 
-- title: SAI FICC
+- title: VEHITS
+  hindex: 9
+  year: 2022
+  id: vehits22
+  link: http://www.vehits.org/
+  deadline: '2021-11-30 23:59:59'
+  timezone: UTC-12
+  date: March 03-04, 2022
+  place: San Francisco, California, USA
+  sub: IV
+  host: INSTICC
+
+- title: FICC
   hindex: --
   year: 2022
   id: ficc22
@@ -10,6 +22,7 @@
   date: March 03-04, 2022
   place: San Francisco, California, USA
   sub: V2X
+  host: SAI
 
 - title: WSDM
   hindex: 54
