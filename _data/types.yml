@@ -15,3 +15,5 @@
   sub: V2X
 - name: Intelligent Vehicles
   sub: IV
+- name: Automotive Software
+  sub: AS
