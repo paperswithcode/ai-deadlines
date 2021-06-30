@@ -1,18 +1,33 @@
 ---
 
+- title: WCNC
+  long: Wireless Communications and Networking Conference
+  hindex: 22
+  year: 2022
+  id: wcnc22
+  link: https://wcnc2022.ieee-wcnc.org/
+  deadline: '2021-09-15 23:59:59'
+  timezone: UTC-12
+  date: April 10-13, 2022
+  place: Austin, USA
+  sub: V2X
+  host: IEEE
+
 - title: VEHITS
+  long: International Conference on Vehicle Technology and Intelligent Transport Systems
   hindex: 9
   year: 2022
   id: vehits22
   link: http://www.vehits.org/
   deadline: '2021-11-30 23:59:59'
   timezone: UTC-12
-  date: March 03-04, 2022
-  place: San Francisco, California, USA
+  date: April 27-29, 2022
+  place: Prague, Czech Republic
   sub: IV
   host: INSTICC
 
 - title: FICC
+  long: Future of Information and Communication Conference
   hindex: --
   year: 2022
   id: ficc22
