@@ -1,4 +1,46 @@
 ---
+
+- title: ESEC/FSE
+  long: Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
+  hindex: --
+  year: 2022
+  id: esec2022
+  link: https://2022.esec-fse.org/
+  deadline: '2022-03-18 23:59:59'
+  timezone: UTC-12
+  date: November 14-18, 2022
+  place: Singapore
+  sub: AS
+  host: ACM
+  abstract_deadline: '2022-03-11 23:59:59'
+  note: '<b>NOTE</b>: Mandatory paper registration deadline on March 11, 2022'
+
+- title: SIGMOD/PODS
+  long:  International Conference on Management of Data
+  hindex: 66
+  year: 2021
+  id: cscs21
+  link: https://acm-cscs.org/
+  deadline: '2021-07-02 23:59:59'
+  timezone: UTC-12
+  date: June 12-17, 2022
+  place: Philadelphia, USA
+  sub: ML
+  host: ACM
+
+- title: CSCS
+  long:  COMPUTER SCIENCE IN CARS SYMPOSIUM
+  hindex: --
+  year: 2021
+  id: cscs21
+  link: https://acm-cscs.org/
+  deadline: '2021-09-03 23:59:59'
+  timezone: UTC-12
+  date: November 30, 2021
+  place: Ingolstadt, Germany
+  sub: IV
+  host: ACM
+
 - title: CASE
   long:  International Conference on Automation Science and Engineering
   hindex: 24
