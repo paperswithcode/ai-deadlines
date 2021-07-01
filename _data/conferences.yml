@@ -987,7 +987,8 @@
   note: '<b>NOTE</b>: Second round submission deadline on Aug. 11th 2021'
 
 - title: ICDM
-  hindex: -1
+  long: International Conference on Data Mining
+  hindex: 48
   year: 2021
   id: icdm21
   link: https://icdm2021.auckland.ac.nz
@@ -996,6 +997,7 @@
   date: December 7-10, 2021
   place: Auckland, New Zealand
   sub: DM
+  host: IEEE
 
 - title: CoRL
   year: 2021
