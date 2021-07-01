@@ -1,4 +1,17 @@
 ---
+- title: Big Data
+  long: International Conference on Big Data
+  hindex: 41
+  year: 2021
+  id: bigdata21
+  link: http://bigdataieee.org/BigData2021/
+  deadline: '2021-09-05 23:59:59'
+  timezone: UTC-12
+  date: December 15-18, 2022
+  place: Online
+  sub: DM
+  host: IEEE
+
 - title: ICDM (Workshop)
   long: International Conference on Data Mining
   hindex: 48
@@ -7,12 +20,10 @@
   link: https://icdm2021.auckland.ac.nz/
   deadline: '2021-09-03 23:59:59'
   timezone: UTC-12
-  date: December 07-0, 2022
+  date: December 07-10, 2022
   place: Auckland, New Zealand
   sub: DM
   host: IEEE
-  abstract_deadline: '2022-03-11 23:59:59'
-  note: '<b>NOTE</b>: Mandatory paper registration deadline on March 11, 2022'
 
 - title: ESEC/FSE
   long: Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
