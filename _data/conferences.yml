@@ -1,4 +1,17 @@
 ---
+- title: ICMLA
+  long:  International Conference On Machine Learning And Applications
+  hindex: 30
+  year: 2021
+  id: icmla2021
+  link: https://www.icmla-conference.org/icmla21/
+  deadline: '2021-07-03 23:59:59'
+  timezone: UTC-12
+  date: December 13-16, 2021
+  place: Pasadena, California, USA
+  sub: ML
+  host: IEEE
+
 - title: ICINCO
   long:  International Conference on Informatics in Control, Automation and Robotics
   hindex: 14
