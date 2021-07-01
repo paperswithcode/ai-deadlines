@@ -1,4 +1,69 @@
 ---
+- title: SII
+  long: International Symposium on System Integration	
+  hindex: 13
+  year: 2022
+  id: sii22
+  link: https://www.sice-si.org/conf/SII2022/paper-submission.html
+  deadline: '2021-09-01 23:59:59'
+  timezone: UTC-12
+  date: January 08-12, 2022
+  place: Narvik, Norway
+  sub: AS
+  host: IEEE/SICE
+  
+- title: IAL
+  long: International Workshop on Interactive Adaptive Learning
+  hindex: --
+  year: 2021
+  id: ial21
+  link: https://www.activeml.net/ial2021/
+  deadline: '2021-07-07 23:59:59'
+  timezone: UTC-12
+  date: September 13, 2021
+  place: Online
+  sub: ML
+  host: Uni Kassel
+  
+- title: ERCVAD
+  long: Workshop on Embedded and Real-World Computer Vision in Autonomous Driving
+  hindex: --
+  year: 2021
+  id: ercvad21
+  link: https://www.ki-deltalearning.de/event/ercvad2021
+  deadline: '2021-07-18 23:59:59'
+  timezone: UTC-12
+  date: October 11, 2021
+  place: Online
+  sub: CV
+  host: KI-DL
+  
+- title: ITAVT
+  long: International Workshop on Intelligent Transportation and Autonomous Vehicles Technologies
+  hindex: --
+  year: 2021
+  id: itavt21
+  link: http://icnetlab.org/ITAVT2021/
+  deadline: '2021-01-29 23:59:59'
+  timezone: UTC-12
+  date: May 17-21, 2021
+  place: Bordeaux, France
+  sub: IV
+  host: iCNeT
+  
+- title: UVS-OMAN
+  long: International Conference on Unmanned Vehicle Systems
+  hindex: --
+  year: 2022
+  id: uvsoman22
+  link: https://uvsc.om/
+  deadline: '2021-10-15 23:59:59'
+  timezone: UTC-12
+  date: February 02-07, 2022
+  place: Muscat, Oman
+  sub: IV
+  host: IEEE
+  
 - title: ICAR
   long: International Conference on Advanced Robotics
   hindex: 15
