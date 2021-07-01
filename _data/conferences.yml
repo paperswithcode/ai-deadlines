@@ -1,4 +1,43 @@
 ---
+- title: ICAR
+  long: International Conference on Advanced Robotics
+  hindex: 15
+  year: 2021
+  id: icar21
+  link: http://icar-2021.org/
+  deadline: '2021-07-15 23:59:59'
+  timezone: UTC-12
+  date: December 06-10, 2021
+  place: Ljubljana, Slovenia
+  sub: RO
+  host: IEEE
+
+- title: ECMR
+  long: European Conference on Mobile Robots
+  hindex: 19
+  year: 2021
+  id: ecmr21
+  link: https://ecmr2021.org/
+  deadline: '2021-05-15 23:59:59'
+  timezone: UTC-12
+  date: August 31 - September 03, 2021
+  place: Online
+  sub: RO
+  host: IEEE
+
+- title: ARSO
+  long: International Conference on Advanced Robotics and its Social Impacts
+  hindex: --
+  year: 2021
+  id: arso21
+  link: https://ieee-arso2021.org/
+  deadline: '2021-05-24 23:59:59'
+  timezone: UTC-12
+  date: July 08-10, 2021
+  place: Online
+  sub: RO
+  host: IEEE
+  
 - title: Big Data
   long: International Conference on Big Data
   hindex: 41
