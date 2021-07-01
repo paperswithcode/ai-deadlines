@@ -1,4 +1,30 @@
 ---
+- title: ICITE
+  long:  International Conference on Intelligent Transportation Engineering
+  hindex: 8
+  year: 2021
+  id: icite2021
+  link: http://www.icite.org/
+  deadline: '2021-07-10 23:59:59'
+  timezone: UTC-12
+  date: September 17-19, 2021
+  place: Beijing, China
+  sub: IV
+  host: IEEE
+  
+- title: ITSC
+  long:  International Conference on Intelligent Transportation
+  hindex: --
+  year: 2021
+  id: itsc2021
+  link: https://2021.ieee-itsc.org/
+  deadline: '2021-04-15 23:59:59'
+  timezone: UTC-12
+  date: September 19-22, 2021
+  place: Indianapolis, IN, USA
+  sub: IV
+  host: IEEE
+
 - title: IV
   long:  Intelligent Vehicles Symposium
   hindex: 46
