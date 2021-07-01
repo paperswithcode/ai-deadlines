@@ -1,4 +1,17 @@
 ---
+- title: IV
+  long:  Intelligent Vehicles Symposium
+  hindex: 46
+  year: 2021
+  id: iv2021
+  link: https://2021.ieee-iv.org/
+  deadline: '2021-02-15 23:59:59'
+  timezone: UTC-12
+  date: July 11-17, 2021
+  place: Nagoya, Japan
+  sub: IV
+  host: IEEE
+
 - title: ICMLA
   long:  International Conference On Machine Learning And Applications
   hindex: 30
