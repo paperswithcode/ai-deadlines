@@ -1,4 +1,19 @@
 ---
+- title: CASE
+  long:  International Conference on Automation Science and Engineering
+  hindex: 24
+  year: 2021
+  id: case2021
+  link: https://case2021.sciencesconf.org/
+  deadline: '2021-07-06 23:59:59'
+  timezone: UTC-12
+  date: August 23-27, 2021
+  place: Lyon, France
+  sub: RO
+  host: IEEE
+  abstract_deadline: '2021-07-02 23:59:59'
+  note: '<b>NOTE</b>: Mandatory author registration deadline on July 02, 2021'
+
 - title: ICITE
   long:  International Conference on Intelligent Transportation Engineering
   hindex: 8
