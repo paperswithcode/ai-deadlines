@@ -407,17 +407,6 @@
   sub: RO
   host: IEEE
 
-- title: ICASSP
-  hindex: 80
-  year: 2022
-  id: icassp22
-  link: https://2022.ieeeicassp.org/
-  deadline: '2021-10-01 23:59:59'
-  timezone: UTC
-  date: May 22-27, 2022
-  place: Singapore
-  sub: SP
-
 - title: ICLR
   hindex: 203
   year: 2022
@@ -444,17 +433,6 @@
   place: Lyon, France
   sub: DM
   note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
-
-- title: LREC
-  hindex: 38
-  year: 2022
-  id: lrec22
-  link: http://elra.info/en/lrec/lrec-2022/
-  deadline: '2022-01-10 23:59:59'
-  timezone: Europe/Paris
-  date: June 20-25, 2022
-  place: Marseille, France
-  sub: NLP
 
 - title: ALT
   hindex: 15
@@ -522,41 +500,6 @@
   place: Coimbra, Portugal
   sub: ML
 
-- title: ISMIR
-  hindex: 32
-  year: 2020
-  id: ismir20
-  link: https://ismir.github.io/ISMIR2020/
-  deadline: '2020-04-17 23:59:59'
-  abstract_deadline: '2020-04-10 23:59:59'
-  timezone: UTC-12
-  date: October 12-15, 2020
-  place: Montreal, Canada
-  sub: SP
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 10, 2020. More info <a href=''https://ismir.github.io/ISMIR2020/cfp/''>here</a>.'
-
-- title: AACL-IJCNLP
-  hindex: -1
-  year: 2020
-  id: aacl20
-  link: http://aacl2020.org
-  deadline: '2020-06-26 23:59:00'
-  timezone: UTC-12
-  date: December 4-7, 2020
-  place: Suzhou, China
-  sub: NLP
-
-- title: COLING
-  hindex: 41
-  year: 2020
-  id: coling20
-  link: https://coling2020.org/
-  deadline: '2020-07-01 23:59:59'
-  timezone: UTC-12
-  date: December 8-13, 2020
-  place: Barcelona, Spain
-  sub: NLP
-
 - title: ACCV
   hindex: 38
   year: 2020
@@ -581,17 +524,6 @@
   sub: ML
   host: IEEE
 
-- title: CoNLL
-  hindex: 34
-  year: 2020
-  id: conll2020
-  link: http://www.conll.org/2020
-  deadline: '2020-07-17 23:59:59'
-  timezone: UTC-12
-  date: November 19-20, 2020
-  place: Online
-  sub: NLP
-
 - title: 3DV
   hindex: 29
   year: 2020
@@ -602,28 +534,6 @@
   date: November 25-28, 2020
   place: Fukuoka, Japan
   sub: CV
-
-- title: WMT
-  hindex: 27
-  year: 2020
-  id: wmt20
-  link: http://www.statmt.org/wmt20/
-  deadline: '2020-08-15 23:59:00'
-  timezone: UTC-12
-  date: November 19-20, 2020
-  place: Online
-  sub: NLP
-
-- title: EACL
-  hindex: 36
-  year: 2021
-  id: eacl21
-  link: https://2021.eacl.org/
-  deadline: '2020-10-07 23:59:00'
-  timezone: UTC-12
-  date: April 21-23, 2021
-  place: Online (Kyiv, Ukraine)
-  sub: NLP
 
 - title: AAMAS
   hindex: 25
@@ -673,17 +583,6 @@
   place: New Orleans, Louisiana, USA
   sub: CV
   host: IEEE/CVF
-
-- title: NAACL
-  hindex: 90
-  year: 2021
-  id: naacl21
-  link: https://2021.naacl.org/
-  deadline: '2020-11-23 23:59:00'
-  timezone: UTC-12
-  date: June 6-11, 2021
-  place: Mexico City, Mexico
-  sub: NLP
 
 - title: ICME
   hindex: 30
@@ -758,17 +657,6 @@
   place: Online
   sub: CV
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 27, 2021. More info <a href=''https://s2021.siggraph.org/program/technical-papers/''>here</a>.'
-
-- title: ACL
-  hindex: 135
-  year: 2021
-  id: acl21
-  link: https://2021.aclweb.org/
-  deadline: '2021-02-01 23:59:59'
-  timezone: UTC-12
-  date: August 2-4, 2021
-  place: Bangkok, Thailand
-  sub: NLP
 
 - title: ICML
   hindex: 135
@@ -890,18 +778,6 @@
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Mar 26, 2021. More info <a href=''https://2021.ecmlpkdd.org/?page_id=1599/''>here</a>.'
 
-- title: InterSpeech
-  hindex: 81
-  year: 2021
-  id: interspeech21
-  link: http://www.interspeech2021.org/
-  deadline: '2021-04-02 23:59:59'
-  timezone: UTC-12
-  date: August 30 - September 3, 2021
-  place: Brno, Czechia
-  sub: SP
-  abstract_deadline: '2021-03-26 23:59:59'
-
 - title: FG
   hindex: -1
   year: 2021
@@ -938,18 +814,6 @@
   sub: DM
   note: '<b>NOTE</b>: Mandatory abstract deadline on April 27, 2020. More info <a
     href=''https://recsys.acm.org/recsys21/dates/''>here</a>.'
-
-- title: EMNLP
-  hindex: 112
-  year: 2021
-  id: emnlp21
-  link: https://2021.emnlp.org/
-  deadline: '2021-05-17 23:59:00'
-  timezone: UTC-12
-  date: November 7-11, 2021
-  place: Punta Cana, Dominican Republic
-  abstract_deadline: '2021-05-10 23:59:00'
-  sub: NLP
 
 - title: ICMI
   hindex: -1
@@ -1021,16 +885,6 @@
   date: November 8-11, 2021
   place: London, UK, and virtual
   sub: RO
-
-- title: AKBC
-  year: 2021
-  id: akbc21
-  link: https://www.akbc.ws/2021/
-  deadline: '2021-06-21 23:59:59'
-  timezone: UTC-12
-  date: October 4-7, 2021
-  place: Irvine, United States
-  sub: NLP
 
 - title: BMVC
   hindex: 57
