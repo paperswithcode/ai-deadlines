@@ -289,13 +289,13 @@
 
 - title: CVPR
   hindex: 299
-  year: 2021
-  id: cvpr21
-  link: http://cvpr2021.thecvf.com/
-  deadline: '2020-11-16 23:59:59'
+  year: 2022
+  id: cvpr22
+  link: http://cvpr2022.thecvf.com/
+  deadline: '2021-11-16 23:59:59'
   timezone: America/Los_Angeles
-  date: June 19-25, 2021
-  place: Nashville, USA
+  date: June 21-24, 2022
+  place: New Orleans, Louisiana, USA
   sub: CV
 
 - title: NAACL
