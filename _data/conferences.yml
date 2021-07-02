@@ -1,4 +1,17 @@
 ---
+- title: Special issue of Sustainability
+  long: Knowledge Graphs and Machine Learning Techniques for Sustainable Transportation Systems
+  hindex: --
+  year: 2022
+  id: sios22
+  link: https://www.mdpi.com/journal/sustainability/special_issues/Knowledge_Graphs_Machine_Learning_Techniques_Sustainable_Transportation
+  deadline: '2022-01-31 23:59:59'
+  timezone: UTC-12
+  date: --
+  place: Journal
+  sub: DM
+  host: MDPI
+
 - title: SDM (Deadline estimated)
   long: International Conference on Data Mining	
   hindex: 33
