@@ -1,4 +1,30 @@
 ---
+- title: IJCAI-ECAI (Deadline estimated)
+  long: European Conference on AI
+  hindex: 18
+  year: 2022
+  id: ecai22
+  link: https://www.ijcai.org/future_conferences
+  deadline: '2021-11-01 23:59:59'
+  timezone: UTC-12
+  date: July 23-29, 2022
+  place: Vienna, Austria
+  sub: ML
+  host: IJCAI
+
+- title: RLDM (Deadline estimated)
+  long: Multidisciplinary Conference on Reinforcement Learning and Decision Making
+  hindex: --
+  year: 2022
+  id: rldm22
+  link: https://www.rldm.org/
+  deadline: '2022-03-01 23:59:59'
+  timezone: UTC-12
+  date: ???, 2022
+  place: Providence, RI, USA
+  sub: ML
+  host: ??
+  
 - title: AVEC
   long: International Symposium on Advanced Vehicle Control
   hindex: --
