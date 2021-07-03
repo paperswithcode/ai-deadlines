@@ -1,4 +1,17 @@
 ---
+- title: AVEC
+  long: International Symposium on Advanced Vehicle Control
+  hindex: --
+  year: 2022
+  id: avec22
+  link: https://avec2022.org/
+  deadline: '2022-01-17 23:59:59'
+  timezone: UTC-12
+  date: September 12-16, 2022
+  place: Kanagawa, Japan
+  sub: IV
+  host: JSAE
+
 - title: WCX
   long: World Congress Experience
   hindex: --
