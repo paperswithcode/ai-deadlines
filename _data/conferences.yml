@@ -1,4 +1,17 @@
 ---
+- title: WCX
+  long: World Congress Experience
+  hindex: --
+  year: 2022
+  id: wcx22
+  link: https://www.sae.org/attend/wcx/call-for-papers/connectivity-iot-smart-city
+  deadline: '2021-08-31 23:59:59'
+  timezone: UTC-12
+  date: April 05-07, 2022
+  place: ??
+  sub: IV
+  host: SAE
+
 - title: Special issue of Sustainability
   long: Knowledge Graphs and Machine Learning Techniques for Sustainable Transportation Systems
   hindex: --
