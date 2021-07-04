@@ -1,5 +1,17 @@
 ---
-
+- title: VTC
+  long:  Vehicular Technology Conference
+  hindex: 46
+  year: 2021
+  id: vtc21
+  link: https://events.vtsociety.org/vtc2021-spring/
+  deadline: '2020-11-02 23:59:59'
+  timezone: UTC-12
+  date: April 25 - May 19, 2021
+  place: Online
+  sub: IV
+  host: IEEE
+  
 - title: ICPS
   long: International Conference on Industrial Cyber-Physical Systems
   hindex: 11
