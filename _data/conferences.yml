@@ -1,4 +1,18 @@
 ---
+
+- title: CPS-Sec
+  long: International Workshop on Cyber-Physical Systems Security Protocols
+  hindex: --
+  year: 2021
+  id: CPS-Sec21
+  link: https://spritz.math.unipd.it/events/2021/Cps_sec2021/index.html
+  deadline: '2021-07-15 23:59:59'
+  timezone: UTC-12
+  date: November 02, 2021
+  place: Online
+  sub: V2X
+  host: IEEE
+  
 - title: IJCAI-ECAI (Deadline estimated)
   long: European Conference on AI
   hindex: 18
