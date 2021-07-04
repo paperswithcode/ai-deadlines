@@ -1,5 +1,44 @@
 ---
 
+- title: ICPS
+  long: International Conference on Industrial Cyber-Physical Systems
+  hindex: 11
+  year: 2021
+  id: icps21
+  link: http://ieee-icps2021.org/index.html
+  deadline: '2021-04-06 23:59:59'
+  timezone: UTC-12
+  date: May 10-12, 2021
+  place: Online
+  sub: IV
+  host: IEEE
+
+- title: CPSCom
+  long: International Conference on Cyber, Physical and Social Computing
+  hindex: --
+  year: 2021
+  id: cpscom21
+  link: http://nsclab.org/cpscom2021/cfp.html
+  deadline: '2021-07-21 23:59:59'
+  timezone: UTC-12
+  date: December 06-08, 2021
+  place: Melbourne, Australia
+  sub: IV
+  host: IEEE
+  
+- title: ICCPS
+  long: International Conference on Cyber-Physical Systems
+  hindex: 26
+  year: 2021
+  id: iccps21
+  link: http://iccps.acm.org/2021/
+  deadline: '2020-10-26 23:59:59'
+  timezone: UTC-12
+  date: May 19-21, 2021
+  place: Online
+  sub: IV
+  host: ACM/IEEE
+  
 - title: CPS-Sec
   long: International Workshop on Cyber-Physical Systems Security Protocols
   hindex: --
