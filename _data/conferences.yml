@@ -1,4 +1,17 @@
 ---
+- title: ISS
+  long: Internationales Stuttgarter Symposium	
+  hindex: 9
+  year: 2022
+  id: iss22
+  link: https://www.fkfs-veranstaltungen.de/veranstaltungen/stuttgarter-symposium
+  deadline: '2021-09-27 23:59:59'
+  timezone: UTC-12
+  date: March 15-16, 2022
+  place: Stuttgart, Germany
+  sub: IV
+  host: FKFS
+  
 - title: HICSS
   long:  Hawaii International Conference on System Sciences
   hindex: 45
