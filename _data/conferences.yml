@@ -1,6 +1,6 @@
 ---
 - title: ISS
-  long: Internationales Stuttgarter Symposium	
+  long: Stuttgart International Symposium
   hindex: 9
   year: 2022
   id: iss22
@@ -22,7 +22,7 @@
   timezone: UTC-12
   date: January 04-07, 2022
   place: Hawaii, USA
-  sub: DS
+  sub: DM
   host: Shidler College of Business
   
 - title: VNC
