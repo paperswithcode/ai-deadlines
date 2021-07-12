@@ -1,4 +1,17 @@
 ---
+- title: HICSS
+  long:  Hawaii International Conference on System Sciences
+  hindex: 45
+  year: 2021
+  id: vhicss21
+  link: https://hicss.hawaii.edu/
+  deadline: '2021-06-15 23:59:59'
+  timezone: UTC-12
+  date: January 04-07, 2022
+  place: Hawaii, USA
+  sub: DS
+  host: Shidler College of Business
+  
 - title: VNC
   long:  Vehicular Networking Conference
   hindex: 21
