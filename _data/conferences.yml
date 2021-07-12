@@ -1,4 +1,19 @@
 ---
+- title: GCPR
+  long: German Conference on Pattern Recognition
+  hindex: 24
+  year: 2021
+  id: gcpr21
+  link: https://dagm-gcpr.de/
+  deadline: '2021-06-24 23:59:59'
+  timezone: UTC-12
+  date: September 28 - October 01, 2021
+  place: Bonn, Germany
+  sub: ML
+  host: DAGM
+  abstract_deadline: '2021-08-04 23:59:59'
+  note: '<b>NOTE</b>: Revised ICCV 2021 submissions can be submitted until August 04, 2021'
+  
 - title: SII
   long: Stuttgart International Symposium
   hindex: 9
