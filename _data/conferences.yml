@@ -1,4 +1,17 @@
 ---
+- title: IFAC World Congress (Deadline estimated)
+  long: International Federation of Automatic Control World Congress
+  hindex: 24
+  year: 2023
+  id: ifac23
+  link: https://www.ifac2023.org/
+  deadline: '2022-10-01 23:59:59'
+  timezone: UTC-12
+  date: July 09-14, 2023
+  place: Yokohama, Japan
+  sub: RO
+  host: IFAC
+  
 - title: GCPR
   long: German Conference on Pattern Recognition
   hindex: 24
