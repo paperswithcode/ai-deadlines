@@ -1,4 +1,17 @@
 ---
+- title: SMC
+  long: International Conference on Systems, Man, and Cybernetics
+  hindex: 29
+  year: 2021
+  id: smc21
+  link: http://ieeesmc2021.org/
+  deadline: '2021-05-15 23:59:59'
+  timezone: UTC-12
+  date: October 17-20, 2021
+  place: Online
+  sub: IV
+  host: IEEE
+  
 - title: IFAC World Congress (Deadline estimated)
   long: International Federation of Automatic Control World Congress
   hindex: 24
