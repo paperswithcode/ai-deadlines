@@ -1,4 +1,17 @@
 ---
+- title: SafeAI
+  long: Workshop on Artificial Intelligence Safety at AAAI
+  hindex: --
+  year: 2021
+  id: safeai21
+  link: https://safeai.webs.upv.es/
+  deadline: '2020-11-13 23:59:59'
+  timezone: UTC-12
+  date: Feb 08, 2021
+  place: Online
+  sub: ML
+  host: AAAI
+  
 - title: SMC
   long: International Conference on Systems, Man, and Cybernetics
   hindex: 29
