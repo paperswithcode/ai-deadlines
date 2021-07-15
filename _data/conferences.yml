@@ -1,7 +1,46 @@
 ---
-- title: SafeAI
-  long: Workshop on Artificial Intelligence Safety at AAAI
+- title: ICAS
+  long: International Conference on Autonomous Systems
+  hindex: 10
+  year: 2021
+  id: icas21
+  link: https://2021.ieee-icas.org/
+  deadline: '2021-03-31 23:59:59'
+  timezone: UTC-12
+  date: August 11-13, 2021
+  place: Montréal, Canada
+  sub: IV
+  host: IEEE
+  
+- title: WAISE (WS)
+  long: International Workshop on Artificial Intelligence Safety Engineering
   hindex: --
+  year: 2021
+  id: waise21
+  link: https://www.waise.org/submissions
+  deadline: '2021-05-21 23:59:59'
+  timezone: UTC-12
+  date: September 07, 2021
+  place: York, UK
+  sub: ML
+  host: SafeComp
+  
+- title: ICIP (Deadline estimated)
+  long: International Conference on Image Processing
+  hindex: 52
+  year: 2021
+  id: safeai21
+  link: http://2022.ieeeicip.org/
+  deadline: '2021-11-01 23:59:59'
+  timezone: UTC-12
+  date: October 16-19, 2022
+  place: Bordeaux, France
+  sub: CV
+  host: IEEE
+  
+- title: SafeAI (WS)
+  long: AAAI's Workshop on Artificial Intelligence Safety
+  hindex: 16
   year: 2021
   id: safeai21
   link: https://safeai.webs.upv.es/
@@ -144,7 +183,7 @@
   sub: IV
   host: ACM/IEEE
   
-- title: CPS-Sec
+- title: CPS-Sec (WS)
   long: International Workshop on Cyber-Physical Systems Security Protocols
   hindex: --
   year: 2021
@@ -248,7 +287,7 @@
   sub: AS
   host: IEEE/SICE
   
-- title: IAL
+- title: IAL (WS)
   long: International Workshop on Interactive Adaptive Learning
   hindex: --
   year: 2021
@@ -261,7 +300,7 @@
   sub: ML
   host: Uni Kassel
   
-- title: ERCVAD
+- title: ERCVAD (WS)
   long: Workshop on Embedded and Real-World Computer Vision in Autonomous Driving
   hindex: --
   year: 2021
@@ -274,7 +313,7 @@
   sub: CV
   host: KI-DL
   
-- title: ITAVT
+- title: ITAVT (WS)
   long: International Workshop on Intelligent Transportation and Autonomous Vehicles Technologies
   hindex: --
   year: 2021
@@ -352,7 +391,7 @@
   sub: DM
   host: IEEE
 
-- title: ICDM (Workshop)
+- title: ICDM (WS)
   long: International Conference on Data Mining
   hindex: 48
   year: 2021
