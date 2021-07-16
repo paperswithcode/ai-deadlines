@@ -1,4 +1,17 @@
 ---
+- title: ISC
+  long: International Smart Cities Conference
+  hindex: 22
+  year: 2021
+  id: isc21
+  link: https://attend.ieee.org/isc2-2021/
+  deadline: '2021-06-13 23:59:59'
+  timezone: UTC-12
+  date: September 07-10, 2021
+  place: Online
+  sub: V2X
+  host: IEEE
+  
 - title: ICAS
   long: International Conference on Autonomous Systems
   hindex: 10
