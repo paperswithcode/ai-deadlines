@@ -1,4 +1,17 @@
 ---
+- title: ICARA
+  long: International Conference on Automation, Robotics and Applications
+  hindex: --
+  year: 2022
+  id: icara22
+  link: http://www.icara.us/
+  deadline: '2021-09-01 23:59:59'
+  timezone: UTC-12
+  date: February 18-20, 2022
+  place: Prague, Czech Republic
+  sub: IV
+  host: IEEE
+  
 - title: ISC
   long: International Smart Cities Conference
   hindex: 22
