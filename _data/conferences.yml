@@ -1,4 +1,17 @@
 ---
+- title: FUSION (Deadline estimated)
+  long: International Conference on Information Fusion
+  hindex: 25
+  year: 2022
+  id: fusion22
+  link: https://event.trippus.net/Home/Index/AEAKgINj5lvKf3HSAcLjoJfY3I9opYDhEYN-w-ZpDeNRTOzGVw-KRbNlFUlb9DZtbxdjA7tLiQ0t/AEAKgIOBL-lfyotyEzWuxqqPVNwOl-CwBybAr866X5ZL9foS4IKZipJh2-u3g_CPCYEmEw9V94aw/eng
+  deadline: '2022-02-01 23:59:59'
+  timezone: UTC-12
+  date: July 04-07, 2022
+  place: Linköping, Sweden
+  sub: IV
+  host: IEEE
+  
 - title: ICARA
   long: International Conference on Automation, Robotics and Applications
   hindex: --
