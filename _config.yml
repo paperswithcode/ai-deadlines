@@ -3,8 +3,8 @@ title: AD Conference Deadlines # (Maintained by @daniel-bogdoll)
 description: Countdowns to AD-related conference deadlines
 author: Daniel Bogdoll
 
-domain: ""
-baseurl: "/ad-deadlines"
+domain: "ad-deadlines.com"
+baseurl: ""
 
 twitter_username: BogdollDaniel
 twitter_hashtag: machinelearning
