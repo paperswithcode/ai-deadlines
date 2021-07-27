@@ -63,7 +63,7 @@
               </div>
               <div class="meta col-xs-12">
                 You can optionally export all deadlines to
-                <a href="https://calendar.google.com/calendar/r?cid={{ site.baseurl }}/ai-deadlines.ics">Google Calendar</a> or
+                <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/ai-deadlines.ics">Google Calendar</a> or
                 <a href="/ai-deadlines.ics">.ics</a>.
               </div>
             </div>
@@ -74,7 +74,7 @@
           <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
             <div class="row conf-row">
                 <div class="col-xs-5 col-sm-6">
-                    <a title="{{conf.long}}" class="conf-title" href="{{ site.baseurl }}/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
+                    <a title="{{conf.long}}" class="conf-title" href="{{ site.url }}/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
                 </div>
                 <div class="col-xs-7 col-sm-6">
                   <span class="timer"></span>
@@ -130,7 +130,7 @@
         <footer>
           <div class="row">
             <div class="col-xs-12 col-sm-6">
-              <a href="/">{{ site.baseurl | prepend: "https://daniel-bogdoll.github.io" }}</a> is maintained by <a href="https://twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.<br>
+              <a href="/">{{ site.domain }}</a> is maintained by <a href="https://twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.<br>
             </div>
           </div>
         </footer>
@@ -276,7 +276,7 @@
           }
         }
         store.set('{{ site.domain }}', subs);
-        window.history.pushState('', '', '/ad-deadlines/?sub=' + subs.join());
+        window.history.pushState('', '', '/?sub=' + subs.join());
 
         // Event handler on checkbox change
         $('form :checkbox').change(function(e) {
@@ -300,7 +300,7 @@
           }
           console.log(subs);
           store.set('{{ site.domain }}', subs);
-          window.history.pushState('', '', '/ad-deadlines/?sub=' + subs.join());
+          window.history.pushState('', '', '/?sub=' + subs.join());
         });
 
         // Event handler on sub click
@@ -317,7 +317,7 @@
           subs = [csub];
           console.log(subs);
           store.set('{{ site.domain }}', subs);
-          window.history.pushState('', '', '/ad-deadlines/?sub=' + subs.join());
+          window.history.pushState('', '', '/?sub=' + subs.join());
         });
     });
     <!-- Google analytics -->
