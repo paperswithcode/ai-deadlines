@@ -672,6 +672,7 @@
   host: SAI
 
 - title: WSDM
+  long: International Conference on Web Search and Data Mining
   hindex: 54
   year: 2022
   id: wsdm22
@@ -681,6 +682,7 @@
   date: February 21-25, 2022
   place: Phoenix, Arizona, USA
   sub: DM
+  host: ACM
 
 - title: AAAI
   hindex: 95
