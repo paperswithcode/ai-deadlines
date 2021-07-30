@@ -647,7 +647,7 @@
 
 - title: VEHITS
   long: International Conference on Vehicle Technology and Intelligent Transport Systems
-  hindex: 9
+  hindex: 11
   year: 2022
   id: vehits22
   link: http://www.vehits.org/
@@ -673,7 +673,7 @@
 
 - title: WSDM
   long: International Conference on Web Search and Data Mining
-  hindex: 54
+  hindex: 61
   year: 2022
   id: wsdm22
   link: https://www.wsdm-conference.org/2022/
@@ -876,7 +876,7 @@
 
 - title: CVPR
   long: Conference on Computer Vision and Pattern Recognition
-  hindex: 299
+  hindex: 356
   year: 2022
   id: cvpr22
   link: http://cvpr2022.thecvf.com/
