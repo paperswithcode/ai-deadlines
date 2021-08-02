@@ -1,5 +1,16 @@
 ---
 
+- title: ACL
+  hindex: 157
+  year: 2022
+  id: acl22
+  link: https://2022.aclweb.org/
+  deadline: '2021-11-15 23:59:59'
+  timezone: UTC-12
+  date: May 22-27, 2022
+  place: Dublin, Ireland
+  sub: NLP
+
 - title: AISTATS
   hindex: 57
   year: 2022
@@ -394,17 +405,6 @@
   place: Online
   sub: CV
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 27, 2021. More info <a href=''https://s2021.siggraph.org/program/technical-papers/''>here</a>.'
-
-- title: ACL
-  hindex: 135
-  year: 2021
-  id: acl21
-  link: https://2021.aclweb.org/
-  deadline: '2021-02-01 23:59:59'
-  timezone: UTC-12
-  date: August 2-4, 2021
-  place: Bangkok, Thailand
-  sub: NLP
 
 - title: ICML
   hindex: 135
