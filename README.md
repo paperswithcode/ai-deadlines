@@ -13,7 +13,7 @@ To add or update a deadline:
 - Update `_data/conferences.yml`
 - Make sure it has all the attributes!
     + See available timezone strings [here](https://momentjs.com/timezone/).
-    + `hindex` refers to h5-index from [here](https://scholar.google.com/citations?view_op=top_venues&vq=eng)
+    + `hindex` refers to h5-index from [here](https://scholar.google.com/citations?view_op=top_venues&hl=en)
 - Optionally add a `note` and `abstract_deadline` in case the conference has a separate mandatory abstract deadline
 - Send a pull request
 
