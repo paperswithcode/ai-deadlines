@@ -29,6 +29,7 @@ To add or update a deadline:
 - [2019-2020 International Conferences in AI, CV, DM, NLP and Robotics][10] by @JackieTseng
 - [ccf-deadlines][11] by @ccfddl
 - [netdeadlines.com][12] by @albertgranalcoz
+- [ad-deadlines.com][13] by @daniel-bogdoll
 
 ## License
 
@@ -45,3 +46,4 @@ To add or update a deadline:
 [10]: https://jackietseng.github.io/conference_call_for_paper/conferences.html
 [11]: https://ccfddl.github.io/
 [12]: https://netdeadlines.com/
+[13]: https://ad-deadlines.com/
