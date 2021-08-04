@@ -839,17 +839,18 @@
   sub: CV
 
 - title: AAMAS
-  hindex: 25
-  year: 2021
-  id: aamas21
-  link: https://aamas2021.soton.ac.uk/
-  deadline: '2020-10-09 23:59:59'
-  abstract_deadline: '2020-10-02 23:59:59'
+  long: International Conference on Autonomous Agents and Multiagent Systems
+  hindex: 44
+  year: 2022
+  id: aamas22
+  link: https://aamas2022-conference.auckland.ac.nz/
+  deadline: '2021-10-08 23:59:59'
+  abstract_deadline: '2021-10-01 23:59:59'
   timezone: UTC-12
-  date: May 3-7, 2021
-  place: London, UK
+  date: May 9-13, 2022
+  place: Auckland, New Zealand
   sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 02, 2020. More info <a href=''https://aamas2021.soton.ac.uk/calls/papers/''>here</a>.'
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 01, 2021. More info <a href=''https://aamas2022-conference.auckland.ac.nz/''>here</a>.'
 
 - title: SDM
   hindex: 33
