@@ -1,5 +1,16 @@
 ---
 
+- title: NAACL
+  hindex: 105
+  year: 2022
+  id: naacl22
+  link: TBA
+  deadline: '2022-01-15 23:59:00'
+  timezone: UTC-12
+  date: July 10-15, 2022
+  place: Seattle, Washington, USA
+  sub: NLP
+
 - title: ACL
   hindex: 157
   year: 2022
@@ -320,17 +331,6 @@
   date: June 21-24, 2022
   place: New Orleans, Louisiana, USA
   sub: CV
-
-- title: NAACL
-  hindex: 90
-  year: 2021
-  id: naacl21
-  link: https://2021.naacl.org/
-  deadline: '2020-11-23 23:59:00'
-  timezone: UTC-12
-  date: June 6-11, 2021
-  place: Mexico City, Mexico
-  sub: NLP
 
 - title: ICME
   hindex: 30
