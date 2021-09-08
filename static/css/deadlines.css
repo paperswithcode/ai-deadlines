@@ -153,6 +153,16 @@ footer {
   border-color: #0097e6;
 }
 
+.pwc-link {
+  color: #1198b2;
+  text-decoration: none;
+  border: none;
+}
+
+.pwc-link:hover {
+  text-decoration: underline;
+}
+
 .icon-inner {
   width: 1em;
   height: 1em;
