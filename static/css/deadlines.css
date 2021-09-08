@@ -161,6 +161,7 @@ footer {
 }
 
 .pwc-link:hover {
+  color: #1198b2;
   text-decoration: underline;
 }
 
