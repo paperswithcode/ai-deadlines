@@ -153,6 +153,16 @@ footer {
   border-color: #0097e6;
 }
 
+.icon-inner {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  fill: currentColor;
+}
+
 @media only screen and (max-width: 780px) {
   #conf-timer {
     font-size: 64px;
