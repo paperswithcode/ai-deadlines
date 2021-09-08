@@ -4,7 +4,7 @@ description: Countdowns to top CV/NLP/ML/Robotics/AI conference deadlines
 author: Abhishek Das
 
 domain: "aideadlin.es"
-baseurl: "ai-deadlines"
+baseurl: ""
 
 twitter_username: abhshkdz
 twitter_hashtag: machinelearning
