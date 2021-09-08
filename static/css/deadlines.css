@@ -157,6 +157,7 @@ footer {
   color: #1198b2;
   text-decoration: none;
   border: none;
+  vertical-align: middle;
 }
 
 .pwc-link:hover {
