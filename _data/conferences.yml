@@ -132,6 +132,7 @@
   date: February 08-10, 2020
   place: San Diego, CA, United States
   sub: ML
+  paperslink: http://algorithmiclearningtheory.org/alt2020/accepted-papers/
 
 - title: HRI
   hindex: 40
@@ -288,6 +289,8 @@
   date: April 21-23, 2021
   place: Online (Kyiv, Ukraine)
   sub: NLP
+  pwclink: https://paperswithcode.com/conference/eacl-2021-2
+  paperslink: https://aclanthology.org/events/eacl-2021/#2021-eacl-main
 
 - title: AAMAS
   hindex: 25
