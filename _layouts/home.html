@@ -103,6 +103,18 @@
                   {{conf.note}}
                 </div>
                 {% endif %}
+                {% if conf.pwclink or conf.paperslink %}
+                  <div class="note">
+                    {% if conf.pwclink %}<div>
+                        <a href="{{conf.pwclink}}" class="pwc-link">
+                          <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="s-ion-icon"><path d="M88 128h48v256H88zM232 128h48v256h-48zM160 144h48v224h-48zM304 144h48v224h-48zM376 128h48v256h-48z"></path><path d="M104 104V56H16v400h88v-48H64V104zM408 56v48h40v304h-40v48h88V56z"></path></svg></div>
+                          Papers With Code
+                        </a>
+                      </div>
+                    {% endif %}
+                    {% if conf.paperslink %}<div><a href="{{conf.paperslink}}">Accepted papers</a></div>{% endif %}
+                  </div>
+                {% endif %}
               </div>
               <div class="col-xs-12 col-sm-6">
                 <div class="deadline">

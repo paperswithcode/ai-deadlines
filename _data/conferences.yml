@@ -10,6 +10,8 @@
   date: July 10-15, 2022
   place: Seattle, Washington, USA
   sub: NLP
+  pwclink: https://paperswithcode.com/conference/ijcnlp-2019-11
+  paperslink: http://algorithmiclearningtheory.org/alt2020/accepted-papers/
 
 - title: ACL
   hindex: 157
@@ -21,6 +23,7 @@
   date: May 22-27, 2022
   place: Dublin, Ireland
   sub: NLP
+  pwclink: https://paperswithcode.com/conference/ijcnlp-2019-11
 
 - title: AISTATS
   hindex: 57
@@ -30,7 +33,7 @@
   deadline: '2021-10-15 11:59:00'
   timezone: UTC
   date: March 30 - April 1, 2022
-  place: Valencia, Spain 
+  place: Valencia, Spain
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 8, 2021. More info <a href=''http://www.aistats.org/aistats2022/cfp.html''>here</a>.'
 
@@ -68,6 +71,7 @@
   date: May 23-27, 2022
   place: Philadelphia (PA), USA
   sub: RO
+  paperslink: http://algorithmiclearningtheory.org/alt2020/accepted-papers/
 
 - title: ICASSP
   hindex: 80
