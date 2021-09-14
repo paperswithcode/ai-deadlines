@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-xs-12" style="margin-bottom: 10px">
                   by <a href="https://paperswithcode.com" class="pwc-link">
-                    <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="s-ion-icon"><path d="M88 128h48v256H88zM232 128h48v256h-48zM160 144h48v224h-48zM304 144h48v224h-48zM376 128h48v256h-48z"></path><path d="M104 104V56H16v400h88v-48H64V104zM408 56v48h40v304h-40v48h88V56z"></path></svg></div>
+                    <div class="icon-inner pwc-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="s-ion-icon"><path d="M88 128h48v256H88zM232 128h48v256h-48zM160 144h48v224h-48zM304 144h48v224h-48zM376 128h48v256h-48z"></path><path d="M104 104V56H16v400h88v-48H64V104zM408 56v48h40v304h-40v48h88V56z"></path></svg></div>
                     Papers With Code
                   </a>
                 </div>
@@ -105,14 +105,22 @@
                 {% endif %}
                 {% if conf.pwclink or conf.paperslink %}
                   <div class="note">
-                    {% if conf.pwclink %}<div>
+                    {% if conf.pwclink %}
+                      <div>
                         <a href="{{conf.pwclink}}" class="pwc-link">
-                          <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="s-ion-icon"><path d="M88 128h48v256H88zM232 128h48v256h-48zM160 144h48v224h-48zM304 144h48v224h-48zM376 128h48v256h-48z"></path><path d="M104 104V56H16v400h88v-48H64V104zM408 56v48h40v304h-40v48h88V56z"></path></svg></div>
+                          <div class="icon-inner pwc-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="s-ion-icon"><path d="M88 128h48v256H88zM232 128h48v256h-48zM160 144h48v224h-48zM304 144h48v224h-48zM376 128h48v256h-48z"></path><path d="M104 104V56H16v400h88v-48H64V104zM408 56v48h40v304h-40v48h88V56z"></path></svg></div>
                           Papers With Code
                         </a>
                       </div>
                     {% endif %}
-                    {% if conf.paperslink %}<div><a href="{{conf.paperslink}}">Accepted papers</a></div>{% endif %}
+                    {% if conf.paperslink %}
+                      <div>
+                        <a href="{{conf.paperslink}}" class="pwc-link">
+                          <div class="icon-inner pwc-icon"><svg viewBox="0 0 448 513.795" xmlns="http://www.w3.org/2000/svg"><path d="M448 349.086c0 10.974-6.299 26.18-14.059 33.94l-83.882 83.882c-7.76 7.76-22.966 14.06-33.94 14.06H48c-26.51 0-48-21.49-48-48V80.98c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v268.106zm-128 80l76.118-76.118H320v76.118zm80-348.107H48v351.988h224v-104c0-13.254 10.745-24 24-24h104V80.98z"/></svg></div>
+                          Accepted papers
+                        </a>
+                      </div>
+                    {% endif %}
                   </div>
                 {% endif %}
               </div>
@@ -240,11 +248,14 @@
 
           // check if date has passed, add 'past' class to it
           var today = moment();
-          diff = today.diff(confDate)
+          diff = today.diff(confDate);
+
           $('#{{conf.id}}').attr("diff", diff)
           if (diff > 0) {
             $('#{{conf.id}}').addClass('past');
             $('#{{conf.id}}').appendTo($("#past_confs"))
+            $('#{{conf.id}} .timer').replaceWith($('#{{conf.id}} .deadline'));
+            $('#{{conf.id}} .calendar').remove();
           }
         {% endif %}
         {% endfor %}
