@@ -10,8 +10,6 @@
   date: July 10-15, 2022
   place: Seattle, Washington, USA
   sub: NLP
-  pwclink: https://paperswithcode.com/conference/ijcnlp-2019-11
-  paperslink: http://algorithmiclearningtheory.org/alt2020/accepted-papers/
 
 - title: ACL
   hindex: 157
@@ -23,7 +21,6 @@
   date: May 22-27, 2022
   place: Dublin, Ireland
   sub: NLP
-  pwclink: https://paperswithcode.com/conference/ijcnlp-2019-11
 
 - title: AISTATS
   hindex: 57
@@ -71,7 +68,6 @@
   date: May 23-27, 2022
   place: Philadelphia (PA), USA
   sub: RO
-  paperslink: http://algorithmiclearningtheory.org/alt2020/accepted-papers/
 
 - title: ICASSP
   hindex: 80
@@ -134,6 +130,7 @@
   date: February 08-10, 2020
   place: San Diego, CA, United States
   sub: ML
+  paperslink: http://algorithmiclearningtheory.org/alt2020/accepted-papers/
 
 - title: HRI
   hindex: 40
@@ -145,6 +142,7 @@
   date: March 23-26, 2020
   place: Cambridge, UK
   sub: RO
+  paperslink: https://dl.acm.org/doi/proceedings/10.1145/3319502
 
 - title: ICMR
   hindex: 33
@@ -156,6 +154,7 @@
   date: June 8-11, 2020
   place: Dublin, Ireland
   sub: CV
+  paperslink: http://icmr2020.org/ICMR2020-detailed-schedule-FINAL.pdf
 
 - title: COLT
   hindex: 48
@@ -167,6 +166,7 @@
   timezone: America/Los_Angeles
   place: Graz, Austria
   sub: ML
+  paperslink: http://proceedings.mlr.press/v125/
 
 - title: ECCV
   hindex: 135
@@ -178,6 +178,7 @@
   date: August 23-28, 2020
   place: Glasgow, Scotland, UK
   sub: CV
+  paperslink: https://eccv2020.eu/about-eccv/#
 
 - title: ICCC
   hindex: 22
@@ -189,6 +190,7 @@
   date: June 29-July 3, 2020
   place: Coimbra, Portugal
   sub: ML
+  paperslink: http://computationalcreativity.net/iccc20/papers/ICCC20_Proceedings.pdf
 
 - title: ISMIR
   hindex: 32
@@ -202,6 +204,7 @@
   place: Montreal, Canada
   sub: SP
   note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 10, 2020. More info <a href=''https://ismir.github.io/ISMIR2020/cfp/''>here</a>.'
+  paperslink: https://program.ismir2020.net/papers.html?filter=keywords
 
 - title: AACL-IJCNLP
   hindex: -1
@@ -213,6 +216,8 @@
   date: December 4-7, 2020
   place: Suzhou, China
   sub: NLP
+  pwclink: https://paperswithcode.com/conference/asian-chapter-of-the-association-for
+  paperslink: https://aclanthology.org/events/aacl-2020/
 
 - title: COLING
   hindex: 41
@@ -224,6 +229,7 @@
   date: December 8-13, 2020
   place: Barcelona, Spain
   sub: NLP
+  paperslink: https://aclanthology.org/volumes/2020.coling-main/
 
 - title: ACCV
   hindex: 38
@@ -235,6 +241,7 @@
   date: November 30 - December 4, 2020
   place: Online
   sub: CV
+  paperslink: https://accv2020.github.io/programs/papers/index.html
 
 - title: ICPR
   hindex: 38
@@ -246,6 +253,7 @@
   date: January 10-15, 2021
   place: Milan, Italy
   sub: ML
+  paperslink: https://www.micc.unifi.it/icpr2020/index.php/papers-and-authors/
 
 - title: CoNLL
   hindex: 34
@@ -257,6 +265,7 @@
   date: November 19-20, 2020
   place: Online
   sub: NLP
+  paperslink: https://aclanthology.org/events/conll-2020/
 
 - title: 3DV
   hindex: 29
@@ -268,6 +277,7 @@
   date: November 25-28, 2020
   place: Fukuoka, Japan
   sub: CV
+  paperslink: http://3dv2020.dgcv.nii.ac.jp/conferenceprogram.html
 
 - title: WMT
   hindex: 27
@@ -279,6 +289,7 @@
   date: November 19-20, 2020
   place: Online
   sub: NLP
+  paperslink: http://www.statmt.org/wmt20/papers.html
 
 - title: EACL
   hindex: 36
@@ -290,6 +301,8 @@
   date: April 21-23, 2021
   place: Online (Kyiv, Ukraine)
   sub: NLP
+  pwclink: https://paperswithcode.com/conference/eacl-2021-2
+  paperslink: https://aclanthology.org/events/eacl-2021/#2021-eacl-main
 
 - title: AAMAS
   hindex: 25
@@ -303,6 +316,7 @@
   place: London, UK
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 02, 2020. More info <a href=''https://aamas2021.soton.ac.uk/calls/papers/''>here</a>.'
+  paperslink: https://dl.acm.org/doi/proceedings/10.5555/3463952
 
 - title: SDM
   hindex: 33
@@ -314,6 +328,7 @@
   date: April 29 - May 1, 2021
   place: Online
   sub: DM
+  paperslink: https://epubs.siam.org/doi/book/10.1137/1.9781611976700
 
 - title: AISTATS
   hindex: 52
@@ -326,6 +341,7 @@
   place: San Diego, California, USA
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 8, 2020. More info <a href=''http://www.aistats.org/aistats2021/cfp.html''>here</a>.'
+  paperslink: http://proceedings.mlr.press/v130/
 
 - title: CVPR
   hindex: 299
@@ -348,6 +364,7 @@
   date: July 5-9, 2021
   place: Shenzhen, China
   sub: CV
+  paperslink: https://2021.ieeeicme.org/conf_oral
 
 - title: ICAPS
   hindex: 28
@@ -361,6 +378,7 @@
   place: Guangzhou, China
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Dec 11, 2020. More info <a href=''https://icaps21.icaps-conference.org/''>here</a>.'
+  paperslink: https://icaps21.icaps-conference.org/papers/
 
 - title: ICIP
   hindex: 52
@@ -372,6 +390,7 @@
   date: September, 19-22, 2021
   place: Anchorage, Alaska, USA
   sub: CV
+  paperslink: https://2021.ieeeicip.org/Papers/TechnicalProgram_MS.asp
 
 - title: CHIL
   hindex: -1
@@ -386,6 +405,7 @@
   sub: ML
   note: '<b>NOTE</b>: Recommended abstract deadline on Jan 10, 2021. More info <a
     href=''https://www.chilconference.org''>here</a>.'
+  paperslink: https://www.chilconference.org/2021/proceedings.html  
 
 - title: IJCAI
   hindex: 67
@@ -398,6 +418,7 @@
   date: August 21-26, 2021
   place: Montreal, Canada
   sub: ML
+  paperslink: https://www.ijcai.org/proceedings/2021/
 
 - title: SIGGRAPH
   hindex: 19
@@ -411,6 +432,7 @@
   place: Online
   sub: CV
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 27, 2021. More info <a href=''https://s2021.siggraph.org/program/technical-papers/''>here</a>.'
+  paperslink: https://s2021.siggraph.org/full-program/
 
 - title: ICML
   hindex: 135
@@ -424,6 +446,7 @@
   place: Vienna, Austria
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 28, 2021. More info <a href=''https://icml.cc/Conferences/2021/''>here</a>.'
+  paperslink: https://icml.cc/Conferences/2021/Schedule
 
 - title: KDD
   hindex: 30
@@ -435,6 +458,7 @@
   date: August 14-18, 2021
   place: Singapore
   sub: DM
+  paperslink: https://kdd.org/kdd2021/accepted-papers/toc
 
 - title: SIGIR
   hindex: 57
@@ -447,6 +471,7 @@
   place: Montreal, Canada
   abstract_deadline: '2021-02-02 23:59:00'
   sub: DM
+  paperslink: https://sigir.org/sigir2021/accepted-papers/
 
 - title: MIDL
   hindex: -1
@@ -460,6 +485,7 @@
   sub: CV
   abstract_deadline: '2021-02-10 23:59:59'
   note: '<b>NOTE</b>: Abstract deadline on Feb 10, 2021. More info <a href=''https://2021.midl.io/dates.html''>here</a>.'
+  paperslink: https://2021.midl.io/program.html
 
 - title: UAI
   hindex: 33
@@ -471,6 +497,7 @@
   date: July 26-30, 2021
   place: TBD
   sub: ML
+  paperslink: https://www.auai.org/uai2021/accepted_papers
 
 - title: IROS
   hindex: 58
@@ -493,6 +520,7 @@
   date: Jul 12-16, 2021
   place: Online
   sub: RO
+  paperslink: https://roboticsconference.org/program/papers/
 
 - title: MICCAI
   hindex: 46
@@ -505,6 +533,7 @@
   place: Lima, Peru
   sub: CV
   note: '<b>NOTE</b>: Intent to submit deadline on Feb 19, 2021. More info <a href=''https://www.miccai2021.org/''>here</a>.'
+  paperslink: https://www.miccai2021.org/en/TENTATIVE-SCHEDULE.html
 
 - title: ICCV
   hindex: 176
@@ -531,6 +560,7 @@
   place: Bilbao, Basque Country (Spain)
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Mar 26, 2021. More info <a href=''https://2021.ecmlpkdd.org/?page_id=1599/''>here</a>.'
+  paperslink: https://2021.ecmlpkdd.org/?page_id=1811
 
 - title: InterSpeech
   hindex: 81
@@ -543,6 +573,7 @@
   place: Brno, Czechia
   sub: SP
   abstract_deadline: '2021-03-26 23:59:59'
+  paperslink: https://www.isca-speech.org/archive/interspeech_2021/index.html
 
 - title: FG
   hindex: -1
@@ -566,6 +597,7 @@
   date: October 20-24, 2021
   place: Chengdu, China
   sub: CV
+  paperslink: https://2021.acmmm.org/main-track-list
 
 - title: RecSys
   hindex: 45
@@ -580,6 +612,7 @@
   sub: DM
   note: '<b>NOTE</b>: Mandatory abstract deadline on April 27, 2020. More info <a
     href=''https://recsys.acm.org/recsys21/dates/''>here</a>.'
+  paperslink: https://recsys.acm.org/recsys21/accepted-contributions/#content-tab-1-0-tab
 
 - title: EMNLP
   hindex: 112
@@ -603,6 +636,7 @@
   date: October 18-22, 2021
   place: Montreal, Canada
   sub: CV
+  paperslink: https://icmi.acm.org/2021/index.php?id=accepted
 
 - title: CIKM
   hindex: 48
@@ -671,6 +705,7 @@
   date: October 4-7, 2021
   place: Irvine, United States
   sub: NLP
+  paperslink: https://openreview.net/group?id=AKBC.ws/2021/Conference#all-submissions
 
 - title: BMVC
   hindex: 57
