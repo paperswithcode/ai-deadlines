@@ -474,9 +474,9 @@
 - title: SIGMOD/PODS
   long:  International Conference on Management of Data
   hindex: 66
-  year: 2021
-  id: cscs21
-  link: https://acm-cscs.org/
+  year: 2022
+  id: sigmod22
+  link: https://2022.sigmod.org/
   deadline: '2021-07-02 23:59:59'
   timezone: UTC-12
   date: June 12-17, 2022
@@ -485,12 +485,12 @@
   host: ACM
 
 - title: CSCS
-  long:  COMPUTER SCIENCE IN CARS SYMPOSIUM
+  long:  Computer Science in Cars Symposium
   hindex: --
   year: 2021
   id: cscs21
   link: https://acm-cscs.org/
-  deadline: '2021-09-03 23:59:59'
+  deadline: '2021-09-17 23:59:59'
   timezone: UTC-12
   date: November 30, 2021
   place: Ingolstadt, Germany
