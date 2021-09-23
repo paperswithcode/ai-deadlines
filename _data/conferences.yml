@@ -689,3 +689,15 @@
   date: November 17-19, 2021
   place: Online
   sub: ML
+
+- title: NVIDIA GTC
+  year: 2022
+  id: gtc22
+  link: https://www.nvidia.com/gtc/
+  deadline: '2021-10-21 23:59:59'
+  timezone: UTC-7
+  date: March 21 - 24, 2022
+  place: San Jose, California, USA and Online
+  sub: ML, CV, NLP, DM, RO, SP
+  note: '<b>Note</b>: Both talks and posters have the same deadline. More info <a href=''https://www.nvidia.com/gtc/call-for-submissions/''>here</a>.'
+  
