@@ -632,18 +632,20 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on June 30, 2021'
 
 
-- title: ICSA (Deadline approximated)
+- title: ICSA
   long: INTERNATIONAL CONFERENCE ON SOFTWARE ARCHITECTURE
   hindex: 17
   year: 2022
   id: icsa22
   link: https://icsa-conferences.org/2022/
-  deadline: '2021-12-01 23:59:59'
+  deadline: '2021-11-08 23:59:59'
   timezone: UTC-12
   date: March 12-15, 2022
   place: Honolulu, Hawaii, USA
   sub: AS
   host: IEEE
+  abstract_deadline: '2021-11-01 23:59:59'
+  note: '<b>NOTE</b>: Mandatory abstract deadline on November 01, 2021'
 
 - title: WCNC
   long: Wireless Communications and Networking Conference
