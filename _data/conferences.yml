@@ -1,85 +1,5 @@
 ---
 
-- title: NAACL
-  hindex: 105
-  year: 2022
-  id: naacl22
-  link: https://2022.naacl.org/
-  deadline: '2022-01-15 23:59:00'
-  timezone: UTC-12
-  date: July 10-15, 2022
-  place: Seattle, Washington, USA
-  sub: NLP
-
-- title: ACL
-  hindex: 157
-  year: 2022
-  id: acl22
-  link: https://2022.aclweb.org/
-  deadline: '2021-11-15 23:59:59'
-  timezone: UTC-12
-  date: May 22-27, 2022
-  place: Dublin, Ireland
-  sub: NLP
-
-- title: AISTATS
-  hindex: 57
-  year: 2022
-  id: aistats22
-  link: https://www.aistats.org/aistats2022/
-  deadline: '2021-10-15 11:59:00'
-  timezone: UTC
-  date: March 30 - April 1, 2022
-  place: Valencia, Spain 
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 8, 2021. More info <a href=''http://www.aistats.org/aistats2022/cfp.html''>here</a>.'
-
-- title: WSDM
-  hindex: 54
-  year: 2022
-  id: wsdm22
-  link: https://www.wsdm-conference.org/2022/
-  deadline: '2021-08-09 23:59:59'
-  timezone: UTC-12
-  date: February 21-25, 2022
-  place: Phoenix, Arizona, USA
-  sub: DM
-
-- title: AAAI
-  hindex: 95
-  year: 2022
-  id: aaai22
-  link: https://aaai.org/Conferences/AAAI-22/
-  deadline: '2021-09-08 23:59:59'
-  abstract_deadline: '2021-08-30 23:59:59'
-  timezone: UTC-12
-  date: February 22 - March 1, 2022
-  place: Vancouver, Canada
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on August 30, 2021'
-
-- title: ICRA
-  hindex: 94
-  year: 2022
-  id: icra22
-  link: https://icra2022.org/
-  deadline: '2021-09-14 23:59:59'
-  timezone: America/Los_Angeles
-  date: May 23-27, 2022
-  place: Philadelphia (PA), USA
-  sub: RO
-
-- title: ICASSP
-  hindex: 80
-  year: 2022
-  id: icassp22
-  link: https://2022.ieeeicassp.org/
-  deadline: '2021-10-06 23:59:59'
-  timezone: UTC
-  date: May 22-27, 2022
-  place: Singapore
-  sub: SP
-
 - title: ICLR
   hindex: 203
   year: 2022
@@ -94,6 +14,29 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on September 28, 2021. More info
     <a href=''https://iclr.cc/Conferences/2022/CallForPapers''>here</a>.'
 
+- title: ICASSP
+  hindex: 80
+  year: 2022
+  id: icassp22
+  link: https://2022.ieeeicassp.org/
+  deadline: '2021-10-06 23:59:59'
+  timezone: UTC
+  date: May 22-27, 2022
+  place: Singapore
+  sub: SP
+
+- title: AISTATS
+  hindex: 57
+  year: 2022
+  id: aistats22
+  link: https://www.aistats.org/aistats2022/
+  deadline: '2021-10-15 11:59:00'
+  timezone: UTC
+  date: March 30 - April 1, 2022
+  place: Valencia, Spain
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 8, 2021. More info <a href=''http://www.aistats.org/aistats2022/cfp.html''>here</a>.'
+
 - title: WWW
   hindex: 70
   year: 2022
@@ -107,6 +50,28 @@
   sub: DM
   note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
 
+- title: ACL
+  hindex: 157
+  year: 2022
+  id: acl22
+  link: https://2022.aclweb.org/
+  deadline: '2021-11-15 23:59:59'
+  timezone: UTC-12
+  date: May 22-27, 2022
+  place: Dublin, Ireland
+  sub: NLP
+
+- title: CVPR
+  hindex: 299
+  year: 2022
+  id: cvpr22
+  link: http://cvpr2022.thecvf.com/
+  deadline: '2021-11-16 23:59:59'
+  timezone: America/Los_Angeles
+  date: June 21-24, 2022
+  place: New Orleans, Louisiana, USA
+  sub: CV
+
 - title: LREC
   hindex: 38
   year: 2022
@@ -116,6 +81,29 @@
   timezone: Europe/Paris
   date: June 20-25, 2022
   place: Marseille, France
+  sub: NLP
+
+- title: IJCAI
+  hindex: 105
+  year: 2022
+  id: ijcai22
+  link: https://ijcai-22.org/
+  deadline: '2022-01-14 23:59:59'
+  abstract_deadline: '2022-01-07 23:59:59'
+  timezone: UTC-12
+  date: TBD
+  place: Vienna, Austria
+  sub: ML
+
+- title: NAACL
+  hindex: 105
+  year: 2022
+  id: naacl22
+  link: https://2022.naacl.org/
+  deadline: '2022-01-15 23:59:00'
+  timezone: UTC-12
+  date: July 10-15, 2022
+  place: Seattle, Washington, USA
   sub: NLP
 
 - title: ALT
@@ -321,17 +309,6 @@
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 8, 2020. More info <a href=''http://www.aistats.org/aistats2021/cfp.html''>here</a>.'
 
-- title: CVPR
-  hindex: 299
-  year: 2022
-  id: cvpr22
-  link: http://cvpr2022.thecvf.com/
-  deadline: '2021-11-16 23:59:59'
-  timezone: America/Los_Angeles
-  date: June 21-24, 2022
-  place: New Orleans, Louisiana, USA
-  sub: CV
-
 - title: ICME
   hindex: 30
   year: 2021
@@ -380,18 +357,6 @@
   sub: ML
   note: '<b>NOTE</b>: Recommended abstract deadline on Jan 10, 2021. More info <a
     href=''https://www.chilconference.org''>here</a>.'
-
-- title: IJCAI
-  hindex: 67
-  year: 2021
-  id: ijcai21
-  link: https://ijcai-21.org/
-  deadline: '2021-01-20 23:59:59'
-  abstract_deadline: '2021-01-13 23:59:59'
-  timezone: UTC-12
-  date: August 21-26, 2021
-  place: Montreal, Canada
-  sub: ML
 
 - title: SIGGRAPH
   hindex: 19
@@ -689,3 +654,38 @@
   date: November 17-19, 2021
   place: Online
   sub: ML
+
+- title: WSDM
+  hindex: 54
+  year: 2022
+  id: wsdm22
+  link: https://www.wsdm-conference.org/2022/
+  deadline: '2021-08-09 23:59:59'
+  timezone: UTC-12
+  date: February 21-25, 2022
+  place: Phoenix, Arizona, USA
+  sub: DM
+
+- title: AAAI
+  hindex: 95
+  year: 2022
+  id: aaai22
+  link: https://aaai.org/Conferences/AAAI-22/
+  deadline: '2021-09-08 23:59:59'
+  abstract_deadline: '2021-08-30 23:59:59'
+  timezone: UTC-12
+  date: February 22 - March 1, 2022
+  place: Vancouver, Canada
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on August 30, 2021'
+
+- title: ICRA
+  hindex: 94
+  year: 2022
+  id: icra22
+  link: https://icra2022.org/
+  deadline: '2021-09-14 23:59:59'
+  timezone: America/Los_Angeles
+  date: May 23-27, 2022
+  place: Philadelphia (PA), USA
+  sub: RO
