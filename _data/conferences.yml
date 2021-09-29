@@ -829,18 +829,20 @@
   place: Online
   sub: CV
 
-- title: ICPR (Deadline approximated)
+- title: ICPR
   long: International Conference on Pattern Recognition
-  hindex: 35
+  hindex: 43
   year: 2022
   id: icpr22
   link: http://www.icpr2022.com/
-  deadline: '2021-11-01 23:59:00'
+  deadline: '2022-01-17 23:59:00'
   timezone: UTC+1
   date: August 21-25, 2022
   place: Montréal, Québec (QC), Canada
   sub: ML
   host: IEEE
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 10, 2022.'
+
 
 - title: 3DV
   hindex: 29
