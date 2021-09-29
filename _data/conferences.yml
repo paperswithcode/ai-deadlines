@@ -249,11 +249,11 @@
   host: IEEE
   
 - title: IJCAI-ECAI (Deadline estimated)
-  long: European Conference on AI
+  long: International Joint Conference on Artificial Intelligence and European Conference on Artificial Intelligence
   hindex: 18
   year: 2022
   id: ecai22
-  link: https://www.ijcai.org/future_conferences
+  link: https://ijcai-22.org/
   deadline: '2021-11-01 23:59:59'
   timezone: UTC-12
   date: July 23-29, 2022
