@@ -313,13 +313,13 @@
   sub: DM
   host: MDPI
 
-- title: SDM (Deadline estimated)
+- title: SDM
   long: International Conference on Data Mining	
-  hindex: 33
+  hindex: 36
   year: 2022
   id: sdm22
   link: https://www.siam.org/conferences/cm/conference/sdm22
-  deadline: '2021-10-05 23:59:59'
+  deadline: '2021-10-12 23:59:59'
   timezone: UTC-12
   date: April 28-30, 2022
   place: Alexandria, Virginia, USA
