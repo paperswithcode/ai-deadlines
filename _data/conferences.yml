@@ -673,19 +673,6 @@
   sub: IV
   host: INSTICC
 
-- title: FICC
-  long: Future of Information and Communication Conference
-  hindex: --
-  year: 2022
-  id: ficc22
-  link: https://saiconference.com/FICC
-  deadline: '2021-07-15 23:59:59'
-  timezone: UTC-12
-  date: March 03-04, 2022
-  place: San Francisco, California, USA
-  sub: IV
-  host: SAI
-
 - title: WSDM
   long: International Conference on Web Search and Data Mining
   hindex: 61
