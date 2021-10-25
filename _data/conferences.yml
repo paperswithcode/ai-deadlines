@@ -944,10 +944,10 @@
 - title: IJCAI (Deadline estimated)
   long: International Joint Conference on Artificial Intelligence
   hindex: 67
-  year: 2022
-  id: ijcai22
-  link: https://ijcai-22.org/
-  deadline: '2021-12-20 23:59:59'
+  year: 2023
+  id: ijcai23
+  link: https://ijcai-23.org/
+  deadline: '2022-12-20 23:59:59'
   timezone: UTC-12
   date: July 23-29, 2022
   place: Vienna, Austria
