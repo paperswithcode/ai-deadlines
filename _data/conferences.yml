@@ -22,6 +22,29 @@
   place: New Orleans, Louisiana, USA
   sub: CV
 
+- title: L4DC
+  year: 2022
+  id: l4dc22
+  link: https://l4dc.stanford.edu/
+  deadline: '2021-11-30 17:00:00'
+  timezone: UTC-5
+  date: June 23-24, 2022
+  place: Stanford University, CA, USA
+  sub: ML
+
+- title: ICAPS
+  hindex: 27
+  year: 2022
+  id: icaps22
+  link: http://icaps22.icaps-conference.org/
+  deadline: '2021-12-15 23:59:59'
+  abstract_deadline: '2021-12-10 23:59:59'
+  timezone: UTC-12
+  date: June 19-24, 2022
+  place: Singapore Management University, Singapore
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Dec 10, 2021. More info <a href=''http://icaps22.icaps-conference.org/''>here</a>.'
+
 - title: LREC
   hindex: 38
   year: 2022
@@ -32,6 +55,18 @@
   date: June 20-25, 2022
   place: Marseille, France
   sub: NLP
+
+- title: IJCAI
+  hindex: 105
+  year: 2022
+  id: ijcai22
+  link: https://ijcai-22.org/
+  deadline: '2022-01-14 23:59:59'
+  abstract_deadline: '2022-01-07 23:59:59'
+  timezone: UTC-12
+  date: TBD
+  place: Vienna, Austria
+  sub: ML
 
 - title: NAACL
   hindex: 105
@@ -279,20 +314,6 @@
   sub: CV
   paperslink: https://2021.ieeeicme.org/conf_oral
 
-- title: ICAPS
-  hindex: 28
-  year: 2021
-  id: icaps21
-  link: https://icaps21.icaps-conference.org/
-  deadline: '2020-12-18 23:59:59'
-  abstract_deadline: '2020-12-11 23:59:59'
-  timezone: UTC-12
-  date: June 7-12, 2021
-  place: Guangzhou, China
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Dec 11, 2020. More info <a href=''https://icaps21.icaps-conference.org/''>here</a>.'
-  paperslink: https://icaps21.icaps-conference.org/papers/
-
 - title: ICIP
   hindex: 52
   year: 2021
@@ -319,19 +340,6 @@
   note: '<b>NOTE</b>: Recommended abstract deadline on Jan 10, 2021. More info <a
     href=''https://www.chilconference.org''>here</a>.'
   paperslink: https://www.chilconference.org/2021/proceedings.html
-
-- title: IJCAI
-  hindex: 67
-  year: 2021
-  id: ijcai21
-  link: https://ijcai-21.org/
-  deadline: '2021-01-20 23:59:59'
-  abstract_deadline: '2021-01-13 23:59:59'
-  timezone: UTC-12
-  date: August 21-26, 2021
-  place: Montreal, Canada
-  sub: ML
-  paperslink: https://www.ijcai.org/proceedings/2021/
 
 - title: SIGGRAPH
   hindex: 19
@@ -704,6 +712,31 @@
   note: '<b>NOTE</b>: Mandatory abstract deadline on September 28, 2021. More info
     <a href=''https://iclr.cc/Conferences/2022/CallForPapers''>here</a>.'
 
+- title: ICLR
+  hindex: 203
+  year: 2022
+  id: iclr22
+  link: https://iclr.cc/
+  deadline: '2021-10-05 17:00:00'
+  abstract_deadline: '2021-09-28 17:00:00'
+  timezone: UTC-7
+  date: April 25-29, 2022
+  place: Online
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on September 28, 2021. More info
+    <a href=''https://iclr.cc/Conferences/2022/CallForPapers''>here</a>.'
+
+- title: ICASSP
+  hindex: 80
+  year: 2022
+  id: icassp22
+  link: https://2022.ieeeicassp.org/
+  deadline: '2021-10-06 23:59:59'
+  timezone: UTC-12
+  date: May 22-27, 2022
+  place: Singapore
+  sub: SP
+
 - title: AISTATS
   hindex: 57
   year: 2022
@@ -715,6 +748,31 @@
   place: Valencia, Spain
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 8, 2021. More info <a href=''http://www.aistats.org/aistats2022/cfp.html''>here</a>.'
+
+- title: AISTATS
+  hindex: 57
+  year: 2022
+  id: aistats22
+  link: https://www.aistats.org/aistats2022/
+  deadline: '2021-10-15 11:59:00'
+  timezone: UTC
+  date: March 30 - April 1, 2022
+  place: Valencia, Spain
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Oct 8, 2021. More info <a href=''http://www.aistats.org/aistats2022/cfp.html''>here</a>.'
+
+- title: WWW
+  hindex: 70
+  year: 2022
+  id: www22
+  link: https://www2022.thewebconf.org/
+  deadline: '2021-10-21 23:59:59'
+  abstract_deadline: '2021-10-14 23:59:59'
+  timezone: UTC-12
+  date: April 25-29, 2022
+  place: Lyon, France
+  sub: DM
+  note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
 
 - title: WWW
   hindex: 70
