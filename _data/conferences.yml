@@ -739,15 +739,16 @@
   sub: DM
   note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
 
-- title: ALT
-  hindex: 15
-  year: 2020
-  id: alt20
-  link: http://alt2020.algorithmiclearningtheory.org/
-  deadline: '2019-09-20 16:59:59'
+- title: ALT (Deadline estimated)
+  long: International Conference on Algorithmic Learning Theory
+  hindex: 21
+  year: 2023
+  id: alt23
+  link: http://algorithmiclearningtheory.org/alt2023/
+  deadline: '2022-10-05 16:59:59'
   timezone: America/New_York
-  date: February 08-10, 2020
-  place: San Diego, CA, United States
+  date: ?
+  place: ?
   sub: ML
 
 - title: HRI
