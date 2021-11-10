@@ -747,8 +747,8 @@
   link: http://algorithmiclearningtheory.org/alt2023/
   deadline: '2022-10-05 16:59:59'
   timezone: America/New_York
-  date: ?
-  place: ?
+  date: --
+  place: --
   sub: ML
 
 - title: HRI
