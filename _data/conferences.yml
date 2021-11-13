@@ -356,17 +356,14 @@
 
 - title: CHIL
   hindex: -1
-  year: 2021
-  id: chil21
+  year: 2022
+  id: chil22
   link: https://www.chilconference.org/
-  deadline: '2021-01-14 23:59:59'
-  abstract_deadline: '2021-01-10 23:59:59'
+  deadline: '2022-01-14 23:59:59'
   timezone: UTC-12
-  date: April 8-10, 2021
+  date: April 7-8, 2022
   place: Online
   sub: ML
-  note: '<b>NOTE</b>: Recommended abstract deadline on Jan 10, 2021. More info <a
-    href=''https://www.chilconference.org''>here</a>.'
 
 - title: SIGGRAPH
   hindex: 19
