@@ -20,7 +20,9 @@ body *::selection {
   width: 100%;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   /* font-weight: 300; */
 }
 
@@ -78,7 +80,8 @@ p.lead.authors a {
   border-bottom: none;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: inherit;
   text-decoration: none;
 }
@@ -98,10 +101,6 @@ footer {
   font-size: 13px;
 }
 
-.past {
-  opacity: 0.5;
-}
-
 .conf-row {
   margin-bottom: 5px;
 }
@@ -111,7 +110,8 @@ footer {
   font-weight: 400;
 }
 
-.deadline, .meta {
+.deadline,
+.meta {
   font-size: 13px;
 }
 
@@ -149,8 +149,44 @@ footer {
   border-color: #0097e6;
 }
 
-.checkbox input[type="checkbox"]:after, .checkbox input[type="checkbox"]:focus:after {
+.checkbox input[type="checkbox"]:after,
+.checkbox input[type="checkbox"]:focus:after {
   border-color: #0097e6;
+}
+
+.pwc-link {
+  color: #1198b2;
+  text-decoration: none;
+  border: none;
+  vertical-align: middle;
+}
+
+.pwc-link:hover {
+  color: #1198b2;
+  border-bottom: 1px solid #1198b2;
+}
+
+.icon-inner {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  fill: currentColor;
+}
+
+.pwc-icon {
+  top: -2px;
+}
+
+#past-events-title {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #bb2d3b;
+}
+
+.badge-danger {
+  background-color: #bb2d3b;
 }
 
 @media only screen and (max-width: 780px) {
