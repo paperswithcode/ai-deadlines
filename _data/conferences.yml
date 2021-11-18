@@ -380,17 +380,17 @@
   paperslink: https://kdd.org/kdd2021/accepted-papers/toc
 
 - title: SIGIR
-  hindex: 57
-  year: 2021
-  id: sigir21
-  link: http://sigir.org/sigir2021/
-  deadline: '2021-02-09 23:59:00'
+  hindex: 66
+  year: 2022
+  id: sigir22
+  link: https://sigir.org/sigir2022/
+  deadline: '2022-01-31 23:59:00'
   timezone: UTC-12
-  date: July 11-15, 2021
-  place: Montreal, Canada
-  abstract_deadline: '2021-02-02 23:59:00'
+  date: July 11-15, 2022
+  place: Madrid, Spain
+  abstract_deadline: '2022-01-24 23:59:00'
+  note: '<b>NOTE</b>: Mandatory abstract deadline on January 24, 2022. More info <a href=''https://sigir.org/sigir2022/call-for-papers/''>here</a>.'
   sub: DM
-  paperslink: https://sigir.org/sigir2021/accepted-papers/
 
 - title: MIDL
   hindex: -1
