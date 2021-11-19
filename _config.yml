@@ -6,7 +6,7 @@ domain: "aideadlin.es"
 baseurl: ""
 
 twitter_hashtag: machinelearning
-github_username: abhshkdz
+github_username: paperswithcode
 github_repo: ai-deadlines
 
 markdown: kramdown
