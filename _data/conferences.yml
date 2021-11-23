@@ -92,7 +92,7 @@
   
 - title: SafeAI (WS)
   long: AAAI Workshop on Artificial Intelligence Safety
-  hindex: 16
+  hindex: 20
   year: 2021
   id: safeai21
   link: https://safeai.webs.upv.es/
@@ -100,6 +100,19 @@
   timezone: UTC-12
   date: Feb 08, 2021
   place: Online
+  sub: ML
+  host: AAAI
+  
+- title: AAAI-MAKE (WS)
+  long: AAAI Workshop on Machine Learning and Knowledge Engineering for Hybrid Intelligence
+  hindex: 20
+  year: 2022
+  id: make22
+  link: https://www.aaai-make.info/
+  deadline: '2021-11-29 23:59:59'
+  timezone: UTC-12
+  date: March 21-23, 2022
+  place: Palo Alto, USA
   sub: ML
   host: AAAI
   
