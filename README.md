@@ -2,7 +2,7 @@
 
 Countdown timers to keep track of a bunch of conference deadlines in the field of autonomous driving (AD).
 
-Inspired by [aideadlin.es](https://aideadlin.es/?sub=ML,CV,RO), [esrlabs](https://github.com/esrlabs/Conferences-for-Autonomous-Driving) & [jackietseng](https://jackietseng.github.io/conference_call_for_paper/conferences-with-ccf.html)
+Inspired by [aideadlin.es](https://aideadlin.es/?sub=ML,CV,RO), [esrlabs](https://github.com/esrlabs/Conferences-for-Autonomous-Driving) & [jackietseng](https://jackietseng.github.io/conference_call_for_paper/conferences-with-ccf.html).
 
 ## Contributing
 
