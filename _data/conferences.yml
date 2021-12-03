@@ -261,13 +261,13 @@
   sub: V2X
   host: IEEE
   
-- title: IJCAI-ECAI (Deadline estimated)
+- title: IJCAI-ECAI
   long: International Joint Conference on Artificial Intelligence and European Conference on Artificial Intelligence
-  hindex: 18
+  hindex: 105
   year: 2022
   id: ecai22
   link: https://ijcai-22.org/
-  deadline: '2021-11-01 23:59:59'
+  deadline: '2022-01-14 23:59:59'
   timezone: UTC-12
   date: July 23-29, 2022
   place: Vienna, Austria
@@ -954,19 +954,6 @@
   sub: ML
   note: '<b>NOTE</b>: Recommended abstract deadline on Jan 10, 2021. More info <a
     href=''https://www.chilconference.org''>here</a>.'
-
-- title: IJCAI (Deadline estimated)
-  long: International Joint Conference on Artificial Intelligence
-  hindex: 67
-  year: 2023
-  id: ijcai23
-  link: https://ijcai-23.org/
-  deadline: '2022-12-20 23:59:59'
-  timezone: UTC-12
-  date: July 23-29, 2022
-  place: Vienna, Austria
-  sub: ML
-  host: IJCAI
 
 - title: SIGGRAPH
   hindex: 19
