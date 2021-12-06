@@ -154,6 +154,22 @@ footer {
   border-color: #0097e6;
 }
 
+#sort-order-checkbox {
+    text-align: right;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+#sort-order-checkbox input[type="checkbox"]:checked:after {
+    background-color: #0097e6;
+    border-color: #0097e6;
+  }
+  
+#sort-order-checkbox input[type="checkbox"]:after,
+#sort-order-checkbox input[type="checkbox"]:focus:after {
+    border-color: #0097e6;
+}
+
 .pwc-link {
   color: #1198b2;
   text-decoration: none;
@@ -180,7 +196,6 @@ footer {
 }
 
 #past-events-title {
-  margin-bottom: 30px;
   padding-bottom: 15px;
   border-bottom: 2px solid #bb2d3b;
 }
