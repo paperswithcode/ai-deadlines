@@ -167,16 +167,15 @@
   paperslink: http://proceedings.mlr.press/v125/
 
 - title: ECCV
-  hindex: 135
-  year: 2020
-  id: eccv20
-  link: https://eccv2020.eu
-  deadline: '2020-03-05 23:59:00'
-  timezone: UTC
-  date: August 23-28, 2022
-  place: Glasgow, Scotland, UK
+  hindex: 197
+  year: 2022
+  id: eccv22
+  link: https://eccv2022.ecva.net/
+  deadline: '2022-03-07 21:59:00'
+  timezone: CET
+  date: October 24-28, 2020
+  place: Tel Aviv, Israel
   sub: CV
-  paperslink: https://eccv2020.eu/about-eccv/#
 
 - title: ICCC
   hindex: 22
