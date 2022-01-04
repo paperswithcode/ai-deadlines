@@ -102,7 +102,7 @@
   link: https://ijcai-22.org/
   deadline: '2022-01-14 23:59:59'
   abstract_deadline: '2022-01-07 23:59:59'
-  timezone: UTC-12
+  timezone: UTC+1
   date: July 23-29, 2022
   place: Vienna, Austria
   sub: ML
