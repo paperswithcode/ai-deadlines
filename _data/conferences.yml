@@ -532,15 +532,16 @@
 
 - title: MM
   hindex: 58
-  year: 2021
-  id: mm21
-  link: https://2021.acmmm.org/
-  deadline: '2021-04-17 23:59:59'
+  year: 2022
+  id: mm22
+  link: https://2022.acmmm.org/
+  deadline: '2022-04-07 23:59:59'
   timezone: UTC-12
-  date: October 20-24, 2021
-  place: Chengdu, China
+  date: October 10-14, 2022
+  place: Lisbon, Portugal
   sub: CV
-  paperslink: https://2021.acmmm.org/main-track-list
+  abstract_deadline: '2022-03-31 23:59:59'
+  note: '<b>NOTE</b>: Mandatory abstract deadline on March 31, 2022. More info <a href=''https://2022.acmmm.org/call-for-papers/''>here</a>.'
 
 - title: RecSys
   hindex: 45
