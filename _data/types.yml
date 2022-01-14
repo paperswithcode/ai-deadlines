@@ -3,6 +3,8 @@
   sub: ML
 - name: Computer Vision
   sub: CV
+- name: Computer Graphics
+  sub: CG
 - name: Natural Language Proc
   sub: NLP
 - name: Robotics
