@@ -41,7 +41,7 @@ To add or update a deadline:
 [4]: https://github.com/tbryn/neuro-deadlines
 [5]: https://github.com/dieg0as/ai-challenge-deadlines
 [6]: http://www.conferenceranks.com/#
-[8]: https://creedai.github.io/ai-deadlines/
+[8]: https://m3dv.github.io/ai-deadlines/
 [9]: https://ekut-es.github.io/es-deadlines/
 [10]: https://jackietseng.github.io/conference_call_for_paper/conferences.html
 [11]: https://ccfddl.github.io/
