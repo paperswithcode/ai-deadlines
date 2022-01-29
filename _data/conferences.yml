@@ -827,3 +827,25 @@
   date: June 6–9, 2022
   place: Atlanta, Georgia AND Online
   sub: DM
+
+- title: InterSpeech
+  hindex: 100
+  year: 2022
+  id: interspeech22
+  link: http://www.interspeech2022.org/
+  deadline: '2022-03-21 23:59:59'
+  timezone: UTC+9
+  date: September, 18-22, 2022
+  place: Incheon, South Korea
+  sub: SP
+
+- title: ICASSP
+  hindex: 163
+  year: 2023
+  id: icassp23
+  link: https://2023.ieeeicassp.org/
+  deadline: '2022-07-01 23:59:59'
+  timezone: UTC+10
+  date: January 28-29, 2023
+  place: Sydney, Australia
+  sub: SP
