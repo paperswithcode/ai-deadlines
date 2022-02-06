@@ -106,13 +106,20 @@ footer {
 }
 
 .conf-title,
-.conf-title-small {
+.conf-title-small,
+.conf-title-icon {
   font-size: 20px;
   font-weight: 400;
+
 }
 
 .conf-title-small {
   display: none;
+}
+
+.conf-title-icon {
+  white-space: nowrap;
+  font-size: 20px;
 }
 
 .deadline,
@@ -193,8 +200,8 @@ footer {
 }
 
 .icon-inner {
-  width: 1em;
-  height: 1em;
+  width: .95em;
+  height: .95em;
   display: inline-block;
   vertical-align: middle;
   position: relative;
@@ -211,8 +218,8 @@ footer {
 }
 
 .badge-link {
-  vertical-align: top;
-  margin-top: 2px;
+  vertical-align: center;
+  margin-bottom: 3px;
   margin-left: 2px;
   margin-right: 2px;
 }
