@@ -125,6 +125,10 @@ footer {
   font-weight: 400;
 }
 
+#confs {
+  margin-top: 20px;
+}
+
 #conf-timer {
   font-size: 72px;
   color: #444;
@@ -170,6 +174,11 @@ footer {
     border-color: #0097e6;
 }
 
+.filter-label {
+  text-align: right;
+}
+
+
 .pwc-link {
   color: #1198b2;
   text-decoration: none;
@@ -204,12 +213,15 @@ footer {
   background-color: #bb2d3b;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 768px) {
   #conf-timer {
     font-size: 64px;
   }
   .calendar {
     margin-bottom: 10px;
+  }
+  .filter-label {
+    text-align: left;
   }
 }
 

@@ -4,63 +4,47 @@ permalink:  /conference/
 
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-    <title>{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
-    <meta name="author" content="{{ site.author }}">
-    <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
-    <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.css" | prepend:site.baseurl }}?t={{site.time | date: '%s'}}" media="screen,projection">
-    <link rel="shortcut icon" href="{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
-    <script type="text/javascript" src="{{ "/static/js/jquery.min.js" | prepend:site.baseurl }}"></script>
-    <script type="text/javascript" src="{{ "/static/js/jquery.countdown.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "/static/js/moment.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "/static/js/moment-timezone-with-data.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "/static/js/store.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "/static/js/ouical.min.js" | prepend:site.baseurl }}"></script>
-
+    {% include head.html %}
   </head>
   <body>
-    <div class="top-strip"></div>
+    {% include header.html %}
     <div class="container">
         <div class="page-header" id="conf-title">
             <div class="row">
-                <div class="col-xs-12 col-sm-12">
+                <div class="col-12 col-sm-12">
                   <h1>
                     <a id="conf-title-href" nohref></a>
                     <span id="twitter-box"></span>
                   </h1>
                 </div>
-                <div class="meta deadline col-xs-12">
+                <div class="meta deadline col-12">
                   <span id="conf-date"></span>. <span id="conf-place"></span>.<br>
                 </div>
-                <div class="meta deadline col-xs-12 col-md-5">
+                <div class="meta deadline col-12 col-md-5">
                   Deadline in timezone from conference website:
                 </div>
-                <div class="meta deadline col-xs-12 col-md-6">
+                <div class="meta deadline col-12 col-md-6">
                   <span class="deadline-time"></span>
                 </div>
                 <span class="local-timezone-hide">
-                  <div class="meta deadline col-xs-12 col-md-5">
+                  <div class="meta deadline col-12 col-md-5">
                     Deadline in your local <span class="local-timezone">America/New_York</span> timezone:
                   </div>
-                  <div class="meta deadline col-xs-12 col-md-6">
+                  <div class="meta deadline col-12 col-md-6">
                     <span class="deadline-local-time"></span>
                   </div>
                 </span>
-                <div class="meta deadline col-xs-2 col-sm-1 col-md-5">
+                <div class="meta deadline col-2 col-sm-1 col-md-5">
                   Website:
                 </div>
-                <div class="meta deadline col-xs-10 col-sm-11 col-md-7">
+                <div class="meta deadline col-10 col-sm-11 col-md-7">
                   <a id="conf-website" target="_blank" nohref></a><br>
                 </div>
             </div>
         </div>
         <div>
           <div class="row">
-              <div class="col-xs-12">
+              <div class="col-12">
                 <span id="conf-timer"></span>
                 <br>
               </div>
@@ -69,28 +53,17 @@ permalink:  /conference/
           <hr>
         </div>
         <footer>
-          <a href="/">{{ site.domain }}</a> was built and maintained from 2016-2021 by <a href="https://twitter.com/abhshkdz">abhshkdz</a>. It is now run by <a href="https://paperswithcode.com/">Papers With Code</a>.<br>
+          {% include footer.html %}
         </footer>
     </div>
     <script type="text/javascript" charset="utf-8">
     $(function() {
         var url = new URL(window.location);
         var conf = url.searchParams.get('id');
-        console.log(conf);
 
-        // Borrowed from https://github.com/moment/moment-timezone/issues/167
-        // Adds support for time zones 'UTC-12'..'UTC+12'
-        function addUtcTimeZones() {
-          // Moment.js uses the IANA timezone database, which supports generic time zones like 'Etc/GMT+1'.
-          // However, the signs for these time zones are inverted compared to ISO 8601.
-          // For more details, see https://github.com/moment/moment-timezone/issues/167
-          for (let offset = -12; offset <= 12; offset++) {
-            const posixSign = offset <= 0 ? '+' : '-';
-            const isoSign = offset >= 0 ? '+' : '-';
-            const link = `Etc/GMT${posixSign}${Math.abs(offset)}|UTC${isoSign}${Math.abs(offset)}`;
-            moment.tz.link(link);
-          }
-        }
+        {% include load_data.js %}
+        {% include utils.js %}
+
         addUtcTimeZones();
         try {
           var local_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
@@ -137,13 +110,7 @@ permalink:  /conference/
             }
         {% endfor %}
     });
-    // Google analytics
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', '{{ site.ga_id }}', 'auto');
-    ga('send', 'pageview');
+    {% include google_analytics.js %}
     </script>
   </body>
 </html>
