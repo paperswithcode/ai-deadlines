@@ -218,7 +218,7 @@ footer {
 }
 
 .badge-link {
-  vertical-align: center;
+  vertical-align: middle; 
   margin-bottom: 3px;
   margin-left: 2px;
   margin-right: 2px;
