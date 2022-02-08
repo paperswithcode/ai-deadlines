@@ -87,20 +87,14 @@
                     <a title="Deadline Details" href="{{site.baseurl}}/conference?id={{ conf.id }}">{{conf.title}} '{{conf.year | slice: -2, 3}}</a>
                   </span>
                   <span class="conf-title-icon">
-                    <a title="Conference Website" href="{{conf.link}}" target="_blank">
-                        <img src="{{site.baseurl}}/static/img/203-earth.svg" class="badge-link"
-                            alt="Link to Conference Website" />
-                    </a>
+                    <a title="Conference Website" href="{{conf.link}}" target="_blank"><img src="{{site.baseurl}}/static/img/203-earth.svg" class="badge-link" alt="Link to Conference Website" /></a>
+                    &ZeroWidthSpace;
                     {% if conf.paperslink %}
-                      <a title="Full List of Accepted Papers" href="{{conf.paperslink}}" target="_blank">
-                          <img src="{{site.baseurl}}/static/img/033-books.svg" class="badge-link"
-                              alt="Full List of Accepted Papers" />
-                      </a>
+                      <a title="Full List of Accepted Papers" href="{{conf.paperslink}}" target="_blank"><img src="{{site.baseurl}}/static/img/033-books.svg" class="badge-link" alt="Full List of Accepted Papers" /></a>
                     {% endif %}
+                    &ZeroWidthSpace;
                     {% if conf.pwclink %}
-                      <a title="Browse All Papers with Code" href="{{conf.pwclink}}" target="_blank">
-                              <div class="icon-inner badge-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="s-ion-icon"><path d="M88 128h48v256H88zM232 128h48v256h-48zM160 144h48v224h-48zM304 144h48v224h-48zM376 128h48v256h-48z"></path><path d="M104 104V56H16v400h88v-48H64V104zM408 56v48h40v304h-40v48h88V56z"></path></svg></div>
-                      </a>
+                      <a title="Browse All Papers with Code" href="{{conf.pwclink}}" target="_blank"><div class="icon-inner badge-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="s-ion-icon"><path d="M88 128h48v256H88zM232 128h48v256h-48zM160 144h48v224h-48zM304 144h48v224h-48zM376 128h48v256h-48z"></path><path d="M104 104V56H16v400h88v-48H64V104zM408 56v48h40v304h-40v48h88V56z"></path></svg></div></a>
                     {% endif %}
                     &ZeroWidthSpace;
                   </span>
