@@ -1,4 +1,25 @@
 ---
+- title: InterSpeech
+  hindex: 100
+  year: 2022
+  id: interspeech22
+  link: http://www.interspeech2022.org/
+  deadline: '2022-03-21 23:59:59'
+  timezone: UTC+9
+  date: September, 18-22, 2022
+  place: Incheon, South Korea
+  sub: SP
+
+- title: ICIP
+  year: 2022
+  id: icip22
+  link: https://2022.ieeeicip.org
+  deadline: '2022-02-16 23:59:59'
+  timezone: UTC
+  date: October, 16-19, 2022
+  place: Bordeaux, France
+  sub: CV
+
 - title: CoLLAs
   year: 2022
   id: collas22
@@ -827,7 +848,7 @@
   date: June 6–9, 2022
   place: Atlanta, Georgia AND Online
   sub: DM
-
+  
 - title: InterSpeech
   hindex: 100
   year: 2022
@@ -849,3 +870,15 @@
   date: January 28-29, 2023
   place: Sydney, Australia
   sub: SP
+  
+- title: RO-MAN
+  hindex: 29
+  year: 2022
+  id: ro-man22
+  link: http://www.ro-man2022.org/
+  deadline: '2022-03-15 23:59:59'
+  timezone: UTC+1
+  date: August 29 - September 2, 2022
+  place: Naples, Italy
+  sub: RO
+  note: '<b>NOTE</b>: Workshop and Tutorial deadline on February 7, 2022'

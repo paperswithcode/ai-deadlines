@@ -105,9 +105,21 @@ footer {
   margin-bottom: 5px;
 }
 
-.conf-title {
+.conf-title,
+.conf-title-small,
+.conf-title-icon {
   font-size: 20px;
   font-weight: 400;
+
+}
+
+.conf-title-small {
+  display: none;
+}
+
+.conf-title-icon {
+  white-space: nowrap;
+  font-size: 20px;
 }
 
 .deadline,
@@ -120,9 +132,14 @@ footer {
   margin-bottom: 5px;
 }
 
-.timer {
+.timer,
+.timer-small {
   font-size: 20px;
   font-weight: 400;
+}
+
+.timer-small {
+  display: none;
 }
 
 #conf-timer {
@@ -183,8 +200,8 @@ footer {
 }
 
 .icon-inner {
-  width: 1em;
-  height: 1em;
+  width: .95em;
+  height: .95em;
   display: inline-block;
   vertical-align: middle;
   position: relative;
@@ -200,11 +217,19 @@ footer {
   border-bottom: 2px solid #bb2d3b;
 }
 
+.badge-link {
+  vertical-align: middle; 
+  margin-bottom: 3px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+
 .badge-danger {
   background-color: #bb2d3b;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 768px) {
   #conf-timer {
     font-size: 64px;
   }
@@ -213,7 +238,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 576px) {
   #conf-timer {
     font-size: 36px;
   }
@@ -229,6 +254,20 @@ footer {
   .conf-row {
     margin-bottom: 7px;
   }
+  .timer {
+    display: none;
+  }
+  .timer-small {
+    text-align: right;
+    display: grid;
+  }
+  .conf-title {
+    display: none;
+  }
+  .conf-title-small {
+    display: inline;
+  }
+
 }
 
 @media only screen and (max-width: 375px) {
