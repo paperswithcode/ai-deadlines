@@ -294,16 +294,15 @@
   paperslink: https://aclanthology.org/events/aacl-2020/
 
 - title: COLING
-  hindex: 41
-  year: 2020
-  id: coling20
-  link: https://coling2020.org/
-  deadline: '2020-07-01 23:59:59'
+  hindex: 64
+  year: 2022
+  id: coling22
+  link: https://coling2022.org/
+  deadline: '2022-05-17 23:59:59'
   timezone: UTC-12
-  date: December 8-13, 2020
-  place: Barcelona, Spain
+  date: October 12-17, 2022
+  place: Gyeongju, Republic of Korea
   sub: NLP
-  paperslink: https://aclanthology.org/volumes/2020.coling-main/
 
 - title: ACCV
   hindex: 38
