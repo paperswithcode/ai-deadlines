@@ -647,16 +647,15 @@
   sub: NLP
 
 - title: ICMI
-  hindex: -1
-  year: 2021
-  id: icmi2021
-  link: https://icmi.acm.org/2021/
-  deadline: '2021-05-26 23:59:00'
+  hindex: 34
+  year: 2022
+  id: icmi2022
+  link: https://icmi.acm.org/2022/
+  deadline: '2022-05-13 23:59:00'
   timezone: UTC-7
-  date: October 18-22, 2021
-  place: Montreal, Canada
+  date: November 7-11, 2022
+  place: Bangalore, India
   sub: CV
-  paperslink: https://icmi.acm.org/2021/index.php?id=accepted
 
 - title: CIKM
   hindex: 48
