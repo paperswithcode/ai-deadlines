@@ -95,12 +95,6 @@ permalink:  /conference/
           $('.local-timezone-hide').hide();
         }
 
-        var conf_type_data = {{ site.data.types | jsonify }};
-        var sub2name = {}
-        for (var i = 0; i < conf_type_data.length; i++) {
-          sub2name[conf_type_data[i]['sub']] = conf_type_data[i]['name'];
-        }
-
         {% for conf in site.data.conferences %}
             if (conf == "{{ conf.id }}") {
 
