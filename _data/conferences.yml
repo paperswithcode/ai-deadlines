@@ -1,4 +1,25 @@
 ---
+- title: InterSpeech
+  hindex: 100
+  year: 2022
+  id: interspeech22
+  link: http://www.interspeech2022.org/
+  deadline: '2022-03-21 23:59:59'
+  timezone: Asia/Seoul
+  date: September, 18-22, 2022
+  place: Incheon, South Korea
+  sub: SP
+
+- title: ICIP
+  year: 2022
+  id: icip22
+  link: https://2022.ieeeicip.org
+  deadline: '2022-02-25 23:59:59'
+  timezone: UTC
+  date: October, 16-19, 2022
+  place: Bordeaux, France
+  sub: CV
+
 - title: CoLLAs
   year: 2022
   id: collas22
@@ -273,16 +294,15 @@
   paperslink: https://aclanthology.org/events/aacl-2020/
 
 - title: COLING
-  hindex: 41
-  year: 2020
-  id: coling20
-  link: https://coling2020.org/
-  deadline: '2020-07-01 23:59:59'
+  hindex: 64
+  year: 2022
+  id: coling22
+  link: https://coling2022.org/
+  deadline: '2022-05-17 23:59:59'
   timezone: UTC-12
-  date: December 8-13, 2020
-  place: Barcelona, Spain
+  date: October 12-17, 2022
+  place: Gyeongju, Republic of Korea
   sub: NLP
-  paperslink: https://aclanthology.org/volumes/2020.coling-main/
 
 - title: ACCV
   hindex: 38
@@ -627,16 +647,15 @@
   sub: NLP
 
 - title: ICMI
-  hindex: -1
-  year: 2021
-  id: icmi2021
-  link: https://icmi.acm.org/2021/
-  deadline: '2021-05-26 23:59:00'
+  hindex: 34
+  year: 2022
+  id: icmi2022
+  link: https://icmi.acm.org/2022/
+  deadline: '2022-05-13 23:59:00'
   timezone: UTC-7
-  date: October 18-22, 2021
-  place: Montreal, Canada
+  date: November 7-11, 2022
+  place: Bangalore, India
   sub: CV
-  paperslink: https://icmi.acm.org/2021/index.php?id=accepted
 
 - title: CIKM
   hindex: 48
