@@ -268,17 +268,16 @@
 
 - title: ISMIR
   hindex: 32
-  year: 2020
-  id: ismir20
-  link: https://ismir.github.io/ISMIR2020/
-  deadline: '2020-04-17 23:59:59'
-  abstract_deadline: '2020-04-10 23:59:59'
+  year: 2022
+  id: ismir22
+  link: https://ismir2022.ismir.net/
+  deadline: '2022-05-20 23:59:59'
+  abstract_deadline: '2022-5-13 23:59:59'
   timezone: UTC-12
-  date: October 12-15, 2020
-  place: Montreal, Canada
+  date: December 4-8, 2022
+  place: Bangaluru, India
   sub: SP
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 10, 2020. More info <a href=''https://ismir.github.io/ISMIR2020/cfp/''>here</a>.'
-  paperslink: https://program.ismir2020.net/papers.html?filter=keywords
+  note: '<b>NOTE</b>: Mandatory abstract deadline on May 13, 2022. More info <a href=''https://ismir2022.ismir.net/calls/cfp/''>here</a>.'
 
 - title: AACL-IJCNLP
   hindex: -1
