@@ -864,7 +864,7 @@
   id: ecmlpkdd22
   link: https://2022.ecmlpkdd.org/
   deadline: '2022-04-06 23:59:59'
-  timezone: AOE
+  timezone: UTC-12
   date: September 19 - September 23, 2022
   place: Grenoble, France
   sub: DM
