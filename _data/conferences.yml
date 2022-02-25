@@ -858,3 +858,14 @@
   place: Naples, Italy
   sub: RO
   note: '<b>NOTE</b>: Workshop and Tutorial deadline on February 7, 2022'
+  
+- title: ECML-PKDD
+  year: 2022
+  id: ecmlpkdd22
+  link: https://2022.ecmlpkdd.org/
+  deadline: '2022-04-06 23:59:59'
+  timezone: AOE
+  date: September 19 - September 23, 2022
+  place: Grenoble, France
+  sub: DM
+  note: '<b>NOTE</b>: Abstract Submission Deadline: 30 March 2022'
