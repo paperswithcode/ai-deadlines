@@ -222,8 +222,11 @@ footer {
 }
 
 .pwc-icon {
-  top: -2px;
   color: #1198b2;
+}
+
+.twitter-github-icons {
+  line-height: 16px;
 }
 
 #past-events-title {
