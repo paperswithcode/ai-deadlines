@@ -203,14 +203,12 @@ footer {
 
 
 .pwc-link {
-  color: #1198b2;
   text-decoration: none;
   border: none;
   vertical-align: middle;
 }
 
 .pwc-link:hover {
-  color: #1198b2;
   border-bottom: 1px solid #1198b2;
 }
 
@@ -224,7 +222,11 @@ footer {
 }
 
 .pwc-icon {
-  top: -2px;
+  color: #1198b2;
+}
+
+.twitter-github-icons {
+  line-height: 16px;
 }
 
 #past-events-title {
