@@ -1,73 +1,58 @@
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-    <title>{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
-    <meta name="author" content="{{ site.author }}">
-    <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
-    <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.css" | prepend:site.baseurl }}?t={{site.time | date: '%s'}}" media="screen,projection">
-    <link rel="shortcut icon" href="{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
-    <script type="text/javascript" src="{{ "/static/js/jquery.min.js" | prepend:site.baseurl }}"></script>
-    <script type="text/javascript" src="{{ "/static/js/jquery.countdown.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "/static/js/moment.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "/static/js/moment-timezone-with-data.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "/static/js/store.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "/static/js/ouical.min.js" | prepend:site.baseurl }}"></script>
-
+    {% include head.html %}
   </head>
   <body>
-    <div class="top-strip"></div>
+    {% include header.html %}
     <div class="container">
         <div class="page-header">
             <div class="row">
-                <div class="col-xs-12 col-sm-12">
+                <div class="col-12 col-sm-12">
                   <h1>
-                    {{ site.title }} <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ site.description }}{% if site.twitter_hashtag %} #{{ site.twitter_hashtag }}{% endif %}" data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_repo }}&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+                    {{ site.title }} 
                   </h1>
                 </div>
-                <div class="col-xs-12" style="margin-bottom: 10px">
-                  by <a href="https://paperswithcode.com" class="pwc-link">
-                    <div class="icon-inner pwc-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="s-ion-icon"><path d="M88 128h48v256H88zM232 128h48v256h-48zM160 144h48v224h-48zM304 144h48v224h-48zM376 128h48v256h-48z"></path><path d="M104 104V56H16v400h88v-48H64V104zM408 56v48h40v304h-40v48h88V56z"></path></svg></div>
-                    Papers With Code
-                  </a>
-                </div>
-                <div class="meta col-xs-12">
+                <div class="meta col-12">
                   {{ site.description }}.
                   To add/edit a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull request</a>.
                 </div>
             </div>
             <br>
             <div class="row">
-              <div class="col-xs-12">
-                <!-- <div class="well"> -->
-                  <form class="form-horizontal">
-                    <div class="form-group">
-                      {% for type in site.data.types %}
-                      <div class="col-md-4 col-xs-6">
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox" id="{{ type.sub }}-checkbox" class=""> {{ type.name }}
-                          </label>
-                        </div>
-                      </div>
-                      {% endfor %}
+              <form class="container">
+                <div class="row justify-content-center">
+                  <div class="row align-items-md-center col-12 col-10-md">
+                    <div class="col-12 col-md-5 filter-label">
+                      <label for="subject-select" class="align-center" style="margin-bottom: 0px;">
+                        Subject Filter:
+                      </label>
                     </div>
-                  </form>
-                <!-- </div> -->
-              </div>
+                    <div class="col-12 col-md-6">
+                      <select
+                        id="subject-select"
+                        name="subject-select"
+                        multiple="multiple"
+                        style="display: none"
+                      >
+                        {% for type in site.data.types %}
+                        <option value="{{type.sub}}" id="{{type.sub}}-checkbox">
+                          {{type.name}} ({{type.sub}})
+                        </option>
+                        {% endfor %}
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </form>
             </div>
             <div class="row">
-              <div class="meta col-xs-12">
+              <div class="meta col-12">
                 <span class="local-timezone-hide">
                   Deadlines are shown in <span class="local-timezone">America/New_York</span> time.
                   To view them in conference website timezones, click on them.
                 </span>
               </div>
-              <div class="meta col-xs-12">
+              <div class="meta col-12">
                 You can optionally export all deadlines to
                 <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/ai-deadlines.ics">Google Calendar</a> or
                 <a href="/ai-deadlines.ics">.ics</a>.
@@ -79,7 +64,7 @@
           {% for conf in site.data.conferences %}
           <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
             <div class="row conf-row">
-                <div class="col-xs-6">
+                <div class="col-6">
                   <span class="conf-title">
                     <a title="Deadline Details" href="{{site.baseurl}}/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
                   </span>
@@ -99,13 +84,13 @@
                     &ZeroWidthSpace;
                   </span>
                 </div>
-                <div class="col-xs-6">
+                <div class="col-6">
                   <span class="timer"></span>
                   <span class="timer-small"></span>
                 </div>
             </div>
             <div class="row">
-              <div class="col-xs-12 col-sm-6">
+              <div class="col-12 col-sm-6">
                 <div class="meta">
                   <span class="conf-date">{{conf.date}}.</span>
                   <span class="conf-place">
@@ -123,7 +108,7 @@
                 {% endif %}
 
               </div>
-              <div class="col-xs-12 col-sm-6">
+              <div class="col-12 col-sm-6">
                 <div class="deadline">
                   <div>Deadline:
                     <span class="deadline-time"></span>
@@ -133,7 +118,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-xs-12">
+              <div class="col-12">
                 {% for sub in conf.sub %}
                 <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="conf-sub {{sub}}-tag"></span>
                 {% endfor %}
@@ -151,11 +136,7 @@
         </div>
       </div>
       <footer>
-        <div class="row">
-          <div class="col-xs-12 col-sm-12">
-            <a href="/">{{ site.domain }}</a> was built and maintained from 2016-2021 by <a href="https://twitter.com/abhshkdz">abhshkdz</a>. It is now run by <a href="https://paperswithcode.com/">Papers With Code</a>.<br>
-          </div>
-        </div>
+            {% include footer.html %}
       </footer>
       <br><br>
     </div>
@@ -166,19 +147,11 @@
         var colors = ['#341f97', '#ee5253', '#2e86de',
                       '#ff9f43', '#10ac84', '#222f3e']
 
-        // Borrowed from https://github.com/moment/moment-timezone/issues/167
-        // Adds support for time zones 'UTC-12'..'UTC+12'
-        function addUtcTimeZones() {
-          // Moment.js uses the IANA timezone database, which supports generic time zones like 'Etc/GMT+1'.
-          // However, the signs for these time zones are inverted compared to ISO 8601.
-          // For more details, see https://github.com/moment/moment-timezone/issues/167
-          for (let offset = -12; offset <= 12; offset++) {
-            const posixSign = offset <= 0 ? '+' : '-';
-            const isoSign = offset >= 0 ? '+' : '-';
-            const link = `Etc/GMT${posixSign}${Math.abs(offset)}|UTC${isoSign}${Math.abs(offset)}`;
-            moment.tz.link(link);
-          }
-        }
+        
+        {% include load_data.js %}
+        {% include utils.js %}
+        {% include multiselect_handler.js %}
+
         addUtcTimeZones();
 
         try {
@@ -187,17 +160,6 @@
         }
         catch(err) {
           $('.local-timezone-hide').hide();
-        }
-
-
-        // Get all subs
-        var conf_type_data = {{ site.data.types | jsonify }};
-        var all_subs = [];
-        var sub2name = {}; var name2sub = {};
-        for (var i = 0; i < conf_type_data.length; i++) {
-          all_subs[i] = conf_type_data[i]['sub'];
-          sub2name[conf_type_data[i]['sub']] = conf_type_data[i]['name'];
-          name2sub[conf_type_data[i]['name']] = conf_type_data[i]['sub'];
         }
 
         {% for conf in site.data.conferences %}
@@ -232,24 +194,12 @@
           }
 
           // add calendar button
-          var myCalendar = createCalendar({
-            options: {
-              class: 'calendar-obj',
-
-              // You can pass an ID. If you don't, one will be generated for you
-              id: '{{conf.id}}'
-            },
-            data: {
-              // Event title
-              title: '{{conf.title}} {{conf.year}} deadline',
-
-              // Event start date
-              start: confDate.toDate(), // new Date('June 15, 2013 19:00'),
-
-              // Event duration
-              duration: 60,
-            }
-          });
+          var myCalendar = createCalendarFromObject({
+            id:  '{{conf.id}}',
+            title: '{{conf.title}} {{conf.year}} deadline',
+            date: confDate.toDate(),
+            duration: 60,
+          })
           document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
 
           // check if date has passed, add 'past' class to it
@@ -284,89 +234,19 @@
           }
         });
 
-        // Get subjects from URL
-        var url = new URL(window.location);
-        var subs = url.searchParams.get('sub');
-        if (subs == undefined) {
-           subs = store.get('{{ site.domain }}');
-        } else {
-           subs = subs.toUpperCase().split(',');
-        }
-        if (subs != undefined) {
-          // Hide unchecked subs
-          for (var i = 0; i < all_subs.length; i++) {
-            if (subs.indexOf(all_subs[i]) < 0) {
-              $('.' + all_subs[i] + '-conf').hide();
-            }
-          }
-          // In case a conf with multiple types is wrongly hid, show all confs with at least one checked type.
-          for (var i = 0; i < subs.length; i++) {
-            $('.' + subs[i] + '-conf').show();
-          }
-        }
-        // Get subjects from browser cache
-        if (subs === undefined) {
-          subs = all_subs;
-          for (var i = 0; i < subs.length; i++) {
-            $('#' + subs[i] + '-checkbox').prop('checked', true);
-          }
-        } else {
-          for (var i = 0; i < subs.length; i++) {
-            $('#' + subs[i] + '-checkbox').prop('checked', true);
-          }
-        }
-        store.set('{{ site.domain }}', subs);
-        window.history.pushState('', '', '/?sub=' + subs.join());
+        {% include handle_url_retrieval.js %}
 
-        // Event handler on checkbox change
-        $('form :checkbox').change(function(e) {
-          var checked = $(this).is(':checked');
-          var cid = $(this).prop('id');
-          var csub = cid.substring(0, cid.length - 9);
-          if (checked == true) {
-            $('.' + csub + '-conf').show();
-            if (subs.indexOf(csub) < 0)
-              subs.push(csub);
-          }
-          else {
-            $('.' + csub + '-conf').hide();
-            var idx = subs.indexOf(csub);
-            if (idx >= 0)
-              subs.splice(idx, 1);
-            // In case a conf with multiple types (including this type) is wrongly hid, show all confs with at least one checked type.
-            for (var i = 0; i < subs.length; i++) {
-              $('.' + subs[i] + '-conf').show();
-            }
-          }
-          console.log(subs);
-          store.set('{{ site.domain }}', subs);
-          window.history.pushState('', '', '/?sub=' + subs.join());
+        // Event handler on sub badge click
+        $('.conf-sub').click(function (e) {
+            var csub = $(this).data('sub');
+            subs = [csub];
+            $("#subject-select").multiselect('deselect', all_subs);
+            $("#subject-select").multiselect('select', subs);
+            update_filtering({ subs: subs, all_subs: all_subs});
         });
 
-        // Event handler on sub click
-        $('.conf-sub').click(function(e) {
-          var csub = $(this).data('sub');
-          for (var i = 0; i < subs.length; i++) {
-            if (subs[i] != csub) {
-              $('#' + subs[i] + '-checkbox').prop('checked', false);
-              $('.' + subs[i] + '-conf').hide();
-            }
-          }
-          $('#' + csub + '-checkbox').prop('checked', true);
-          $('.' + csub + '-conf').show();
-          subs = [csub];
-          console.log(subs);
-          store.set('{{ site.domain }}', subs);
-          window.history.pushState('', '', '/?sub=' + subs.join());
-        });
     });
-    <!-- Google analytics -->
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.ga_id }}', 'auto');
-      ga('send', 'pageview');
+    {% include google_analytics.js %}
     </script>
   </body>
 </html>

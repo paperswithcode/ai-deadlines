@@ -46,6 +46,7 @@ h3 {
 
 .page-header {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #conf-title.page-header {
@@ -138,6 +139,9 @@ footer {
   font-weight: 400;
 }
 
+#confs {
+  margin-top: 20px;
+}
 .timer-small {
   display: none;
 }
@@ -145,6 +149,12 @@ footer {
 #conf-timer {
   font-size: 72px;
   color: #444;
+  margin-top: 40px;
+  margin-bottom: 0.5em;
+}
+
+#conf-key-facts {
+  margin-bottom: 10px;
 }
 
 .conf-sub {
@@ -187,15 +197,18 @@ footer {
     border-color: #0097e6;
 }
 
+.filter-label {
+  text-align: right;
+}
+
+
 .pwc-link {
-  color: #1198b2;
   text-decoration: none;
   border: none;
   vertical-align: middle;
 }
 
 .pwc-link:hover {
-  color: #1198b2;
   border-bottom: 1px solid #1198b2;
 }
 
@@ -209,7 +222,11 @@ footer {
 }
 
 .pwc-icon {
-  top: -2px;
+  color: #1198b2;
+}
+
+.twitter-github-icons {
+  line-height: 16px;
 }
 
 #past-events-title {
@@ -235,6 +252,9 @@ footer {
   }
   .calendar {
     margin-bottom: 10px;
+  }
+  .filter-label {
+    text-align: left;
   }
 }
 
