@@ -202,7 +202,7 @@
   link: http://alt2020.algorithmiclearningtheory.org/
   deadline: '2019-09-20 16:59:59'
   timezone: America/New_York
-  date: February 08-10, 2020
+  date: February 8-10, 2020
   place: San Diego, CA, United States
   sub: ML
   paperslink: http://algorithmiclearningtheory.org/alt2020/accepted-papers/
@@ -261,7 +261,7 @@
   link: http://computationalcreativity.net/iccc20/
   deadline: '2020-03-08 23:59:59'
   timezone: UTC-12
-  date: June 29-July 3, 2020
+  date: June 29 - July 3, 2020
   place: Coimbra, Portugal
   sub: ML
   paperslink: http://computationalcreativity.net/iccc20/papers/ICCC20_Proceedings.pdf
@@ -525,7 +525,7 @@
   link: https://www.iros2021.org/important-dates
   deadline: '2021-03-01 23:59:59'
   timezone: America/Los_Angeles
-  date: Sep 27-Oct 1, 2021
+  date: Sep 27 - Oct 1, 2021
   place: Prague, Czech Republic
   sub: RO
 
@@ -548,7 +548,7 @@
   link: http://www.miccai2021.org/
   deadline: '2021-03-03 23:59:59'
   timezone: America/Los_Angeles
-  date: September 27-October 1, 2021
+  date: September 27 - October 1, 2021
   place: Lima, Peru
   sub: CV
   note: '<b>NOTE</b>: Intent to submit deadline on Feb 19, 2021. More info <a href=''https://www.miccai2021.org/''>here</a>.'
@@ -843,7 +843,7 @@
   link: https://www.icwsm.org/2022/index.html/
   deadline: '2022-01-15 23:59:59'
   timezone: UTC-12
-  date: June 6–9, 2022
+  date: June 6-9, 2022
   place: Atlanta, Georgia AND Online
   sub: DM
   
