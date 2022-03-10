@@ -97,7 +97,6 @@ function load_conference_list() {
     color: "red",
     location: "{{conf.place}}",
     date: "{{conf.date}}",
-    ranking: "{%if conf.ranking %}{{conf.ranking}}{%else%}NA{%endif%}",
     hindex: "{{conf.hindex}}",
     subject: "{{conf.sub}}",
     startDate: Date.parse("{{conf.deadline}}"),
@@ -110,9 +109,9 @@ function load_conference_list() {
   var color = "black";
   {% assign conf_sub = conf.sub | split: ',' | first | strip %} // use first sub to choose color
   {% for type in site.data.types %}
-  {% if conf_sub == type.sub %}
-  color = "{{type.color}}";
-  {% endif %}
+        {% if conf_sub == type.sub %}
+                color = "{{type.color}}";
+        {% endif %}
   {% endfor %}
   var confInfo = {
     id: "{{conf.id}}-conference",
@@ -121,7 +120,6 @@ function load_conference_list() {
     color: color,
     location: "{{conf.place}}",
     date: "{{conf.date}}",
-    ranking: "{%if conf.ranking %}{{conf.ranking}}{%else%}NA{%endif%}",
     hindex: "{{conf.hindex}}",
     subject: "{{conf.sub}}",
     startDate: Date.parse("{{conf.start}}"),
