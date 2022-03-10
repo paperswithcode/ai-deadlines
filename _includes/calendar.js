@@ -85,3 +85,73 @@
         },
         dataSource: conf_list_all
       }
+function load_conference_list() {
+  // Gather data
+  var conf_list = [];
+  {% for conf in site.data.conferences %}
+  // add deadlines
+  var confInfo = {
+    id: "{{conf.id}}-deadline",
+    abbreviation: "{{conf.id}}",
+    name: "{{conf.title}} {{conf.year}}",
+    color: "red",
+    location: "{{conf.place}}",
+    date: "{{conf.date}}",
+    ranking: "{%if conf.ranking %}{{conf.ranking}}{%else%}NA{%endif%}",
+    hindex: "{{conf.hindex}}",
+    subject: "{{conf.sub}}",
+    startDate: Date.parse("{{conf.deadline}}"),
+    endDate: Date.parse("{{conf.deadline}}"),
+  };
+  conf_list_all.push(confInfo);
+
+  // add Conferences
+  {% if conf.start != "" %}
+  var color = "black";
+  {% assign conf_sub = conf.sub | split: ',' | first | strip %} // use first sub to choose color
+  {% for type in site.data.types %}
+  {% if conf_sub == type.sub %}
+  color = "{{type.color}}";
+  {% endif %}
+  {% endfor %}
+  var confInfo = {
+    id: "{{conf.id}}-conference",
+    abbreviation: "{{conf.id}}",
+    name: "{{conf.title}} {{conf.year}}",
+    color: color,
+    location: "{{conf.place}}",
+    date: "{{conf.date}}",
+    ranking: "{%if conf.ranking %}{{conf.ranking}}{%else%}NA{%endif%}",
+    hindex: "{{conf.hindex}}",
+    subject: "{{conf.sub}}",
+    startDate: Date.parse("{{conf.start}}"),
+    endDate: Date.parse("{{conf.end}}"),
+  };
+  conf_list_all.push(confInfo);
+  {% endif %}
+  {% endfor %}
+
+  return conf_list_all;
+}
+
+function update_filtering_calendar(data, calendar_data) {
+  store.set('{{site.domain}}-subs', data.subs);
+
+  conf_list = conf_list_all.filter(v => {
+    var commonValues = data.subs.filter(function (value) {
+      return v.subject.indexOf(value) > -1;
+    });
+    var subject_match = commonValues.length > 0;
+    return subject_match;
+  });
+
+  // rerender calendar
+  calendar_data['dataSource'] = conf_list;  // need to update only this
+  calendar = new Calendar("#calendar-page", calendar_data);
+
+  if (subs.length == 0) {
+    window.history.pushState('', '', page_url);
+  } else {
+    window.history.pushState('', '', page_url + '/?sub=' + data.subs.join());
+  }
+}
