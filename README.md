@@ -17,6 +17,26 @@ To add or update a deadline:
     + See available timezone strings [here](https://momentjs.com/timezone/).
 - Optionally add a `note` and `abstract_deadline` in case the conference has a separate mandatory abstract deadline
 - Optionally add `hindex` (refers to h5-index from [here](https://scholar.google.com/citations?view_op=top_venues&vq=eng))
+- Example:
+    ```yaml
+    - title: BestConf
+      year: 2022
+      id: bestconf22  # title as lower case + last two digits of year
+      long: Best Conference for Anything  # full conference name
+      link: link-to-website.com
+      deadline: MM/DD/YYYY HH:SS
+      abstract_deadline: MM/DD/YYYY
+      timezone: Asia/Seoul
+      place: Incheon, South Korea
+      date: September, 18-22, 2022
+      start: MM/DD/YYYY
+      end: MM/DD/YYYY
+      paperslink: link-to-full-paper-list.com
+      pwclink: link-to-papers-with-code.com
+      hindex: 100.0
+      sub: SP
+      note: Important
+    ```
 - Send a pull request
 
 ## Forks & other useful listings
