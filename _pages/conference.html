@@ -32,7 +32,7 @@ permalink:  /conference/
           </div>
           <div class="col-12">
             <img src="{{site.baseurl}}/static/img/072-location.svg" class="badge-link" />
-            <span id="conf-place"></span>.
+            <a id="conf-place" target="_blank" nohref></a>.
           </div>
           <div class="col-12">
             <img src="{{site.baseurl}}/static/img/203-earth.svg" class="badge-link" />
@@ -112,6 +112,7 @@ permalink:  /conference/
               // other
               $('#conf-date').text("{{conf.date}}");
               $('#conf-place').text("{{conf.place}}");
+              $('#conf-place').attr('href', "https://maps.google.com/?q={{conf.place}}")
               $('#conf-website').text("{{conf.link}}");
               $('#conf-website').attr('href', "{{conf.link}}");
               {% if conf.paperslink %}
