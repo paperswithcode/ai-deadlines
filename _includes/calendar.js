@@ -26,9 +26,6 @@
                 var sub = subs[i].replace(" ", "");
                 badges_html += '<span class="conf-sub conf-badge-small">' + sub + '</span>'
               }
-              if (e.events[i].ranking != "" && e.events[i].ranking != "NA") {
-                badges_html += '<span class="conf-ranking conf-badge-small">' + e.events[i].ranking + '</span>'
-              }
               if (e.events[i].hindex != "") {
                 badges_html += '<span class="conf-h5 conf-badge-small">' + e.events[i].hindex + '</span>'
               }
