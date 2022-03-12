@@ -138,12 +138,10 @@ permalink: /calendar/
       var page_url = "{{site.baseurl}}/calendar"
       var conf_list_all = [];
 
-
-
-      {% include calendar.js %}
       {% include utils.js %}
       {% include load_data.js %}
       {% include multiselect_handler.js %}
+      {% include calendar.js %}  // overwrites update_filtering
 
 
       $(function () {
@@ -154,7 +152,7 @@ permalink: /calendar/
         conf_list = conf_list_all;
 
         // Render calendar
-        update_filtering_calendar({ subs: subs, all_subs: all_subs }, calendar_data);
+        update_filtering({ subs: subs, all_subs: all_subs });
       });
 
 

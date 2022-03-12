@@ -130,7 +130,7 @@ function load_conference_list() {
   return conf_list_all;
 }
 
-function update_filtering_calendar(data, calendar_data) {
+function update_filtering(data) {
   store.set('{{site.domain}}-subs', data.subs);
 
   conf_list = conf_list_all.filter(v => {
