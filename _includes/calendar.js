@@ -87,46 +87,44 @@
       }
 function load_conference_list() {
   // Gather data
-  var conf_list = [];
+  var conf_list_all = [];
   {% for conf in site.data.conferences %}
-  // add deadlines
-  var confInfo = {
-    id: "{{conf.id}}-deadline",
-    abbreviation: "{{conf.id}}",
-    name: "{{conf.title}} {{conf.year}}",
-    color: "red",
-    location: "{{conf.place}}",
-    date: "{{conf.date}}",
-    hindex: "{{conf.hindex}}",
-    subject: "{{conf.sub}}",
-    startDate: Date.parse("{{conf.deadline}}"),
-    endDate: Date.parse("{{conf.deadline}}"),
-  };
-  conf_list_all.push(confInfo);
+    // add deadlines in red
+    conf_list_all.push({
+      id: "{{conf.id}}-deadline",
+      abbreviation: "{{conf.id}}",
+      name: "{{conf.title}} {{conf.year}}",
+      color: "red",
+      location: "{{conf.place}}",
+      date: "{{conf.date}}",
+      hindex: "{{conf.hindex}}",
+      subject: "{{conf.sub}}",
+      startDate: Date.parse("{{conf.deadline}}"),
+      endDate: Date.parse("{{conf.deadline}}"),
+    });
 
-  // add Conferences
-  {% if conf.start != "" %}
-  var color = "black";
-  {% assign conf_sub = conf.sub | split: ',' | first | strip %} // use first sub to choose color
-  {% for type in site.data.types %}
-        {% if conf_sub == type.sub %}
-                color = "{{type.color}}";
-        {% endif %}
-  {% endfor %}
-  var confInfo = {
-    id: "{{conf.id}}-conference",
-    abbreviation: "{{conf.id}}",
-    name: "{{conf.title}} {{conf.year}}",
-    color: color,
-    location: "{{conf.place}}",
-    date: "{{conf.date}}",
-    hindex: "{{conf.hindex}}",
-    subject: "{{conf.sub}}",
-    startDate: Date.parse("{{conf.start}}"),
-    endDate: Date.parse("{{conf.end}}"),
-  };
-  conf_list_all.push(confInfo);
-  {% endif %}
+    // add Conferences in chosen color
+    {% if conf.start != "" %}
+      var color = "black";
+      {% assign conf_sub = conf.sub | split: ',' | first | strip %} // use first sub to choose color
+      {% for type in site.data.types %}
+            {% if conf_sub == type.sub %}
+                    color = "{{type.color}}";
+            {% endif %}
+      {% endfor %}
+      conf_list_all.push({
+        id: "{{conf.id}}-conference",
+        abbreviation: "{{conf.id}}",
+        name: "{{conf.title}} {{conf.year}}",
+        color: color,
+        location: "{{conf.place}}",
+        date: "{{conf.date}}",
+        hindex: "{{conf.hindex}}",
+        subject: "{{conf.sub}}",
+        startDate: Date.parse("{{conf.start}}"),
+        endDate: Date.parse("{{conf.end}}"),
+      });
+    {% endif %}
   {% endfor %}
 
   return conf_list_all;
