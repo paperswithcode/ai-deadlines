@@ -22,7 +22,7 @@ To add or update a deadline:
     - title: BestConf
       year: 2022
       id: bestconf22  # title as lower case + last two digits of year
-      long: Best Conference for Anything  # full conference name
+      full_name: Best Conference for Anything  # full conference name
       link: link-to-website.com
       deadline: MM/DD/YYYY HH:SS
       abstract_deadline: MM/DD/YYYY
