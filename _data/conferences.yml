@@ -865,3 +865,16 @@
   place: Grenoble, France
   sub: DM
   note: '<b>NOTE</b>: Abstract Submission Deadline: 30 March 2022'
+  
+- title: ISMIS
+  hindex: 9
+  year: 2022
+  id: ismis22
+  link: https://ismis2022.icar.cnr.it/
+  deadline: '2022-05-26 23:59:59'
+  timezone: UTC+1
+  date: October, 03-05, 2022
+  place: Cosenza, Italy
+  sub: DM
+  note: '<b>NOTE</b>: Industry Session Deadline: 26 May 2022'
+  
