@@ -5,6 +5,12 @@
     background-color: #ccc;
     border-radius: 5px;
 }
+
+.deadline-text {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
 @media only screen and (max-width: 550px) {
     #calendar-page {
         display: inline;

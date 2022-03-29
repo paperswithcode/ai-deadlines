@@ -13,7 +13,6 @@
             var content = "";
 
             for (var i in e.events) {
-              var icon_html = "";
               var headline_color = "";
               var break_html = '<hr>';
 
@@ -42,7 +41,7 @@
               content +=
                 '<div class="event-tooltip-content">' +
                 '<div class="event-name ' + headline_color + '">' +
-                '<b>' + e.events[i].name + '</b> &nbsp;' + icon_html +
+                '<b>' + e.events[i].name + '</b>' + 
                 '</div>' +
                 '<div class="event-location">' +
                 location_html +
