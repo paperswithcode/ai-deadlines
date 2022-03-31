@@ -1,3 +1,256 @@
 ---
-layout: home
 ---
+
+
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    <div class="container">
+        <div class="page-header">
+            <div class="row">
+                <div class="col-12 col-sm-12">
+                  <h1>
+                    {{ site.title }} 
+                  </h1>
+                </div>
+                <div class="meta col-12">
+                  {{ site.description }}.
+                  To add/edit a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull request</a>.
+                </div>
+            </div>
+            <br>
+            <div class="row">
+              <form class="container">
+                <div class="row justify-content-center">
+                  <div class="row align-items-md-center col-12 col-10-md">
+                    <div class="col-12 col-md-5 filter-label">
+                      <label for="subject-select" class="align-center" style="margin-bottom: 0px; line-height: 1.5;">
+                        Subject Filter:
+                      </label>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <select
+                        id="subject-select"
+                        name="subject-select"
+                        multiple="multiple"
+                        style="display: none"
+                      >
+                        {% for type in site.data.types %}
+                        <option value="{{type.sub}}" id="{{type.sub}}-checkbox">
+                          {{type.name}} ({{type.sub}})
+                        </option>
+                        {% endfor %}
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="row">
+              <div class="meta col-12">
+                <span class="local-timezone-hide">
+                  Deadlines are shown in <span class="local-timezone">America/New_York</span> time.
+                  To view them in conference website timezones, click on them.
+                </span>
+              </div>
+              <div class="meta col-12">
+                You can optionally export all deadlines to
+                <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/ai-deadlines.ics">Google Calendar</a> or
+                <a href="/ai-deadlines.ics">.ics</a>.
+              </div>
+            </div>
+        </div>
+        <div id="confs">
+        <div id="coming_confs">
+          {% for conf in site.data.conferences %}
+          <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
+            <div class="row conf-row">
+                <div class="col-6">
+                  <span class="conf-title">
+                      <a title="{% if conf.full_name %}{{conf.full_name}}{% else %}Deadline{% endif %} Details" href="{{site.baseurl}}/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
+                  </span>
+                  <span class="conf-title-small">
+                      <a title="{% if conf.full_name %}{{conf.full_name}}{% else %}Deadline{% endif %} Details" href="{{site.baseurl}}/conference?id={{ conf.id }}">{{conf.title}} '{{conf.year | slice: -2, 3}}</a>
+                  </span>
+                  <span class="conf-title-icon">
+                    <a title="Conference Website" href="{{conf.link}}" target="_blank"><img src="{{site.baseurl}}/static/img/203-earth.svg" class="badge-link" alt="Link to Conference Website" /></a>
+                    &ZeroWidthSpace;
+                    {% if conf.paperslink %}
+                      <a title="Full List of Accepted Papers" href="{{conf.paperslink}}" target="_blank"><img src="{{site.baseurl}}/static/img/033-books.svg" class="badge-link" alt="Full List of Accepted Papers" /></a>
+                    {% endif %}
+                    &ZeroWidthSpace;
+                    {% if conf.pwclink %}
+                      <a title="Browse All Papers with Code" href="{{conf.pwclink}}" target="_blank"><div class="icon-inner badge-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="s-ion-icon"><path d="M88 128h48v256H88zM232 128h48v256h-48zM160 144h48v224h-48zM304 144h48v224h-48zM376 128h48v256h-48z"></path><path d="M104 104V56H16v400h88v-48H64V104zM408 56v48h40v304h-40v48h88V56z"></path></svg></div></a>
+                    {% endif %}
+                    &ZeroWidthSpace;
+                  </span>
+                </div>
+                <div class="col-6">
+                  <span class="timer"></span>
+                  <span class="timer-small"></span>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="meta">
+                  <span class="conf-date">{{conf.date}}.</span>
+                  <span class="conf-place">
+                    {% if conf.place == "Online" %}
+                    <a href="#">{{conf.place}}</a>.
+                    {% else %}
+                    <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
+                    {% endif %}
+                  </span>
+                </div>
+                {% if conf.note %}
+                  <div class="note">
+                      <b>Note: </b>{{conf.note}}
+                  </div>
+                {% endif %}
+
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="deadline">
+                  <div>Deadline:
+                    <span class="deadline-time"></span>
+                  </div>
+                </div>
+                <div class="calendar"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                {% for sub in conf.sub %}
+                <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="conf-sub {{sub}}-tag"></span>
+                {% endfor %}
+              </div>
+            </div>
+            <hr>
+          </div>
+          {% endfor %}
+        </div>
+        <div id="past_confs">
+          <h1 id="past-events-title">Past Events</h1>
+          <div id="sort-order-checkbox">
+                <label for="sort-order"><input type="checkbox" id="sort-order" name="sort-order" checked>Most recent first</label>
+            </div>
+        </div>
+      </div>
+      <footer>
+            {% include footer.html %}
+      </footer>
+      <br><br>
+    </div>
+    <script type="text/javascript" charset="utf-8">
+    $(function() {
+        // Make sure this is >= no. of subs
+        // Currently not used
+        var colors = ['#341f97', '#ee5253', '#2e86de',
+                      '#ff9f43', '#10ac84', '#222f3e']
+
+        
+        {% include load_data.js %}
+        {% include utils.js %}
+        {% include multiselect_handler.js %}
+
+        addUtcTimeZones();
+
+        try {
+          var local_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+          $('.local-timezone').text(local_timezone.toString());
+        }
+        catch(err) {
+          $('.local-timezone-hide').hide();
+        }
+
+        {% for conf in site.data.conferences %}
+        {% for sub in conf.sub %}
+        $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
+        {% endfor %}
+        {% if conf.deadline == "TBA" %}
+          $('#{{conf.id}} .timer').html("TBA");
+          $('#{{conf.id}} .deadline-time').html("TBA");
+        {% else %}
+          // adjust date according to deadline timezone
+          var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
+          var confDate = moment.tz("{{conf.deadline}}", timezone);
+
+          // render countdown timer
+          $('#{{conf.id}} .timer').countdown(confDate.toDate(), function (event) {
+              $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+          });
+
+          // render countdown timer small
+          $('#{{conf.id}} .timer-small').countdown(confDate.toDate(), function (event) {
+              $(this).html(event.strftime('%Dd %H:%M:%S'));
+          });
+
+          // convert deadline to local timezone
+          try {
+            var localConfDate = moment.tz(confDate, local_timezone);
+            $('#{{conf.id}} .deadline-time').html(localConfDate.toString());
+          }
+          catch(err) {
+            console.log("Error converting to local timezone.");
+          }
+
+          // add calendar button
+          var myCalendar = createCalendarFromObject({
+            id:  '{{conf.id}}',
+            title: '{{conf.title}} {{conf.year}} deadline',
+            date: confDate.toDate(),
+            duration: 60,
+          })
+          document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
+
+          // check if date has passed, add 'past' class to it
+          var today = moment();
+          diff = today.diff(confDate);
+
+          $('#{{conf.id}}').attr("diff", diff)
+          if (diff > 0) {
+            $('#{{conf.id}}').addClass('past');
+            $('#{{conf.id}}').appendTo($("#past_confs"))
+            $('#{{conf.id}} .timer').replaceWith($('#{{conf.id}} .deadline'));
+            $('#{{conf.id}} .timer-small').replaceWith($('#{{conf.id}} .deadline'));
+            $('#{{conf.id}} .calendar').remove();
+          }
+        {% endif %}
+        {% endfor %}
+
+        // Sort coming_confs and past_confs
+        $("#coming_confs .ConfItem").sort(function (a, b) {
+          return $(b).attr('diff') - $(a).attr('diff');
+        }).appendTo($("#coming_confs"));
+
+        $("#sort-order-checkbox input").on("click", function() {
+          if ($("#sort-order-checkbox input").is(":checked")) {
+            $("#past_confs .ConfItem").sort(function (a, b) {
+              return $(a).attr('diff') - $(b).attr('diff');
+            }).appendTo($("#past_confs"));
+          } else {
+            $("#past_confs .ConfItem").sort(function (a, b) {
+              return $(b).attr('diff') - $(a).attr('diff');
+            }).appendTo($("#past_confs"));
+          }
+        });
+
+        {% include handle_url_retrieval.js %}
+
+        // Event handler on sub badge click
+        $('.conf-sub').click(function (e) {
+            var csub = $(this).data('sub');
+            subs = [csub];
+            $("#subject-select").multiselect('deselect', all_subs);
+            $("#subject-select").multiselect('select', subs);
+            update_filtering({ subs: subs, all_subs: all_subs});
+        });
+
+    });
+    {% include google_analytics.js %}
+    </script>
+  </body>
+</html>

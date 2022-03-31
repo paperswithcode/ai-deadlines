@@ -3,3 +3,4 @@ _site
 vendor
 .vscode
 .DS_Store
+.idea
