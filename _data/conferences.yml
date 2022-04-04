@@ -1,5 +1,19 @@
 ---
 
+- title: EMNLP
+  year: 2022
+  id: emnlp22
+  link: https://2022.emnlp.org/
+  deadline: '2022-06-24 23:59:00'
+  abstract_deadline: '2022-06-17 23:59:00'
+  timezone: UTC-12
+  place: Abu Dhabi, UAE
+  date: December 7-11, 2022
+  start: 2022-12-07
+  end: 2022-12-11
+  hindex: 132
+  sub: NLP
+
 - title: MM
   year: 2022
   id: mm22
