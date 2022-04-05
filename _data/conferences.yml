@@ -1072,3 +1072,18 @@
   end: 2022-09-22
   hindex: 100
   sub: SP
+
+- title: ECML/PKDD
+  year: 2022
+  id: ecmlpkdd22  # title as lower case + last two digits of year
+  full_name: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases # full conference name
+  link: https://2022.ecmlpkdd.org/
+  deadline: '2022-04-06 23:59:59'
+  abstract_deadline: '2022-03-30 23:59:59'
+  timezone: UTC-12
+  place: Grenoble, France
+  date: September, 19-23, 2022
+  start: 2022-09-19
+  end: 2022-09-23
+  sub: SP
+  note: Check the conference website for workshop and demo deadlines
