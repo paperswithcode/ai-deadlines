@@ -1,0 +1,157 @@
+---
+permalink: /calendar/
+---
+<html>
+
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body>
+
+    {% include header.html %}
+    <div class="container">
+      <br>
+      <h1>Calendar Overview of Conference Deadlines and Dates</h1>
+      <div class="row">
+        <div class="meta col-sm-12">
+          Overview of deadlines and conference dates in a calendar.
+          Also, <a href="/">countdowns</a> to CV/NLP/ML/Robotics/AI conference deadlines.
+        </div>
+        <br>
+      </div>
+
+      <br>
+
+      <!-- Filter Form -->
+      <div class="row">
+        <form class="container">
+          <div class="row justify-content-center">
+            <div class="row align-items-md-center col-12 col-10-md">
+              <div class="col-12 col-md-5 filter-label">
+                <label for="subject-select" class="align-center" style="margin-bottom: 0px; line-height: 1.5;">
+                  Subject Filter:
+                </label>
+              </div>
+              <div class="col-12 col-md-6">
+                <select
+                  id="subject-select"
+                  name="subject-select"
+                  multiple="multiple"
+                  style="display: none"
+                >
+                  {% for type in site.data.types %}
+                  <option value="{{type.sub}}" id="{{type.sub}}-checkbox">
+                    {{type.name}} ({{type.sub}})
+                  </option>
+                  {% endfor %}
+                </select>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <br>
+      <div id="calendar-page" class="calendar-page"></div>
+
+      <div class="modal fade" id="event-modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Event</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <input type="hidden" name="event-index" />
+              <form class="form-horizontal">
+                <div class="form-group row">
+                  <label for="event-name" class="col-sm-4 control-label">Name</label>
+                  <div class="col-sm-8">
+                    <input id="event-name" name="event-name" type="text" class="form-control" />
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="event-location" class="col-sm-4 control-label">Location</label>
+                  <div class="col-sm-8">
+                    <input id="event-location" name="event-location" type="text" class="form-control" />
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="min-date" class="col-sm-4 control-label">Dates</label>
+                  <div class="col-sm-8">
+                    <div class="input-group input-daterange" data-provide="datepicker">
+                      <input id="min-date" name="event-start-date" type="text" class="form-control" />
+                      <div class="input-group-prepend input-group-append">
+                        <div class="input-group-text">to</div>
+                      </div>
+                      <input name="event-end-date" type="text" class="form-control" />
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">
+                Cancel
+              </button>
+              <button type="button" class="btn btn-primary" id="save-event">
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="context-menu"></div>
+      <br>
+      <div class="row">
+        <div class="col-6 col-sm-4">
+          <span class="color-box" style="background-color: red;"></span> Deadlines
+        </div>
+        <div class="col-6 col-sm-4">
+          <span class="color-box" style="background-color: gray"></span> Today
+        </div>
+        {% for type in site.data.types %}
+        <div class="col-6 col-sm-4">
+          <span class="color-box" style="background-color: {{type.color}}"></span> {{ type.name }}
+        </div>
+        {% endfor %}
+      </div>
+      <hr>
+      <footer>
+        {% include footer.html %}
+      </footer>
+
+    </div>
+
+
+
+    <script type="text/javascript" charset="utf-8">
+      let calendar = null;
+      var page_url = "{{site.baseurl}}/calendar"
+      var conf_list_all = [];
+
+      {% include utils.js %}
+      {% include load_data.js %}
+      {% include multiselect_handler.js %}
+      {% include calendar.js %}  // overwrites update_filtering
+
+
+      $(function () {
+        // Get data from URL/Cache
+        {% include handle_url_retrieval.js %}
+
+        conf_list_all = load_conference_list();
+        conf_list = conf_list_all;
+
+        // Render calendar
+        update_filtering({ subs: subs, all_subs: all_subs });
+      });
+
+
+      {% include google_analytics.js %}
+    </script>
+  </body>
+</html>

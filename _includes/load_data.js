@@ -1,8 +1,6 @@
 
-var rankings = [];
 var subs = [];
 var _all_subs = [];
-var _all_rankings = [];
 // Get all subs
 var conf_type_data = {{ site.data.types | jsonify}};
 var sub2name = {}; var name2sub = {};
