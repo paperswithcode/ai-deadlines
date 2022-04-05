@@ -53,6 +53,10 @@ h3 {
   border-bottom: none;
 }
 
+#conf-full-name {
+  margin-bottom: 5px;
+}
+
 p.authors {
   margin-bottom: 5px;
   color: #808080;

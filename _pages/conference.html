@@ -16,6 +16,8 @@ permalink:  /conference/
               <span id="conf-title-href"></span>
               <span id="twitter-box"></span>
             </h1>
+            <h3 id="conf-full-name">
+            </h3>
           </div>
         </div>
         <div class="row">
@@ -32,7 +34,7 @@ permalink:  /conference/
           </div>
           <div class="col-12">
             <img src="{{site.baseurl}}/static/img/072-location.svg" class="badge-link" />
-            <span id="conf-place"></span>.
+            <a id="conf-place" target="_blank" nohref></a>.
           </div>
           <div class="col-12">
             <img src="{{site.baseurl}}/static/img/203-earth.svg" class="badge-link" />
@@ -112,6 +114,7 @@ permalink:  /conference/
               // other
               $('#conf-date').text("{{conf.date}}");
               $('#conf-place').text("{{conf.place}}");
+              $('#conf-place').attr('href', "https://maps.google.com/?q={{conf.place}}")
               $('#conf-website').text("{{conf.link}}");
               $('#conf-website').attr('href', "{{conf.link}}");
               {% if conf.paperslink %}
@@ -128,6 +131,9 @@ permalink:  /conference/
               {% endif %}
               var twitter_slug = '<a href="https://twitter.com/share" class="twitter-share-button" data-text="Countdown to the #{{ conf.title }}{{ conf.year }} deadline!" data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8">';
               $('#twitter-box').html(twitter_slug);
+              {% if conf.full_name %}
+                $('#conf-full-name').text("{{conf.full_name}}");
+              {% endif %}
               {% if conf.deadline == "TBA" %}
                 $('#conf-timer').html("TBA");
                 $('.deadline-time').html("TBA");
