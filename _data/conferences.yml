@@ -1,5 +1,16 @@
 ---
 
+- title: MICRO
+  hindex: 21
+  year: 2022
+  id: micro22
+  link: https://www.microarch.org/micro55/
+  deadline: '2022-04-21 23:59:00'
+  timezone: UTC-7
+  date: Oct, 2022
+  place: Chicago, Illinois
+  sub: CA
+
 - title: HPCA
   hindex: 21
   year: 2021
@@ -13,13 +24,35 @@
   
 - title: ASPLOS
   hindex: 23
-  year: 2021
-  id: asplos21
+  year: 2022
+  id: asplos22
   link: https://asplos-conference.org
-  deadline: '2020-08-21 23:59:00'
+  deadline: '2022-03-31 23:59:00'
   timezone: UTC-7
-  date: April x - April y, 2021
-  place: Detroit, Michigan
+  date: TBA
+  place: TBA
+  sub: CA
+  
+  - title: ASPLOS
+  hindex: 23
+  year: 2022
+  id: asplos22
+  link: https://asplos-conference.org
+  deadline: '2022-07-07 23:59:00'
+  timezone: UTC-7
+  date: TBA
+  place: TBA
+  sub: CA
+  
+  - title: ASPLOS
+  hindex: 23
+  year: 2022
+  id: asplos22
+  link: https://asplos-conference.org
+  deadline: '2022-10-20 23:59:00'
+  timezone: UTC-7
+  date: TBA
+  place: TBA
   sub: CA
 
 - title: CGO 
