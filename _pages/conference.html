@@ -4,94 +4,90 @@ permalink:  /conference/
 
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-    <title>{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
-    <meta name="author" content="{{ site.author }}">
-    <link rel="stylesheet" type="text/css" href="{{ "../static/css/bootstrap.min.css" | prepend:site.baseurl }}">
-    <link rel="stylesheet" type="text/css" href="{{ "../static/css/deadlines.css" | prepend:site.baseurl }}?t={{site.time | date: '%s'}}" media="screen,projection">
-    <link rel="shortcut icon" href="{{ "../static/img/favicon.png" | prepend:site.baseurl }}">
-    <script type="text/javascript" src="{{ "../static/js/jquery.min.js" | prepend:site.baseurl }}"></script>
-    <script type="text/javascript" src="{{ "../static/js/jquery.countdown.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "../static/js/moment.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "../static/js/moment-timezone-with-data.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "../static/js/store.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "../static/js/ouical.min.js" | prepend:site.baseurl }}"></script>
-
+    {% include head.html %}
   </head>
   <body>
-    <div class="top-strip"></div>
+    {% include header.html %}
     <div class="container">
-        <div class="page-header" id="conf-title">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12">
-                  <h1>
-                    <a id="conf-title-href" nohref></a>
-                    <span id="twitter-box"></span>
-                  </h1>
-                </div>
-                <div class="meta deadline col-xs-12">
-                  <span id="conf-date"></span>. <span id="conf-place"></span>.<br>
-                </div>
-                <div class="meta deadline col-xs-12 col-md-5">
-                  Deadline in timezone from conference website:
-                </div>
-                <div class="meta deadline col-xs-12 col-md-6">
-                  <span class="deadline-time"></span>
-                </div>
-                <span class="local-timezone-hide">
-                  <div class="meta deadline col-xs-12 col-md-5">
-                    Deadline in your local <span class="local-timezone">America/New_York</span> timezone:
-                  </div>
-                  <div class="meta deadline col-xs-12 col-md-6">
-                    <span class="deadline-local-time"></span>
-                  </div>
-                </span>
-                <div class="meta deadline col-xs-2 col-sm-1 col-md-5">
-                  Website:
-                </div>
-                <div class="meta deadline col-xs-10 col-sm-11 col-md-7">
-                  <a id="conf-website" target="_blank" nohref></a><br>
-                </div>
-            </div>
+      <div class="page-header" id="conf-title">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1>
+              <span id="conf-title-href"></span>
+              <span id="twitter-box"></span>
+            </h1>
+            <h3 id="conf-full-name">
+            </h3>
+          </div>
         </div>
-        <div>
-          <div class="row">
-              <div class="col-xs-12">
-                <span id="conf-timer"></span>
-                <br>
+        <div class="row">
+          <div class="col-sm-12">
+            <span id="conf-subs" title="Conference subjects"></span>
+          </div>
+        </div>
+      </div>
+      <div id="page-content">
+        <div id="conf-key-facts" class="row">
+          <div class="col-12">
+            <img src="{{site.baseurl}}/static/img/084-calendar.svg" class="badge-link" />
+            <span id="conf-date"></span>.
+          </div>
+          <div class="col-12">
+            <img src="{{site.baseurl}}/static/img/072-location.svg" class="badge-link" />
+            <a id="conf-place" target="_blank" nohref></a>.
+          </div>
+          <div class="col-12">
+            <img src="{{site.baseurl}}/static/img/203-earth.svg" class="badge-link" />
+            <a id="conf-website" target="_blank" nohref></a>
+          </div>
+          <div id="conf-paperslink-div" class="col-12">
+            <img src="{{site.baseurl}}/static/img/033-books.svg" class="badge-link" />
+            Accepted Papers:
+            <a id="conf-paperslink" target="_blank" nohref></a>
+          </div>
+          <div id="conf-pwclink-div" class="col-12">
+            <div class="icon-inner pwc-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="s-ion-icon"><path d="M88 128h48v256H88zM232 128h48v256h-48zM160 144h48v224h-48zM304 144h48v224h-48zM376 128h48v256h-48z"></path><path d="M104 104V56H16v400h88v-48H64V104zM408 56v48h40v304h-40v48h88V56z"></path></svg></div>
+            Papers with Code:
+            <a id="conf-pwclink" target="_blank" nohref></a>
+          </div>
+        </div>
+        <div id="conf-deadline-info" class="row">
+          <div class="meta deadline col-12 col-md-6">
+            Download Conference deadline:
+          </div>
+          <div id="conference-deadline" class="calendar meta col-sm-12 col-md-6">
+          </div>
+          <div class="meta deadline col-12 col-md-6">
+            Deadline in timezone from conference website:
+          </div>
+          <div class="meta col-sm-12 col-md-6">
+            <span class="deadline-time"></span>
+          </div>
+              <div class="meta col-sm-12 col-md-6">
+                Deadline in your local <span class="local-timezone">America/New_York</span> timezone:
+              </div>
+              <div class="local-timezone-hide meta col-sm-12 col-md-6">
+                <span class="deadline-local-time"></span>
               </div>
           </div>
-          <br>
-          <hr>
+        <div id="conf-deadline-timer" class="row">
+          <div id="conf-timer" class="col-12">
+          </div>
         </div>
+      </div>
+        <hr>
         <footer>
-          <a href="/">{{ site.domain }}</a> is maintained by <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.<br>
-          If you find it useful, consider buying him <a target="_blank" href="https://read.gift/u/abhshkdz">a book</a> or <a title="_blank" href="https://www.buymeacoffee.com/abhshkdz">coffee</a>.
+          {% include footer.html %}
         </footer>
     </div>
     <script type="text/javascript" charset="utf-8">
     $(function() {
         var url = new URL(window.location);
         var conf = url.searchParams.get('id');
-        console.log(conf);
 
-        // Borrowed from https://github.com/moment/moment-timezone/issues/167
-        // Adds support for time zones 'UTC-12'..'UTC+12'
-        function addUtcTimeZones() {
-          // Moment.js uses the IANA timezone database, which supports generic time zones like 'Etc/GMT+1'.
-          // However, the signs for these time zones are inverted compared to ISO 8601.
-          // For more details, see https://github.com/moment/moment-timezone/issues/167
-          for (let offset = -12; offset <= 12; offset++) {
-            const posixSign = offset <= 0 ? '+' : '-';
-            const isoSign = offset >= 0 ? '+' : '-';
-            const link = `Etc/GMT${posixSign}${Math.abs(offset)}|UTC${isoSign}${Math.abs(offset)}`;
-            moment.tz.link(link);
-          }
-        }
+        {% include load_data.js %}
+        {% include utils.js %}
+
         addUtcTimeZones();
         try {
           var local_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
@@ -103,14 +99,41 @@ permalink:  /conference/
 
         {% for conf in site.data.conferences %}
             if (conf == "{{ conf.id }}") {
+
               $('#conf-title-href').text("{{conf.title}} {{conf.year}}");
               $('#conf-title-href').attr('href', "/conference?id={{conf.id}}");
+              // set badges
+              var subs = '{{conf.sub}}'.split(',');
+              for (let i = 0; i < subs.length; i++) {
+                var sub = subs[i].replace(" ", "");
+                var sub_element = document.createElement('span');
+                sub_element.className = "conf-sub conf-" + sub;
+                sub_element.textContent = sub2name[sub];
+                $('#conf-subs').append(sub_element);
+              }
+              // other
               $('#conf-date').text("{{conf.date}}");
               $('#conf-place').text("{{conf.place}}");
+              $('#conf-place').attr('href', "https://maps.google.com/?q={{conf.place}}")
               $('#conf-website').text("{{conf.link}}");
               $('#conf-website').attr('href', "{{conf.link}}");
+              {% if conf.paperslink %}
+                $('#conf-paperslink').text("{{conf.paperslink}}");
+                $('#conf-paperslink').attr('href', "{{conf.paperslink}}");
+              {% else %}
+                $('#conf-paperslink-div').hide();
+              {% endif %}
+              {% if conf.pwclink %}
+                $('#conf-pwclink').text("{{conf.pwclink}}");
+                $('#conf-pwclink').attr('href', "{{conf.pwclink}}");
+              {% else %}
+                $('#conf-pwclink-div').hide();
+              {% endif %}
               var twitter_slug = '<a href="https://twitter.com/share" class="twitter-share-button" data-text="Countdown to the #{{ conf.title }}{{ conf.year }} deadline!" data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8">';
               $('#twitter-box').html(twitter_slug);
+              {% if conf.full_name %}
+                $('#conf-full-name').text("{{conf.full_name}}");
+              {% endif %}
               {% if conf.deadline == "TBA" %}
                 $('#conf-timer').html("TBA");
                 $('.deadline-time').html("TBA");
@@ -118,18 +141,27 @@ permalink:  /conference/
               {% else %}
                 // adjust date according to deadline timezone
                 var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
-                var confDate = moment.tz("{{conf.deadline}}", timezone);
+                var confDeadline = moment.tz("{{conf.deadline}}", timezone);
+
+                // add calendar 
+                var conferenceDeadlineCalendar = createCalendarFromObject({
+                  id:  '{{conf.id}}',
+                  title: '{{conf.title}} {{conf.year}} deadline',
+                  date: confDeadline.toDate(),
+                  duration: 60,
+                })
+                document.querySelector('#conference-deadline').appendChild(conferenceDeadlineCalendar);
 
                 // render countdown timer
-                $('#conf-timer').countdown(confDate.toDate(), function(event) {
+                $('#conf-timer').countdown(confDeadline.toDate(), function(event) {
                   $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
                 });
-                $('.deadline-time').html(confDate.toString());
+                $('.deadline-time').html(confDeadline.toString());
 
                 // convert deadline to local timezone
                 try {
-                  var localConfDate = moment.tz(confDate, local_timezone);
-                  $('.deadline-local-time').html(localConfDate.toString());
+                  var localConfDeadline = moment.tz(confDeadline, local_timezone);
+                  $('.deadline-local-time').html(localConfDeadline.toString());
                 }
                 catch(err) {
                   console.log("Error converting to local timezone.");
@@ -138,13 +170,7 @@ permalink:  /conference/
             }
         {% endfor %}
     });
-    // Google analytics
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', '{{ site.ga_id }}', 'auto');
-    ga('send', 'pageview');
+    {% include google_analytics.js %}
     </script>
   </body>
 </html>

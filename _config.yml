@@ -13,7 +13,6 @@ github_username: mktrm
 github_repo: arch-deadlines
 
 markdown: kramdown
-ga_id: UA-36274081-2
+ga_id:
 
 include: ['_pages']
-theme: jekyll-theme-cayman

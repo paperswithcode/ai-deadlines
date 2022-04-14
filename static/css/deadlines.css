@@ -20,7 +20,9 @@ body *::selection {
   width: 100%;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   /* font-weight: 300; */
 }
 
@@ -44,10 +46,15 @@ h3 {
 
 .page-header {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #conf-title.page-header {
   border-bottom: none;
+}
+
+#conf-full-name {
+  margin-bottom: 5px;
 }
 
 p.authors {
@@ -78,7 +85,8 @@ p.lead.authors a {
   border-bottom: none;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: inherit;
   text-decoration: none;
 }
@@ -98,20 +106,29 @@ footer {
   font-size: 13px;
 }
 
-.past {
-  opacity: 0.5;
-}
-
 .conf-row {
   margin-bottom: 5px;
 }
 
-.conf-title {
+.conf-title,
+.conf-title-small,
+.conf-title-icon {
   font-size: 20px;
   font-weight: 400;
+
 }
 
-.deadline, .meta {
+.conf-title-small {
+  display: none;
+}
+
+.conf-title-icon {
+  white-space: nowrap;
+  font-size: 20px;
+}
+
+.deadline,
+.meta {
   font-size: 13px;
 }
 
@@ -120,14 +137,28 @@ footer {
   margin-bottom: 5px;
 }
 
-.timer {
+.timer,
+.timer-small {
   font-size: 20px;
   font-weight: 400;
+}
+
+#confs {
+  margin-top: 20px;
+}
+.timer-small {
+  display: none;
 }
 
 #conf-timer {
   font-size: 72px;
   color: #444;
+  margin-top: 40px;
+  margin-bottom: 0.5em;
+}
+
+#conf-key-facts {
+  margin-bottom: 10px;
 }
 
 .conf-sub {
@@ -135,6 +166,7 @@ footer {
   background: rgba(236, 240, 241, 0.7);
   font-size: 13px;
   padding: 3px 5px;
+  margin-right: 8px;
   cursor: pointer;
   font-weight: 300;
 }
@@ -148,20 +180,89 @@ footer {
   border-color: #0097e6;
 }
 
-.checkbox input[type="checkbox"]:after, .checkbox input[type="checkbox"]:focus:after {
+.checkbox input[type="checkbox"]:after,
+.checkbox input[type="checkbox"]:focus:after {
   border-color: #0097e6;
 }
 
-@media only screen and (max-width: 780px) {
+#sort-order-checkbox {
+    text-align: right;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+#sort-order-checkbox input[type="checkbox"]:checked:after {
+    background-color: #0097e6;
+    border-color: #0097e6;
+  }
+  
+#sort-order-checkbox input[type="checkbox"]:after,
+#sort-order-checkbox input[type="checkbox"]:focus:after {
+    border-color: #0097e6;
+}
+
+.filter-label {
+  text-align: right;
+}
+
+
+.pwc-link {
+  text-decoration: none;
+  border: none;
+  vertical-align: middle;
+}
+
+.pwc-link:hover {
+  border-bottom: 1px solid #1198b2;
+}
+
+.icon-inner {
+  width: .95em;
+  height: .95em;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  fill: currentColor;
+}
+
+.pwc-icon {
+  color: #1198b2;
+}
+
+.twitter-github-icons {
+  line-height: 16px;
+}
+
+#past-events-title {
+  padding-bottom: 15px;
+  border-bottom: 2px solid #bb2d3b;
+}
+
+.badge-link {
+  vertical-align: middle; 
+  margin-bottom: 3px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+
+.badge-danger {
+  background-color: #bb2d3b;
+}
+
+@media only screen and (max-width: 768px) {
   #conf-timer {
     font-size: 64px;
   }
   .calendar {
     margin-bottom: 10px;
   }
+  .filter-label {
+    text-align: left;
+  }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 576px) {
   #conf-timer {
     font-size: 36px;
   }
@@ -177,6 +278,20 @@ footer {
   .conf-row {
     margin-bottom: 7px;
   }
+  .timer {
+    display: none;
+  }
+  .timer-small {
+    text-align: right;
+    display: grid;
+  }
+  .conf-title {
+    display: none;
+  }
+  .conf-title-small {
+    display: inline;
+  }
+
 }
 
 @media only screen and (max-width: 375px) {
