@@ -47,8 +47,8 @@
   year: 2022
   id: cikm22
   link: https://www.cikm2022.org/
-  deadline: '2022-05-16 23:59:59'
-  abstract_deadline: '2022-05-09 23:59:59'
+  deadline: '2022-05-19 23:59:59'
+  abstract_deadline: '2022-05-12 23:59:59'
   timezone: UTC-12
   place: Atlanta, Georgia, USA
   date: October 17-22, 2022
@@ -56,7 +56,7 @@
   end: 2022-10-22
   hindex: 48
   sub: DM
-  note: Mandatory abstract deadline on May 9, 2022
+  note: Mandatory abstract deadline on May 12, 2022
 
 - title: COLING
   year: 2022
