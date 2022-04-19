@@ -114,6 +114,18 @@
   hindex: -1
   sub: NLP
 
+- title: CoRL
+  year: 2022
+  id: corl22
+  link: https://corl2022.org
+  deadline: '2022-06-15 23:59:00'
+  timezone: UTC-12
+  place: Auckland, New Zealand, and virtual
+  date: December 14-18, 2022
+  start: 2022-12-14
+  end: 2022-12-18
+  sub: RO
+  
 - title: ALT
   year: 2020
   id: alt20
