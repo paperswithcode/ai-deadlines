@@ -1114,10 +1114,10 @@
   id: siggraphasia22  # title as lower case + last two digits of year
   full_name: SIGGRAPH ASIA 2022  # full conference name
   link: https://sa2022.siggraph.org/
-  deadline: 2022-55-20 23:59
-  abstract_deadline: 2022-55-19 23:59
-  timezone: Pacific/Tarawa
+  deadline: 2022-05-20 23:59
+  abstract_deadline: 2022-05-19 23:59
+  timezone: UTC-12
   place: Daegu, South Korea
   date: December, 6-9, 2022
   sub: CG
-  note: Important
+  note: 
