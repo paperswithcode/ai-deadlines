@@ -1108,3 +1108,16 @@
   place: Cosenza, Italy
   sub: DM
   note: '<b>NOTE</b>: Industry Session Deadline: 26 May 2022'
+  
+- title: SIGGRAPHASIAConf
+  year: 2022
+  id: siggraphasia22  # title as lower case + last two digits of year
+  full_name: SIGGRAPH ASIA 2022  # full conference name
+  link: https://sa2022.siggraph.org/
+  deadline: 2022-05-20 23:59
+  abstract_deadline: 2022-05-19 23:59
+  timezone: UTC-12
+  place: Daegu, South Korea
+  date: December, 6-9, 2022
+  sub: CG
+  note: 
