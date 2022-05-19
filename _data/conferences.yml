@@ -1,5 +1,19 @@
 ---
 
+- title: ICDM
+  year: 2022
+  id: icdm22
+  full_name: IEEE International Conference on Data Mining (ICDM) 
+  link: https://icdm22.cse.usf.edu/
+  deadline: '2022-06-10 23:59:00'
+  timezone: PDT
+  place: Orlando, Florida, USA
+  date: November 30 - December 3, 2022
+  start: 2022-11-30
+  end: 2022-12-03
+  hindex: 124.0
+  sub: DM
+
 - title: EMNLP
   year: 2022
   id: emnlp22
