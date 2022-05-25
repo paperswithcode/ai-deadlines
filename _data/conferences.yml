@@ -1,5 +1,20 @@
 ---
 
+- title: AAAI
+  year: 2023
+  id: aaai23
+  full_name: AAAI Conference on Artificial Intelligence
+  link: https://aaai.org/Conferences/AAAI-23/
+  deadline: '2022-08-15 23:59:59'
+  abstract_deadline: '2022-08-08 23:59:59'
+  timezone: UTC-12
+  place: Washington, DC, USA
+  date: February 7 - February 14, 2023
+  start: 2023-02-07
+  end: 2023-02-14
+  hindex: 95
+  sub: ML
+
 - title: ICDM
   year: 2022
   id: icdm22
