@@ -1117,12 +1117,12 @@
   year: 2022
   id: ismis22
   link: https://ismis2022.icar.cnr.it/
-  deadline: '2022-05-26 23:59:59'
-  timezone: UTC+1
+  deadline: '2022-06-16 23:59:59'
+  timezone: UTC-12
   date: October, 03-05, 2022
   place: Cosenza, Italy
   sub: DM
-  note: '<b>NOTE</b>: Industry Session Deadline: 26 May 2022'
+  note: '<b>NOTE</b>: Industry Session Deadline: 16 June 2022'
   
 - title: SIGGRAPHASIAConf
   year: 2022
