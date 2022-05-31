@@ -1,5 +1,18 @@
 ---
 
+- title: ACML
+  year: 2022
+  id: acml22
+  link: https://www.acml-conf.org/2022
+  deadline: '2022-06-23 23:59:00'
+  timezone: UTC-12
+  place: Hyderabad, India
+  date: December 12-14, 2022
+  start: 2022-12-12
+  end: 2022-12-14
+  hindex: 20
+  sub: ML
+
 - title: AAAI
   year: 2023
   id: aaai23
