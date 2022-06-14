@@ -634,18 +634,18 @@
   note: Mandatory abstract deadline on May 21, 2021
 
 - title: WACV
-  year: 2022
-  id: wacv22
-  link: http://wacv2022.thecvf.com/
-  deadline: '2021-06-02 23:59:59'
+  year: 2023
+  id: wacv23
+  link: http://wacv2023.thecvf.com/
+  deadline: '2021-07-13 11:59:59'
   timezone: America/Los_Angeles
   place: Waikoloa, Hawaii, USA
-  date: January 4-8, 2022
-  start: 2022-01-04
-  end: 2022-01-08
+  date: January 3-7, 2023
+  start: 2023-01-03
+  end: 2023-01-07
   hindex: 54
   sub: CV
-  note: Second round submission deadline on Aug. 11th 2021
+  note: Second round submission deadline on Aug. 29th 2022
 
 - title: ICDM
   year: 2021
