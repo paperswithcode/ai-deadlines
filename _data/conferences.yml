@@ -58,6 +58,18 @@
   sub: NLP
   note: Hybrid format with ARR and START. More info <a href='https://2022.emnlp.org/calls/papers/Overview'>here</a>.
 
+- title: WSDM
+  year: 2023
+  id: wsdm23
+  link: https://www.wsdm-conference.org/2023/
+  deadline: '2022-08-12 23:59:00'
+  timezone: UTC-12
+  place: Singapore
+  date: Feb 27- March 03, 2023
+  start: 2023-02-27
+  end: 2023-03-03
+  hindex: 54
+  sub: DM
 - title: MM
   year: 2022
   id: mm22
