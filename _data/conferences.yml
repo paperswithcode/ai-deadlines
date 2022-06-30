@@ -1176,3 +1176,16 @@
   date: December, 6-9, 2022
   sub: CG
   note: 
+
+- title: K1st World
+  year: 2022
+  id: k1stworld
+  link: https://bit.ly/attend-k1stworld-7
+  deadline: '2022-08-20 23:59:00'
+  timezone: PST-8
+  place: Stanford, CA
+  date: November 15-16, 2022
+  start: 2022-11-15
+  end: 2022-11-16
+  hindex: 26
+  sub: ML
