@@ -248,6 +248,18 @@
   end: 2022-10-13
   sub: US
 
+- title: SPIE Medical Imaging
+  year: 2023
+  id: spiemi22
+  link: https://spie.org/conferences-and-exhibitions/medical-imaging
+  deadline: '2022-08-10 00:00:00'
+  timezone: GMT
+  place: San Diego, United States 
+  date: September 19 - 23, 2023
+  start: 2023-02-19
+  end: 2023-02-23
+  sub: MI
+
 - title: AMUS Workshop
   year: 2022
   id: amus22
@@ -255,7 +267,8 @@
   deadline: '2022-06-27 00:00:00'
   timezone: GMT
   place: Singapore
-  date: Septembre 18, 2022
+  date: September 18, 2022
   start: 2022-09-18
   end: 2022-09-18
   sub: US
+

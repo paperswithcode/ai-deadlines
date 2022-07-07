@@ -10,7 +10,7 @@
   color: "#0aefff"
 
 - name: Medical Imaging
-  sub: RO
+  sub: MI
   color: "#0aff99"
 - name: Signal Processing
   sub: SP
