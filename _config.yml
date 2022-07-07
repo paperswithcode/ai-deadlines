@@ -2,8 +2,8 @@ title: US and (related) ML Conference Deadlines
 description: Countdown timers to Ultrasound and (related) Machine Learning conference deadlines
 author: Antonio Stanziola
 
-domain: "https://astanziola.github.io"
-baseurl: /ml-us-deadlines
+domain: https://astanziola.github.io
+baseurl: ml-us-deadlines
 
 twitter_hashtag: 
 github_username: astanziola
