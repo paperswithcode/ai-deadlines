@@ -8,15 +8,19 @@
 - name: Computer Graphics
   sub: CG
   color: "#0aefff"
-- name: Natural Language Proc
-  sub: NLP
-  color: "#147df5"
-- name: Robotics
+
+- name: Medical Imaging
   sub: RO
   color: "#0aff99"
-- name: Speech/SigProc
+- name: Signal Processing
   sub: SP
   color: "#580aff"
-- name: Data Mining
-  sub: DM
+- name: Ultrasound
+  sub: US
   color: "#be0aff"
+- name: Physics
+  sub: PH
+  color: "#147df5"
+- name: Inverse Problems
+  sub: IP
+  color: "#41d75f"
