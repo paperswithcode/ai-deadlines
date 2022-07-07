@@ -4,12 +4,13 @@
 
 Countdown timers to keep track of a bunch of Ultrasound and (related) Machine Learning conference deadlines.
 
-## Usage
+<center>
+<a href="https://astanziola.github.io/ml-us-deadlines">
+<img src="https://img.shields.io/badge/check-deadlines-red" alt="ml-us-deadlines">
+</a>
+</center>
 
-```bash
-git clone https://github.com/astanziola/ml-us-deadlines
-bundle exec jekyll serve
-```
+</br>
 
 ## Contributing
 
@@ -47,7 +48,7 @@ To add or update a deadline:
 
 ## License
 
-This project is licensed under [MIT][1].
+The project is based on [ai-deadlines](https://github.com/paperswithcode/ai-deadlines). This project is licensed under [MIT][1].
 
 It uses:
 
