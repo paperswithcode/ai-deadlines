@@ -1,5 +1,18 @@
 ---
 
+- title: Brainbox
+  year: 2022
+  id: brainbox22
+  link: https://brainbox-initiative.com/conference
+  deadline: '2022-09-01 00:00:00'
+  timezone: GMT
+  place: London, UK
+  date: September 22 - 23, 2022
+  start: 2022-09-22
+  end: 2022-09-23
+  sub: US
+
+
 - title: ACML
   year: 2022
   id: acml22
