@@ -1,4 +1,29 @@
----
+- title: ICLR
+  year: 2023
+  id: iclr23
+  link: https://iclr.cc/
+  deadline: '2022-09-28 23:59:59'
+  abstract_deadline: '2022-09-21 23:59:59'
+  timezone: UTC-12
+  place: Kigali, Rwanda
+  date: May 01-05, 2023
+  start: 2023-05-01
+  end: 2022-05-05
+  hindex: 286
+  sub: ML
+  note: Mandatory abstract deadline on September 11, 2022. More info <a href='https://iclr.cc/Conferences/2023/CallForPapers'>here</a>.
+
+- title: Brainbox
+  year: 2022
+  id: brainbox22
+  link: https://brainbox-initiative.com/conference
+  deadline: '2022-09-01 00:00:00'
+  timezone: GMT
+  place: London, UK
+  date: September 22 - 23, 2022
+  start: 2022-09-22
+  end: 2022-09-23
+  sub: US
 
 - title: Brainbox
   year: 2022
@@ -84,33 +109,6 @@
   sub: CV
   note: Second round submission deadline on Aug. 29th 2022
 
-- title: BMVC
-  year: 2022
-  id: bmvc22
-  link: https://www.bmvc2022.org
-  deadline: '2022-07-29 23:59:59'
-  timezone: UTC
-  place: London
-  date: November 21-24, 2022
-  start: 2022-11-21
-  end: 2022-11-24
-  hindex: 75
-  sub: CV
-
-
-- title: ICASSP
-  year: 2022
-  id: icassp22
-  link: https://2022.ieeeicassp.org/
-  deadline: '2021-10-06 23:59:59'
-  timezone: UTC-12
-  place: Singapore
-  date: May 22-27, 2022
-  start: 2022-05-22
-  end: 2022-05-27
-  hindex: 80
-  sub: SP
-
 - title: CVPR
   year: 2023
   id: cvpr23
@@ -123,19 +121,6 @@
   end: 2022-06-23
   hindex: 389
   sub: CV
-
-- title: L4DC
-  year: 2022
-  id: l4dc22
-  link: https://l4dc.stanford.edu/
-  deadline: '2021-12-07 17:00:00'
-  timezone: UTC-5
-  place: Stanford University, CA, USA
-  date: June 23-24, 2022
-  start: 2022-06-23
-  end: 2022-06-24
-  sub: ML
-
 
 - title: IJCAI-ECAI
   year: 2022
