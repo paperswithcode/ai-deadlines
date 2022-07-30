@@ -1188,4 +1188,21 @@
   place: Daegu, South Korea
   date: December, 6-9, 2022
   sub: CG
-  note: 
+  note:
+
+- title: evoMUSART
+  year: 2023
+  id: evomusart23
+  full_name: 12th International Conference on Artificial Intelligence in Music, Sound, Art and Design
+  link: https://www.evostar.org/2023/evomusart/
+  deadline: 2022-11-01 23:59
+  abstract_deadline: 2022-11-01 23:59
+  timezone: UTC-12
+  place: Brno, Czech Republic
+  date: April, 12-14, 2023
+  start: 2023-04-12
+  end: 2023-04-14
+  paperslink: https://evomusart-index.dei.uc.pt/
+  hindex: 12
+  sub: CG
+  note: part of evostar 2023
