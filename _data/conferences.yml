@@ -770,16 +770,16 @@
   note: Mandatory abstract deadline on September 28, 2021. More info <a href='https://iclr.cc/Conferences/2022/CallForPapers'>here</a>.
 
 - title: ICASSP
-  year: 2022
-  id: icassp22
-  link: https://2022.ieeeicassp.org/
-  deadline: '2021-10-06 23:59:59'
+  year: 2023
+  id: icassp23
+  link: https://2023.ieeeicassp.org/
+  deadline: '2022-10-19 23:59:59'
   timezone: UTC-12
-  place: Singapore
-  date: May 22-27, 2022
-  start: 2022-05-22
-  end: 2022-05-27
-  hindex: 80
+  place: Rhodes Island, Greece
+  date: June 4-9, 2023
+  start: 2023-06-04
+  end: 2023-06-09
+  hindex: 110
   sub: SP
 
 - title: AISTATS
