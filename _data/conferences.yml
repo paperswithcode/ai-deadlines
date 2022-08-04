@@ -1,3 +1,15 @@
+- title: ICASSP
+  year: 2023
+  id: icassp23
+  link: https://2023.ieeeicassp.org
+  deadline: '2022-10-19 00:00:00'
+  timezone: UTC
+  place: Rhodes island, Greece
+  date: June 05-09, 2023
+  start: 2023-06-04
+  end: 2022-06-09
+  sub: ML
+
 - title: ICLR
   year: 2023
   id: iclr23
