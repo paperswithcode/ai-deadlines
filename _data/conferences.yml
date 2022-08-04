@@ -108,6 +108,19 @@
   sub: CV
   note: Second round submission deadline on Aug. 29th 2022
 
+- title: ICASSP
+  year: 2023
+  id: icassp23
+  link: https://2023.ieeeicassp.org/
+  deadline: '2022-10-19 23:59:59'
+  timezone: UTC-12
+  place: Rhodes Island, Greece
+  date: June 4-9, 2023
+  start: 2023-06-04
+  end: 2023-06-09
+  hindex: 110
+  sub: SP
+
 - title: CVPR
   year: 2023
   id: cvpr23
@@ -280,3 +293,20 @@
   start: 2022-09-18
   end: 2022-09-18
   sub: US
+
+- title: evoMUSART
+  year: 2023
+  id: evomusart23
+  full_name: 12th International Conference on Artificial Intelligence in Music, Sound, Art and Design
+  link: https://www.evostar.org/2023/evomusart/
+  deadline: 2022-11-01 23:59
+  abstract_deadline: 2022-11-01 23:59
+  timezone: UTC-12
+  place: Brno, Czech Republic
+  date: April, 12-14, 2023
+  start: 2023-04-12
+  end: 2023-04-14
+  paperslink: https://evomusart-index.dei.uc.pt/
+  hindex: 12
+  sub: CG
+  note: part of evostar 2023
