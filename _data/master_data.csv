@@ -1,0 +1,84 @@
+title,full_name,wikicfp_query,wikicfp_link,sub
+icpr,International Conference on Pattern Recognition,ICPR,,ML
+iros,International Conference on Intelligent Robots and Systems,IROS,,RO
+icprs,International Conference on Pattern Recognition Systems,ICPRS,,CV
+kdd,Knowledge Discovery and Data Mining,KDD,,DM
+uai,Uncertainty in Artificial Intelligence,UAI,,ML
+fg,IEEE International Conference on Automatic Face and Gesture Recognition,FG,,CV
+cikm,Conference on Information and Knowledge Management,CIKM,,DM
+lrec,Language Resources and Evaluation,LREC,,NLP
+aaai,AAAI Conference on Artificial Intelligence,AAAI,,ML
+sigir,International ACM SIGIR Conference on Research and Development in Information Retrieval,SIGIR,,DM
+interspeech,Conference of the International Speech Communication Association,Interspeech,,CV
+rss,Robotics: Science and Systems,RSS,,RO
+pris,International Conference on Pattern Recognition and Intelligent Systems (PRIS 2022) ,PRIS,,"CV,RO"
+wacv,Winter Conference on Applications of Computer Vision,WACV,,CV
+icpram,International Conference on Pattern Recognition Applications and Methods,ICPRAM,,CV
+icml,International Conference on Machine Learning,ICML,,ML
+siggraph,International Conference & Exhibition on Computer Graphics & Interactive Techniques,SIGGRAPH,,CV
+icmi,International Conference on Multimodal Interaction,ICMI,,CV
+naacl,Annual Conference of the North American Chapter of the Association for Computational Linguistics,NAACL,,NLP
+acml,Asian Conference on Machine Learning,ACML,,ML
+ijcai,International Joint Conference on Artificial Intelligence,IJCAI,,ML
+visapp,International Conference on Computer Vision Theory and Applications,VISAPP,,CV
+cvpr,Conference on Computer Vision and Pattern Recognition,CVPR,,CV
+icann,International Conference on Artificial Neural Networks,ICANN,,ML
+sdm,SIAM International Conference on Data Mining,SDM,,DM
+isr,International Symposium on Robotics,ISR,,RO
+crv,Conference on Robots and Vision,CRV,,RO
+gcpr-vmv,"German Conference on Pattern Recognition + International Symposium on Vision, Modeling, and Visualization",GCPR-VMV,,ML
+eacl,European Chapter of the Association for Computational Linguistics,EACL,,NLP
+icme,IEEE International Conference on Multimedia and Expo,ICME,,CV
+recsys,ACM Conference on Recommender Systems,RecSys,,DM
+icip,IEEE International Conference in Image Processing,ICIP,,CV
+aistats,International Conference on Artificial Intelligence and Statistics,AISTATS,,ML
+icdm,IEEE International Conference on Data Mining,ICDM,,DM
+corl,Conference on Robot Learning,CoRL,,RO
+akbc,Automated Knowledge Base Construction,AKBC,,NLP
+icassp,"IEEE International Conference on Acoustics, Speech and Signal Processing",ICASSP,,SP
+emnlp,Empirical Methods in Natural Language Processing,EMNLP,,NLP
+neurips,Neural Information Processing Systems,NeurIPS,,ML
+case,Conference on Automation Science and Engineering,CASE,,APL
+gcpr,DAGM German Conference on Pattern Recognition,GCPR,,ML
+ecml-pkdd,European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases,ECML-PKDD,,ML
+ecmr,European Conference on Mobile Robots,ECMR,,RO
+wsdm,ACM Conference on Web Search and Data Mining,WSDM,,DM
+iccv,International Conference on Computer Vision,ICCV,,CV
+iclr,International Conference on Learning Representations,ICLR,,ML
+icra,IEEE International Conference on Robotics and Automation,ICRA,,RO
+aamas,Autonomous Agents and Multiagent Systems,AAMAS,,ML
+etfa,IEEE International Conference on Emerging Technologies and Factory Automation,ETFA,,APL
+mm,ACM International Conference on Multimedia,MM,,CV
+icmla,IEEE International Conference on Machine Learning and Applications,ICMLA,,APL
+ias,International Conference on Intelligent Autonomous Systems,IAS,,RO
+bmvc,British Machine Vision Conference,BMVC,,CV
+chil,"Conference on Health, Inference, and Learning",CHIL,,ML
+acl,Annual Meeting of the Association for Computational Linguistcs and International Joint Conference on Natural Language Processing,ACL,,NLP
+icaps,International Conference on Automated Planning and Scheduling,ICAPS,,ML
+midl,,MIDL,,CV
+www,,WWW,,DM
+ismir,,ISMIR,,SP
+ismis,,ISMIS,,DM
+3dv,,3DV,,CV
+icwsm,,ICWSM,,DM
+facct,,FAccT,,ML
+iccc,,ICCC,,ML
+accv,,ACCV,,CV
+ijcai-ecai,International Joint Conference on Artificial Intelligence and European Conference on Artificial Intelligence,IJCAI-ECAI,,ML
+wmt,,WMT,,NLP
+coling,,COLING,,NLP
+collas,,CoLLAs,,ML
+ro-man,,RO-MAN,,RO
+hri,,HRI,,RO
+evomusart,"International Conference on Artificial Intelligence in Music, Sound, Art and Design",evoMUSART,,CG
+ecml/pkdd,European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases,ECML/PKDD,,SP
+l4dc,,L4DC,,ML
+automl-conf,,AutoML-Conf,,ML
+eccv,,ECCV,,CV
+conll,,CoNLL,,NLP
+colt,,COLT,,ML
+siggraphasiaconf,SIGGRAPH ASIA,SIGGRAPHASIAConf,,CG
+icmr,,ICMR,,CV
+aacl-ijcnlp,,AACL-IJCNLP,,NLP
+alt,,ALT,,ML
+miccai,,MICCAI,,CV

@@ -24,8 +24,8 @@ To add or update a deadline:
       id: bestconf22  # title as lower case + last two digits of year
       full_name: Best Conference for Anything  # full conference name
       link: link-to-website.com
-      deadline: YYYY-MM-DD HH:SS
-      abstract_deadline: YYYY-MM-DD HH:SS
+      deadline: YYYY-MM-DD HH:MM
+      abstract_deadline: YYYY-MM-DD HH:MM
       timezone: Asia/Seoul
       place: Incheon, South Korea
       date: September, 18-22, 2022
