@@ -1,5 +1,19 @@
 ---
 
+- title: AISTATS
+  year: 2023
+  id: aistats23
+  link: https://www.aistats.org/aistats2023/
+  deadline: '2022-10-13 23:59:59'
+  timezone: UTC-12
+  place: TBD
+  date: TBD
+  start: TBD
+  end: TBD
+  hindex: 85
+  sub: ML
+  note: Mandatory abstract deadline on Oct 6, 2022. More info <a href='https://aistats.org/aistats2023/call-for-papers.html'>here</a>.
+
 - title: ICLR
   year: 2023
   id: iclr23
