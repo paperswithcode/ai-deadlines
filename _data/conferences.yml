@@ -397,20 +397,19 @@
   sub: NLP
 
 - title: AAMAS
-  year: 2021
-  id: aamas21
-  link: https://aamas2021.soton.ac.uk/
-  deadline: '2020-10-09 23:59:59'
-  abstract_deadline: '2020-10-02 23:59:59'
+  year: 2023
+  id: aamas23
+  link: https://aamas2023.soton.ac.uk/
+  deadline: '2022-10-28 23:59:59'
+  abstract_deadline: '2022-10-21 23:59:59'
   timezone: UTC-12
   place: London, UK
-  date: May 3-7, 2021
-  start: 2021-05-03
-  end: 2021-05-07
-  paperslink: https://dl.acm.org/doi/proceedings/10.5555/3463952
+  date: May 29 - June 2, 2023
+  start: 2023-05-29
+  end: 2023-06-02
   hindex: 25
   sub: ML
-  note: Mandatory abstract deadline on Oct 02, 2020. More info <a href='https://aamas2021.soton.ac.uk/calls/papers/'>here</a>.
+  note: Mandatory abstract deadline on Oct 21, 2022. More info <a href='https://aamas2023.soton.ac.uk/calls/call-for-papers/'>here</a>.
 
 - title: SDM
   year: 2021
