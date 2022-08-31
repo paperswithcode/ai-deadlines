@@ -1219,3 +1219,20 @@
   hindex: 12
   sub: CG
   note: part of evostar 2023
+
+- title: LOG
+  year: 2022
+  id: evomusart23
+  full_name: Learning on Graphs Conference
+  link: https://logconference.org/
+  deadline: 2022-16-09 23:59
+  abstract_deadline: 2022-09-09 23:59
+  timezone: UTC-12
+  place: Online
+  date: December, 09-12, 2022
+  start: 2022-12-09
+  end: 2022-12-12
+  paperslink:
+  hindex:
+  sub: ML
+  note: This is the inaugural event of a conference dedicated to Graph Machine Learning
