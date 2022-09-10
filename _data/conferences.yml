@@ -835,19 +835,19 @@
   note: Mandatory abstract deadline on Oct 8, 2021. More info <a href='http://www.aistats.org/aistats2022/cfp.html'>here</a>.
 
 - title: WWW
-  year: 2022
-  id: www22
-  link: https://www2022.thewebconf.org/
-  deadline: '2021-10-21 23:59:59'
-  abstract_deadline: '2021-10-14 23:59:59'
+  year: 2023
+  id: www23
+  link: https://www2023.thewebconf.org/
+  deadline: '2022-10-13 23:59:59'
+  abstract_deadline: '2022-10-06 23:59:59'
   timezone: UTC-12
-  place: Lyon, France
-  date: April 25-29, 2022
-  start: 2022-04-25
-  end: 2022-04-29
+  place: Texas, USA
+  date: April 30 - May 4, 2022
+  start: 2022-04-30
+  end: 2022-05-04
   hindex: 70
   sub: DM
-  note: Mandatory abstract deadline on October 12, 2020
+  note: Mandatory abstract deadline on October 6, 2022
 
 - title: ACL
   year: 2022
