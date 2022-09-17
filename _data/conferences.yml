@@ -1235,3 +1235,19 @@
   sub: ML
   note: This is the inaugural event of a conference dedicated to Graph Machine Learning
   
+  
+  - title: AI4science NASSMA 2022
+  year: 2022
+  id: AI4science22  # title as lower case + last two digits of year
+  full_name: AI for science, NASSMA workshop  # full conference name
+  link: ai4science.nassma.ai
+  deadline: 2022-10-15 00:00
+  abstract_deadline: 2022-10-15 00:00
+  timezone: GMT
+  place: Rabat, Morocco
+  date: December, 12-16, 2022
+  start: 2022-12-12
+  end: 2022-12-16
+  sub: ML
+  note: The workshop is a collaboration between NASSMA organisation, Deepmind and UM6P. NASSMA is an NGO working toward the promotion of STEM and AI education and research in MENA region. 
+  
