@@ -1,5 +1,17 @@
 ---
-
+- title: PAKDD
+  year: 2023
+  id: pakdd23
+  link: https://pakdd2023.org
+  deadline: '2022-11-24 23:59:59'
+  timezone: UTC-8
+  place: Osaka, Japan
+  date: May 25-28, 2023
+  start: 2022-05-25
+  end: 2022-05-28
+  hindex: 29
+  sub: DM
+  
 - title: AISTATS
   year: 2023
   id: aistats23
