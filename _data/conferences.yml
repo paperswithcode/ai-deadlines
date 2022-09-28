@@ -1,4 +1,19 @@
 ---
+- title: EACL
+  year: 2023
+  id: eacl23
+  link: https://2023.eacl.org/
+  deadline: '2022-10-20 23:59:00'
+  abstract_deadline: '2022-10-13 23:59:00'
+  timezone: UTC-12
+  place: Hybrid (Dubrovnik, Croatia)
+  date: May 02-06, 2023
+  start: 2023-05-02
+  end: 2023-05-06
+  hindex: 62
+  sub: NLP
+  note: Hybrid format with ARR and START. Above deadlines are for START. More info <a href="https://2023.eacl.org/calls/papers/">here</a>.
+
 - title: PAKDD
   year: 2023
   id: pakdd23
