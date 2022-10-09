@@ -13,3 +13,5 @@ markdown: kramdown
 ga_id:
 
 include: ['_pages']
+exclude:
+  - src

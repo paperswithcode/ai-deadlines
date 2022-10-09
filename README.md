@@ -4,13 +4,11 @@ Countdown timers to keep track of a bunch of CV/NLP/ML/RO conference deadlines.
 
 ## Contributing
 
-[![](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/images/0)](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/links/0)[![](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/images/1)](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/links/1)[![](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/images/2)](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/links/2)[![](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/images/3)](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/links/3)[![](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/images/4)](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/links/4)[![](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/images/5)](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/links/5)[![](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/images/6)](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/links/6)[![](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/images/7)](https://sourcerer.io/fame/abhshkdz/abhshkdz/ai-deadlines/links/7)
-
 Contributions are very welcome!
 
-To keep things minimal, I'm only looking to list top-tier conferences in AI as per [conferenceranks.com][6] and my judgement calls. Please feel free to maintain a separate fork if you don't see your sub-field or conference of interest listed.
+### Manual Adding of a Deadline
 
-To add or update a deadline:
+If you found new information online, you can manually add or update a deadline:
 - Fork the repository
 - Update `_data/conferences.yml`
 - Make sure it has the `title`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place`, `sub` attributes
@@ -24,8 +22,8 @@ To add or update a deadline:
       id: bestconf22  # title as lower case + last two digits of year
       full_name: Best Conference for Anything  # full conference name
       link: link-to-website.com
-      deadline: YYYY-MM-DD HH:SS
-      abstract_deadline: YYYY-MM-DD HH:SS
+      deadline: YYYY-MM-DD HH:MM
+      abstract_deadline: YYYY-MM-DD HH:MM
       timezone: Asia/Seoul
       place: Incheon, South Korea
       date: September, 18-22, 2022
@@ -38,6 +36,20 @@ To add or update a deadline:
       note: Important
     ```
 - Send a pull request
+
+### Automated Adding of a Deadline
+
+- [master_data.csv](_data/master_data.csv) contains a list of conferences for which we scraped data automatically from [WikiCFP](http://wikicfp.com/cfp/)
+- You can add your conference master data here, and hope that someone will add it to WikiCFP (or do it yourself) and that we match it
+- Automated scraping be run by
+  - Building the Docker containir or setting up a suitable Python environment
+    ```shell
+    docker build -t deadlines .
+    ```
+  - Running 
+    ```shell
+    docker run -it --rm --mount type=bind,source=${PWD},target=/app deadlines
+    ```
 
 ## Forks & other useful listings
 
