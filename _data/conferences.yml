@@ -1,4 +1,19 @@
 ---
+- title: ACL
+  year: 2023
+  id: acl23
+  link: https://2023.aclweb.org/
+  deadline: '2023-01-20 23:59:00'
+  abstract_deadline: '2023-01-13 23:59:00'
+  timezone: UTC-12
+  place: Toronto, Canada
+  date: July 10-12, 2023
+  start: 2023-07-10
+  end: 2023-07-12
+  hindex: 169
+  sub: NLP
+  note: Hybrid format with ARR and START. Above deadlines are for START. More info <a href="https://2023.aclweb.org/calls/main_conference/">here</a>.
+
 - title: EACL
   year: 2023
   id: eacl23
