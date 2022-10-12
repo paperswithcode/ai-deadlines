@@ -1,4 +1,19 @@
 ---
+- title: ICAPS
+  year: 2023
+  id: icaps23
+  link: https://icaps23.icaps-conference.org/
+  deadline: '2022-11-30 23:59:59'
+  abstract_deadline: '2022-11-25 23:59:59'
+  timezone: UTC-12
+  place: Prague, Czech Republic
+  date: Jul 08-13, 2023
+  start: 2023-07-08
+  end: 2022-07-13
+  hindex: 27
+  sub: AP
+  note: Mandatory abstract deadline on November 25, 2022. More info <a href='https://icaps23.icaps-conference.org/'>here</a>.
+
 - title: ACL
   year: 2023
   id: acl23
