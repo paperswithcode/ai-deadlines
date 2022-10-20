@@ -1019,19 +1019,18 @@
   note: Mandatory abstract deadline on Dec 14, 2021. More info <a href='https://facctconference.org/2022/cfp.html'>here</a>.
 
 - title: CHIL
-  year: 2022
-  id: chil22
+  year: 2023
+  id: chil23
   link: https://www.chilconference.org/
-  deadline: '2022-01-14 23:59:59'
+  deadline: '2023-02-03 23:59:59'
   timezone: UTC-12
-  place: Online
-  date: April 7-8, 2022
-  start: 2022-04-07
-  end: 2022-04-08
-  paperslink: https://www.chilconference.org/2021/proceedings.html
+  place: Cambridge, Massachusetts, USA
+  date: June 22-24, 2023
+  start: 2023-06-22
+  end: 2023-06-24
+  paperslink: https://proceedings.mlr.press/v174/
   hindex: -1
   sub: ML
-  note: Recommended abstract deadline on Jan 10, 2021. More info <a href='https://www.chilconference.org'>here</a>.
 
 - title: NAACL
   year: 2022
