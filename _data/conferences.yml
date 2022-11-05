@@ -1,4 +1,19 @@
 ---
+
+- title: IJCAI
+  year: 2023
+  id: ijcai23
+  link: https://ijcai-23.org/
+  deadline: '2023-01-18 23:59:59'
+  timezone: UTC-12
+  place: Cape Town, South Africa
+  date: August 19-25, 2023
+  start: 2023-08-19
+  end: 2023-08-25
+  hindex: 120
+  sub: ML
+  note: Mandatory abstract deadline on Jan 11, 2023, and supplementary material deadline on Jan 23, 2023. More info <a href='https://ijcai-23.org/'>here</a>.
+
 - title: ICML
   year: 2023
   id: icml23
@@ -12,7 +27,6 @@
   hindex: 204
   sub: ML
 
-  
 - title: IROS
   year: 2023
   id: iros23
