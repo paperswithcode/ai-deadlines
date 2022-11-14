@@ -50,6 +50,8 @@ To add or update a deadline:
 - [ccf-deadlines][11] by @ccfddl
 - [netdeadlines.com][12] by @albertgranalcoz
 - [ad-deadlines.com][13] by @daniel-bogdoll
+- [sec-deadlines.github.io/ (Security and Privacy)][14] by @clementfung
+- [pythondeadlin.es][15] by @jesperdramsch
 
 ## License
 
@@ -71,3 +73,5 @@ It uses:
 [11]: https://ccfddl.github.io/
 [12]: https://netdeadlines.com/
 [13]: https://ad-deadlines.com/
+[14]: https://sec-deadlines.github.io/
+[15]: https://pythondeadlin.es/

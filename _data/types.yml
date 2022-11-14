@@ -20,3 +20,9 @@
 - name: Data Mining
   sub: DM
   color: "#be0aff"
+- name: Automated Planning
+  sub: AP
+  color: "#a432a8"
+- name: Knowledge Representation
+  sub: KR
+  color: "#32a855"
