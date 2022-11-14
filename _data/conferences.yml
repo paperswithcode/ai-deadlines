@@ -1121,3 +1121,18 @@
   date: December, 6-9, 2022
   sub: CG
   note: 
+ 
+- title: SIGGRAPHConf
+  year: 2023
+  id: siggraph23  # title as lower case + last two digits of year
+  full_name: Best Conference on Special Interest Group on Computer Graphics and Interactive Techniques  # full conference name
+  link: https://s2023.siggraph.org/
+  deadline: 2023-01-25 22:00
+  abstract_deadline: 2023-01-24 22:00
+  timezone: UTC
+  place: Los Angeles, American
+  date: August, 6-10, 2023
+  start: 2023-08-06
+  end: 2023-08-10
+  sub: CG
+  note: 
