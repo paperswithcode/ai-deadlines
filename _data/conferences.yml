@@ -1,5 +1,18 @@
 ---
 
+- title: RSS
+  year: 2023
+  id: rss23
+  link: https://roboticsconference.org/2023
+  deadline: '2023-02-03 23:59:59'
+  timezone: UTC-12
+  place: Daegu, South Korea
+  date: July 10-14, 2023
+  start: 2023-07-10
+  end: 2023-07-14
+  hindex: 58
+  sub: RO
+
 - title: IJCAI
   year: 2023
   id: ijcai23
@@ -643,7 +656,7 @@
 - title: RSS
   year: 2021
   id: rss21
-  link: https://roboticsconference.org/
+  link: https://roboticsconference.org/2021
   deadline: '2021-03-01 23:59:59'
   timezone: UTC-12
   place: Online
@@ -1146,7 +1159,7 @@
 - title: RSS
   year: 2022
   id: rss22
-  link: https://roboticsconference.org/
+  link: https://roboticsconference.org/2022
   deadline: '2022-01-28 23:59:59'
   timezone: UTC-12
   place: New York City, USA
