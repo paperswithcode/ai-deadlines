@@ -26,6 +26,21 @@
   end: 2023-07-29
   hindex: 204
   sub: ML
+  
+ - title: SIGIR
+  year: 2023
+  id: sigir23
+  link: https://sigir.org/sigir2023/
+  deadline: '2023-01-31 23:59:00'
+  abstract_deadline: '2022-01-24 23:59:00'
+  timezone: UTC-12
+  place: Taipei, Taiwan
+  date: July 23-27 2023
+  start: 2023-07-23
+  end: 2023-07-27
+  hindex: 66
+  sub: DM
+  note: Mandatory abstract deadline on January 24, 2023. More info <a href='https://sigir.org/sigir2023/call-for-full-papers/'>here</a>.
 
 - title: IROS
   year: 2023
