@@ -3,6 +3,7 @@
 - title: IJCAI
   year: 2023
   id: ijcai23
+  full_name: International Joint Conference on Neural Networks
   link: https://ijcai-23.org/
   deadline: '2023-01-18 23:59:59'
   timezone: UTC-12
@@ -13,6 +14,18 @@
   hindex: 120
   sub: ML
   note: Mandatory abstract deadline on Jan 11, 2023, and supplementary material deadline on Jan 23, 2023. More info <a href='https://ijcai-23.org/'>here</a>.
+
+- title: IJCNN
+  year: 2023
+  id: ijcnn23
+  link: https://2023.ijcnn.org/
+  deadline: '2023-01-31 23:59:59'
+  timezone: UTC+12
+  place: Queensland, Australia
+  date: June 18-23, 2023
+  start: 2023-06-18
+  end: 2023-06-23
+  sub: ML
 
 - title: ICML
   year: 2023
