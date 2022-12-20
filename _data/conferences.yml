@@ -1363,3 +1363,15 @@
   sub: ML
   note: The workshop is a collaboration between NASSMA organisation, Deepmind and UM6P. NASSMA is an NGO working toward the promotion of STEM and AI education and research in MENA region. 
   
+- title: Cloud S&P 2023
+  year: 2023
+  id: cloudS&P2023
+  link: https://cloudsp2023.encs.concordia.ca/
+  deadline: '2023-03-20 23:59:59'
+  timezone: UTC-5
+  place: Kyoto, Japan
+  date: August 19-25, 2023
+  start: 2023-06-19
+  end: 2023-06-22
+  sub: CloudSecurity
+  note: CLOUD S&P brings researchers and practitioners on the cloud domain to present and initiate discussion on various security and privacy attacks and their countermeasures to improve the security guarantee in a cloud ecosystem.
