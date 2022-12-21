@@ -85,7 +85,7 @@
   id: kr23
   link: https://kr.org/KR2023/
   deadline: '2023-03-14 23:59:59'
-  abstract_deadline: '2023-03-07 23:59:59'
+  abstract_deadline: '2023-03-03 23:59:59'
   timezone: UTC-12
   place: Rhodes, Greece
   date: Sep 02-08, 2023
@@ -93,7 +93,7 @@
   end: 2023-09-08
   hindex: -1
   sub: KR
-  note: Mandatory abstract deadline on March 07, 2023. More info <a href='https://kr.org/KR2023/'>here</a>.
+  note: Mandatory abstract deadline on March 03, 2023. More info <a href='https://kr.org/KR2023/'>here</a>.
 
 - title: ICAPS
   year: 2023
