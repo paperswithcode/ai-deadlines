@@ -415,17 +415,16 @@
   sub: CV
 
 - title: ICIP
-  year: 2021
-  id: icip21
-  link: https://2021.ieeeicip.org
-  deadline: '2021-01-13 23:59:59'
+  year: 2023
+  id: icip23
+  link: https://2023.ieeeicip.org/
+  deadline: '2023-02-15 23:59:59'
   timezone: America/Los_Angeles
-  place: Anchorage, Alaska, USA
-  date: September, 19-22, 2021
-  start: 2021-09-19
-  end: 2021-09-22
-  paperslink: https://2021.ieeeicip.org/Papers/TechnicalProgram_MS.asp
-  hindex: 52
+  place: Kuala Lumpur, Malaysia
+  date: September, 19-22, 2023
+  start: 2023-10-08
+  end: 2023-10-11
+  hindex: 60
   sub: CV
 
 - title: SIGGRAPH
@@ -523,8 +522,8 @@
   deadline: '2023-03-08 23:59:00'
   timezone: UTC
   place: Paris, France
-  date: September 30th - October 6, 2023
-  start: 2023-09-30
+  date: October 2 - October 6, 2023
+  start: 2023-10-02
   end: 2023-10-06
   hindex: 239
   sub: CV
