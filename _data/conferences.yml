@@ -501,19 +501,18 @@
   sub: RO
 
 - title: MICCAI
-  year: 2021
-  id: miccai2021
-  link: http://www.miccai2021.org/
-  deadline: '2021-03-03 23:59:59'
+  year: 2023
+  id: miccai2023
+  link: http://www.miccai2023.org/
+  deadline: '2023-03-09 23:59:59'
   timezone: America/Los_Angeles
-  place: Lima, Peru
-  date: September 27 - October 1, 2021
-  start: 2021-09-27
-  end: 2021-10-01
-  paperslink: https://www.miccai2021.org/en/TENTATIVE-SCHEDULE.html
-  hindex: 46
+  place: Vancouver, Canada
+  date: October 8 - October 12, 2023
+  start: 2023-10-08
+  end: 2023-10-12
+  hindex: 78
   sub: CV
-  note: Intent to submit deadline on Feb 19, 2021. More info <a href='https://www.miccai2021.org/'>here</a>.
+  note: More info <a href='https://conferences.miccai.org/2023/'>here</a>.
 
 - title: ICCV
   year: 2023
