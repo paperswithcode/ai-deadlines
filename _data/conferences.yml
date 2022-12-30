@@ -621,22 +621,6 @@
   hindex: 52
   sub: CV
 
-- title: SIGGRAPH
-  year: 2021
-  id: siggraph21
-  link: https://s2021.siggraph.org/
-  deadline: '2021-01-28 22:00:00'
-  abstract_deadline: '2021-01-27 22:00:00'
-  timezone: UTC
-  place: Online
-  date: August 1-5, 2021
-  start: 2021-08-01
-  end: 2021-08-05
-  paperslink: https://s2021.siggraph.org/full-program/
-  hindex: 19
-  sub: CV
-  note: Mandatory abstract deadline on Jan 27, 2021. More info <a href='https://s2021.siggraph.org/program/technical-papers/'>here</a>.
-
 - title: MIDL
   year: 2021
   id: midl2021
@@ -1138,21 +1122,6 @@
   end: 2022-06-09
   sub: DM
 
-- title: SIGGRAPH
-  year: 2022
-  id: siggraph22
-  link: https://s2022.siggraph.org/
-  deadline: '2022-01-27 22:00:00'
-  abstract_deadline: '2022-01-26 22:00:00'
-  timezone: UTC
-  place: Vancouver
-  date: August 8-11, 2022
-  start: 2022-08-08
-  end: 2022-08-11
-  hindex: 19
-  sub: CG
-  note: Mandatory abstract deadline on Jan 26, 2022. More info <a href='https://s2022.siggraph.org/program/technical-papers/'>here</a>.
-
 - title: ICML
   year: 2022
   id: icml22
@@ -1402,4 +1371,17 @@
   end: 2022-12-16
   sub: ML
   note: The workshop is a collaboration between NASSMA organisation, Deepmind and UM6P. NASSMA is an NGO working toward the promotion of STEM and AI education and research in MENA region. 
-  
+
+- title: SIGGRAPH 2023
+  year: 2023
+  id: siggraph23
+  link: https://s2023.siggraph.org/
+  deadline: '2023-01-24 22:00:00'
+  abstract_deadline: '2022-01-25 22:00:00'
+  timezone: GMT
+  place: Los Angeles, USA
+  date: August 6-10, 2022
+  start: 2023-08-06
+  end: 2023-08-10
+  sub: CG
+  note: Mandatory abstract deadline on Jan 24, 2022. More info <a href='https://s2023.siggraph.org/program/technical-papers/'>here</a>.
