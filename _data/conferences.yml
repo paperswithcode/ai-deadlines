@@ -1,5 +1,18 @@
 ---
 
+- title: KDD
+  year: 2023
+  id: kdd23
+  link: https://www.kdd.org/kdd2023/
+  deadline: '2023-02-02 23:59:59'
+  timezone: UTC-12
+  place: Long Beach, CA, USA
+  date: August 06-10, 2023
+  start: 2023-08-06
+  end: 2023-08-10
+  hindex: 114
+  sub: DM
+
 - title: UAI
   year: 2023
   id: uai23
