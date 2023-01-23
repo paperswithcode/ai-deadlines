@@ -619,17 +619,16 @@
   sub: CV
 
 - title: ICIP
-  year: 2021
-  id: icip21
-  link: https://2021.ieeeicip.org
-  deadline: '2021-01-13 23:59:59'
+  year: 2023
+  id: icip23
+  link: https://2023.ieeeicip.org/
+  deadline: '2023-02-15 23:59:59'
   timezone: America/Los_Angeles
-  place: Anchorage, Alaska, USA
-  date: September, 19-22, 2021
-  start: 2021-09-19
-  end: 2021-09-22
-  paperslink: https://2021.ieeeicip.org/Papers/TechnicalProgram_MS.asp
-  hindex: 52
+  place: Kuala Lumpur, Malaysia
+  date: September, 19-22, 2023
+  start: 2023-10-08
+  end: 2023-10-11
+  hindex: 60
   sub: CV
 
 - title: SIGGRAPH
@@ -706,19 +705,18 @@
   sub: RO
 
 - title: MICCAI
-  year: 2021
-  id: miccai2021
-  link: http://www.miccai2021.org/
-  deadline: '2021-03-03 23:59:59'
+  year: 2023
+  id: miccai2023
+  link: https://conferences.miccai.org/2023/en/
+  deadline: '2023-03-09 23:59:59'
   timezone: America/Los_Angeles
-  place: Lima, Peru
-  date: September 27 - October 1, 2021
-  start: 2021-09-27
-  end: 2021-10-01
-  paperslink: https://www.miccai2021.org/en/TENTATIVE-SCHEDULE.html
-  hindex: 46
+  place: Vancouver, Canada
+  date: October 8 - October 12, 2023
+  start: 2023-10-08
+  end: 2023-10-12
+  hindex: 78
   sub: CV
-  note: Intent to submit deadline on Feb 19, 2021. More info <a href='https://www.miccai2021.org/'>here</a>.
+  note: More info <a href='https://conferences.miccai.org/2023/'>here</a>.
 
 - title: ICCV
   year: 2023
@@ -727,8 +725,8 @@
   deadline: '2023-03-08 23:59:00'
   timezone: UTC
   place: Paris, France
-  date: September 30th - October 6, 2023
-  start: 2023-09-30
+  date: October 2 - October 6, 2023
+  start: 2023-10-02
   end: 2023-10-06
   hindex: 239
   sub: CV
@@ -751,18 +749,16 @@
   note: Mandatory abstract deadline on Mar 26, 2021. More info <a href='https://2021.ecmlpkdd.org/?page_id=1599/'>here</a>.
 
 - title: InterSpeech
-  year: 2021
-  id: interspeech21
-  link: http://www.interspeech2021.org/
-  deadline: '2021-04-02 23:59:59'
-  abstract_deadline: '2021-03-26 23:59:59'
+  year: 2023
+  id: interspeech23
+  link: http://www.interspeech2023.org/
+  deadline: '2023-03-01 23:59:59'
   timezone: UTC-12
-  place: Brno, Czechia
-  date: August 30 - September 3, 2021
-  start: 2021-08-30
-  end: 2021-09-03
-  paperslink: https://www.isca-speech.org/archive/interspeech_2021/index.html
-  hindex: 81
+  place: Dublin, Ireland
+  date: August 20 - August 24, 2023
+  start: 2023-08-30
+  end: 2023-09-03
+  hindex: 100
   sub: SP
 
 - title: FG
@@ -1208,16 +1204,16 @@
   sub: RO
 
 - title: KDD
-  year: 2022
-  id: kdd22
-  link: https://www.kdd.org/kdd2022/
-  deadline: '2022-02-10 23:59:59'
+  year: 2023
+  id: kdd23
+  link: https://kdd.org/kdd2023/
+  deadline: '2023-02-02 23:59:59'
   timezone: UTC-12
-  place: Washington, DC, USA
-  date: August 14-18, 2022
-  start: 2022-08-14
-  end: 2022-08-18
-  hindex: 30
+  place: Long Beach, California, USA
+  date: August 6-10, 2023
+  start: 2023-08-06
+  end: 2023-08-10
+  hindex: 114
   sub: DM
 
 - title: ICIP
