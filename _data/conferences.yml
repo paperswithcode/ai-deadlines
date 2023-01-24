@@ -1,5 +1,20 @@
 ---
 
+- title: NeurIPS
+  year: 2023
+  id: neurips23
+  link: https://neurips.cc/Conferences/2023/
+  deadline: '2022-05-17 20:00:00'
+  abstract_deadline: '2022-05-11 20:00:00'
+  timezone: UTC
+  place: New Orleans, Louisiana, USA
+  date: December 10 - December 16, 2023
+  start: 2023-12-10
+  end: 2023-12-16
+  hindex: 278
+  sub: ML
+  note: Mandatory abstract deadline on May 11, 2023
+
 - title: AutoML-Conf
   year: 2023
   id: automl-conf23
