@@ -1404,3 +1404,18 @@
   end: 2023-08-10
   sub: CG
   note: Mandatory abstract deadline on Jan 24, 2022. More info <a href='https://s2023.siggraph.org/program/technical-papers/'>here</a>.
+  
+  - title: MM
+  year: 2023
+  id: mm23
+  link: https://www.acmmm2023.org/
+  deadline: '2022-04-30 23:59:59'
+  abstract_deadline: '2022-04-23 23:59:59'
+  timezone: UTC-12
+  place: Ottawa, Canada
+  date: October 29 – November 3, 2023
+  start: 2022-10-29
+  end: 2022-11-03
+  hindex: 58
+  sub: CV
+  note: Mandatory abstract deadline on April 23, 2022. More info <a href='https://www.acmmm2023.org/cfp/'>here</a>.
