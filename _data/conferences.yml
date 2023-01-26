@@ -1,5 +1,19 @@
 ---
 
+- title: ECAI
+  year: 2023
+  id: ecai23
+  link: https://ecai2023.eu/
+  deadline: '2023-05-08 23:59:59'
+  abstract_deadline: '2023-05-02 23:59:59'
+  timezone: UTC-12
+  place: Kraków, Poland
+  date: September 30 - October 05, 2023
+  start: 2023-09-30
+  end: 2023-10-05
+  sub: ML
+  note: Mandatory abstract deadline on May 02, 2023. More info <a href='https://ecai2023.eu/ECAI2023>here</a>.
+
 - title: AutoML-Conf
   year: 2023
   id: automl-conf23
