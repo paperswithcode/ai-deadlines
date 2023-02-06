@@ -11,3 +11,12 @@
 - name: Artificial Intelligence
   sub: AI
   color: '#0aefff'
+- name: Human-Robot Interaction
+  sub: HRI
+  color: '#32a855'
+- name: Virtual Reality
+  sub: VR
+  color: '#be0aff'
+- name: Haptics
+  sub: VR
+  color: '#0aefff'

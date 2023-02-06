@@ -112,5 +112,18 @@
   date: October, 14-18, 2023
   start: 2023-10-14
   end: 2023-10-18
-  hindex: -1
+  hindex: 48
   sub: CSCW
+
+- title: HRI
+  year: 2023
+  id: hri23
+  link: https://humanrobotinteraction.org/2023/
+  deadline: '2022-10-03 23:59:59'
+  timezone: UTC-12
+  place: Stockholm, Sweden
+  date: March, 13-16, 2023
+  start: 2023-03-13
+  end: 2023-03-16
+  hindex: 52
+  sub: HRI
