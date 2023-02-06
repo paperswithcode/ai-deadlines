@@ -18,5 +18,8 @@
   sub: VR
   color: '#be0aff'
 - name: Haptics
-  sub: VR
-  color: '#0aefff'
+  sub: HAP
+  color: '#0affff'
+- name: Visualization
+  sub: VIS
+  color: '#0befff'
