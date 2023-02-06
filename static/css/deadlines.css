@@ -238,6 +238,10 @@ footer {
   border-bottom: 2px solid #bb2d3b;
 }
 
+#past_confs .past{
+  opacity: 0.5;
+}
+
 .badge-link {
   vertical-align: middle; 
   margin-bottom: 3px;
