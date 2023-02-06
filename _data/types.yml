@@ -1,28 +1,7 @@
 ---
-- name: Machine Learning
-  sub: ML
+- name: Human-Computer Interaction
+  sub: HCI
   color: "#ffd300"
-- name: Computer Vision
-  sub: CV
+- name: Design
+  sub: DS
   color: "#deff0a"
-- name: Computer Graphics
-  sub: CG
-  color: "#0aefff"
-- name: Natural Language Proc
-  sub: NLP
-  color: "#147df5"
-- name: Robotics
-  sub: RO
-  color: "#0aff99"
-- name: Speech/SigProc
-  sub: SP
-  color: "#580aff"
-- name: Data Mining
-  sub: DM
-  color: "#be0aff"
-- name: Automated Planning
-  sub: AP
-  color: "#a432a8"
-- name: Knowledge Representation
-  sub: KR
-  color: "#32a855"

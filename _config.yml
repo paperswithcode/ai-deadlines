@@ -1,13 +1,13 @@
-title: AI Conference Deadlines
-description: Countdowns to top CV/NLP/ML/Robotics/AI conference deadlines
-author: Abhishek Das
+title: HCI Conference Deadlines
+description: Countdowns to top HCI conference deadlines
+author: Andrea Bianchi
 
-domain: "aideadlin.es"
+domain: ""
 baseurl: ""
 
-twitter_hashtag: machinelearning
-github_username: paperswithcode
-github_repo: ai-deadlines
+twitter_hashtag: hci
+github_username: makinteractlab
+github_repo: hci-deadlines
 
 markdown: kramdown
 ga_id:

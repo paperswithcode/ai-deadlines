@@ -1,6 +1,8 @@
-## AI Deadlines [![Build Status](https://travis-ci.com/abhshkdz/ai-deadlines.svg?branch=gh-pages)](https://travis-ci.com/abhshkdz/ai-deadlines)
+## HCI Deadlines [![Build Status](https://travis-ci.com/abhshkdz/ai-deadlines.svg?branch=gh-pages)](https://travis-ci.com/abhshkdz/ai-deadlines)
 
-Countdown timers to keep track of a bunch of CV/NLP/ML/RO conference deadlines.
+Countdown timers to keep track of a bunch of Human-Computer Interaction conference deadlines.
+
+This is a fork of the [ai-deadlines](https://github.com/paperswithcode/ai-deadlines) website.
 
 ## Contributing
 
@@ -39,20 +41,6 @@ To add or update a deadline:
     ```
 - Send a pull request
 
-## Forks & other useful listings
-
-- [geodeadlin.es][3] by @LukasMosser
-- [neuro-deadlines][4] by @tbryn
-- [ai-challenge-deadlines][5] by @dieg0as
-- [CV-oriented ai-deadlines (with an emphasis on medical images)][8] by @duducheng
-- [es-deadlines (Embedded Systems, Computer Architecture, and Cyber-physical Systems)][9] by @AlexVonB and @k0nze
-- [2019-2020 International Conferences in AI, CV, DM, NLP and Robotics][10] by @JackieTseng
-- [ccf-deadlines][11] by @ccfddl
-- [netdeadlines.com][12] by @albertgranalcoz
-- [ad-deadlines.com][13] by @daniel-bogdoll
-- [sec-deadlines.github.io/ (Security and Privacy)][14] by @clementfung
-- [pythondeadlin.es][15] by @jesperdramsch
-- [deadlines.openlifescience.ai (Healthcare domain conferences and workshops)][16] by @monk1337
 
 ## License
 
