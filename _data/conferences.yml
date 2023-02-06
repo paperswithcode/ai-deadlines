@@ -183,7 +183,7 @@
   hindex: 33
   sub: HCI
   note: Mandatory abstract deadline on April 12, 2023.
-  
+
 - title: CUI
   year: 2023
   id: cui23
@@ -198,3 +198,17 @@
   end: 2023-07-21
   sub: HCI
   note: Mandatory abstract deadline on February 15, 2023.
+
+- title: VL/HCC
+  year: 2023
+  id: vlhcc23
+  link: https://conf.researchr.org/home/vlhcc-2023
+  deadline: '2023-04-28 23:59:59'
+  abstract_deadline: '2023-04-21 23:59:59'
+  timezone: UTC-12
+  place: Washington, DC, USA
+  date: October, 2-6, 2023
+  start: 2023-10-02
+  end: 2023-10-06
+  sub: HCI
+  note: Mandatory abstract deadline on April 21, 2023.
