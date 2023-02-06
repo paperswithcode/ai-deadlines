@@ -1,7 +1,13 @@
 ---
 - name: Human-Computer Interaction
   sub: HCI
-  color: "#ffd300"
+  color: '#ffd300'
 - name: Design
   sub: DS
-  color: "#deff0a"
+  color: '#deff0a'
+- name: Artificial Intelligence
+  sub: AI
+  color: '#0aefff'
+- name: Robotics
+  sub: RO
+  color: '#0aff99'
