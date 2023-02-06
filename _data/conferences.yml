@@ -167,3 +167,17 @@
   hindex: 38
   sub: VR
   note: Mandatory abstract deadline on October 7, 2022.
+
+- title: AutoUI
+  year: 2023
+  id: autoui23
+  link: https://www.auto-ui.org/23/
+  deadline: '2023-04-19 23:59:59'
+  timezone: UTC-12
+  place: Ingolstadt, Germany
+  date: September, 18-21, 2023
+  start: 2023-09-18
+  end: 2023-09-21
+  hindex: 33
+  sub: HCI
+  note: Mandatory abstract deadline on April 12, 2023.
