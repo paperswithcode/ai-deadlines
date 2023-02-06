@@ -2,8 +2,8 @@ title: HCI Conference Deadlines
 description: Countdowns to top HCI conference deadlines
 author: Andrea Bianchi
 
-domain: ""
-baseurl: ""
+domain: 'http://hci-deadlines.kaist.id'
+baseurl: ''
 
 twitter_hashtag: hci
 github_username: makinteractlab
