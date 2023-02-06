@@ -28,7 +28,7 @@
   year: 2023
   id: uist23
   link: https://uist.acm.org/2023/
-  deadline: '2023-03-30 23:59:59'
+  deadline: '2023-04-05 23:59:59'
   timezone: UTC-12
   place: California Bay Area, USA
   date: October 29 - November 01, 2023
@@ -36,6 +36,7 @@
   end: 2023-11-01
   hindex: 44
   sub: HCI
+  note: Mandatory abstract deadline on March 30, 2023.
 
 - title: DIS
   year: 2023
