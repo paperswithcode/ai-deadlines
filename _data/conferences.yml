@@ -127,3 +127,16 @@
   end: 2023-03-16
   hindex: 52
   sub: HRI
+
+- title: World Haptics
+  year: 2023
+  id: wh23
+  link: https://2023.worldhaptics.org
+  deadline: '2023-02-08 23:59:59'
+  timezone: UTC-12
+  place: Delft, Netherlands
+  date: July, 10-13, 2023
+  start: 2023-03-13
+  end: 2023-03-16
+  hindex: -1
+  sub: Haptics
