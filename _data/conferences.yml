@@ -23,3 +23,81 @@
   end: 2023-11-01
   hindex: 44
   sub: HCI
+
+- title: DIS
+  year: 2023
+  id: dis23
+  link: https://dis.acm.org/2023/
+  deadline: '2023-02-2 23:59:59'
+  timezone: UTC-12
+  place: Pittsburgh, Pennsylvania, USA
+  date: July, 10-14, 2023
+  start: 2023-07-10
+  end: 2023-07-14
+  hindex: 41
+  sub: DS
+
+- title: Ubicomp/ISWC (IMWUT Issue 1)
+  year: 2023
+  id: imwut23_1
+  link: https://www.ubicomp.org/ubicomp-iswc-2023/cfp/papers/
+  deadline: '2022-11-15 23:59:59'
+  timezone: UTC-12
+  place: Cancun, Mexico
+  date: October, 8-12, 2023
+  start: 2023-10-08
+  end: 2023-10-12
+  hindex: 58
+  sub: HCI
+
+- title: Ubicomp/ISWC (IMWUT Issue 2)
+  year: 2023
+  id: imwut23_2
+  link: https://www.ubicomp.org/ubicomp-iswc-2023/cfp/papers/
+  deadline: '2023-02-15 23:59:59'
+  timezone: UTC-12
+  place: Cancun, Mexico
+  date: October, 8-12, 2023
+  start: 2023-10-08
+  end: 2023-10-12
+  hindex: 58
+  sub: HCI
+
+- title: Ubicomp/ISWC (IMWUT Issue 3)
+  year: 2023
+  id: imwut23_3
+  link: https://www.ubicomp.org/ubicomp-iswc-2023/cfp/papers/
+  deadline: '2023-05-15 23:59:59'
+  timezone: UTC-12
+  place: Cancun, Mexico
+  date: October, 8-12, 2023
+  start: 2023-10-08
+  end: 2023-10-12
+  hindex: 58
+  sub: HCI
+
+- title: MobileHCI
+  year: 2023
+  id: mobilehci23
+  link: https://mobilehci.acm.org/2023/index.php
+  deadline: '2023-01-20 23:59:59'
+  timezone: UTC-12
+  place: Athens, Greece
+  date: September, 26-29, 2023
+  start: 2023-09-26
+  end: 2023-09-29
+  hindex: -1
+  sub: HCI
+
+- title: ASSETS
+  year: 2023
+  id: assets23
+  link: https://assets23.sigaccess.org
+  deadline: '2023-05-03 23:59:59'
+  timezone: UTC-12
+  place: New York, NY, USA
+  date: October, 23-25, 2023
+  start: 2023-10-23
+  end: 2023-10-25
+  hindex: -1
+  sub: HCI
