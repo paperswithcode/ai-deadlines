@@ -10,6 +10,19 @@
   end: 2023-04-28
   hindex: 113
   sub: HCI
+  
+- title: VIS
+  year: 2023
+  id: vis23
+  link: https://ieeevis.org/year/2023
+  deadline: '2022-09-15 23:59:59'
+  timezone: UTC+11
+  place: Melbourne, Australia
+  date: October, 22-27, 2023
+  start: 2023-10-22
+  end: 2023-10-27
+  hindex: 148
+  sub: VIS
 
 - title: UIST
   year: 2023
@@ -154,3 +167,4 @@
   hindex: 38
   sub: VR
   note: Mandatory abstract deadline on October 7, 2022.
+
