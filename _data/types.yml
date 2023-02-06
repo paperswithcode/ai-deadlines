@@ -5,9 +5,9 @@
 - name: Design
   sub: DS
   color: '#deff0a'
+- name: CSCW
+  sub: CSCW
+  color: '#0aff99'
 - name: Artificial Intelligence
   sub: AI
   color: '#0aefff'
-- name: Robotics
-  sub: RO
-  color: '#0aff99'
