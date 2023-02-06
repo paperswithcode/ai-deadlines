@@ -8,7 +8,7 @@
 - name: CSCW
   sub: CSCW
   color: '#0aff99'
-- name: Artificial Intelligence
+- name: AI+HCI
   sub: AI
   color: '#0aefff'
 - name: Human-Robot Interaction
