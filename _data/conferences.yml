@@ -140,3 +140,16 @@
   end: 2023-03-16
   hindex: -1
   sub: Haptics
+
+- title: VR
+  year: 2023
+  id: vr23
+  link: http://ieeevr.org
+  deadline: '2022-10-07 23:59:59'
+  timezone: UTC-12
+  place: Shanghai, China
+  date: March, 25-29, 2023
+  start: 2023-03-25
+  end: 2023-03-29
+  hindex: 38
+  sub: VR
