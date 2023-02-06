@@ -101,3 +101,16 @@
   end: 2023-10-25
   hindex: -1
   sub: HCI
+
+- title: CSCW
+  year: 2023
+  id: cscw23
+  link: https://cscw.acm.org/2023
+  deadline: '2023-01-15 23:59:59'
+  timezone: UTC-12
+  place: Minneapolis, MN, USA
+  date: October, 14-18, 2023
+  start: 2023-10-14
+  end: 2023-10-18
+  hindex: -1
+  sub: HCI
