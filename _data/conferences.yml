@@ -224,3 +224,15 @@
   start: 2023-10-10
   end: 2023-10-13
   sub: HCI
+  
+- title: ISMAR (Journal Papers)
+  year: 2023
+  id: ismar23j
+  link: https://ismar23.org/call-for-journal-papers/
+  deadline: '2023-03-23 23:59:59'
+  timezone: UTC-12
+  place: Sydney, Australia
+  date: October, 16-20, 2023
+  start: 2023-10-16
+  end: 2023-10-20
+  sub: VR
