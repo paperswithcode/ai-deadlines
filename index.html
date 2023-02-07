@@ -62,8 +62,12 @@
       </div>
     </div>
     <div id="confs">
+      <!-- year is a variable containing the current year as a number (hence plus 0 for convertion)-->
+      {% assign year= "now" | date: "%Y" | plus: 0 %}
       <div id="coming_confs">
         {% for conf in site.data.conferences %}
+        <!-- Show only this year events -->
+        {% if conf.year == year %}
         <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
           <div class="row conf-row">
             <div class="col-6">
@@ -143,10 +147,11 @@
           </div>
           <hr>
         </div>
+        {% endif %}
         {% endfor %}
       </div>
       <div id="past_confs">
-        <h1 id="past-events-title">Past Events</h1>
+        <h1 id="past-events-title">Past Events ({{year}})</h1>
         <div id="sort-order-checkbox">
           <label for="sort-order"><input type="checkbox" id="sort-order" name="sort-order" checked>Most recent
             first</label>
