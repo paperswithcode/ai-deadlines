@@ -14,8 +14,8 @@
 - name: Human-Robot Interaction
   sub: HRI
   color: '#32a855'
-- name: Virtual Reality
-  sub: VR
+- name: Augmented, Virtual and Mixed Reality
+  sub: XR
   color: '#be0aff'
 - name: Haptics
   sub: HAP
