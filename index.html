@@ -62,11 +62,12 @@
       </div>
     </div>
     <div id="confs">
-      <!-- year is a variable containing the current year as a number (hence plus 0 for convertion)-->
+      <!-- Show only the conferences in the current year -->
+      <!-- Current year is a number (hence plus 0 for convertion)-->
       {% assign year= "now" | date: "%Y" | plus: 0 %}
       <div id="coming_confs">
         {% for conf in site.data.conferences %}
-        <!-- Show only this year events -->
+        <!-- Show only this year events (year is computed above) -->
         {% if conf.year == year %}
         <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
           <div class="row conf-row">
