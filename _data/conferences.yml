@@ -251,3 +251,15 @@
   end: 2023-06-15
   sub: HCI
   note: Mandatory abstract deadline on January 30, 2023.
+  
+- title: ISS
+  year: 2023
+  id: iss23
+  link: https://iss2023.acm.org/track/iss-2023-papers
+  deadline: '2023-02-15 23:59:59'
+  timezone: UTC-12
+  place: Pittsburgh, PA, USA
+  date: November, 5-8, 2023
+  start: 2023-11-05
+  end: 2023-11-08
+  sub: HCI
