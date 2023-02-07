@@ -237,3 +237,17 @@
   end: 2023-10-20
   sub: XR
   note: Mandatory abstract deadline on March 19, 2023.
+
+- title: FAccT
+  year: 2023
+  id: facct23
+  link: https://facctconference.org/2023/cfp.html
+  deadline: '2023-02-06 23:59:59'
+  abstract_deadline: '2023-01-30 23:59:59'
+  timezone: UTC-12
+  place: Chicago, IL, USA
+  date: June, 12-15, 2023
+  start: 2023-06-12
+  end: 2023-06-15
+  sub: HCI
+  note: Mandatory abstract deadline on January 30, 2023.
