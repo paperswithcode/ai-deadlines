@@ -212,3 +212,15 @@
   end: 2023-10-06
   sub: HCI
   note: Mandatory abstract deadline on April 21, 2023.
+
+- title: CHI PLAY
+  year: 2023
+  id: chiplay23
+  link: https://chiplay.acm.org/2023/
+  deadline: '2023-02-21 23:59:59'
+  timezone: UTC-12
+  place: Stratford, Canada
+  date: October, 10-13, 2023
+  start: 2023-10-10
+  end: 2023-10-13
+  sub: HCI
