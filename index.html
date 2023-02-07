@@ -223,7 +223,7 @@
       date: confDate.toDate(),
       duration: 60,
     })
-    document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
+    document.querySelector('#{{conf.id}} .calendar')?.appendChild(myCalendar);
 
     // check if date has passed, add 'past' class to it
     var today = moment();
