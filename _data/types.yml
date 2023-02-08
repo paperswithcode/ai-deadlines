@@ -7,19 +7,19 @@
   color: '#deff0a'
 - name: CSCW
   sub: CSCW
-  color: '#0aff99'
+  color: '#0aefff'
 - name: AI+HCI
   sub: AI
-  color: '#0aefff'
+  color: '#147df5'
 - name: Human-Robot Interaction
   sub: HRI
-  color: '#32a855'
+  color: '#0aff99'
 - name: Augmented, Virtual and Mixed Reality
   sub: XR
-  color: '#be0aff'
+  color: '#580aff'
 - name: Haptics
   sub: HAP
-  color: '#0affff'
+  color: '#be0aff'
 - name: Visualization
   sub: VIS
-  color: '#0befff'
+  color: '#a432a8'
