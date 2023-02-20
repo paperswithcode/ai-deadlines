@@ -263,3 +263,15 @@
   start: 2023-11-05
   end: 2023-11-08
   sub: HCI
+
+- title: TEI
+  year: 2023
+  id: tei23
+  link: https://tei.acm.org/2023/participate/paper/
+  deadline: '2022-08-05 23:59:59'
+  timezone: UTC-12
+  place: Warsaw, Poland
+  date: February, 26 - March 1, 2023
+  start: 2023-02-26
+  end: 2023-03-01
+  sub: HCI
