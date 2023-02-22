@@ -251,7 +251,7 @@
   end: 2023-06-15
   sub: HCI
   note: Mandatory abstract deadline on January 30, 2023.
-  
+
 - title: ISS
   year: 2023
   id: iss23
@@ -274,4 +274,16 @@
   date: February, 26 - March 1, 2023
   start: 2023-02-26
   end: 2023-03-01
+  sub: HCI
+
+- title: CHItaly
+  year: 2023
+  id: chitaly23
+  link: https://chitaly2023.it/call_for_papers/
+  deadline: '2023-03-31 23:59:59'
+  timezone: UTC-12
+  place: Turin, Italy
+  date: September, 20-22, 2023
+  start: 2023-09-20
+  end: 2023-09-22
   sub: HCI
