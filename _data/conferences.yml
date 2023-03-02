@@ -882,17 +882,18 @@
   sub: NLP
 
 - title: BMVC
-  year: 2022
-  id: bmvc22
-  link: https://www.bmvc2022.org
-  deadline: '2022-07-29 23:59:59'
+  year: 2023
+  id: bmvc23
+  link: https://www.bmvc2023.org
+  deadline: '2023-05-12 23:59:59'
   timezone: UTC
-  place: London
-  date: November 21-24, 2022
-  start: 2022-11-21
-  end: 2022-11-24
+  place: Aberdeen, UK
+  date: November 20-24, 2023
+  start: 2023-11-20
+  end: 2023-11-24
   hindex: 75
   sub: CV
+  note: Workshop Submission Deadline on May 5th, 2023
 
 - title: ACML
   year: 2021
