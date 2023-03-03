@@ -8,23 +8,52 @@
   abstract_deadline: '2023-04-23 23:59:59'
   timezone: UTC-12
   place: Ottawa, Canada
-  date: October 28 - November 03, 2023
-  start: 2023-10-28
+  date: October 29 - November 03, 2023
+  start: 2023-10-29
   end: 2023-11-03
   sub: CV
   note: Mandatory abstract deadline on April 23, 2023. More info <a href='https://www.acmmm2023.org/cfp/'>here</a>.
+
+- title: RO-MAN
+  year: 2023
+  id: ro-man23
+  link: http://ro-man2023.org/main
+  deadline: '2023-03-31 23:59:59'
+  timezone: UTC-12
+  place: Busan, South Korea
+  date: August 28-31, 2023
+  start: 2023-08-28
+  end: 2023-08-31
+  sub: RO
+
+- title: NeurIPS
+  year: 2023
+  id: neurips23
+  link: https://neurips.cc/Conferences/2023/
+  deadline: '2023-05-17 20:00:00'
+  abstract_deadline: '2023-05-11 20:00:00'
+  timezone: UTC
+  place: New Orleans, Louisiana, USA
+  date: December 10 - December 16, 2023
+  start: 2023-12-10
+  end: 2023-12-16
+  hindex: 278
+  sub: ML
+  note: Mandatory abstract deadline on May 11, 2023
 
 - title: AutoML-Conf
   year: 2023
   id: automl-conf23
   link: https://2023.automl.cc
   deadline: '2023-03-23 23:59:59'
+  abstract_deadline: '2023-03-16 23:59:59'
   timezone: UTC-12
   place: Potsdam/Berlin, Germany
   date: September 12-15, 2023
   start: 2023-09-12
   end: 2023-09-15
   hindex: 0
+  sub: ML
 
 - title: CoLLAs
   year: 2023
@@ -896,17 +925,18 @@
   sub: NLP
 
 - title: BMVC
-  year: 2022
-  id: bmvc22
-  link: https://www.bmvc2022.org
-  deadline: '2022-07-29 23:59:59'
+  year: 2023
+  id: bmvc23
+  link: https://www.bmvc2023.org
+  deadline: '2023-05-12 23:59:59'
   timezone: UTC
-  place: London
-  date: November 21-24, 2022
-  start: 2022-11-21
-  end: 2022-11-24
+  place: Aberdeen, UK
+  date: November 20-24, 2023
+  start: 2023-11-20
+  end: 2023-11-24
   hindex: 75
   sub: CV
+  note: Workshop Submission Deadline on May 5th, 2023
 
 - title: ACML
   year: 2021
