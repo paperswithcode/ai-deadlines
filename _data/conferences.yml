@@ -1,4 +1,29 @@
 ---
+- title: CoRL
+  year: 2023
+  id: corl23
+  link: https://corl2023.org
+  deadline: '2023-06-08 23:59:00'
+  timezone: UTC-12
+  place: Atlanta, Georgia, USA
+  date: November 06-09, 2023
+  start: 2023-11-06
+  end: 2023-11-09
+  sub: RO
+
+- title: ECAI
+  year: 2023
+  id: ecai23
+  link: https://ecai2023.eu/
+  deadline: '2023-05-08 23:59:59'
+  abstract_deadline: '2023-05-02 23:59:59'
+  timezone: UTC-12
+  place: Kraków, Poland
+  date: September 30 - October 05, 2023
+  start: 2023-09-30
+  end: 2023-10-05
+  sub: ML
+  note: Mandatory abstract deadline on May 02, 2023. More info <a href='https://ecai2023.eu/ECAI2023>here</a>.
 
 - title: MM
   year: 2023
