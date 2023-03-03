@@ -53,6 +53,7 @@ To add or update a deadline:
 - [sec-deadlines.github.io/ (Security and Privacy)][14] by @clementfung
 - [pythondeadlin.es][15] by @jesperdramsch
 - [deadlines.openlifescience.ai (Healthcare domain conferences and workshops)][16] by @monk1337
+- [hci-deadlines.github.io (Human-Computer Interaction conferences)][17] by @makinteract
 
 ## License
 
@@ -77,3 +78,4 @@ It uses:
 [14]: https://sec-deadlines.github.io/
 [15]: https://pythondeadlin.es/
 [16]: https://deadlines.openlifescience.ai/
+[17]: https://hci-deadlines.github.io/
