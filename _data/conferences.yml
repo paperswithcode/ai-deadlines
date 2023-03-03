@@ -1450,3 +1450,18 @@
   end: 2023-08-10
   sub: CG
   note: Mandatory abstract deadline on Jan 24, 2022. More info <a href='https://s2023.siggraph.org/program/technical-papers/'>here</a>.
+
+- title: ECML/PKDD
+  year: 2023
+  id: ecmlpkdd23  # title as lower case + last two digits of year
+  full_name: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases # full conference name
+  link: https://2023.ecmlpkdd.org/
+  deadline: '2023-04-02 23:59:59'
+  abstract_deadline: '2023-03-26 23:59:59'
+  timezone: UTC-12
+  place: Torino, Italy
+  date: September, 18-22, 2023
+  start: 2023-09-18
+  end: 2023-09-22
+  sub: SP
+  note: Check the conference website for workshop and demo deadlines
