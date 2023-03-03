@@ -1451,6 +1451,21 @@
   sub: CG
   note: Mandatory abstract deadline on Jan 24, 2022. More info <a href='https://s2023.siggraph.org/program/technical-papers/'>here</a>.
 
+ 
+- title: ICDM 2023
+  year: 2023
+  id: icdm23
+  link: http://www.cloud-conf.net/icdm2023/index.html
+  deadline: '2023-07-01 23:59:00'
+  abstract_deadline: '2023-07-01 23:59:00'
+  timezone: GMT+8
+  place: Shanghai, China
+  date: December 1-4, 2023
+  start: 2023-12-01
+  end: 2023-12-04
+  sub: DM
+  note: 
+ 
 - title: ECML/PKDD
   year: 2023
   id: ecmlpkdd23  # title as lower case + last two digits of year
@@ -1465,3 +1480,4 @@
   end: 2023-09-22
   sub: SP
   note: Check the conference website for workshop and demo deadlines
+ 
