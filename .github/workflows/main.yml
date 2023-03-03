@@ -1,4 +1,0 @@
-on:
-  push:
-    branches:
-    - main
