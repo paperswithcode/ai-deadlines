@@ -1,5 +1,17 @@
 ---
 
+- title: RO-MAN
+  year: 2023
+  id: ro-man23
+  link: http://ro-man2023.org/main
+  deadline: '2023-03-31 23:59:59'
+  timezone: UTC-12
+  place: Busan, South Korea
+  date: August 28-31, 2023
+  start: 2023-08-28
+  end: 2023-08-31
+  sub: RO
+
 - title: NeurIPS
   year: 2023
   id: neurips23
