@@ -79,6 +79,7 @@
   end: 2023-09-15
   hindex: 0
   sub: ML
+  note: Mandatory abstract deadline on March 16, 2023
 
 - title: CoLLAs
   year: 2023
@@ -1477,7 +1478,7 @@
   note: Mandatory abstract deadline on Jan 24, 2022. More info <a href='https://s2023.siggraph.org/program/technical-papers/'>here</a>.
 
  
-- title: ICDM 2023
+- title: ICDM
   year: 2023
   id: icdm23
   link: http://www.cloud-conf.net/icdm2023/index.html
