@@ -312,3 +312,15 @@
   start: 2024-02-11
   end: 2024-02-14
   sub: HCI
+
+- title: ACII
+  year: 2023
+  id: acii2023
+  link: https://acii-conf.net/2023/calls/papers/
+  deadline: '2023-07-25 23:59:59'
+  timezone: UTC-12
+  place: Cambridge, Massachusetts, USA
+  date: September, 10-13, 2023
+  start: 2023-09-10
+  end: 2023-09-13
+  sub: HCI
