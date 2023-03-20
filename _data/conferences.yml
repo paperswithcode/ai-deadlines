@@ -1,5 +1,5 @@
 ---
-- title: *SEM
+- title: '*SEM'
   year: 2023
   id: starsem23  # title as lower case + last two digits of year
   full_name: *SEM 2023  # full conference name
