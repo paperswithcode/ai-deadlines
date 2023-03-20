@@ -1,4 +1,16 @@
 ---
+- title: *SEM
+  year: 2023
+  id: starsem23  # title as lower case + last two digits of year
+  full_name: *SEM 2023  # full conference name
+  link: https://sites.google.com/view/starsem2023
+  deadline: 2023-03-24 23:59
+  timezone: UTC-12
+  place: Toronto, Canada
+  date: July, 13-14, 2023
+  sub: NLP
+  note: Co-located with ACL 2023
+
 - title: SIGGRAPHASIAConf
   year: 2023
   id: siggraphasia23  # title as lower case + last two digits of year
