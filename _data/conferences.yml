@@ -324,3 +324,15 @@
   start: 2023-09-10
   end: 2023-09-13
   sub: HCI
+
+- title: SUI
+  year: 2023
+  id: sui2023
+  link: https://sui.acm.org/2023/papers
+  deadline: '2023-06-23 23:59:59'
+  timezone: UTC-12
+  place: Sydney, Australia
+  date: October, 13-15, 2023
+  start: 2023-10-13
+  end: 2023-10-15
+  sub: HCI
