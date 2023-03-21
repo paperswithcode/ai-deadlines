@@ -336,3 +336,15 @@
   start: 2023-10-13
   end: 2023-10-15
   sub: HCI
+
+- title: ICMI
+  year: 2023
+  id: icmi2023
+  link: https://icmi.acm.org/2023/call-for-papers/
+  deadline: '2023-05-01 23:59:59'
+  timezone: UTC-12
+  place: Paris, France
+  date: October, 9-13, 2023
+  start: 2023-10-9
+  end: 2023-10-13
+  sub: HCI
