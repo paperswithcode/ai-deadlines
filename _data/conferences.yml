@@ -1,4 +1,18 @@
 ---
+- title: EMNLP
+  year: 2023
+  id: emnlp23
+  link: https://2023.emnlp.org/
+  deadline: '2023-06-23 23:59:00'
+  abstract_deadline: '2023-06-16 23:59:00'
+  timezone: UTC-12
+  place: Singapore
+  date: December 6-10, 2023
+  start: 2023-12-06
+  end: 2023-12-10
+  sub: NLP
+  note: Hybrid format with ARR and START. More info <a href='https://2023.emnlp.org/calls/papers/Overview'>here</a>.
+
 - title: '*SEM'
   year: 2023
   id: starsem23  # title as lower case + last two digits of year
