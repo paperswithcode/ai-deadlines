@@ -348,3 +348,17 @@
   start: 2023-10-9
   end: 2023-10-13
   sub: HCI
+
+- title: CHI
+  year: 2024
+  id: chi24
+  link: https://chi2024.acm.org
+  deadline: '2023-09-14 23:59:59'
+  timezone: UTC-12
+  place: Honolulu, HI, USA
+  date: May, 11-16, 2024
+  start: 2024-05-11
+  end: 2024-05-16
+  hindex: 113
+  sub: HCI
+  note: Mandatory abstract deadline on September 7, 2023.
