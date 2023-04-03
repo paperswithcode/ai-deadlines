@@ -10,6 +10,21 @@
   start: 2023-11-11
   end: 2023-11-14
   sub: ML
+  
+- title: SIGIR-AP
+  year: 2023
+  id: sigirap23
+  full_name: 1st International ACM SIGIR Conference on Information Retrieval in the Asia Pacific
+  link: http://www.sigir-ap.org/sigir-ap-2023/
+  deadline: '2023-07-03 23:59:00'
+  abstract_deadline: '2023-06-26 23:59:00'
+  timezone: UTC-12
+  place: Beijing, China
+  date: November 26-29, 2023
+  start: 2023-11-26
+  end: 2023-11-29
+  sub: DM
+  note: Mandatory abstract deadline on June 26, 2023. More info <a href='http://www.sigir-ap.org/sigir-ap-2023/call-for-papers/'>here</a>.
 
 - title: EMNLP
   year: 2023
