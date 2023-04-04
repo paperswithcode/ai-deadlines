@@ -91,6 +91,18 @@
   hindex: 58
   sub: HCI
 
+- title: ISWC Notes & Brief
+  year: 2023
+  id: iswc23
+  link: https://www.ubicomp.org/ubicomp-iswc-2023/cfp/iswc_notes_briefs/
+  deadline: '2023-05-26 23:59:59'
+  timezone: UTC-12
+  place: Cancun, Mexico
+  date: October, 8-12, 2023
+  start: 2023-10-08
+  end: 2023-10-12
+  sub: HCI
+
 - title: MobileHCI
   year: 2023
   id: mobilehci23
