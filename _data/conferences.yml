@@ -1,4 +1,16 @@
 ---
+- title: RecSys
+  year: 2023
+  id: recsys23
+  link: https://recsys.acm.org/recsys23/
+  deadline: '2023-04-21 23:59:59'
+  abstract_deadline: '2023-04-14 23:59:59'
+  timezone: UTC-12
+  date: September 18 - September 22, 2023
+  place: Singapore
+  sub: DM
+  note: Mandatory abstract deadline on April 14, 2023.
+
 - title: ACML
   year: 2023
   id: acml23
