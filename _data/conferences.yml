@@ -1,4 +1,18 @@
 ---
+- title: IJCNLP-AACL
+  year: 2023
+  id: aacl23
+  link: http://www.ijcnlp-aacl2023.org/
+  deadline: '2023-05-23 23:59:00'
+  timezone: UTC-12
+  place: Bali, Indonesia
+  date: November 1-4, 2022
+  start: 2023-11-01
+  end: 2023-11-04
+  hindex: 37
+  sub: NLP
+  note: ARR commitment deadline is <b>August 15</b>, 2023. More info <a href='http://www.ijcnlp-aacl2023.org/'>here</a>.
+
 - title: RecSys
   year: 2023
   id: recsys23
