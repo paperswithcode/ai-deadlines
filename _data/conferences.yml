@@ -1613,7 +1613,7 @@
   sub: KR
   note: Check the conference website for workshop and demo deadlines
 
-  - title: CIKM
+- title: CIKM
   year: 2023
   id: cikm23  # title as lower case + last two digits of year
   full_name: International Conference on Information and Knowledge Managements # full conference name
