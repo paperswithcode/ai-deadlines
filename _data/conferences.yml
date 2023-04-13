@@ -1598,3 +1598,33 @@
   sub: SP
   note: Check the conference website for workshop and demo deadlines
  
+- title: ISWC
+  year: 2023
+  id: iswc23  # title as lower case + last two digits of year
+  full_name: International Semantic Web Conference # full conference name
+  link: https://iswc2023.semanticweb.org/
+  deadline: '2023-05-09 23:59:59'
+  abstract_deadline: '2023-05-02 23:59:59'
+  timezone: UTC-12
+  place: Athens, Greece
+  date: November, 06-10, 2023
+  start: 2023-11-06
+  end: 2023-11-10
+  sub: KR
+  note: Check the conference website for workshop and demo deadlines
+
+  - title: CIKM
+  year: 2023
+  id: cikm23  # title as lower case + last two digits of year
+  full_name: International Conference on Information and Knowledge Managements # full conference name
+  link: https://cikm2023.github.io/
+  deadline: '2023-06-02 23:59:59'
+  abstract_deadline: '2023-05-26 23:59:59'
+  timezone: UTC-12
+  place: Birmingham, UK
+  date: October, 23-25, 2023
+  start: 2023-10-23
+  end: 2023-10-25
+  sub: KR
+  note: Check the conference website for workshop and demo deadlines
+
