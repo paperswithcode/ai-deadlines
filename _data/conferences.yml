@@ -1604,8 +1604,8 @@
   id: cikm23  # title as lower case + last two digits of year
   full_name: International Conference on Information and Knowledge Managements # full conference name
   link: https://cikm2023.github.io/
-  deadline: '2023-04-02 23:59:59'
-  abstract_deadline: '2023-03-26 23:59:59'
+  deadline: '2023-06-02 23:59:59'
+  abstract_deadline: '2023-05-26 23:59:59'
   timezone: UTC-12
   place: Birmingham, UK
   date: October, 23-25, 2023
