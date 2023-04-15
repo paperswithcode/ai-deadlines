@@ -253,15 +253,15 @@
 - title: ISMAR (Conference Papers)
   year: 2023
   id: ismar23c
-  link: https://ismar23.org/
-  deadline: '2023-06-08 23:59:59'
+  link: https://ismar23.org/call-for-conference-papers/
+  deadline: '2023-06-12 23:59:59'
   timezone: UTC-12
   place: Sydney, Australia
   date: October, 16-20, 2023
   start: 2023-10-16
   end: 2023-10-20
   sub: XR
-  note: Mandatory abstract deadline on June 4, 2023.
+  note: Mandatory abstract deadline on June 5, 2023.
 
 - title: FAccT
   year: 2023
