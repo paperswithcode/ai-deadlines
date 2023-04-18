@@ -348,6 +348,19 @@
   start: 2023-10-13
   end: 2023-10-15
   sub: HCI
+  
+- title: VRST
+  year: 2023
+  id: vrst23
+  link: https://vrst.acm.org/vrst2023/submissions/
+  deadline: '2023-06-19 23:59:59'
+  timezone: UTC-12
+  place: Christchurch, New Zealand
+  date: October, 9-11, 2023
+  start: 2023-10-09
+  end: 2023-10-11
+  sub: XR
+  note: Mandatory abstract deadline on June 12, 2023.
 
 - title: ICMI
   year: 2023
