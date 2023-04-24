@@ -1,4 +1,20 @@
 ---
+- title: AAAI
+  year: 2024
+  id: aaai24
+  full_name: AAAI Conference on Artificial Intelligence
+  link: https://aaai.org/aaai-conference/
+  deadline: '2023-08-15 23:59:59'
+  abstract_deadline: '2023-08-08 23:59:59'
+  timezone: UTC-12
+  place: Vancouver, Canada
+  date: February 20 - February 28, 2024
+  start: 2024-02-20
+  end: 2024-02-28
+  hindex: 180
+  sub: ML
+  note: Mandatory abstract deadline on Aug 08, 2023, and supplementary material deadline on Aug 18, 2023. More info <a href='https://aaai.org/aaai-conference/'>here</a>.
+
 - title: IJCNLP-AACL
   year: 2023
   id: aacl23
