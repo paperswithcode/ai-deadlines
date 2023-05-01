@@ -94,7 +94,7 @@
   sub: NLP
   note: Co-located with ACL 2023
 
-- title: SIGGRAPHASIAConf
+- title: SIGGRAPH Asia
   year: 2023
   id: siggraphasia23  # title as lower case + last two digits of year
   full_name: SIGGRAPH ASIA 2023  # full conference name
@@ -1509,7 +1509,7 @@
   sub: DM
   note: '<b>NOTE</b>: Industry Session Deadline: 16 June 2022'
   
-- title: SIGGRAPHASIAConf
+- title: SIGGRAPH Asia
   year: 2022
   id: siggraphasia22  # title as lower case + last two digits of year
   full_name: SIGGRAPH ASIA 2022  # full conference name
@@ -1588,7 +1588,7 @@
 - title: ICDM
   year: 2023
   id: icdm23
-  link: http://www.cloud-conf.net/icdm2023/index.html
+  link: https://www.cloud-conf.net/icdm2023/
   deadline: '2023-07-01 23:59:00'
   abstract_deadline: '2023-07-01 23:59:00'
   timezone: GMT+8
