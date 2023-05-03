@@ -1644,3 +1644,16 @@
   sub: KR
   note: Check the conference website for workshop and demo deadlines
 
+- title: AI World Barcelona: Generative AI Conference
+  year: 2023
+  id: aiworldbarcelona23  # title as lower case + last two digits of year
+  full_name: AI World Barcelona: Generative AI Conference # full conference name
+  link: https://ai-world-barcelona.com
+  deadline: '2023-06-07 23:59:59'
+  timezone: GMT+2
+  place: Barcelona, Spain
+  date: September, 7-8, 2023
+  start: 2023-09-07
+  end: 2023-09-08
+  sub: NLP
+  note: Explore cutting-edge AI topics like ChatGPT, AutoGPT, DALL-E, Midjourney and more at AI World Barcelona — the world's largest generative AI conference.
