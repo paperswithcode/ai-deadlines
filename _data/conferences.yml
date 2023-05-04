@@ -55,7 +55,7 @@
 - title: Ubicomp/ISWC (IMWUT Issue 1)
   year: 2023
   id: imwut23_1
-  link: https://www.ubicomp.org/ubicomp-iswc-2023/cfp/papers/
+  link: https://www.ubicomp.org/ubicomp-iswc-2023/cfp/imwut_papers/
   deadline: '2022-11-15 23:59:59'
   timezone: UTC-12
   place: Cancun, Mexico
@@ -68,7 +68,7 @@
 - title: Ubicomp/ISWC (IMWUT Issue 2)
   year: 2023
   id: imwut23_2
-  link: https://www.ubicomp.org/ubicomp-iswc-2023/cfp/papers/
+  link: https://www.ubicomp.org/ubicomp-iswc-2023/cfp/imwut_papers/
   deadline: '2023-02-15 23:59:59'
   timezone: UTC-12
   place: Cancun, Mexico
@@ -81,7 +81,7 @@
 - title: Ubicomp/ISWC (IMWUT Issue 3)
   year: 2023
   id: imwut23_3
-  link: https://www.ubicomp.org/ubicomp-iswc-2023/cfp/papers/
+  link: https://www.ubicomp.org/ubicomp-iswc-2023/cfp/imwut_papers/
   deadline: '2023-05-15 23:59:59'
   timezone: UTC-12
   place: Cancun, Mexico
@@ -348,7 +348,7 @@
   start: 2023-10-13
   end: 2023-10-15
   sub: HCI
-  
+
 - title: VRST
   year: 2023
   id: vrst23
