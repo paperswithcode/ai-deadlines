@@ -48,7 +48,7 @@ To add or update a deadline:
 - [es-deadlines (Embedded Systems, Computer Architecture, and Cyber-physical Systems)][9] by @AlexVonB and @k0nze
 - [2019-2020 International Conferences in AI, CV, DM, NLP and Robotics][10] by @JackieTseng
 - [ccf-deadlines][11] by @ccfddl
-- [netdeadlines.com][12] by @albertgranalcoz
+- [networking-deadlines (Computer Networking, Measurement)][12] by @andrewcchu
 - [ad-deadlines.com][13] by @daniel-bogdoll
 - [sec-deadlines.github.io/ (Security and Privacy)][14] by @clementfung
 - [pythondeadlin.es][15] by @jesperdramsch
@@ -73,7 +73,7 @@ It uses:
 [9]: https://ekut-es.github.io/es-deadlines/
 [10]: https://jackietseng.github.io/conference_call_for_paper/conferences.html
 [11]: https://ccfddl.github.io/
-[12]: https://netdeadlines.com/
+[12]: https://noise-lab.net/networking-deadlines/
 [13]: https://ad-deadlines.com/
 [14]: https://sec-deadlines.github.io/
 [15]: https://pythondeadlin.es/
