@@ -1644,7 +1644,7 @@
   sub: KR
   note: Check the conference website for workshop and demo deadlines
 
-- title: AI World Barcelona: Generative AI Conference
+- title: AI World Barcelona
   year: 2023
   id: aiworldbarcelona23  # title as lower case + last two digits of year
   full_name: AI World Barcelona: Generative AI Conference # full conference name
