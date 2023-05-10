@@ -53,5 +53,3 @@ The project is based on [ai-deadlines](https://github.com/paperswithcode/ai-dead
 It uses:
 
 - [IcoMoon Icons](https://icomoon.io/#icons-icomoon): [GPL](http://www.gnu.org/licenses/gpl.html) / [CC BY4.0](http://creativecommons.org/licenses/by/4.0/)
-
-[1]: https://abhshkdz.mit-license.org/
