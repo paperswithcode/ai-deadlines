@@ -3,7 +3,7 @@
   year: 2023
   id: ius23
   link: https://2023.ieee-ius.org/
-  deadline: '2023-03-31 00:00:00'
+  deadline: '2023-03-31 23:59:59'
   timezone: UTC-7
   place: Montreal, Canada
   date: September 03-08, 2023
@@ -16,11 +16,10 @@
   year: 2023
   id: maths4dl23
   link: https://maths4dl.ac.uk/newsevents/conference-on-deep-learning-for-computational-physics/
-  deadline: '2023-16-06 00:00:00'
+  deadline: '2023-16-06 23:59:59'
   timezone: UTC
   place: London, UK
   date: July 04-07, 2023
   start: 2023-07-04
   end: 2022-07-06
   sub: ML
-  
