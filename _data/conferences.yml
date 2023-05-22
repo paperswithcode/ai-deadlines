@@ -1,4 +1,19 @@
 ---
+- title: WACV
+  year: 2024
+  id: wacv24
+  full_name: IEEE/CVF Winter Conference on Applications of Computer Vision
+  link: https://wacv2024.thecvf.com
+  deadline: '2023-06-28 11:59:59'
+  timezone: America/Los_Angeles
+  place: Waikoloa, Hawaii, USA
+  date: January 3-7, 2024
+  start: 2024-01-03
+  end: 2024-01-07
+  hindex: 76
+  sub: CV
+  note: Paper Registration is on Jun. 21st 2023; Second round submission deadline on Aug. 30th 2023
+
 - title: AAAI
   year: 2024
   id: aaai24
