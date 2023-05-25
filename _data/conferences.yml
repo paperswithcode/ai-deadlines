@@ -30,6 +30,22 @@
   sub: ML
   note: Mandatory abstract deadline on Aug 08, 2023, and supplementary material deadline on Aug 18, 2023. More info <a href='https://aaai.org/aaai-conference/'>here</a>.
 
+- title: ECIR
+  year: 2024
+  id: ecir24
+  full_name: European Conference on Information Retrieval
+  link: https://www.ecir2024.org/
+  deadline: '2023-09-27 11:59:59'
+  abstract_deadline: '2023-09-20 11:59:59'
+  timezone: UTC+1
+  place: Glasgow, Scotland
+  date: March 24-28, 2024
+  start: 2024-03-24
+  end: 2024-03-28
+  hindex: 31
+  sub: DM
+  note: Abstract deadline on Sep 20, 2023. More info <a href='https://www.ecir2024.org/'>here</a>.
+  
 - title: LREC-COLING
   year: 2024
   id: lreccoling24
