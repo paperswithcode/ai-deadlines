@@ -59,6 +59,17 @@
   sub: NLP
   note: ARR commitment deadline is <b>August 15</b>, 2023. More info <a href='http://www.ijcnlp-aacl2023.org/'>here</a>.
 
+- title: CV Berlin
+  year: 2023
+  id: cvberlin23
+  full_name: Computer Vision Summit Berlin 2023
+  link: https://computervisionsummit.com/location/cvberlin/
+  deadline: '2023-10-05 23:59:59'
+  timezone: UTC-2
+  date: October 05 - October 05, 2023
+  place: Berlin, Germany
+  sub: CV
+
 - title: RecSys
   year: 2023
   id: recsys23
