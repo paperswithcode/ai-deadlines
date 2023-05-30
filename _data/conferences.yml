@@ -35,9 +35,9 @@
   id: ecir24
   full_name: European Conference on Information Retrieval
   link: https://www.ecir2024.org/
-  deadline: '2023-09-27 11:59:59'
-  abstract_deadline: '2023-09-20 11:59:59'
-  timezone: UTC+1
+  deadline: '2023-09-27 23:59:59'
+  abstract_deadline: '2023-09-20 23:59:59'
+  timezone: UTC-12
   place: Glasgow, Scotland
   date: March 24-28, 2024
   start: 2024-03-24
