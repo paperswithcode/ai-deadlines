@@ -26,3 +26,6 @@
 - name: Knowledge Representation
   sub: KR
   color: "#32a855"
+- name: Human-Computer Interaction
+  sub: HCI
+  color: "#a83232"
