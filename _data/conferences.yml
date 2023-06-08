@@ -1,4 +1,23 @@
 ---
+- title: ML4H
+  year: 2023
+  id: ml4h23
+  full_name: Machine Learning for Health
+  link: https://ml4health.github.io/2023/
+  deadline: '2023-09-07 23:59:00'
+  abstract_deadline: '2023-09-07 23:59:00'
+  timezone: UTC-12
+  hybrid: false
+  place: New Orleans, Louisiana
+  date: Dec 10, 2023
+  start: 2023-12-10
+  end: 2023-12-10
+  hindex: None
+  sub: ML
+  type: symposium
+  note: Submitted papers should describe innovative machine learning research focused
+    on relevant problems in healthcare, biomedicine, and public health.. More info <a href="https://ml4health.github.io/2023/call_for_participation.html">here</a>.
+    
 - title: WACV
   year: 2024
   id: wacv24
