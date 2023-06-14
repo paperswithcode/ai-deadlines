@@ -1,4 +1,18 @@
 ---
+- title: CoNLL
+  year: 2023
+  id: conll23
+  link: https://conll.org/
+  deadline: '2023-06-30 23:59:59'
+  timezone: UTC-12
+  place: Singapore
+  date: December 6-7, 2023
+  start: 2023-12-06
+  end: 2023-12-07
+  hindex: 44
+  sub: NLP
+  note: Co-located with EMNLP 2023
+
 - title: AAMAS
   year: 2024
   id: aamas24
