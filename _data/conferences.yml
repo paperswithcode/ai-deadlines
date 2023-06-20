@@ -1,4 +1,17 @@
 ---
+- title: ICRA
+  year: 2024
+  id: icra24
+  link: http://ieee-icra.org/
+  deadline: '2023-09-15 23:59:59'
+  timezone: America/Los_Angeles
+  place: Yokohama, Japan
+  date: May 13 - May 17, 2024
+  start: 2024-05-13
+  end: 2024-05-17
+  hindex: 116
+  sub: RO
+
 - title: CoNLL
   year: 2023
   id: conll23
