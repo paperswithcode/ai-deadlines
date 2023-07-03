@@ -413,7 +413,7 @@
   sub: HCI
   note: Mandatory abstract deadline on October 2, 2023.
 
-- title: CSCW
+- title: CSCW (July cycle)
   year: 2024
   id: cscw24_july
   link: https://cscw.acm.org/2024/index.php/submit-papers/
@@ -425,7 +425,7 @@
   end: 2024-11-13
   sub: CSCW
 
-- title: CSCW
+- title: CSCW (January cycle)
   year: 2024
   id: cscw24_january
   link: https://cscw.acm.org/2024/index.php/submit-papers/
