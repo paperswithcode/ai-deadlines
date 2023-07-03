@@ -412,3 +412,27 @@
   end: 2024-03-21
   sub: HCI
   note: Mandatory abstract deadline on October 2, 2023.
+
+- title: CSCW
+  year: 2024
+  id: cscw24_july
+  link: https://cscw.acm.org/2024/index.php/submit-papers/
+  deadline: '2023-07-18 23:59:59'
+  timezone: UTC-12
+  place: San José, Costa Rica
+  date: November, 9-13, 2024
+  start: 2024-11-09
+  end: 2024-11-13
+  sub: CSCW
+
+- title: CSCW
+  year: 2024
+  id: cscw24_january
+  link: https://cscw.acm.org/2024/index.php/submit-papers/
+  deadline: '2023-01-16 23:59:59'
+  timezone: UTC-12
+  place: San José, Costa Rica
+  date: November, 9-13, 2024
+  start: 2024-11-09
+  end: 2024-11-13
+  sub: CSCW
