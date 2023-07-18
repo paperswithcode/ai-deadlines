@@ -1,4 +1,17 @@
 ---
+
+- title: 3DV
+  year: 2024
+  id: threedv24
+  link: https://3dvconf.github.io/2024/
+  deadline: '2023-08-07 23:59:59'
+  timezone: America/Los_Angeles
+  place: Davos, Switzerland
+  date: March 18-21, 2024
+  start: 2024-03-18
+  end: 2024-03-21
+  sub: CV
+
 - title: ICLR
   year: 2024
   id: iclr24
@@ -13,7 +26,7 @@
   hindex: 286
   sub: ML
   note: Mandatory abstract deadline on September 21, 2023. More info <a href='https://iclr.cc/Conferences/2024/CallForPapers'>here</a>.
-
+  
 - title: CVPR
   year: 2024
   id: cvpr24
