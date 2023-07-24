@@ -14,6 +14,18 @@
   sub: CV
   note: Paper Registration is on Aug. 23rd 2023
 
+- title: EACL
+  year: 2024
+  id: eacl24
+  deadline: '2023-10-15 23:59:59'
+  timezone: UTC-12
+  place: Malta
+  date: March 17-22, 2024
+  start: 2024-03-17
+  end: 2024-03-22
+  note: Submission via ACL Rolling Review, commitment date 2023-12-20
+  sub: NLP
+
 - title: 3DV
   year: 2024
   id: threedv24
