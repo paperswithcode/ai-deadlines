@@ -1,4 +1,18 @@
 ---
+
+- title: HRI
+  year: 2024
+  id: hri24
+  link: https://humanrobotinteraction.org/2024/
+  deadline: '2023-09-29 23:59:59'
+  timezone: UTC-12
+  place: Boulder, Colorado, USA
+  date: March 11-14, 2024
+  start: 2024-03-11
+  end: 2024-03-14
+  hindex: 55
+  sub: RO
+
 - title: WACV
   year: 2024
   id: wacv24
