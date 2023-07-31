@@ -1,4 +1,17 @@
 ---
+- title: ICASSP
+  year: 2024
+  id: icassp24
+  link: https://2024.ieeeicassp.org/
+  deadline: '2023-09-06 23:59:59'
+  timezone: UTC-12
+  place: Seoul, Korea
+  date: April 14-19, 2024
+  start: 2024-04-14
+  end: 2024-04-19
+  hindex: 123
+  sub: SP
+
 - title: WACV
   year: 2024
   id: wacv24
