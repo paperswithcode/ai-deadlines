@@ -1,4 +1,18 @@
 ---
+
+- title: HRI
+  year: 2024
+  id: hri24
+  link: https://humanrobotinteraction.org/2024/
+  deadline: '2023-09-29 23:59:59'
+  timezone: UTC-12
+  place: Boulder, Colorado, USA
+  date: March 11-14, 2024
+  start: 2024-03-11
+  end: 2024-03-14
+  hindex: 55
+  sub: RO
+
 - title: WACV
   year: 2024
   id: wacv24
@@ -12,7 +26,7 @@
   end: 2024-01-07
   hindex: 76
   sub: CV
-  note: Paper Registration is on Aug. 23rd 2023
+  note: This is the Round 2 submission. Paper Registration is on August 23rd 2023. More info <a href='https://wacv2024.thecvf.com/submissions/'>here</a>.
 
 - title: EACL
   year: 2024
@@ -107,21 +121,6 @@
   end: 2024-05-10
   sub: ML
   note: Mandatory abstract deadline on Oct 02, 2023. More info <a href='https://www.aamas2024-conference.auckland.ac.nz/calls/call-for-papers/'>here</a>.
-
-- title: WACV
-  year: 2024
-  id: wacv24
-  full_name: IEEE/CVF Winter Conference on Applications of Computer Vision
-  link: https://wacv2024.thecvf.com
-  deadline: '2023-06-28 11:59:59'
-  timezone: America/Los_Angeles
-  place: Waikoloa, Hawaii, USA
-  date: January 3-7, 2024
-  start: 2024-01-03
-  end: 2024-01-07
-  hindex: 76
-  sub: CV
-  note: Paper Registration is on Jun. 21st 2023; Second round submission deadline on Aug. 30th 2023
 
 - title: AAAI
   year: 2024
