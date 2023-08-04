@@ -1,4 +1,17 @@
 ---
+- title: AISTATS
+  year: 2024
+  id: aistats24
+  link: https://www.aistats.org/aistats2024/
+  deadline: '2023-10-13 23:59:59'
+  timezone: UTC-12
+  place: Valencia, Spain
+  date: May 02-04, 2024
+  start: 2024-05-02
+  end: 2024-05-04
+  hindex: 91
+  sub: ML
+  note: Mandatory abstract deadline on Oct 6, 2023. More info <a href='https://aistats.org/aistats2024/dates.html'>here</a>.
 
 - title: ICASSP
   year: 2024
