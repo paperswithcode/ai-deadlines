@@ -436,3 +436,18 @@
   start: 2024-11-09
   end: 2024-11-13
   sub: CSCW
+
+- title: IEEE VR
+  year: 2024
+  id: ieeevr2024
+  full_name: IEEE Conference on Virtual Reality and 3D User Interfaces
+  link: https://ieeevr.org/2024/
+  deadline: '2023-10-04 23:59:59'
+  abstract_deadline: '2023-09-27 23:59:59'
+  timezone: UTC-12
+  place: Orlando, Florida, USA
+  date: March, 16-20, 2024
+  start: 2024-03-16
+  end: 2024-03-20
+  sub: XR
+  note: Full paper track (Conference and TVCG Journal)
