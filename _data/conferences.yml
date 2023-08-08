@@ -1,4 +1,32 @@
 ---
+- title: CSCW
+  year: 2024
+  id: cscw24_january
+  link: https://cscw.acm.org/2024/
+  deadline: '2024-01-16 23:59:59'
+  timezone: UTC-12
+  place: San José, Costa Rica
+  date: November, 9-13, 2024
+  start: 2024-11-09
+  end: 2024-11-13
+  hindex: 31
+  sub: CSCW
+  note: This is the January cycle.
+
+- title: IUI
+  year: 2024
+  id: iui24
+  link: https://iui.acm.org/2024/
+  deadline: '2023-10-09 23:59:59'
+  timezone: UTC-12
+  place: Greenville, South Carolina, USA
+  date: March, 18-21, 2024
+  start: 2024-03-18
+  end: 2024-03-21
+  hindex: 47
+  sub: HCI
+  note: Mandatory abstract deadline on Oct 2, 2023. More info <a href='https://iui.acm.org/2024/call_for_papers.html'>here</a>.
+
 - title: AISTATS
   year: 2024
   id: aistats24
