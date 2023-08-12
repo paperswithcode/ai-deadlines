@@ -1,4 +1,18 @@
 ---
+- title: NAACL
+  year: 2024
+  id: naacl24
+  link: https://2024.naacl.org
+  deadline: '2023-12-15 23:59:59'
+  timezone: UTC-12
+  place: Mexico City, Mexico
+  date: June 16-21, 2024
+  start: 2024-06-16
+  end: 2024-06-21
+  hindex: 133
+  note: Submission via ACL Rolling Review, commitment date 2024-02-20
+  sub: NLP
+  
 - title: CSCW
   year: 2024
   id: cscw24_january
@@ -91,6 +105,7 @@
   date: March 17-22, 2024
   start: 2024-03-17
   end: 2024-03-22
+  hindex: 38
   note: Submission via ACL Rolling Review, commitment date 2023-12-20
   sub: NLP
 
