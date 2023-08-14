@@ -1,4 +1,18 @@
 ---
+- title: NAACL
+  year: 2024
+  id: naacl24
+  link: https://2024.naacl.org/
+  deadline: '2023-12-15 23:59:00'
+  timezone: UTC-12
+  place: Mexico City, Mexico
+  date: June 16-21, 2024
+  start: 2024-06-16
+  end: 2024-06-21
+  hindex: 133
+  sub: NLP
+  note: All submissions must be done through ARR. More info <a href='https://2024.naacl.org/calls/papers/'>here</a>.
+
 - title: CSCW
   year: 2024
   id: cscw24_january
