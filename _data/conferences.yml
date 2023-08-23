@@ -451,3 +451,18 @@
   end: 2024-03-20
   sub: XR
   note: Full paper track (Conference and TVCG Journal)
+
+- title: IEEE PacificVis
+  year: 2024
+  id: pacificvis24
+  full_name: IEEE Pacific Visualization Symposium 
+  link: https://pacificvis.github.io/pvis2024/
+  deadline: '2024-22-12 23:59:59'
+  abstract_deadline: '2024-12-12 23:59:59'
+  timezone: UTC-12
+  place: Tokyo, Japan
+  date: April, 23-26, 2024
+  start: 2024-04-23
+  end: 2024-04-26
+  sub: VIS
+  note: Conference paper track
