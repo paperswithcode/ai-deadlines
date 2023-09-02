@@ -99,9 +99,11 @@
 - title: EACL
   year: 2024
   id: eacl24
+  full_name: The 18th Conference of the European Chapter of the Association for Computational Linguistics
+  link: https://2024.eacl.org/
   deadline: '2023-10-15 23:59:59'
   timezone: UTC-12
-  place: Malta
+  place: St. Julians, Malta
   date: March 17-22, 2024
   start: 2024-03-17
   end: 2024-03-22
