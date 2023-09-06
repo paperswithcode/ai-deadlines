@@ -1,4 +1,21 @@
 ---
+
+- title: ICAPS
+  year: 2024
+  id: icaps24
+  link: https://icaps24.icaps-conference.org/
+  deadline: '2023-12-13 23:59:59'
+  abstract_deadline: '2023-12-07 23:59:59'
+  timezone: UTC-12
+  place: Banff, Canada
+  date: Jun 01-06, 2024
+  start: 2024-06-01
+  end: 2024-06-06
+  hindex: 32
+  sub: AP
+  note: Mandatory abstract deadline on December 07, 2023. More info <a href='https://icaps24.icaps-conference.org/'>here</a>.
+
+
 - title: NAACL
   year: 2024
   id: naacl24
@@ -547,7 +564,7 @@
   place: Prague, Czech Republic
   date: Jul 08-13, 2023
   start: 2023-07-08
-  end: 2022-07-13
+  end: 2023-07-13
   hindex: 27
   sub: AP
   note: Mandatory abstract deadline on November 25, 2022. More info <a href='https://icaps23.icaps-conference.org/'>here</a>.
