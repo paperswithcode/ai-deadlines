@@ -1,4 +1,17 @@
 ---
+- title: ICPRAI
+  year: 2024
+  id: icprai24
+  full_name: International Conference on Pattern Recognition and Artificial Intelligence
+  link: http://icprai2024.org/
+  deadline: '2023-12-15 23:59:59'
+  timezone: UTC+9
+  place: Jeju Island, South Korea
+  date: Jun 18-21, 2024
+  start: 2024-06-18
+  end: 2024-06-21
+  sub: ML
+  note: Soliciting both regular papers and work-in-progress papers. More info <a href='http://icprai2024.org/'>here</a>.
 
 - title: ICAPS
   year: 2024
