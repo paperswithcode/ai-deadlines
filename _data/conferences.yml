@@ -1,4 +1,16 @@
 ---
+- title: CLeaR
+  year: 2024
+  id: clear24
+  link: https://www.cclear.cc/2024
+  deadline: '2023-10-27 23:59:59'
+  timezone: UTC-12
+  place: Los Angeles, USA
+  date: April 1 - April 03, 2024
+  start: 2024-04-01
+  end: 2024-04-03
+  sub: ML
+
 - title: ICPRAI
   year: 2024
   id: icprai24
