@@ -1,4 +1,18 @@
 ---
+- title: ECCV
+  year: 2024
+  id: eccv24
+  link: https://eccv2024.ecva.net/
+  deadline: '2024-03-07 23:59:00'
+  timezone: UTC-12
+  place: Milano, Italy
+  date: September 29 - October 04, 2024
+  start: 2024-09-29
+  end: 2024-10-04
+  hindex: 238
+  sub: CV
+  note: Abstract deadline on February 29, 2024. More info <a href='https://eccv2024.ecva.net/'>here</a>.
+
 - title: ICPRAI
   year: 2024
   id: icprai24
