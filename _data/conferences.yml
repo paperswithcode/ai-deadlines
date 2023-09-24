@@ -1,4 +1,19 @@
 ---
+- title: AI World Barcelona
+  year: 2023
+  id: aiworldbarcelona23
+  full_name: AI World Barcelona - Generative AI Conference
+  link: https://ai-world-barcelona.com
+  deadline: '2023-11-14 23:59:59'
+  timezone: GMT+2
+  place: Online
+  date: November 15, 2023
+  start: 2023-11-15
+  end: 2023-11-15
+  sub: NLP
+  hindex: 254
+  note: Explore cutting-edge Generative AI topics like ChatGPT, AutoGPT, DALL-E, Midjourney and more at AI World Barcelona — the online generative AI conference.
+
 - title: ECCV
   year: 2024
   id: eccv24
@@ -1940,17 +1955,3 @@
   end: 2023-10-25
   sub: KR
   note: Check the conference website for workshop and demo deadlines
-
-- title: AI World Barcelona
-  year: 2023
-  id: aiworldbarcelona23  # title as lower case + last two digits of year
-  full_name: AI World Barcelona - Generative AI Conference # full conference name
-  link: https://ai-world-barcelona.com
-  deadline: '2023-06-07 23:59:59'
-  timezone: GMT+2
-  place: Barcelona, Spain
-  date: September, 7-8, 2023
-  start: 2023-09-07
-  end: 2023-09-08
-  sub: NLP
-  note: Explore cutting-edge AI topics like ChatGPT, AutoGPT, DALL-E, Midjourney and more at AI World Barcelona — the world's largest generative AI conference.
