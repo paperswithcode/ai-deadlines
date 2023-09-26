@@ -455,7 +455,7 @@
 - title: IEEE PacificVis
   year: 2024
   id: pacificvis24
-  full_name: IEEE Pacific Visualization Symposium 
+  full_name: IEEE Pacific Visualization Symposium
   link: https://pacificvis.github.io/pvis2024/
   deadline: '2023-11-22 23:59:59'
   abstract_deadline: '2023-11-16 23:59:59'
@@ -466,3 +466,29 @@
   end: 2024-04-26
   sub: VIS
   note: Conference paper track
+
+- title: EICS PACM (Round 2)
+  year: 2024
+  id: pacificvis24
+  full_name: Symposium on Engineering Interactive Computing Systems
+  link: https://eics.acm.org/2024/
+  deadline: '2023-10-26 23:59:59'
+  timezone: UTC-12
+  place: Cagliari, Italy
+  date: June, 24-28, 2024
+  start: 2024-06-24
+  end: 2024-06-28
+  sub: HCI
+
+- title: EICS PACM (Round 2)
+  year: 2024
+  id: pacificvis24
+  full_name: Symposium on Engineering Interactive Computing Systems
+  link: https://eics.acm.org/2024/
+  deadline: '2024-02-16 23:59:59'
+  timezone: UTC-12
+  place: Cagliari, Italy
+  date: June, 24-28, 2024
+  start: 2024-06-24
+  end: 2024-06-28
+  sub: HCI
