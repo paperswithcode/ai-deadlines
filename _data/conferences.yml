@@ -469,7 +469,7 @@
 
 - title: EICS PACM (Round 2)
   year: 2024
-  id: pacificvis24
+  id: eics24_2
   full_name: Symposium on Engineering Interactive Computing Systems
   link: https://eics.acm.org/2024/
   deadline: '2023-10-26 23:59:59'
@@ -480,9 +480,9 @@
   end: 2024-06-28
   sub: HCI
 
-- title: EICS PACM (Round 2)
+- title: EICS PACM (Round 3)
   year: 2024
-  id: pacificvis24
+  id: eics24_3
   full_name: Symposium on Engineering Interactive Computing Systems
   link: https://eics.acm.org/2024/
   deadline: '2024-02-16 23:59:59'
