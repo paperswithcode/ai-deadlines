@@ -1,4 +1,19 @@
 ---
+- title: SaTML
+  year: 2024
+  id: satml24
+  full_name: IEEE Conference on Secure and Trustworthy Machine Learning
+  link: https://satml.org/
+  deadline: '2023-10-11 23:59:59'
+  abstract_deadline: '2023-10-04 23:59:59'
+  timezone: UTC-12
+  place: Toronto, Canada
+  date: April 2024
+  start: 2024-04-01
+  end: 2024-04-01
+  sub: ML
+  note: Check the website for exact conference dates.
+
 - title: ECCV
   year: 2024
   id: eccv24
