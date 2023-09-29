@@ -1,4 +1,19 @@
 ---
+- title: WWW
+  year: 2024
+  id: www24
+  link: https://www2024.thewebconf.org/
+  deadline: '2023-10-12 23:59:59'
+  abstract_deadline: '2023-10-05 23:59:59'
+  timezone: UTC-12
+  place: Singapore
+  date: MAY 13 - 17, 2024
+  start: 2024-05-13
+  end: 2024-05-17
+  hindex: 106
+  sub: DM
+  note: Mandatory abstract deadline on October 5, 2023
+
 - title: ECCV
   year: 2024
   id: eccv24
