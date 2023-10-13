@@ -1,4 +1,19 @@
 ---
+- title: ASFAI
+  year: 2023
+  id: asfai23  
+  full_name: American Society for AI Annual Conference
+  link: https://www.asfai.org/
+  deadline: '2023-12-06 23:59:59'
+  abstract_deadline: '2023-12-06 23:59:59'
+  timezone: UTC-7
+  place: San Francisco, United States
+  date: December, 8-9, 2023
+  start: 2023-12-08
+  end: 2023-12-09
+  sub: SP
+  note: Check the website for conference details. 
+
 - title: SaTML
   year: 2024
   id: satml24
