@@ -1,4 +1,18 @@
 ---
+- title: CHIL
+  year: 2024
+  id: CHIL24
+  full_name: Conference on Health, Inference, and Learning
+  link: https://www.chilconference.org/index.html
+  deadline: '2024-02-05 23:59:59'
+  timezone: America/New_York
+  place: New York, New York
+  date: June, 27-28, 2024
+  start: 2024-06-27
+  end: 2024-06-28
+  sub: ML
+  note: Please check the website for the latest updates.
+
 - title: SaTML
   year: 2024
   id: satml24
