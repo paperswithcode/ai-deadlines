@@ -1,4 +1,19 @@
 ---
+- title: SIGIR
+  year: 2024
+  id: sigir24
+  link: https://sigir-2024.github.io
+  deadline: '2024-01-25 23:59:00'
+  abstract_deadline: '2024-01-18 23:59:00'
+  timezone: UTC-12
+  place: Washington D.C., USA
+  date: July 14-18, 2023
+  start: 2024-07-14
+  end: 2024-07-18
+  hindex: 66
+  sub: DM
+  note: Mandatory abstract deadline on January 18, 2024. More info <a href='https://sigir-2024.github.io/call_for_papers.html'>here</a>.
+  
 - title: IJCAI-PRICAI
   year: 2024
   id: ijcai24
