@@ -14,6 +14,19 @@
   sub: DM
   note: Mandatory abstract deadline on January 18, 2024. More info <a href='https://sigir-2024.github.io/call_for_papers.html'>here</a>.
   
+- title: COLM
+  year: 2024
+  id: colm24
+  full_name: 1st Conference on Language Modeling
+  link: https://colmweb.org/
+  deadline: '2024-03-15 23:59:59'
+  abstract_deadline: '2024-03-8 23:59:59'
+  timezone: UTC-12
+  place: TBD
+  date: October, 2024
+  sub: NLP
+  note: Mandatory abstract deadline on March 8, 2024. More info [here](https://colmweb.org/cfp.html)
+
 - title: IJCAI-PRICAI
   year: 2024
   id: ijcai24
