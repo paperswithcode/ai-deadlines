@@ -285,7 +285,7 @@
   year: 2024
   id: cvpr24
   link: https://cvpr.thecvf.com/Conferences/2024
-  deadline: '2023-11-10 23:59:59'
+  deadline: '2023-11-17 23:59:59'
   abstract_deadline: '2023-11-03 23:59:59'
   timezone: America/Los_Angeles
   place: Seattle, Washington, USA
@@ -294,6 +294,8 @@
   end: 2024-06-21
   hindex: 389
   sub: CV
+  note: Mandatory paper registration deadline on November 03, 2023 and optional supplementary material deadline on November 17, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2024'>here</a>.
+
 
 - title: ICRA
   year: 2024
