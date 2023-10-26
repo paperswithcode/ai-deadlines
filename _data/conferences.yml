@@ -1,4 +1,18 @@
 ---
+- title: ICML
+  year: 2024
+  id: icml24
+  link: https://icml.cc/Conferences/2024
+  deadline: '2024-02-01 11:59:00'
+  timezone: UTC-12
+  place: Vienna, Austria
+  date: July 21-27, 2024
+  start: 2024-07-21
+  end: 2024-07-27
+  hindex: 254
+  sub: ML
+
+
 - title: SIGIR
   year: 2024
   id: sigir24
@@ -271,7 +285,7 @@
   year: 2024
   id: cvpr24
   link: https://cvpr.thecvf.com/Conferences/2024
-  deadline: '2023-11-10 23:59:59'
+  deadline: '2023-11-17 23:59:59'
   abstract_deadline: '2023-11-03 23:59:59'
   timezone: America/Los_Angeles
   place: Seattle, Washington, USA
@@ -280,6 +294,8 @@
   end: 2024-06-21
   hindex: 389
   sub: CV
+  note: Mandatory paper registration deadline on November 03, 2023 and optional supplementary material deadline on November 26, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2024'>here</a>.
+
 
 - title: ICRA
   year: 2024
@@ -613,7 +629,7 @@
 - title: ICML
   year: 2023
   id: icml23
-  link: https://icml.cc/
+  link: https://icml.cc/Conferences/2023
   deadline: '2023-01-26 11:59:00'
   timezone: America/Los_Angeles
   place: Hawai'i, USA
