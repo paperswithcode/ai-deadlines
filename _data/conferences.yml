@@ -12,7 +12,20 @@
   hindex: 254
   sub: ML
 
-
+- title: MICCAI
+  year: 2024
+  id: miccai2024
+  link: https://conferences.miccai.org/2024/en/
+  deadline: '2024-03-07 23:59:59'
+  timezone: America/Los_Angeles
+  place: Marrakech, Morocco
+  date: October 6 - October 10, 2024
+  start: 2024-10-06
+  end: 2024-10-10
+  hindex: 78
+  sub: CV
+  note: More info <a href='https://conferences.miccai.org/2024/'>here</a>.
+  
 - title: SIGIR
   year: 2024
   id: sigir24
