@@ -1,4 +1,19 @@
 ---
+- title: RSS
+  year: 2024
+  id: rss24
+  link: https://roboticsconference.org/2024
+  deadline: '2024-02-02 23:59:59'
+  timezone: UTC-12
+  place: Delft, Netherlands
+  date: July 15-19, 2024
+  start: 2024-07-15
+  end: 2024-07-19
+  hindex: 61
+  sub: RO
+  note: Optional supplementary material deadline on February 08, 2024. More info <a href='https://roboticsconference.org/2024'>here</a>.
+
+
 - title: ICML
   year: 2024
   id: icml24
