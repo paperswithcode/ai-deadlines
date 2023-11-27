@@ -1,4 +1,18 @@
 ---
+- title: ECAI
+  year: 2024
+  id: ecai24
+  link: https://www.ecai2024.eu/
+  deadline: '2024-04-25 23:59:59'
+  abstract_deadline: '2024-04-19 23:59:59'
+  timezone: UTC-12
+  place: Santiago de Compostela, Spain
+  date: October 19-24, 2024
+  start: 2024-10-19
+  end: 2024-10-24
+  sub: ML
+  note: Mandatory abstract deadline on April 19, 2024. More info <a href='https://www.ecai2024.eu/calls/main-track'>here</a>.
+
 - title: RLC
   year: 2024
   id: rlc24
