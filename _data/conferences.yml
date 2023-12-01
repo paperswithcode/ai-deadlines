@@ -1,4 +1,17 @@
 ---
+- title: CoLLAs
+  year: 2024
+  id: collas24
+  link: https://lifelong-ml.cc
+  deadline: '2024-02-15 23:59:59'
+  abstract_deadline: '2024-02-09 23:59:59'
+  timezone: UTC-12
+  place: Pisa, Italy
+  date: July 29 - August 01, 2024
+  start: 2024-07-29
+  end: 2024-08-01
+  sub: ML
+
 - title: ECAI
   year: 2024
   id: ecai24
