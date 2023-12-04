@@ -1,3 +1,17 @@
+- title: SIGGRAPH
+  year: 2024
+  id: siggraph24
+  link: https://s2024.siggraph.org/
+  deadline: '2023-01-24 22:00:00'
+  abstract_deadline: '2022-01-23 22:00:00'
+  timezone: GMT
+  place: Denver, USA
+  date: July 28 - August 1, 2024
+  start: 2024-07-28
+  end: 2024-08-01
+  sub: CG
+  note: Mandatory abstract deadline on Jan 23, 2024. More info <a href='https://s2024.siggraph.org/program/technical-papers/'>here</a>.
+
 - title: UAI
   year: 2024
   id: uai24
@@ -2035,7 +2049,7 @@
   sub: ML
   note: The workshop is a collaboration between NASSMA organisation, Deepmind and UM6P. NASSMA is an NGO working toward the promotion of STEM and AI education and research in MENA region. 
 
-- title: SIGGRAPH 2023
+- title: SIGGRAPH
   year: 2023
   id: siggraph23
   link: https://s2023.siggraph.org/
