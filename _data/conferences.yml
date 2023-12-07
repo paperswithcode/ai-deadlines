@@ -125,13 +125,13 @@
   id: colm24
   full_name: 1st Conference on Language Modeling
   link: https://colmweb.org/
-  deadline: '2024-03-15 23:59:59'
-  abstract_deadline: '2024-03-8 23:59:59'
+  deadline: '2024-03-29 23:59:59'
+  abstract_deadline: '2024-03-22 23:59:59'
   timezone: UTC-12
   place: TBD
   date: October, 2024
   sub: NLP
-  note: Mandatory abstract deadline on March 8, 2024. More info <a href='https://colmweb.org/cfp.html'>here</a>.
+  note: Mandatory abstract deadline on March 22, 2024. More info <a href='https://colmweb.org/cfp.html'>here</a>.
 
 - title: IJCAI
   year: 2024
