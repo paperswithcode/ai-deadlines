@@ -133,10 +133,10 @@
   sub: NLP
   note: Mandatory abstract deadline on March 8, 2024. More info <a href='https://colmweb.org/cfp.html'>here</a>.
 
-- title: IJCAI-PRICAI
+- title: IJCAI
   year: 2024
   id: ijcai24
-  full_name: International Joint Conference on Artificial Intelligence and Pacific Rim International Conference on Artificial Intelligence
+  full_name: International Joint Conference on Artificial Intelligence
   link: https://ijcai24.org/
   deadline: '2024-01-17 23:59:59'
   abstract_deadline: '2024-01-10 23:59:59'
