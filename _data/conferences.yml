@@ -1,3 +1,18 @@
+- title: KR
+  year: 2024
+  id: kr24
+  link: https://kr.org/KR2024/
+  deadline: '2024-05-01 23:59:59'
+  abstract_deadline: '2024-04-24 23:59:59'
+  timezone: UTC-12
+  place: Hanoi, Vietnam
+  date: Nov 02-08, 2024
+  start: 2024-11-02
+  end: 2024-11-08
+  hindex: -1
+  sub: KR
+  note: Mandatory abstract deadline on April 24, 2024. More info <a href='https://kr.org/KR2024/'>here</a>.
+
 - title: AAAI 2024 Spring Symposium on Clinical Foundation Models
   year: 2024
   id: aaaisss24cfm  # title as lower case + last two digits of year
