@@ -2150,3 +2150,17 @@
   end: 2023-09-08
   sub: NLP
   note: Explore cutting-edge AI topics like ChatGPT, AutoGPT, DALL-E, Midjourney and more at AI World Barcelona — the world's largest generative AI conference.
+
+- title: SPECOM
+  year: 2024
+  id: specom24  # title as lower case + last two digits of year
+  full_name: International Conference on Speech and Computer # full conference name
+  link: https://specom2024.ftn.uns.ac.rs
+  deadline: '2024-07-01 23:59:59'
+  timezone: GMT+1
+  place: Belgrade, Serbia
+  date: November, 25-28, 2023
+  start: 2023-11-25
+  end: 2023-11-28
+  sub: SP
+  note: Check the conference website for workshop and demo deadlines.
