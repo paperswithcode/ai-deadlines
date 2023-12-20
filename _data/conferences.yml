@@ -1,3 +1,18 @@
+- title: KR
+  year: 2024
+  id: kr24
+  link: https://kr.org/KR2024/
+  deadline: '2024-05-01 23:59:59'
+  abstract_deadline: '2024-04-24 23:59:59'
+  timezone: UTC-12
+  place: Hanoi, Vietnam
+  date: Nov 02-08, 2024
+  start: 2024-11-02
+  end: 2024-11-08
+  hindex: -1
+  sub: KR
+  note: Mandatory abstract deadline on April 24, 2024. More info <a href='https://kr.org/KR2024/'>here</a>.
+
 - title: AAAI 2024 Spring Symposium on Clinical Foundation Models
   year: 2024
   id: aaaisss24cfm  # title as lower case + last two digits of year
@@ -11,6 +26,20 @@
   end: 2024-03-27
   sub: ML
   note: More info <a href='https://clinicalfoundationmodels.github.io/'>here</a>.
+
+- title: AAAI 2024 Spring Symposium on User-Aligned Assessment of Adaptive AI Systems
+  year: 2024
+  id: aia24
+  link: https://aair-lab.github.io/aia2024/
+  deadline: '2023-12-22 23:59:59'
+  timezone: UTC-12
+  place: Stanford, USA  
+  date: March 25-27, 2024
+  start: 2024-03-25
+  end: 2024-03-27
+  hindex: -1
+  sub: ML
+  
   
 - title: SIGGRAPH
   year: 2024
