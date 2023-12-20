@@ -106,6 +106,19 @@
   end: 2024-08-12
   sub: ML
 
+- title: KDD
+  year: 2022
+  id: kdd24  # title as lower case + last two digits of year
+  link: https://kdd2024.kdd.org/
+  deadline: 2024-02-08 23:59:59
+  abstract_deadline: 2024-02-01 23:59:59
+  timezone: UTC-12
+  place: Barcelona, Spain
+  date: August 25-29, 2024
+  start: 2024-08-25
+  end: 2024-08-29
+  sub: DM
+
 - title: RSS
   year: 2024
   id: rss24
