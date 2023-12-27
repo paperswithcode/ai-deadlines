@@ -1,3 +1,16 @@
+- title: IROS
+  year: 2024
+  id: iros24
+  link: https://iros2024-abudhabi.org/
+  deadline: '2024-03-01 23:59:59'
+  timezone: UTC-8
+  place: Abu Dhabi
+  date: October 14-18, 2024
+  start: 2023-10-14
+  end: 2023-10-18
+  hindex: 78
+  sub: RO
+
 - title: KR
   year: 2024
   id: kr24
