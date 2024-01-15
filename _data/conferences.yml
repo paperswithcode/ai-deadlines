@@ -1,3 +1,17 @@
+- title: MM
+  year: 2024
+  id: mm24
+  link: https://2024.acmmm.org/
+  deadline: '2024-04-08 23:59:59'
+  abstract_deadline: '2024-04-12 23:59:59'
+  timezone: UTC-12
+  place: Melbourne, Australia
+  data: October 28 - November 1, 2024
+  start: 2024-10-28
+  end: 2024-11-01
+  sub: CV
+  note: Mandatory abstract deadline on April 8, 2024. More info <a href='https://2024.acmmm.org/regular-papers'>here</a>.
+
 - title: ACL
   year: 2024
   id: acl24
