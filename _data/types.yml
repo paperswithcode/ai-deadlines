@@ -29,3 +29,6 @@
 - name: Human-Computer Interaction
   sub: HCI
   color: "#a83232"
+- name: Games
+  sub: GAM
+  color: "#3255a8"

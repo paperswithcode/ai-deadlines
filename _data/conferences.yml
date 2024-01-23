@@ -1,3 +1,29 @@
+- title: CoG
+  year: 2024
+  id: cog24
+  link: https://2024.ieee-cog.org/
+  deadline: '2024-03-01 23:59:59'
+  timezone: UTC-12
+  place: Milan, Italy
+  data: Aug 5 - Aug 8, 2024
+  start: 2024-08-05
+  end: 2024-08-08
+  sub: GAM
+
+- title: FDG
+  year: 2024
+  id: fdg24
+  link: http://fdg2024.org/
+  deadline: '2023-11-30 23:59:59'
+  abstract_deadline: '2023-11-20 23:59:59'
+  timezone: UTC-12
+  place: Worcester, Massachusetts, USA
+  data: May 21 - May 24, 2024
+  start: 2024-05-21
+  end: 2024-05-24
+  sub: GAM
+  note: Mandatory abstract deadline on November 20, 2023. More info <a href='http://fdg2024.org/for-authors'>here</a>.
+
 - title: MM
   year: 2024
   id: mm24
