@@ -100,14 +100,14 @@
   link: https://aair-lab.github.io/aia2024/
   deadline: '2023-12-22 23:59:59'
   timezone: UTC-12
-  place: Stanford, USA  
+  place: Stanford, USA
   date: March 25-27, 2024
   start: 2024-03-25
   end: 2024-03-27
   hindex: -1
   sub: ML
-  
-  
+
+
 - title: SIGGRAPH
   year: 2024
   id: siggraph24
@@ -227,7 +227,7 @@
   hindex: 78
   sub: CV
   note: More info <a href='https://conferences.miccai.org/2024/'>here</a>.
-  
+
 - title: SIGIR
   year: 2024
   id: sigir24
@@ -242,7 +242,7 @@
   hindex: 66
   sub: DM
   note: Mandatory abstract deadline on January 18, 2024. More info <a href='https://sigir-2024.github.io/call_for_papers.html'>here</a>.
-  
+
 - title: COLM
   year: 2024
   id: colm24
@@ -496,7 +496,7 @@
   hindex: 286
   sub: ML
   note: Mandatory abstract deadline on September 23, 2023. More info <a href='https://iclr.cc/Conferences/2024/CallForPapers'>here</a>.
-  
+
 - title: CVPR
   year: 2024
   id: cvpr24
@@ -584,7 +584,7 @@
   end: 2024-03-28
   hindex: 31
   sub: DM
-  note: Abstract deadline on Sep 20, 2023. More info <a href='https://www.ecir2024.org/'>here</a>.  
+  note: Abstract deadline on Sep 20, 2023. More info <a href='https://www.ecir2024.org/'>here</a>.
 
 - title: CHI
   year: 2024
@@ -654,7 +654,7 @@
   start: 2023-11-11
   end: 2023-11-14
   sub: ML
-  
+
 - title: SIGIR-AP
   year: 2023
   id: sigirap23
@@ -854,7 +854,7 @@
   end: 2023-07-29
   hindex: 204
   sub: ML
-  
+
 - title: SIGIR
   year: 2023
   id: sigir23
@@ -1016,7 +1016,7 @@
 - title: ICDM
   year: 2022
   id: icdm22
-  full_name: IEEE International Conference on Data Mining (ICDM) 
+  full_name: IEEE International Conference on Data Mining (ICDM)
   link: https://icdm22.cse.usf.edu/
   deadline: '2022-06-10 23:59:00'
   timezone: PDT
@@ -1165,7 +1165,7 @@
   start: 2022-12-14
   end: 2022-12-18
   sub: RO
-  
+
 - title: ALT
   year: 2020
   id: alt20
@@ -2098,7 +2098,7 @@
   end: 2022-09-23
   sub: SP
   note: Check the conference website for workshop and demo deadlines
-  
+
 - title: ISMIS
   hindex: 9
   year: 2022
@@ -2110,7 +2110,7 @@
   place: Cosenza, Italy
   sub: DM
   note: '<b>NOTE</b>: Industry Session Deadline: 16 June 2022'
-  
+
 - title: SIGGRAPH Asia
   year: 2022
   id: siggraphasia22  # title as lower case + last two digits of year
@@ -2155,8 +2155,8 @@
   end: 2022-12-12
   sub: ML
   note: This is the inaugural event of a conference dedicated to Graph Machine Learning
-  
-  
+
+
 - title: AI4science NASSMA 2022
   year: 2022
   id: AI4science22  # title as lower case + last two digits of year
@@ -2170,7 +2170,7 @@
   start: 2022-12-12
   end: 2022-12-16
   sub: ML
-  note: The workshop is a collaboration between NASSMA organisation, Deepmind and UM6P. NASSMA is an NGO working toward the promotion of STEM and AI education and research in MENA region. 
+  note: The workshop is a collaboration between NASSMA organisation, Deepmind and UM6P. NASSMA is an NGO working toward the promotion of STEM and AI education and research in MENA region.
 
 - title: SIGGRAPH
   year: 2023
@@ -2186,7 +2186,7 @@
   sub: CG
   note: Mandatory abstract deadline on Jan 24, 2022. More info <a href='https://s2023.siggraph.org/program/technical-papers/'>here</a>.
 
- 
+
 - title: ICDM
   year: 2023
   id: icdm23
@@ -2199,8 +2199,8 @@
   start: 2023-12-01
   end: 2023-12-04
   sub: DM
-  note: 
- 
+  note:
+
 - title: ECML/PKDD
   year: 2023
   id: ecmlpkdd23  # title as lower case + last two digits of year
@@ -2215,7 +2215,7 @@
   end: 2023-09-22
   sub: SP
   note: Check the conference website for workshop and demo deadlines
- 
+
 - title: ISWC
   year: 2023
   id: iswc23  # title as lower case + last two digits of year
