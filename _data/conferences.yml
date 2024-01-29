@@ -2247,3 +2247,17 @@
   end: 2024-11-28
   sub: SP
   note: Check the conference website for workshop and demo deadlines.
+
+- title: MIPR
+  year: 2024
+  id: mipr24  # title as lower case + last two digits of year
+  full_name: International Conference on Multimedia Information Processing and Retrieval # full conference name
+  link: https://sites.google.com/view/mipr2024
+  deadline: '2024-03-15 23:59:59'
+  timezone: UTC-7
+  place: San Jose, USA
+  date: August, 07-09, 2024
+  start: 2024-08-07
+  end: 2024-08-09
+  sub: ML
+  note: Check the conference website for paper review available and notification of acceptance date.
