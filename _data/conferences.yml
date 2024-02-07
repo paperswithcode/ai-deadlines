@@ -2261,3 +2261,17 @@
   end: 2024-08-09
   sub: ML
   note: Check the conference website for paper review available and notification of acceptance date.
+
+  - title: AIware
+  year: 2024
+  id: aiware24  # title as lower case + last two digits of year
+  full_name: ACM International Conference on AIware  # full conference name
+  link: https://2024.aiwareconf.org/#
+  deadline: '2024-03-29 23:59:59'
+  timezone: UTC-3
+  place: Porto de Galinhas, Brazil
+  date: July, 15-16, 2024
+  start: 2024-07-15
+  end: 2024-07-16
+  sub: ML
+  note: Check the conference website for details the Challenge Track, Industry Statements and Demo Track, and Late Breaking Arxiv Track.
