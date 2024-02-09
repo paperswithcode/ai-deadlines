@@ -1,3 +1,17 @@
+- title: AAAI 2024 Spring Symposium on Clinical Foundation Models
+  year: 2024
+  id: aaaisss24cfm  # title as lower case + last two digits of year
+  full_name: AAAI 2024 Spring Symposium on Clinical Foundation Models  # full conference name
+  link: https://clinicalfoundationmodels.github.io/
+  deadline: '2024-01-26 23:59:59'
+  timezone: UTC-12
+  place: Stanford, USA
+  date: March, 25-27, 2024
+  start: 2024-03-25
+  end: 2024-03-27
+  sub: ML
+  note: More info <a href='https://clinicalfoundationmodels.github.io/'>here</a>.
+
 - title: Brainbox
   year: 2023
   id: brainbox23
@@ -104,6 +118,32 @@
   sub: ML
   note: Mandatory abstract deadline on Aug 08, 2023, and supplementary material deadline on Aug 18, 2023. More info <a href='https://aaai.org/aaai-conference/'>here</a>.
 
+- title: IJCNLP-AACL
+  year: 2023
+  id: aacl23
+  link: http://www.ijcnlp-aacl2023.org/
+  deadline: '2023-05-23 23:59:00'
+  timezone: UTC-12
+  place: Bali, Indonesia
+  date: November 1-4, 2022
+  start: 2023-11-01
+  end: 2023-11-04
+  hindex: 37
+  sub: NLP
+  note: ARR commitment deadline is <b>August 15</b>, 2023. More info <a href='http://www.ijcnlp-aacl2023.org/'>here</a>.
+
+- title: RecSys
+  year: 2023
+  id: recsys23
+  link: https://recsys.acm.org/recsys23/
+  deadline: '2023-04-21 23:59:59'
+  abstract_deadline: '2023-04-14 23:59:59'
+  timezone: UTC-12
+  date: September 18 - September 22, 2023
+  place: Singapore
+  sub: DM
+  note: Mandatory abstract deadline on April 14, 2023.
+
 - title: ACML
   year: 2023
   id: acml23
@@ -115,6 +155,71 @@
   start: 2023-11-11
   end: 2023-11-14
   sub: ML
+  
+- title: SIGIR-AP
+  year: 2023
+  id: sigirap23
+  full_name: 1st International ACM SIGIR Conference on Information Retrieval in the Asia Pacific
+  link: http://www.sigir-ap.org/sigir-ap-2023/
+  deadline: '2023-07-03 23:59:00'
+  abstract_deadline: '2023-06-26 23:59:00'
+  timezone: UTC-12
+  place: Beijing, China
+  date: November 26-29, 2023
+  start: 2023-11-26
+  end: 2023-11-29
+  sub: DM
+  note: Mandatory abstract deadline on June 26, 2023. More info <a href='http://www.sigir-ap.org/sigir-ap-2023/call-for-papers/'>here</a>.
+
+- title: EMNLP
+  year: 2023
+  id: emnlp23
+  link: https://2023.emnlp.org/
+  deadline: '2023-06-23 23:59:00'
+  abstract_deadline: '2023-06-16 23:59:00'
+  timezone: UTC-12
+  place: Singapore
+  date: December 6-10, 2023
+  start: 2023-12-06
+  end: 2023-12-10
+  sub: NLP
+  note: Hybrid format with ARR and START. More info <a href='https://2023.emnlp.org/calls/papers/Overview'>here</a>.
+
+- title: '*SEM'
+  year: 2023
+  id: starsem23  # title as lower case + last two digits of year
+  full_name: '*SEM 2023'  # full conference name
+  link: https://sites.google.com/view/starsem2023
+  deadline: 2023-03-24 23:59
+  timezone: UTC-12
+  place: Toronto, Canada
+  date: July, 13-14, 2023
+  sub: NLP
+  note: Co-located with ACL 2023
+
+- title: SIGGRAPH Asia
+  year: 2023
+  id: siggraphasia23  # title as lower case + last two digits of year
+  full_name: SIGGRAPH ASIA 2023  # full conference name
+  link: https://asia.siggraph.org/2023/
+  deadline: 2023-05-16 23:59
+  timezone: UTC-12
+  place: Sydney, Australia
+  date: December, 12-15, 2023
+  sub: CG
+  note:
+
+- title: CoRL
+  year: 2023
+  id: corl23
+  link: https://corl2023.org
+  deadline: '2023-06-08 23:59:00'
+  timezone: UTC-12
+  place: Atlanta, Georgia, USA
+  date: November 06-09, 2023
+  start: 2023-11-06
+  end: 2023-11-09
+  sub: RO
 
 - title: ECAI
   year: 2023
@@ -189,7 +294,7 @@
 - title: ICML
   year: 2023
   id: icml23
-  link: https://icml.cc/
+  link: https://icml.cc/Conferences/2023
   deadline: '2023-01-26 11:59:00'
   timezone: America/Los_Angeles
   place: Hawai'i, USA
@@ -198,18 +303,133 @@
   end: 2023-07-29
   hindex: 204
   sub: ML
+  
+- title: SIGIR
+  year: 2023
+  id: sigir23
+  link: https://sigir.org/sigir2023/
+  deadline: '2023-01-31 23:59:00'
+  abstract_deadline: '2023-01-24 23:59:00'
+  timezone: UTC-12
+  place: Taipei, Taiwan
+  date: July 23-27, 2023
+  start: 2023-07-23
+  end: 2023-07-27
+  hindex: 66
+  sub: DM
+  note: Mandatory abstract deadline on January 24, 2023. More info <a href='https://sigir.org/sigir2023/call-for-full-papers/'>here</a>.
+
+- title: IROS
+  year: 2023
+  id: iros23
+  link: https://ieee-iros.org/
+  deadline: '2023-03-01 23:59:59'
+  timezone: America/Los_Angeles
+  place: Detroit, USA
+  date: October 01-05, 2023
+  start: 2023-10-01
+  end: 2023-10-05
+  hindex: 80
+  sub: RO
+
+- title: KR
+  year: 2023
+  id: kr23
+  link: https://kr.org/KR2023/
+  deadline: '2023-03-14 23:59:59'
+  abstract_deadline: '2023-03-03 23:59:59'
+  timezone: UTC-12
+  place: Rhodes, Greece
+  date: Sep 02-08, 2023
+  start: 2023-09-02
+  end: 2023-09-08
+  hindex: -1
+  sub: KR
+  note: Mandatory abstract deadline on March 03, 2023. More info <a href='https://kr.org/KR2023/'>here</a>.
+
+- title: ICAPS
+  year: 2023
+  id: icaps23
+  link: https://icaps23.icaps-conference.org/
+  deadline: '2022-11-30 23:59:59'
+  abstract_deadline: '2022-11-25 23:59:59'
+  timezone: UTC-12
+  place: Prague, Czech Republic
+  date: Jul 08-13, 2023
+  start: 2023-07-08
+  end: 2022-07-13
+  hindex: 27
+  sub: AP
+  note: Mandatory abstract deadline on November 25, 2022. More info <a href='https://icaps23.icaps-conference.org/'>here</a>.
+
+- title: ACL
+  year: 2023
+  id: acl23
+  link: https://2023.aclweb.org/
+  deadline: '2023-01-20 23:59:00'
+  abstract_deadline: '2023-01-13 23:59:00'
+  timezone: UTC-12
+  place: Toronto, Canada
+  date: July 9-14, 2023
+  start: 2023-07-09
+  end: 2023-07-14
+  hindex: 169
+  sub: NLP
+  note: Hybrid format with ARR and START. Above deadlines are for START while abstract deadline is 13 January 2023. Submission to ARR should before 15 December 2022. More info <a href="https://2023.aclweb.org/calls/main_conference/">here</a>.
+
+- title: EACL
+  year: 2023
+  id: eacl23
+  link: https://2023.eacl.org/
+  deadline: '2022-10-20 23:59:00'
+  abstract_deadline: '2022-10-13 23:59:00'
+  timezone: UTC-12
+  place: Hybrid (Dubrovnik, Croatia)
+  date: May 02-06, 2023
+  start: 2023-05-02
+  end: 2023-05-06
+  hindex: 62
+  sub: NLP
+  note: Hybrid format with ARR and START. Above deadlines are for START. More info <a href="https://2023.eacl.org/calls/papers/">here</a>.
+
+- title: PAKDD
+  year: 2023
+  id: pakdd23
+  link: https://pakdd2023.org
+  deadline: '2022-12-07 23:59:59'
+  timezone: UTC-8
+  place: Osaka, Japan
+  date: May 25-28, 2023
+  start: 2023-05-25
+  end: 2023-05-28
+  hindex: 29
+  sub: DM
+
+- title: AISTATS
+  year: 2023
+  id: aistats23
+  link: https://www.aistats.org/aistats2023/
+  deadline: '2022-10-13 23:59:59'
+  timezone: UTC-12
+  place: Valencia, Spain
+  date: April 25-27, 2023
+  start: 2023-04-25
+  end: 2023-04-27
+  hindex: 85
+  sub: ML
+  note: Mandatory abstract deadline on Oct 6, 2022. More info <a href='https://aistats.org/aistats2023/call-for-papers.html'>here</a>.
 
 - title: ICLR
   year: 2023
   id: iclr23
-  link: https://iclr.cc/
+  link: https://iclr.cc/Conferences/2023
   deadline: '2022-09-28 23:59:59'
   abstract_deadline: '2022-09-21 23:59:59'
   timezone: UTC-12
   place: Kigali, Rwanda
   date: May 01-05, 2023
   start: 2023-05-01
-  end: 2022-05-05
+  end: 2023-05-05
   hindex: 286
   sub: ML
   note: Mandatory abstract deadline on September 21, 2022. More info <a href='https://iclr.cc/Conferences/2023/CallForPapers'>here</a>.
@@ -311,6 +531,182 @@
   hindex: 54
   sub: CV
   note: Second round submission deadline on Aug. 29th 2022
+
+- title: ICDM
+  year: 2021
+  id: icdm21
+  link: https://icdm2021.auckland.ac.nz
+  deadline: '2021-06-11 23:59:59'
+  timezone: America/Los_Angeles
+  place: Auckland, New Zealand
+  date: December 7-10, 2021
+  start: 2021-12-07
+  end: 2021-12-10
+  hindex: -1
+  sub: DM
+
+- title: CoRL
+  year: 2021
+  id: corl21
+  link: http://www.robot-learning.org
+  deadline: '2021-06-18 23:59:00'
+  timezone: UTC-7
+  place: London, UK, and virtual
+  date: November 8-11, 2021
+  start: 2021-11-08
+  end: 2021-11-11
+  sub: RO
+
+- title: AKBC
+  year: 2021
+  id: akbc21
+  link: https://www.akbc.ws/2021/
+  deadline: '2021-06-21 23:59:59'
+  timezone: UTC-12
+  place: Irvine, United States
+  date: October 4-7, 2021
+  start: 2021-10-04
+  end: 2021-10-07
+  paperslink: https://openreview.net/group?id=AKBC.ws/2021/Conference#all-submissions
+  sub: NLP
+
+- title: BMVC
+  year: 2023
+  id: bmvc23
+  link: https://www.bmvc2023.org
+  deadline: '2023-05-12 23:59:59'
+  timezone: UTC
+  place: Aberdeen, UK
+  date: November 20-24, 2023
+  start: 2023-11-20
+  end: 2023-11-24
+  hindex: 75
+  sub: CV
+  note: Workshop Submission Deadline on May 5th, 2023
+
+- title: ACML
+  year: 2021
+  id: acml21
+  link: http://www.acml-conf.org/2021
+  deadline: '2021-06-25 23:59:00'
+  timezone: UTC-7
+  place: Online
+  date: November 17-19, 2021
+  start: 2021-11-17
+  end: 2021-11-19
+  hindex: 17
+  sub: ML
+
+- title: WSDM
+  year: 2022
+  id: wsdm22
+  link: https://www.wsdm-conference.org/2022/
+  deadline: '2021-08-09 23:59:59'
+  timezone: UTC-12
+  place: Phoenix, Arizona, USA
+  date: February 21-25, 2022
+  start: 2022-02-21
+  end: 2022-02-25
+  hindex: 54
+  sub: DM
+
+- title: AAAI
+  year: 2022
+  id: aaai22
+  link: https://aaai.org/Conferences/AAAI-22/
+  deadline: '2021-09-08 23:59:59'
+  abstract_deadline: '2021-08-30 23:59:59'
+  timezone: UTC-12
+  place: Vancouver, Canada
+  date: February 22 - March 1, 2022
+  start: 2022-02-22
+  end: 2022-03-01
+  hindex: 95
+  sub: ML
+  note: Mandatory abstract deadline on August 30, 2021
+
+- title: ICRA
+  year: 2023
+  id: icra23
+  link: https://www.icra2023.org/
+  deadline: '2022-09-15 23:59:59'
+  timezone: America/Los_Angeles
+  place: ExCeL London, UK
+  date: May 29- June 2, 2023
+  start: 2023-05-29
+  end: 2023-06-02
+  hindex: 94
+  sub: RO
+
+- title: ICLR
+  year: 2022
+  id: iclr22
+  link: https://iclr.cc/
+  deadline: '2021-10-05 17:00:00'
+  abstract_deadline: '2021-09-28 17:00:00'
+  timezone: UTC-7
+  place: Online
+  date: April 25-29, 2022
+  start: 2022-04-25
+  end: 2022-04-29
+  hindex: 203
+  sub: ML
+  note: Mandatory abstract deadline on September 28, 2021. More info <a href='https://iclr.cc/Conferences/2022/CallForPapers'>here</a>.
+
+- title: ICASSP
+  year: 2023
+  id: icassp23
+  link: https://2023.ieeeicassp.org/
+  deadline: '2022-10-26 23:59:59'
+  timezone: UTC-12
+  place: Rhodes Island, Greece
+  date: June 4-9, 2023
+  start: 2023-06-04
+  end: 2023-06-09
+  hindex: 110
+  sub: SP
+
+- title: AISTATS
+  year: 2022
+  id: aistats22
+  link: https://www.aistats.org/aistats2022/
+  deadline: '2021-10-15 11:59:00'
+  timezone: UTC
+  place: Valencia, Spain
+  date: March 30 - April 1, 2022
+  start: 2022-03-30
+  end: 2022-04-01
+  hindex: 57
+  sub: ML
+  note: Mandatory abstract deadline on Oct 8, 2021. More info <a href='http://www.aistats.org/aistats2022/cfp.html'>here</a>.
+
+- title: WWW
+  year: 2023
+  id: www23
+  link: https://www2023.thewebconf.org/
+  deadline: '2022-10-13 23:59:59'
+  abstract_deadline: '2022-10-06 23:59:59'
+  timezone: UTC-12
+  place: Texas, USA
+  date: April 30 - May 4, 2022
+  start: 2022-04-30
+  end: 2022-05-04
+  hindex: 70
+  sub: DM
+  note: Mandatory abstract deadline on October 6, 2022
+
+- title: ACL
+  year: 2022
+  id: acl22
+  link: https://2022.aclweb.org/
+  deadline: '2021-11-15 23:59:59'
+  timezone: UTC-12
+  place: Dublin, Ireland
+  date: May 22-27, 2022
+  start: 2022-05-22
+  end: 2022-05-27
+  hindex: 157
+  sub: NLP
 
 - title: CVPR
   year: 2023
@@ -535,7 +931,7 @@
   sub: ML
   note: The workshop is a collaboration between NASSMA organisation, Deepmind and UM6P. NASSMA is an NGO working toward the promotion of STEM and AI education and research in MENA region. 
 
-- title: SIGGRAPH 2023
+- title: SIGGRAPH
   year: 2023
   id: siggraph23
   link: https://s2023.siggraph.org/
@@ -593,3 +989,17 @@
   end: 2023-10-25
   sub: KR
   note: Check the conference website for workshop and demo deadlines
+
+- title: AI World Barcelona
+  year: 2023
+  id: aiworldbarcelona23  # title as lower case + last two digits of year
+  full_name: AI World Barcelona - Generative AI Conference # full conference name
+  link: https://ai-world-barcelona.com
+  deadline: '2023-06-07 23:59:59'
+  timezone: GMT+2
+  place: Barcelona, Spain
+  date: September, 7-8, 2023
+  start: 2023-09-07
+  end: 2023-09-08
+  sub: NLP
+  note: Explore cutting-edge AI topics like ChatGPT, AutoGPT, DALL-E, Midjourney and more at AI World Barcelona — the world's largest generative AI conference.
