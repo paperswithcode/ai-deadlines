@@ -1,3 +1,60 @@
+- title: SIAM Conference on Imaging Science (IS24)
+  year: 2024
+  id: is24
+  link: https://www.siam.org/conferences/cm/conference/is24
+  deadline: '2023-12-14 23:59:59'
+  abstract_deadline: '2023-12-14 23:59:59'
+  timezone: UTC-8
+  place: Atlanta, USA
+  date: May 28 - May 31, 2024
+  start: 2024-05-28
+  end: 2024-05-31
+  sub: MI
+  note: More info <a href='https://www.siam.org/conferences/cm/conference/is24'>here</a>.
+
+
+- title: ASA
+  year: 2024
+  id: asaottawa24
+  link: https://acousticalsociety.org/ottawa/
+  deadline: '2024-01-08 00:00:00'
+  abstract_deadline: '2024-01-08 00:00:00'
+  timezone: UTC-8
+  place: Ottawa, Canada
+  date: May 13 - May 17, 2024
+  start: 2024-05-13
+  end: 2024-05-17
+  sub: AC
+  note: More info <a href='https://acousticalsociety.org/ottawa/'>here</a>.
+
+- title: IMA
+  year: 2024
+  id: ima24
+  link: https://ima.org.uk/23503/4th-ima-conference-on-inverse-problems-from-theory-to-application/
+  deadline: '2024-03-15 00:00:00'
+  abstract_deadline: '2024-03-15 00:00:00'
+  timezone: UTC-8
+  place: Bath, UK
+  date: September 11 - September 13, 2024
+  start: 2024-09-11
+  end: 2024-09-13
+  sub: IP
+  note: More info <a href='https://ima.org.uk/23503/4th-ima-conference-on-inverse-problems-from-theory-to-application/'>here</a>.
+
+- title: MUST
+  year: 2024
+  id: must24
+  link: https://indico.scc.kit.edu/event/3830/
+  deadline: '2024-03-01 00:00:00'
+  abstract_deadline: '2024-03-01 00:00:00'
+  timezone: UTC-8
+  place: Amsterdam, Netherlands
+  date: June 10 - June 12, 2024
+  start: 2024-06-10
+  end: 2024-06-12
+  sub: US
+  note: Abstract submission and info <a href='https://indico.scc.kit.edu/event/3830/overview'>here</a>.
+
 - title: ECCV
   year: 2024
   id: eccv24
@@ -12,7 +69,7 @@
   hindex: 238
   sub: CV
   note: More info <a href='https://eccv2024.ecva.net/'>here</a>.
-  
+
 - title: MICCAI
   year: 2024
   id: miccai2024
