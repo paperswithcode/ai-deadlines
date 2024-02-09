@@ -2262,7 +2262,7 @@
   sub: ML
   note: Check the conference website for paper review available and notification of acceptance date.
 
-  - title: AIware
+- title: AIware
   year: 2024
   id: aiware24  # title as lower case + last two digits of year
   full_name: ACM International Conference on AIware  # full conference name
