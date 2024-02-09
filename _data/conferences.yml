@@ -1,3 +1,71 @@
+- title: ECCV
+  year: 2024
+  id: eccv24
+  link: https://eccv2024.ecva.net/
+  deadline: '2024-03-07 12:59:00'
+  abstract_deadline: '2024-02-29 12:59:00'
+  timezone: UTC-8
+  place: Milano, Italy
+  date: September 29 - October 04, 2024
+  start: 2024-09-29
+  end: 2024-10-04
+  hindex: 238
+  sub: CV
+  note: More info <a href='https://eccv2024.ecva.net/'>here</a>.
+  
+- title: MICCAI
+  year: 2024
+  id: miccai2024
+  link: https://conferences.miccai.org/2024/en/
+  deadline: '2024-03-07 23:59:59'
+  timezone: America/Los_Angeles
+  place: Marrakech, Morocco
+  date: October 6 - October 10, 2024
+  start: 2024-10-06
+  end: 2024-10-10
+  hindex: 78
+  sub: CV
+  note: More info <a href='https://conferences.miccai.org/2024/'>here</a>.
+
+- title: ICML
+  year: 2024
+  id: icml24
+  link: https://icml.cc/Conferences/2024
+  deadline: '2024-02-01 23:59:59'
+  timezone: UTC-12
+  place: Vienna, Austria
+  date: July 21-27, 2024
+  start: 2024-07-21
+  end: 2024-07-27
+  hindex: 254
+  sub: ML
+
+- title: ECAI
+  year: 2024
+  id: ecai24
+  link: https://www.ecai2024.eu/
+  deadline: '2024-04-25 23:59:59'
+  abstract_deadline: '2024-04-19 23:59:59'
+  timezone: UTC-12
+  place: Santiago de Compostela, Spain
+  date: October 19-24, 2024
+  start: 2024-10-19
+  end: 2024-10-24
+  sub: ML
+  note: Mandatory abstract deadline on April 19, 2024. More info <a href='https://www.ecai2024.eu/calls/main-track'>here</a>.
+
+- title: UAI
+  year: 2024
+  id: uai24
+  link: https://www.auai.org/uai2024/
+  deadline: '2024-02-09 23:59:59'
+  timezone: UTC-12
+  place: Barcelona, Spain
+  date: July 15-19, 2024
+  start: 2024-07-15
+  end: 2024-07-19
+  sub: ML
+
 - title: AAAI 2024 Spring Symposium on Clinical Foundation Models
   year: 2024
   id: aaaisss24cfm  # title as lower case + last two digits of year
