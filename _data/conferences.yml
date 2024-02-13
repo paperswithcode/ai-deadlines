@@ -1,3 +1,15 @@
+- title: AABI
+  year: 2024
+  id: aabi24
+  full_name: Advances in Approximate Bayesian Inference
+  link: http://approximateinference.org/
+  deadline: '2024-03-29 23:59:00'
+  timezone: UTC-12
+  place: Vienna, Austria
+  date: July, 21, 2024
+  sub: ML
+  note: "The deadline for submissions to the proceedings and workshop tracks is 29 March. The deadline for submitting a recently published paper to AABI's fast track is 10 May."
+
 - title: CoRL
   year: 2024
   id: corl24
