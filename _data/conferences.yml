@@ -237,9 +237,11 @@
   deadline: '2024-03-29 23:59:59'
   abstract_deadline: '2024-03-22 23:59:59'
   timezone: UTC-12
-  place: TBD
-  date: October, 2024
-  sub: NLP
+  place: Philadelphia, USA
+  date: October 7-9, 2024
+  start: 2024-10-07
+  end: 2024-10-09
+  sub: NLP, ML
   note: Mandatory abstract deadline on March 22, 2024. More info <a href='https://colmweb.org/cfp.html'>here</a>.
 
 - title: IJCAI
