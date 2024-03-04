@@ -6,9 +6,11 @@
   deadline: '2024-03-29 23:59:00'
   timezone: UTC-12
   place: Vienna, Austria
-  date: July, 21, 2024
+  date: July 21, 2024
+  start: 2024-07-21
+  end: 2024-07-21
   sub: ML
-  note: "The deadline for submissions to the proceedings and workshop tracks is 29 March. The deadline for submitting a recently published paper to AABI's fast track is 10 May."
+  note: "Co-located with ICML 2024. Submission deadlines are March 29 (proceedings and workshop track) and May 10 (fast track). More info <a href="http://approximateinference.org/call/index.html">here</a>"
 
 - title: CoRL
   year: 2024
