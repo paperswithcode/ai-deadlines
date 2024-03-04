@@ -1,3 +1,17 @@
+- title: NeurIPS
+  year: 2024
+  id: neurips24
+  full_name: Conference on Neural Information Processing Systems
+  link: https://nips.cc/Conferences/2024
+  deadline: '2024-05-22 20:00:00'
+  timezone: UTC
+  place: Vancouver, Canada
+  date: December 9 - December 15, 2024
+  start: 2024-12-09
+  end: 2023-12-15
+  sub: ML
+  note: Abstract deadline to be announced
+
 - title: AABI
   year: 2024
   id: aabi24
