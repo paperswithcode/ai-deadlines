@@ -163,7 +163,8 @@
   year: 2024
   id: rlc24
   link: https://rl-conference.cc/
-  deadline: '2024-03-01 23:59:59'
+  deadline: '2024-03-08 23:59:59'
+  abstract_deadline: '2024-03-01 23:59:59'
   timezone: UTC-12
   place: Amherst, Massachusetts, USA
   date: August 09-12, 2024
