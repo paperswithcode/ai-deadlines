@@ -1,3 +1,17 @@
+- title: NeurIPS
+  year: 2024
+  id: neurips24
+  link: https://neurips.cc/Conferences/2024/
+  deadline: '2024-05-22 20:00:00'
+  abstract_deadline: '2023-05-15 20:00:00'
+  timezone: UTC
+  place: Vancouver Convention Center, Vancouver, CA
+  date: December 9 - December 15, 2024
+  start: 2024-12-9
+  end: 2024-12-15
+  sub: ML
+  note: Mandatory abstract deadline on May 15, 2024
+
 - title: AABI
   year: 2024
   id: aabi24
