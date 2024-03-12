@@ -1,3 +1,17 @@
+- title: CIKM
+  year: 2024
+  id: CIKM24
+  link: https://cikm2024.org/
+  deadline: '2024-05-20 23:59:59'
+  abstract_deadline: '2024-05-13 23:59:59'
+  timezone: UTC-12
+  place: Boise, Idaho, USA
+  data: October 21 - October 25, 2024
+  start: 2024-10-21
+  end: 2024-10-25
+  sub: DM, KR
+  note: Mandatory abstract deadline on May 13, 2024. More info <a href='https://cikm2024.org/call-for-papers/'>here</a>.
+
 - title: AABI
   year: 2024
   id: aabi24
