@@ -12,6 +12,20 @@
   sub: DM, KR
   note: Mandatory abstract deadline on May 13, 2024. More info <a href='https://cikm2024.org/call-for-papers/'>here</a>.
 
+- title: NeurIPS
+  year: 2024
+  id: neurips24
+  full_name: Conference on Neural Information Processing Systems
+  link: https://nips.cc/Conferences/2024
+  deadline: '2024-05-22 20:00:00'
+  timezone: UTC
+  place: Vancouver, Canada
+  date: December 9 - December 15, 2024
+  start: 2024-12-09
+  end: 2023-12-15
+  sub: ML
+  note: Mandatory abstract deadline on May 15, 2024
+
 - title: AABI
   year: 2024
   id: aabi24
@@ -270,7 +284,7 @@
   date: October 7-9, 2024
   start: 2024-10-07
   end: 2024-10-09
-  sub: NLP, ML
+  sub: ['NLP', 'ML']
   note: Mandatory abstract deadline on March 22, 2024. More info <a href='https://colmweb.org/cfp.html'>here</a>.
 
 - title: IJCAI
