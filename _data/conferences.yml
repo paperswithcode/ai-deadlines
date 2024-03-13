@@ -9,7 +9,7 @@
   data: October 21 - October 25, 2024
   start: 2024-10-21
   end: 2024-10-25
-  sub: DM, KR
+  sub: ['DM', 'KR']
   note: Mandatory abstract deadline on May 13, 2024. More info <a href='https://cikm2024.org/call-for-papers/'>here</a>.
 
 - title: NeurIPS
