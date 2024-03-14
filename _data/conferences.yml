@@ -1,3 +1,16 @@
+- title: EMNLP
+  year: 2024
+  id: emnlp24
+  link: https://2024.emnlp.org/
+  deadline: '2024-06-15 23:59:00'
+  timezone: UTC-12
+  place: Miami, Florida, USA
+  date: November 12-16, 2024
+  start: 2024-11-12
+  end: 2024-11-16
+  sub: NLP
+  note: More info <a href='https://2024.emnlp.org/calls/main_conference_papers/'>here</a>.
+
 - title: CIKM
   year: 2024
   id: CIKM24
