@@ -2340,7 +2340,7 @@
   full_name: International Conference on Automated Machine Learning  # full conference name
   link: https://2024.automl.cc/
   deadline: '2024-02-29 23:59:59'
-  deadline: '2024-02-26 23:59:59'
+  abstract_deadline: '2024-02-26 23:59:59'
   timezone: UTC-12
   place: Paris, France
   date: September, 09-12, 2024
