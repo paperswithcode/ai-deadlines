@@ -2311,7 +2311,7 @@
   id: mipr24  # title as lower case + last two digits of year
   full_name: International Conference on Multimedia Information Processing and Retrieval # full conference name
   link: https://sites.google.com/view/mipr2024
-  deadline: '2024-03-15 23:59:59'
+  deadline: '2024-04-15 23:59:59'
   timezone: UTC-7
   place: San Jose, USA
   date: August, 07-09, 2024
