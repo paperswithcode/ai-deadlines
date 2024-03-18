@@ -2346,3 +2346,19 @@
   end: 2024-07-16
   sub: ML
   note: Check the conference website for details the Challenge Track, Industry Statements and Demo Track, and Late Breaking Arxiv Track.
+
+- title: AutoML
+  year: 2024
+  id: automl24  # title as lower case + last two digits of year
+  full_name: International Conference on Automated Machine Learning  # full conference name
+  link: https://2024.automl.cc/
+  deadline: '2024-02-29 23:59:59'
+  abstract_deadline: '2024-02-26 23:59:59'
+  timezone: UTC-12
+  place: Paris, France
+  date: September, 09-12, 2024
+  start: 2024-09-09
+  end: 2024-09-12
+  sub: ML
+  note: Check the conference website for tutorials, contributions to the journal track and workshop deadlines
+
