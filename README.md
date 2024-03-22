@@ -55,6 +55,7 @@ To add or update a deadline:
 - [deadlines.openlifescience.ai (Healthcare domain conferences and workshops)][16] by @monk1337
 - [hci-deadlines.github.io (Human-Computer Interaction conferences)][17] by @makinteract
 - [ds-deadlines.github.io (Distributed Systems, Event-based Systems, Performance, and Software Engineering conferences)][18] by @ds-deadlines
+- [https://deadlines.cpusec.org/ (Computer Architecture-Security conferences)][19] by @hoseinyavarzadeh
 
 ## License
 
@@ -81,3 +82,4 @@ It uses:
 [16]: https://deadlines.openlifescience.ai/
 [17]: https://hci-deadlines.github.io/
 [18]: https://ds-deadlines.github.io
+[19]: https://deadlines.cpusec.org/
