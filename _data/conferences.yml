@@ -1,3 +1,20 @@
+- title: MathAI 2026 Conference
+  year: 2026
+  id: MathAI2026
+  full_name: The International Conference dedicated to mathematics in artificial intelligence
+  link: https://mathai.club
+  deadline: '2026-02-19 23:59'
+  abstract_deadline: '2026-02-01 23:59'
+  timezone: Europe/Moscow
+  place: Sirius, Sochi, Russia
+  date: March 30 - April 3, 2026
+  start: 2026-03-30
+  end: 2026-04-03
+  paperslink: https://openreview.net/group?id=mathai.club/MathAI/2026/Conference
+  pwclink: https://openreview.net/group?id=mathai.club/MathAI/2026/Conference
+  sub: ML
+  note: Abstract deadline on February 1, 2026. More info <a href='https://mathai.club'>here</a>
+
 - title: AISTATS
   year: 2025
   id: aistats25
