@@ -59,15 +59,21 @@ jobs:
         run: |
           npx playwright install --with-deps ${{ matrix.browser }}
 
-      - name: 🚀 Start Jekyll server (test mode for speed)
+      - name: 🏗️ Build Jekyll site
         run: |
-          bundle exec jekyll serve --config _config.yml,_config.test.yml --incremental --detach --skip-initial-build
+          bundle exec jekyll build --config _config.yml,_config.test.yml
+        env:
+          JEKYLL_ENV: test
+
+      - name: 🚀 Start Jekyll server
+        run: |
+          bundle exec jekyll serve --config _config.yml,_config.test.yml --skip-initial-build --detach
         env:
           JEKYLL_ENV: test
 
       - name: ⏳ Wait for server
         run: |
-          npx wait-on http://localhost:4000 -t 30000
+          npx wait-on http://localhost:4000 -t 15000
 
       - name: 🧪 Run E2E tests
         run: |
@@ -123,15 +129,21 @@ jobs:
         run: |
           npx playwright install --with-deps chromium webkit
 
-      - name: 🚀 Start Jekyll server (test mode for speed)
+      - name: 🏗️ Build Jekyll site
         run: |
-          bundle exec jekyll serve --config _config.yml,_config.test.yml --incremental --detach --skip-initial-build
+          bundle exec jekyll build --config _config.yml,_config.test.yml
+        env:
+          JEKYLL_ENV: test
+
+      - name: 🚀 Start Jekyll server
+        run: |
+          bundle exec jekyll serve --config _config.yml,_config.test.yml --skip-initial-build --detach
         env:
           JEKYLL_ENV: test
 
       - name: ⏳ Wait for server
         run: |
-          npx wait-on http://localhost:4000 -t 30000
+          npx wait-on http://localhost:4000 -t 15000
 
       - name: 📱 Run mobile E2E tests
         run: |
@@ -180,15 +192,21 @@ jobs:
         run: |
           npx playwright install --with-deps chromium
 
-      - name: 🚀 Start Jekyll server (test mode for speed)
+      - name: 🏗️ Build Jekyll site
         run: |
-          bundle exec jekyll serve --config _config.yml,_config.test.yml --incremental --detach --skip-initial-build
+          bundle exec jekyll build --config _config.yml,_config.test.yml
+        env:
+          JEKYLL_ENV: test
+
+      - name: 🚀 Start Jekyll server
+        run: |
+          bundle exec jekyll serve --config _config.yml,_config.test.yml --skip-initial-build --detach
         env:
           JEKYLL_ENV: test
 
       - name: ⏳ Wait for server
         run: |
-          npx wait-on http://localhost:4000 -t 30000
+          npx wait-on http://localhost:4000 -t 15000
 
       - name: 📸 Capture screenshots
         run: |

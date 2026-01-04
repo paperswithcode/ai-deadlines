@@ -128,8 +128,8 @@ test.describe('Notification System', () => {
         }
       });
 
-      // Wait and dismiss toasts
-      await page.waitForTimeout(1000);
+      // Wait for toasts to appear and dismiss them
+      await page.waitForSelector('.toast', { state: 'visible', timeout: 3000 }).catch(() => {});
       await page.evaluate(() => {
         document.querySelectorAll('.toast').forEach(t => t.remove());
       });
@@ -141,7 +141,7 @@ test.describe('Notification System', () => {
         }
       });
 
-      await page.waitForTimeout(500);
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       // Should not have new toasts
       const toasts = page.locator('.toast:visible');
@@ -296,9 +296,8 @@ test.describe('Notification System', () => {
       const toast = await waitForToast(page);
       await expect(toast).toBeVisible();
 
-      // Wait for auto-dismiss (usually 5 seconds)
-      await page.waitForTimeout(6000);
-      await expect(toast).toBeHidden();
+      // Wait for auto-dismiss (toast should auto-dismiss after ~5 seconds)
+      await expect(toast).toBeHidden({ timeout: 7000 });
     });
 
     test('should allow manual dismiss', async ({ page }) => {

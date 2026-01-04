@@ -68,7 +68,7 @@ test.describe('Conference Filters', () => {
 
       if (await pyFilter.count() > 0) {
         await pyFilter.first().click();
-        await page.waitForTimeout(500);
+        await page.waitForFunction(() => document.readyState === 'complete');
 
         // Check that conferences are filtered
         const visibleConferences = page.locator('.ConfItem:visible, .conference-card:visible');
@@ -90,7 +90,7 @@ test.describe('Conference Filters', () => {
 
       if (await dataFilter.count() > 0) {
         await dataFilter.first().click();
-        await page.waitForTimeout(500);
+        await page.waitForFunction(() => document.readyState === 'complete');
 
         const visibleConferences = page.locator('.ConfItem:visible, .conference-card:visible');
         const count = await visibleConferences.count();
@@ -115,7 +115,7 @@ test.describe('Conference Filters', () => {
       if (await pyFilter.isVisible() && await webFilter.isVisible()) {
         await pyFilter.click();
         await webFilter.click();
-        await page.waitForTimeout(500);
+        await page.waitForFunction(() => document.readyState === 'complete');
 
         // Should show conferences with either PY or WEB
         const visibleConferences = page.locator('.ConfItem:visible, .conference-card:visible');
@@ -139,7 +139,7 @@ test.describe('Conference Filters', () => {
 
       if (await onlineFilter.count() > 0) {
         await onlineFilter.first().click();
-        await page.waitForTimeout(500);
+        await page.waitForFunction(() => document.readyState === 'complete');
 
         const visibleConferences = page.locator('.ConfItem:visible, .conference-card:visible');
 
@@ -157,7 +157,7 @@ test.describe('Conference Filters', () => {
 
       if (await inPersonFilter.count() > 0) {
         await inPersonFilter.first().click();
-        await page.waitForTimeout(500);
+        await page.waitForFunction(() => document.readyState === 'complete');
 
         const visibleConferences = page.locator('.ConfItem:visible, .conference-card:visible');
 
@@ -176,7 +176,7 @@ test.describe('Conference Filters', () => {
 
       if (await hybridFilter.count() > 0) {
         await hybridFilter.first().click();
-        await page.waitForTimeout(500);
+        await page.waitForFunction(() => document.readyState === 'complete');
 
         // Check results or no-results message
         const hasResults = await page.locator('.ConfItem:visible, .conference-card:visible').count() > 0;
@@ -193,7 +193,7 @@ test.describe('Conference Filters', () => {
 
       if (await finaidFilter.count() > 0) {
         await finaidFilter.first().click();
-        await page.waitForTimeout(500);
+        await page.waitForFunction(() => document.readyState === 'complete');
 
         const visibleConferences = page.locator('.ConfItem:visible, .conference-card:visible');
 
@@ -211,7 +211,7 @@ test.describe('Conference Filters', () => {
 
       if (await workshopFilter.count() > 0) {
         await workshopFilter.first().click();
-        await page.waitForTimeout(500);
+        await page.waitForFunction(() => document.readyState === 'complete');
 
         // Either shows filtered results or no results
         const hasResults = await page.locator('.ConfItem:visible, .conference-card:visible').count() > 0;
@@ -226,7 +226,7 @@ test.describe('Conference Filters', () => {
 
       if (await sponsorFilter.count() > 0) {
         await sponsorFilter.first().click();
-        await page.waitForTimeout(500);
+        await page.waitForFunction(() => document.readyState === 'complete');
 
         const visibleConferences = page.locator('.ConfItem:visible, .conference-card:visible');
 
@@ -249,14 +249,14 @@ test.describe('Conference Filters', () => {
 
       if (await firstFilter.isVisible()) {
         await firstFilter.check();
-        await page.waitForTimeout(500);
+        await page.waitForFunction(() => document.readyState === 'complete');
 
         // Find and click clear button
         const clearButton = page.locator('button:has-text("Clear"), #clear-filters, .clear-filters');
 
         if (await clearButton.count() > 0) {
           await clearButton.first().click();
-          await page.waitForTimeout(500);
+          await page.waitForFunction(() => document.readyState === 'complete');
 
           // All checkboxes should be unchecked
           const checkedFilters = page.locator('input[type="checkbox"][class*="filter"]:checked');
@@ -275,13 +275,13 @@ test.describe('Conference Filters', () => {
       const filter = page.locator('input[type="checkbox"][class*="filter"]').first();
       if (await filter.isVisible()) {
         await filter.check();
-        await page.waitForTimeout(500);
+        await page.waitForFunction(() => document.readyState === 'complete');
 
         // Clear filters
         const clearButton = page.locator('button:has-text("Clear"), #clear-filters');
         if (await clearButton.count() > 0) {
           await clearButton.first().click();
-          await page.waitForTimeout(500);
+          await page.waitForFunction(() => document.readyState === 'complete');
 
           // Conference count should return to initial or similar
           const afterClearCount = await page.locator('.ConfItem, .conference-card').count();
@@ -302,7 +302,7 @@ test.describe('Conference Filters', () => {
 
         // Navigate away and back
         await page.goto('/about');
-        await page.waitForTimeout(500);
+        await page.waitForLoadState('domcontentloaded');
         await page.goto('/');
         await waitForPageReady(page);
 
@@ -327,7 +327,7 @@ test.describe('Conference Filters', () => {
       if (await categoryFilter.isVisible() && await formatFilter.isVisible()) {
         await categoryFilter.click();
         await formatFilter.click();
-        await page.waitForTimeout(500);
+        await page.waitForFunction(() => document.readyState === 'complete');
 
         // Should show only online Python conferences
         const visibleConferences = page.locator('.ConfItem:visible, .conference-card:visible');
@@ -359,7 +359,7 @@ test.describe('Conference Filters', () => {
           await filters.nth(i).check();
         }
 
-        await page.waitForTimeout(500);
+        await page.waitForFunction(() => document.readyState === 'complete');
 
         // Should either show results or "no matches" message
         const hasResults = await page.locator('.ConfItem:visible, .conference-card:visible').count() > 0;
@@ -379,7 +379,7 @@ test.describe('Conference Filters', () => {
 
       if (await filterToggle.count() > 0) {
         await filterToggle.first().click();
-        await page.waitForTimeout(300);
+        await page.waitForFunction(() => document.readyState === 'complete');
       }
 
       // Apply a filter
@@ -387,7 +387,7 @@ test.describe('Conference Filters', () => {
 
       if (await filter.isVisible()) {
         await filter.check();
-        await page.waitForTimeout(500);
+        await page.waitForFunction(() => document.readyState === 'complete');
 
         // Verify filter is applied
         const isChecked = await filter.isChecked();
@@ -444,7 +444,7 @@ test.describe('Conference Filters', () => {
           // Don't wait between clicks
         }
 
-        await page.waitForTimeout(1000);
+        await page.waitForFunction(() => document.readyState === 'complete');
 
         // Page should not crash or show errors
         const error = page.locator('.error, .exception');

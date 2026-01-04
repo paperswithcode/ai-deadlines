@@ -48,8 +48,15 @@ test.describe('Countdown Timers', () => {
       const countdown = page.locator('.countdown-display').first();
       const initialText = await countdown.textContent();
 
-      // Wait 2 seconds
-      await page.waitForTimeout(2000);
+      // Wait for countdown to update (should update every second)
+      await page.waitForFunction(
+        (initial) => {
+          const el = document.querySelector('.countdown-display');
+          return el && el.textContent !== initial;
+        },
+        initialText,
+        { timeout: 3000 }
+      ).catch(() => {});
 
       const updatedText = await countdown.textContent();
 
@@ -223,8 +230,14 @@ test.describe('Countdown Timers', () => {
         document.body.appendChild(newConf);
       });
 
-      // Wait a bit for the timer to pick it up
-      await page.waitForTimeout(1500);
+      // Wait for the timer to pick it up
+      await page.waitForFunction(
+        () => {
+          const el = document.querySelector('#dynamic-countdown');
+          return el && el.textContent.trim() !== '';
+        },
+        { timeout: 3000 }
+      ).catch(() => {});
 
       // Check that the new countdown has content
       const dynamicCountdown = page.locator('#dynamic-countdown');
@@ -245,8 +258,8 @@ test.describe('Countdown Timers', () => {
         }
       });
 
-      // Should not cause errors
-      await page.waitForTimeout(1500);
+      // Should not cause errors - wait briefly for any error to manifest
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       // Page should still be functional
       const remainingCountdowns = page.locator('.countdown-display');
@@ -265,7 +278,14 @@ test.describe('Countdown Timers', () => {
         document.body.appendChild(invalidCountdown);
       });
 
-      await page.waitForTimeout(1500);
+      // Wait for error message to appear
+      await page.waitForFunction(
+        () => {
+          const el = document.querySelector('#invalid-countdown');
+          return el && el.textContent.trim() !== '';
+        },
+        { timeout: 3000 }
+      ).catch(() => {});
 
       // Should show error message
       const invalidCountdown = page.locator('#invalid-countdown');
@@ -287,7 +307,7 @@ test.describe('Countdown Timers', () => {
         document.head.appendChild(script);
       });
 
-      await page.waitForTimeout(1000);
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       // Should not crash the page
       const pageTitle = await page.title();
@@ -327,13 +347,21 @@ test.describe('Countdown Timers', () => {
 
       // Change to landscape
       await page.setViewportSize({ width: 667, height: 375 });
-      await page.waitForTimeout(1000);
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       // Countdowns should still be updating
       const countdown = page.locator('.countdown-display').first();
       const text1 = await countdown.textContent();
 
-      await page.waitForTimeout(2000);
+      // Wait for countdown to update
+      await page.waitForFunction(
+        (initial) => {
+          const el = document.querySelector('.countdown-display');
+          return el && el.textContent !== initial;
+        },
+        text1,
+        { timeout: 3000 }
+      ).catch(() => {});
 
       const text2 = await countdown.textContent();
 

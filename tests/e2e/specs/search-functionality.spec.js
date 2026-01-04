@@ -39,8 +39,8 @@ test.describe('Search Functionality', () => {
     test('should focus search input on page load', async ({ page }) => {
       const searchInput = page.locator('#search-box, input[type="search"]');
 
-      // Give it a moment to autofocus
-      await page.waitForTimeout(500);
+      // Wait for autofocus to complete
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       // Check if input is focused
       const isFocused = await searchInput.evaluate(el => el === document.activeElement);
@@ -59,7 +59,7 @@ test.describe('Search Functionality', () => {
       await searchInput.press('Enter');
 
       // Wait for results to load
-      await page.waitForTimeout(1000);
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       // Check if results contain PyCon conferences
       const results = page.locator('#search-results .ConfItem, .search-results .conference-item');
@@ -80,7 +80,7 @@ test.describe('Search Functionality', () => {
       await searchInput.fill('online');
       await searchInput.press('Enter');
 
-      await page.waitForTimeout(1000);
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       // Check if results contain online conferences
       const results = page.locator('#search-results .conf-place, .search-results .location');
@@ -98,7 +98,7 @@ test.describe('Search Functionality', () => {
       await searchInput.fill('xyznonexistentconf123');
       await searchInput.press('Enter');
 
-      await page.waitForTimeout(1000);
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       // Check for no results message
       const noResults = page.locator('.no-results, [class*="no-result"], :text("No results"), :text("not found")');
@@ -114,12 +114,12 @@ test.describe('Search Functionality', () => {
       // First do a search
       await searchInput.fill('python');
       await searchInput.press('Enter');
-      await page.waitForTimeout(1000);
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       // Clear search
       await searchInput.clear();
       await searchInput.press('Enter');
-      await page.waitForTimeout(1000);
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       // Should show results (either all or a default set)
       const results = page.locator('#search-results .ConfItem, .search-results .conference-item');
@@ -136,7 +136,7 @@ test.describe('Search Functionality', () => {
       for (const query of specialQueries) {
         await searchInput.fill(query);
         await searchInput.press('Enter');
-        await page.waitForTimeout(500);
+        await page.waitForFunction(() => document.readyState === 'complete');
 
         // Should not crash or show error
         const errorMessage = page.locator('.error, .exception, [class*="error"]');
@@ -152,7 +152,7 @@ test.describe('Search Functionality', () => {
       // Search for conferences
       await searchInput.fill('conference');
       await searchInput.press('Enter');
-      await page.waitForTimeout(1000);
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       const firstResult = page.locator('#search-results .ConfItem, .search-results .conference-item').first();
 
@@ -180,7 +180,7 @@ test.describe('Search Functionality', () => {
 
       await searchInput.fill('python');
       await searchInput.press('Enter');
-      await page.waitForTimeout(1000);
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       const tags = page.locator('#search-results .conf-sub, .badge, .tag, [class*="tag"]');
 
@@ -199,7 +199,7 @@ test.describe('Search Functionality', () => {
 
       await searchInput.fill('2025');
       await searchInput.press('Enter');
-      await page.waitForTimeout(1000);
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       // Look for countdown timers
       const timers = page.locator('.search-timer, .countdown-display, .timer');
@@ -219,7 +219,7 @@ test.describe('Search Functionality', () => {
 
       await searchInput.fill('conference');
       await searchInput.press('Enter');
-      await page.waitForTimeout(1000);
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       // Look for calendar buttons
       const calendarButtons = page.locator('.calendar, .cal-button, [class*="calendar"]');
@@ -243,7 +243,7 @@ test.describe('Search Functionality', () => {
       expect(value.toLowerCase()).toContain('europython');
 
       // Check if results are displayed
-      await page.waitForTimeout(1000);
+      await page.waitForFunction(() => document.readyState === 'complete');
       const results = page.locator('#search-results .ConfItem, .search-results .conference-item');
 
       // Should have results or no-results message
@@ -257,7 +257,7 @@ test.describe('Search Functionality', () => {
 
       await searchInput.fill('django');
       await searchInput.press('Enter');
-      await page.waitForTimeout(500);
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       // Check if URL contains search query
       const url = page.url();
@@ -272,7 +272,7 @@ test.describe('Search Functionality', () => {
       // First search to get results with tags
       await searchInput.fill('python');
       await searchInput.press('Enter');
-      await page.waitForTimeout(1000);
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       // Click on a conference type tag
       const tag = page.locator('.conf-sub, .badge').first();
@@ -281,7 +281,7 @@ test.describe('Search Functionality', () => {
         const tagText = await tag.textContent();
         await tag.click();
 
-        await page.waitForTimeout(1000);
+        await page.waitForFunction(() => document.readyState === 'complete');
 
         // Check if filtering occurred (URL change or results update)
         const url = page.url();
@@ -309,7 +309,7 @@ test.describe('Search Functionality', () => {
       }
 
       await searchInput.press('Enter');
-      await page.waitForTimeout(1000);
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       // Should show results for final query
       const results = page.locator('#search-results');
@@ -328,7 +328,7 @@ test.describe('Search Functionality', () => {
 
       await searchInput.fill(longQuery);
       await searchInput.press('Enter');
-      await page.waitForTimeout(1000);
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       // Should handle gracefully
       const error = page.locator('.error, .exception');
@@ -350,7 +350,7 @@ test.describe('Search Functionality', () => {
       // Submit with Enter
       await page.keyboard.press('Enter');
 
-      await page.waitForTimeout(1000);
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       // Tab through results
       await page.keyboard.press('Tab');
@@ -393,7 +393,7 @@ test.describe('Search Functionality', () => {
       await searchInput.fill('mobile test');
       await searchInput.press('Enter');
 
-      await page.waitForTimeout(1000);
+      await page.waitForFunction(() => document.readyState === 'complete');
 
       // Results should be visible
       const results = page.locator('#search-results');

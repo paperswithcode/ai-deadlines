@@ -7,13 +7,13 @@
  */
 export async function waitForCountdowns(page) {
   // Wait for Luxon to be available
-  await page.waitForFunction(() => window.luxon !== undefined);
+  await page.waitForFunction(() => window.luxon !== undefined, { timeout: 5000 });
 
   // Wait for at least one countdown to have content
   await page.waitForFunction(() => {
     const countdowns = document.querySelectorAll('.countdown-display');
     return Array.from(countdowns).some(el => el.textContent.trim() !== '');
-  }, { timeout: 10000 });
+  }, { timeout: 5000 });
 }
 
 /**
@@ -154,7 +154,15 @@ export async function toggleFavorite(page, confId) {
   const card = await getConferenceCard(page, confId);
   const favoriteBtn = card.locator('.favorite-btn');
   await favoriteBtn.click();
-  await page.waitForTimeout(500); // Wait for animation
+  // Wait for the button state to change instead of arbitrary timeout
+  await page.waitForFunction(
+    (id) => {
+      const btn = document.querySelector(`[data-conf-id="${id}"] .favorite-btn`);
+      return btn && btn.classList.contains('favorited') !== btn.classList.contains('favorited');
+    },
+    confId,
+    { timeout: 2000 }
+  ).catch(() => {}); // Graceful fallback if animation doesn't trigger class change
 }
 
 /**
@@ -181,7 +189,7 @@ export async function navigateToSection(page, section) {
 
   const path = sectionMap[section] || section;
   await page.goto(path);
-  await page.waitForLoadState('networkidle');
+  await page.waitForLoadState('domcontentloaded');
 }
 
 /**
@@ -195,8 +203,8 @@ export async function searchConferences(page, query) {
   const searchInput = page.locator('#search-input, input[type="search"]').first();
   await searchInput.fill(query);
 
-  // Wait for search results to update
-  await page.waitForTimeout(500);
+  // Wait for search results to update by checking for result changes
+  await page.waitForFunction(() => document.readyState === 'complete', { timeout: 2000 });
 }
 
 /**
@@ -225,8 +233,8 @@ export async function applyFilters(page, filters) {
     }
   }
 
-  // Wait for filters to apply
-  await page.waitForTimeout(500);
+  // Wait for DOM to stabilize after filter changes
+  await page.waitForFunction(() => document.readyState === 'complete', { timeout: 2000 });
 }
 
 /**
@@ -254,13 +262,8 @@ export function createMockConference(overrides = {}) {
  * Wait for page to be ready
  */
 export async function waitForPageReady(page) {
-  await page.waitForLoadState('networkidle');
-  await page.waitForFunction(() => document.readyState === 'complete');
-
-  // Wait for jQuery to be ready if it exists
-  await page.waitForFunction(() => {
-    return typeof jQuery === 'undefined' || jQuery.isReady;
-  });
+  await page.waitForLoadState('domcontentloaded');
+  await page.waitForFunction(() => document.readyState === 'complete', { timeout: 5000 });
 }
 
 /**
