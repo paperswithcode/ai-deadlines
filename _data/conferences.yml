@@ -13,6 +13,14 @@
   sub: ML
   note: Abstract deadline on October 3, 2024. More info <a href='https://aistats.org/aistats2025/call-for-papers.html'>here</a>
 
+- title: TRUST-AI 2026
+  note: Workshop on Trustworthy AI for IoMT (Internet of Medical Things). Co-located with IEEE ICHI 2026.
+  year: 2026
+  link: https://trustai2026.web.illinois.edu
+  deadline:'2026-03-16 23:59:00'
+  date: June 1
+  place: Minneapolis, MN, USA
+
 - title: CVPR
   year: 2025
   id: cvpr25
