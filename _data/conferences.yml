@@ -2698,3 +2698,17 @@
   sub: ML
   note: Check the conference website for tutorials, contributions to the journal track and workshop deadlines
 
+- title: EUVIP
+  year: 2026
+  id: euvip26 # title as lower case + last two digits of year
+  full_name: European Conference on Visual Information Processing # full conference name
+  link: https://euvip2026.github.io/
+  deadline: '2026-05-21 23:59'
+  timezone: UTC+2
+  timezone: Europe/Luxembourg
+  place: Luxembourg
+  date: September-October 28-01, 2026
+  start: 2026-09-28
+  end: 2026-10-01
+  sub: CV
+  note: To check other calls (e.g., Tutorials, Special Sessions, etc.), please visit https://euvip2026.github.io/calls/
