@@ -2580,8 +2580,22 @@
   start: 2023-12-01
   end: 2023-12-04
   sub: DM
-  note: 
- 
+  note:
+
+- title: ICDM
+  year: 2026
+  id: icdm2026
+  full_name: IEEE International Conference on Data Mining
+  link: http://icdm2026.neu.edu.cn/
+  deadline: '2026-06-06 23:59:59'
+  timezone: Etc/GMT+12
+  place: Shenyang, China
+  date: November 12-15, 2026
+  start: 2026-11-12
+  end: 2026-11-15
+  sub: DM
+  note: Research & Applied Track deadline. Demo Track deadline 2026-08-20 AoE. | <a href="http://icdm2026.neu.edu.cn/CallforAppliedTrackPapers/list.htm">Applied Track CFP</a> | <a href="http://icdm2026.neu.edu.cn/11669/list.htm">Demo CFP</a>
+
 - title: ECML/PKDD
   year: 2023
   id: ecmlpkdd23  # title as lower case + last two digits of year
