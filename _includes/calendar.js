@@ -81,6 +81,30 @@
         },
         dataSource: conf_list_all
       }
+function parse_local_date(date_string) {
+  var parts = date_string.split("-");
+  if (parts.length !== 3) {
+    return new Date(date_string);
+  }
+
+  return new Date(
+    parseInt(parts[0], 10),
+    parseInt(parts[1], 10) - 1,
+    parseInt(parts[2], 10)
+  );
+}
+
+function parse_deadline(date_string, timezone) {
+  var fixed_offset = timezone.match(/^(?:UTC|GMT)([+-]\d{1,2})$/);
+  if (fixed_offset) {
+    return moment.utc(date_string)
+      .subtract(parseInt(fixed_offset[1], 10), "hours")
+      .toDate();
+  }
+
+  return moment.tz(date_string, timezone).toDate();
+}
+
 function load_conference_list() {
   // Gather data
   var conf_list_all = [];
@@ -95,8 +119,8 @@ function load_conference_list() {
       date: "{{conf.date}}",
       hindex: "{{conf.hindex}}",
       subject: "{{conf.sub}}",
-      startDate: Date.parse("{{conf.deadline}}"),
-      endDate: Date.parse("{{conf.deadline}}"),
+      startDate: parse_deadline("{{conf.deadline}}", "{{conf.timezone}}"),
+      endDate: parse_deadline("{{conf.deadline}}", "{{conf.timezone}}"),
     });
 
     // add Conferences in chosen color
@@ -117,8 +141,8 @@ function load_conference_list() {
         date: "{{conf.date}}",
         hindex: "{{conf.hindex}}",
         subject: "{{conf.sub}}",
-        startDate: Date.parse("{{conf.start}}"),
-        endDate: Date.parse("{{conf.end}}"),
+        startDate: parse_local_date("{{conf.start}}"),
+        endDate: parse_local_date("{{conf.end}}"),
       });
     {% endif %}
   {% endfor %}

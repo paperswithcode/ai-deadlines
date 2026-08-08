@@ -1,3 +1,32 @@
+- title: FAccT
+  year: 2027
+  id: facct27
+  full_name: ACM Conference on Fairness, Accountability, and Transparency
+  link: https://facctconference.org/2027/cfp.html
+  deadline: '2026-11-03 23:59:59'
+  abstract_deadline: '2026-10-27 23:59:59'
+  timezone: UTC-12
+  place: TBA
+  date: June 21-24, 2027
+  start: 2027-06-21
+  end: 2027-06-24
+  sub: ML
+  note: Mandatory abstract deadline on October 27, 2026. More info <a href='https://facctconference.org/2027/cfp.html'>here</a>.
+
+- title: SaTML
+  year: 2027
+  id: satml27
+  full_name: IEEE Conference on Secure and Trustworthy Machine Learning
+  link: https://satml.org/
+  deadline: '2026-09-29 23:59:59'
+  timezone: UTC-12
+  place: Reykjavik, Iceland
+  date: Early May, 2027
+  start: ''
+  end: ''
+  sub: ML
+  note: Exact conference dates are TBA. More info <a href='https://satml.org/call-for-papers/'>here</a>.
+
 - title: AISTATS
   year: 2025
   id: aistats25
